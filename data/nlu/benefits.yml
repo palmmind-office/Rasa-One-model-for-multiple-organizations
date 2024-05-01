@@ -1,0 +1,39 @@
+version: "3.1"
+
+nlu:
+  - intent: benefits
+    examples: |
+      - why should i purchase life insurance?
+      - do i really need insurance?
+      - is insurance really necessary?
+      - why do I need life insurance?
+      - What benefits will I get if I buy a life insurance policy?
+      - Why should I purchase a life insurance policy from you?
+      - benefits of purchasing policy from himalayan life
+      - advantages of doing life insurance
+      - what are the advantages of purchasing a life insurance policy?
+      - what will I get in return after doing my life insurance
+      - what does the life insurance cover?
+
+      - [critical illness](insurance_info)
+      - List of [critical illness](insurance_info)
+      - about [disease]{"entity": "insurance_info", "value": "critical illness"}
+      - [severe illness]{"entity": "insurance_info", "value": "critical illness"}
+      - [serious illness]{"entity": "insurance_info", "value": "critical illness"}
+      - What is [critical illness](insurance_info) insurance?
+      - How does [critical illness](insurance_info) insurance work?
+      - Can I make multiple [critical illness](insurance_info) claims under my life insurance policy?
+      - What types of [critical illness](insurance_info) are typically covered by life insurance policy?
+      - Can I add [critical illness](insurance_info) coverage to my existing life insurance policy?
+      - Are there any age restrictions for obtaining [critical illness](insurance_info) insurance?
+      - Give me the list of [severe diseases]{"entity": "insurance_info", "value": "critical illness"}
+      - which [diseases]{"entity": "insurance_info", "value": "critical illness"} are covered by my life insurance plan?
+
+
+      - What are the benefits of being himalayan life insurance [agent](user_type)?
+      - Tell me the advantages of becoming an [agent](user_type).
+      - How will I get benefitted if I become life insurance [agent](user_type)?
+      - Why should I become an [agent](user_type)?
+      - Are there any scopes for growth as an [agent](user_type)?
+      - Does the company help me after I become an [agent](user_type)?
+      - are there any benefits of being an [agent](user_type)?

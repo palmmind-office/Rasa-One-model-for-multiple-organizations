@@ -1,0 +1,124 @@
+{
+    "khalti":
+{
+    "type": "quick_reply",
+    "title": "Yes, you can pay through Khalti. You only need your Policy Number and Date of Birth (In AD).",
+    "data": [
+    {
+        "title": "Khalti",
+        "link": "https://khalti.com/"
+    }
+    ]
+},
+"esewa":
+{
+    "type": "quick_reply",
+    "title": "Yes, you can pay through eSewa. You only need your Policy Number and Date of Birth (In AD).",
+    "data": [
+    {
+        "title": "eSewa",
+        "link": "https://esewa.com.np/#/home"
+    }
+    ]
+},
+
+"connectips":
+{
+    "type": "quick_reply",
+    "title": "Yes, you can pay through Connect IPS. You only need your Policy Number and Date of Birth (In AD).",
+    "data": [
+    {
+        "title": "Connect IPS",
+        "link": "https://www.connectips.com/"
+    }
+    ]
+},
+"digital_wallets":
+{
+    "type": "quick_reply",
+    "title": "We have online platforms by the help of which you can pay your renewal premium from the place where you are now. You only need your Policy Number and Date of Birth (In AD).Payment can be done from following gateways:",
+    "data": [
+    {
+        "title": "eSewa",
+        "link": "https://esewa.com.np/#/home"
+    },
+    {
+        "title": "Khalti",
+        "link": "https://khalti.com/"
+    },
+    {
+        "title": "Connect IPS",
+        "link": "https://www.connectips.com/"
+    }
+    ]
+},
+"payment_office":
+{
+    "type": "quick_reply",
+    "title": "You can make payment of your life insurance policy from our nearest local branch. But if visiting the office is not feasible for you, you can pay via our online payment gateways like Esewa, Khalti, and Connect IPS. <br> <br> To find the location of nearest branches, please click the button below.",
+    "data": [
+    {
+        "title": "Branch",
+        "link": "https://himalayanlife.com.np/Branches.aspx"
+    }
+    ]
+},
+"banking_partners":
+{
+    "type": "quick_reply",
+    "title": "Currently we do not have banking partners. So you can pay your premium through online gateways like Connect IPS, Esewa, and Khalti.",
+    "data": [
+        {
+            "title": "eSewa",
+            "link": "https://esewa.com.np/#/home"
+        },
+        {
+            "title": "Khalti",
+            "link": "https://khalti.com/"
+        },
+        {
+            "title": "Connect IPS",
+            "link": "https://www.connectips.com/"
+        }
+    ]
+},
+"banking_partners_fb":
+{
+    "type": "quick_reply",
+    "title": "Currently we do not have banking partners. So you can pay your premium through online gateways like Connect IPS, Esewa, and Khalti.",
+    "data": [
+        {
+            "title": "eSewa",
+            "link": "https://esewa.com.np/#/home"
+        },
+        {
+            "title": "Khalti",
+            "link": "https://khalti.com/"
+        },
+        {
+            "title": "Connect IPS",
+            "link": "https://www.connectips.com/"
+        }
+    ]
+},
+"else_part_payment":
+{
+    "type": "quick_reply",
+    "title": "You can make payment by visiting our office or through online payment gateways like ConnectIPS, eSewa or Khalti. Please choose an option:",
+    "data": [
+    {
+        "title": "eSewa",
+        "link": "https://esewa.com.np/#/home"
+    },
+    {
+        "title": "Khalti",
+        "link": "https://khalti.com/"
+    },
+    {
+        "title": "Connect IPS",
+        "link": "https://www.connectips.com/"
+    }
+    ]
+}
+
+}

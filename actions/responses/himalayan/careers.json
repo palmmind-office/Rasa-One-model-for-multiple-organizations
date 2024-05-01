@@ -1,0 +1,13 @@
+{
+    "careers":
+        {
+            "type": "quick_reply",
+            "title": "Please visit our careers page to know about the current job openings.",
+            "data": [
+            {
+                "title": "Careers",
+                "link": "https://himalayanlife.com.np/Careers.aspx"
+            }
+            ]
+        }
+}

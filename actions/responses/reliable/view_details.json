@@ -1,0 +1,721 @@
+{
+"agency_business":
+{
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway. Please try again",
+        "form": {
+          "elements": [
+            {
+              "order": "number",
+              "utterances": [
+                {
+                  "message": "To view your details please provide your details."
+                }
+              ],
+              "title": "Enter your Agent Code ?",
+              "type": "textbox",
+              "placeholder": "Enter Agent Code",
+              "validation": {
+                "type": "AgentCode",
+                "error": "Invalid!! Provide 8 digit Agent Code"
+              },
+              "label": "agentCode"
+            },
+            {
+              "order": "text",
+              "utterances": [
+                {
+                  "message": "Your age will help us keep you in good Services. "
+                }
+              ],
+              "title": "Please choose your date of birth.",
+              "placeholder": "Please Enter birthdate",
+              "type": "date",
+              "label": "dob"
+            },
+            {
+              "order": "number",
+              "title": "Enter your Mobile Number ?",
+              "type": "textbox",
+              "placeholder": "Enter MobileNumber",
+              "validation": {
+                "type": "mobile",
+                "error": "Invalid!! Provide 10 digit MobileNumber"
+              },
+              "label": "mobileNo"
+            },
+            {
+              "order": "cancle",
+              "title": " Do you want to submit your information ?",
+              "type": "submitbutton",
+              "placeholder": "Enter your email",
+              "button": [
+                {
+                  "submit": "Submit",
+                  "type": "submit"
+                },
+                {
+                  "submit": "Cancel",
+                  "type": "cancle"
+                }
+              ]
+            }
+          ]
+        },
+        "post": "rest/v1/reliable/policy?type=BusinessDetails"
+},
+"policyholder_issued_policies":
+{
+    "type": "formMessageSection",
+    "exitMSG": "Oops !! you quitted midway. Please try again",
+    "form": {
+      "elements": [
+        {
+          "order": "number",
+          "utterances": [
+            {
+              "message": "Please provide following details to check Issued Policies "
+            }
+          ],
+          "title": "Enter your PolicyNumber ?",
+          "type": "textbox",
+          "placeholder": "Enter PolicyNumber",
+          "validation": {
+            "type": "PolicyNumber",
+            "error": "Invalid!! Provide 12 digit PolicyNumber"
+          },
+          "label": "policyNo"
+        },
+        {
+          "order": "text",
+          "utterances": [
+            {
+              "message": "Your age wil help us keep you in good Services. "
+            }
+          ],
+          "title": "Please choose your date of birth.",
+          "placeholder": "Please Enter birthdate",
+          "type": "date",
+          "label": "dob"
+        },
+        {
+          "order": "number",
+          "title": "Enter your MobileNumber ?",
+          "type": "textbox",
+          "placeholder": "Enter MobileNumber",
+          "validation": {
+            "type": "mobile",
+            "error": "Invalid!! Provide 10 digit MobileNumber"
+          },
+          "label": "mobileNo"
+        },
+        {
+          "order": "cancle",
+          "title": " Do you want to submit your information ?",
+          "type": "submitbutton",
+          "placeholder": "Enter your email",
+          "button": [
+            {
+              "submit": "Submit",
+              "type": "submit"
+            },
+            {
+              "submit": "Cancel",
+              "type": "cancle"
+            }
+          ]
+        }
+      ]
+    },
+    "post": "rest/v1/reliable/policy?type=OccupationChangeCheck"
+},
+"policy_details":
+{
+    "type": "formMessageSection",
+    "exitMSG": "Oops !! you quitted midway. Please try again",
+    "form": {
+      "elements": [
+        {
+          "order": "number",
+          "utterances": [
+            {
+              "message": "Please provide following details to view your details. "
+            }
+          ],
+          "title": "Enter your PolicyNumber ?",
+          "type": "textbox",
+          "placeholder": "Enter PolicyNumber",
+          "validation": {
+            "type": "PolicyNumber",
+            "error": "Invalid!! Provide 12 digit PolicyNumber"
+          },
+          "label": "policyNo"
+        },
+        {
+          "order": "text",
+          "utterances": [
+            {
+              "message": "Your age wil help us keep you in good Services. "
+            }
+          ],
+          "title": "Please choose your date of birth.",
+          "placeholder": "Please Enter birthdate",
+          "type": "date",
+          "label": "dob"
+        },
+        {
+          "order": "number",
+          "title": "Enter your MobileNumber ?",
+          "type": "textbox",
+          "placeholder": "Enter MobileNumber",
+          "validation": {
+            "type": "mobile",
+            "error": "Invalid!! Provide 10 digit MobileNumber"
+          },
+          "label": "mobileNo"
+        },
+        {
+          "order": "cancle",
+          "title": " Do you want to submit your information ?",
+          "type": "submitbutton",
+          "placeholder": "Enter your email",
+          "button": [
+            {
+              "submit": "Submit",
+              "type": "submit"
+            },
+            {
+              "submit": "Cancel",
+              "type": "cancle"
+            }
+          ]
+        }
+      ]
+    },
+    "post": "rest/v1/reliable/policy?type=OccupationChangeCheck"
+    },
+"transaction_history":
+{
+    "type": "formMessageSection",
+    "exitMSG": "Oops !! you quitted midway. Please try again.",
+    "form": {
+      "elements": [
+        {
+          "order": "number",
+          "utterances": [
+            {
+              "message": "To check your premium paid history please provide your details"
+            }
+          ],
+          "title": "Enter your PolicyNumber",
+          "type": "textbox",
+          "placeholder": "Enter PolicyNumber",
+          "validation": {
+            "type": "PolicyNumber",
+            "error": "Invalid!! Provide 12 digit PolicyNumber"
+          },
+          "label": "policyNo"
+        },
+        {
+          "order": "text",
+          "utterances": [
+            {
+              "message": "Your age wil help us keep you in good services."
+            }
+          ],
+          "title": "Please choose your date of birth.",
+          "placeholder": "Please Enter birthdate",
+          "type": "date",
+          "label": "dob"
+        },
+        {
+          "order": "number",
+          "title": "Enter your MobileNumber ?",
+          "type": "textbox",
+          "placeholder": "Enter MobileNumber",
+          "validation": {
+            "type": "mobile",
+            "error": "Invalid!! Provide 10 digit MobileNumber"
+          },
+          "label": "mobileNo"
+        },
+        {
+          "order": "cancle",
+          "title": " Do you want to submit your information ?",
+          "type": "submitbutton",
+          "placeholder": "Enter your email",
+          "button": [
+            {
+              "submit": "Submit",
+              "type": "submit"
+            },
+            {
+              "submit": "Cancel",
+              "type": "cancle"
+            }
+          ]
+        }
+      ]
+    },
+    "post": "rest/v1/reliable/policy?type=PremiumPaidHistory"
+},
+"agency_commission":
+{
+    "type": "formMessageSection",
+    "exitMSG": "Oops !! you quitted midway. Please try again",
+    "form": {
+      "elements": [
+        {
+          "order": "number",
+          "utterances": [
+            {
+              "message": "To view your commissions please provide your details."
+            }
+          ],
+          "title": "Enter your Agent Code ?",
+          "type": "textbox",
+          "placeholder": "Enter Agent Code",
+          "validation": {
+            "type": "AgentCode",
+            "error": "Invalid!! Provide 8 digit Agent Code"
+          },
+          "label": "agentCode"
+        },
+        {
+          "order": "text",
+          "utterances": [
+            {
+              "message": "Your age will help us keep you in good Services. "
+            }
+          ],
+          "title": "Please choose your date of birth.",
+          "placeholder": "Please Enter birthdate",
+          "type": "date",
+          "label": "dob"
+        },
+        {
+          "order": "number",
+          "title": "Enter your Mobile Number ?",
+          "type": "textbox",
+          "placeholder": "Enter MobileNumber",
+          "validation": {
+            "type": "mobile",
+            "error": "Invalid!! Provide 10 digit MobileNumber"
+          },
+          "label": "mobileNo"
+        },
+        {
+          "order": "cancle",
+          "title": " Do you want to submit your information ?",
+          "type": "submitbutton",
+          "placeholder": "Enter your email",
+          "button": [
+            {
+              "submit": "Submit",
+              "type": "submit"
+            },
+            {
+              "submit": "Cancel",
+              "type": "cancle"
+            }
+          ]
+        }
+      ]
+    },
+    "post": "rest/v1/reliable/policy?type=Commission"
+  },
+"agent_personal_details":
+{
+    "type": "formMessageSection",
+    "exitMSG": "Oops !! you quitted midway. Please try again",
+    "form": {
+      "elements": [
+        {
+          "order": "number",
+          "utterances": [
+            {
+              "message": "Please provide following details to check "
+            }
+          ],
+          "title": "Enter your Agent Code ?",
+          "type": "textbox",
+          "placeholder": "Enter Agent Code",
+          "validation": {
+            "type": "AgentCode",
+            "error": "Invalid!! Provide 8 digit Agent Code"
+          },
+          "label": "agentCode"
+        },
+        {
+          "order": "text",
+          "utterances": [
+            {
+              "message": "Your age will help us keep you in good Services. "
+            }
+          ],
+          "title": "Please choose your date of birth.",
+          "placeholder": "Please Enter birthdate",
+          "type": "date",
+          "label": "dob"
+        },
+        {
+          "order": "number",
+          "title": "Enter your Mobile Number ?",
+          "type": "textbox",
+          "placeholder": "Enter MobileNumber",
+          "validation": {
+            "type": "mobile",
+            "error": "Invalid!! Provide 10 digit MobileNumber"
+          },
+          "label": "mobileNo"
+        },
+        {
+          "order": "cancle",
+          "title": "Do you want to submit your information ?",
+          "type": "submitbutton",
+          "placeholder": "Enter your email",
+          "button": [
+            {
+              "submit": "Submit",
+              "type": "submit"
+            },
+            {
+              "submit": "Cancel",
+              "type": "cancle"
+            }
+          ]
+        }
+      ]
+    },
+    "post": "rest/v1/reliable/policy?type=PanNumberCheck"
+  },
+
+"agent_premium_due":
+    {
+            "type": "formMessageSection",
+            "exitMSG": "Oops !! you quitted midway. Please try again.",
+            "form": {
+              "elements": [
+                {
+                  "order": "number",
+                  "utterances": [
+                    {
+                      "message": "Please provide following details to view Due policies "
+                    }
+                  ],
+                  "title": "Enter your Agent Code ?",
+                  "type": "textbox",
+                  "placeholder": "Enter Agent Code",
+                  "validation": {
+                    "type": "AgentCode",
+                    "error": "Invalid!! Provide 8 digit Agent Code"
+                  },
+                  "label": "agentCode"
+                },
+                {
+                  "order": "text",
+                  "utterances": [
+                    {
+                      "message": "Your age wil help us keep you in good Services. "
+                    }
+                  ],
+                  "title": "Please choose your date of birth.",
+                  "placeholder": "Please Select your birthdate",
+                  "type": "neplaidate",
+                  "validation": {
+                    "type": "dob",
+                    "error": "dob Should not be empty"
+                  },
+                  "label": "dob"
+                },
+                {
+                  "order": "number",
+                  "title": "Enter your MobileNumber?",
+                  "type": "textbox",
+                  "placeholder": "Enter MobileNumber",
+                  "validation": {
+                    "type": "mobile",
+                    "error": "Invalid!! Provide 10 digit MobileNumber"
+                  },
+                  "label": "mobileNo"
+                },
+                {
+                  "order": "cancle",
+                  "title": " Do you want to submit your information ?",
+                  "type": "submitbutton",
+                  "placeholder": "Enter your email",
+                  "button": [
+                    {
+                      "submit": "Submit",
+                      "type": "submit"
+                    },
+                    {
+                      "submit": "Cancel",
+                      "type": "cancle"
+                    }
+                  ]
+                }
+              ]
+            },
+            "post": "rest/v1/reliable/policy?type=DueBusinessDetails"
+        },
+"policyholder_premium_due":
+    {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway. Please try again.",
+        "form": {
+          "elements": [
+            {
+              "order": "number",
+              "utterances": [
+                {
+                  "message": "Please provide following details to view Due Policies. "
+                }
+              ],
+              "title": "Enter your PolicyNumber ?",
+              "type": "textbox",
+              "placeholder": "Enter PolicyNumber",
+              "validation": {
+                "type": "PolicyNumber",
+                "error": "Invalid!! Provide 12 digit PolicyNumber"
+              },
+              "label": "policyNo"
+            },
+            {
+              "order": "text",
+              "utterances": [
+                {
+                  "message": "Your age wil help us keep you in good services. "
+                }
+              ],
+              "title": "Please choose your date of birth.",
+              "placeholder": "Please Enter birthdate",
+              "type": "date",
+              "label": "dob"
+            },
+            {
+              "order": "number",
+              "title": "Enter your MobileNumber ?",
+              "type": "textbox",
+              "placeholder": "Enter MobileNumber",
+              "validation": {
+                "type": "mobile",
+                "error": "Invalid!! Provide 10 digit MobileNumber"
+              },
+              "label": "mobileNo"
+            },
+            {
+              "order": "cancle",
+              "title": " Do you want to submit your information ?",
+              "type": "submitbutton",
+              "placeholder": "Enter your email",
+              "button": [
+                {
+                  "submit": "Submit",
+                  "type": "submit"
+                },
+                {
+                  "submit": "Cancel",
+                  "type": "cancle"
+                }
+              ]
+            }
+          ]
+        },
+        "post": "rest/v1/reliable/policy?type=CheckDuePremium"
+    }
+,
+"policyholder_personal_details":
+{
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway. Please try again",
+        "form": {
+          "elements": [
+            {
+              "order": "number",
+              "utterances": [
+                {
+                  "message": "Please provide following details to view your details. "
+                }
+              ],
+              "title": "Enter your PolicyNumber ?",
+              "type": "textbox",
+              "placeholder": "Enter PolicyNumber",
+              "validation": {
+                "type": "PolicyNumber",
+                "error": "Invalid!! Provide 12 digit PolicyNumber"
+              },
+              "label": "policyNo"
+            },
+            {
+              "order": "text",
+              "utterances": [
+                {
+                  "message": "Your age wil help us keep you in good Services. "
+                }
+              ],
+              "title": "Please choose your date of birth.",
+              "placeholder": "Please Enter birthdate",
+              "type": "date",
+              "label": "dob"
+            },
+            {
+              "order": "number",
+              "title": "Enter your MobileNumber ?",
+              "type": "textbox",
+              "placeholder": "Enter MobileNumber",
+              "validation": {
+                "type": "mobile",
+                "error": "Invalid!! Provide 10 digit MobileNumber"
+              },
+              "label": "mobileNo"
+            },
+            {
+              "order": "cancle",
+              "title": " Do you want to submit your information ?",
+              "type": "submitbutton",
+              "placeholder": "Enter your email",
+              "button": [
+                {
+                  "submit": "Submit",
+                  "type": "submit"
+                },
+                {
+                  "submit": "Cancel",
+                  "type": "cancle"
+                }
+              ]
+            }
+          ]
+        },
+        "post": "rest/v1/reliable/policy?type=OccupationChangeCheck"
+},
+"lapsed_policy":
+{
+    "type": "formMessageSection",
+    "exitMSG": "Oops !! you quitted midway. Please try again",
+    "form": {
+      "elements": [
+        {
+          "order": "number",
+          "utterances": [
+            {
+              "message": "Please provide following details to view your lapsed policy."
+            }
+          ],
+          "title": "Enter your Policy Number ?",
+          "type": "textbox",
+          "placeholder": "Enter Policy Number",
+          "validation": {
+            "type": "PolicyNumber",
+            "error": "Invalid!! Provide 12 digit PolicyNumber"
+          },
+          "label": "policyNo"
+        },
+        {
+          "order": "text",
+          "utterances": [
+            {
+              "message": "Your age will help us keep you in good Services."
+            }
+          ],
+          "title": "Please choose your date of birth.",
+          "placeholder": "Please Enter birthdate",
+          "type": "date",
+          "label": "dob"
+        },
+        {
+          "order": "number",
+          "title": "Enter your MobileNumber ?",
+          "type": "textbox",
+          "placeholder": "Enter MobileNumber",
+          "validation": {
+            "type": "mobile",
+            "error": "Invalid!! Provide 10 digit MobileNumber"
+          },
+          "label": "mobileNo"
+        },
+        {
+          "order": "cancle",
+          "title": " Do you want to submit your information ?",
+          "type": "submitbutton",
+          "placeholder": "Enter your email",
+          "button": [
+            {
+              "submit": "Submit",
+              "type": "submit"
+            },
+            {
+              "submit": "Cancel",
+              "type": "cancle"
+            }
+          ]
+        }
+      ]
+    },
+    "post": "rest/v1/reliable/policy?type=CheckLapsePolicy"
+  
+},
+"agent_view_details":
+{
+    "type": "quick_reply",
+    "title": "Please choose an option to view your details.",
+    "data": [
+    {
+        "title": "Personal Details",
+        "payload": "/view_details{\"category\":\"personal\", \"user_type\":\"agent\"}"
+    },
+    {
+        "title": "Commission Details",
+        "payload": "/view_details{\"category\":\"commission\"}"
+    },
+    {
+        "title": "Business Details",
+        "payload": "/view_details{\"category\":\"business\"}"
+    },
+    {
+        "title": "Due Policies",
+        "payload": "/view_details{\"category\":\"premium due\", \"user_type\":\"agent\"}"
+    }  
+    ]
+},
+"policyholder_view_details":
+{
+    "type": "quick_reply",
+    "title": "Please choose an option to view your details.",
+    "data": [
+    {
+        "title": "Policy Details",
+        "payload": "/view_details{\"category\":\"policy\"}"
+    },
+    {
+        "title": "Transaction History",
+        "payload": "/view_details{\"category\":\"transaction history\"}"
+    },
+    {
+        "title": "Issued Policies",
+        "payload": "/view_details{\"category\":\"issued policies\", \"user_type\":\"policy holder\"}"
+    },
+    {
+        "title": "Due Policies",
+        "payload": "/view_details{\"category\":\"premium due\", \"user_type\":\"policy holder\"}"
+    },
+    {
+        "title": "Lapsed Policy",
+        "payload": "/view_details{\"category\":\"lapsed policy\"}"
+    }  
+    ]
+},
+"view_details_fb":
+{
+    "type": "quick_reply",
+    "title": "To view your details, please contact to our nearest branch.",
+    "data": [ 
+      {
+        "title": "Branch",
+        "payload": "/contact{\"office_type\":\"branch office\", \"branch_type\":\"nearby\"}"
+    } 
+    ]
+}
+}
+

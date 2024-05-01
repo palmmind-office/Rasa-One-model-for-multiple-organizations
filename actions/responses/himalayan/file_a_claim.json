@@ -1,0 +1,87 @@
+
+{
+    "death_claim_process": {
+        "type": "ListItem",
+        "title": "Please visit our nearest local branch to register your claim.",
+        "subtitle": "Death Claim Process",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Written information to the company by the claimant"
+            },
+            {
+                "subtitle": "● Claim related notarized document received from the claimant"
+            },
+            {
+                "subtitle": "● Investigation by the company"
+            },
+            {
+                "subtitle": "● Decision made by the company"
+            },
+            {
+                "subtitle": "● Discharge voucher sent to the claimant"
+            },
+            {
+                "subtitle": "● Signed and stamped discharge voucher received from the claimant"
+            },
+            {
+                "subtitle": "● Claim amount paid/denied letter sent to the claimant"
+            }
+        ],
+        "button": [
+          {
+            "title": "Branch",
+            "link": "https://himalayanlife.com.np/Branches.aspx"
+          }
+        ]
+    },
+
+    "non_death_claim_process": {
+        "type": "ListItem",
+        "title": "Please visit our nearest local branch to register your claim.",
+        "subtitle": "Non-Death Claim Process",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Written information to the company by the claimant"
+            },
+            {
+                "subtitle": "● Claim related notarized document received from the claimant"
+            },
+            {
+                "subtitle": "● Review and Decision made by the company"
+            },
+            {
+                "subtitle": "● Discharge voucher sent to the claimant"
+            },
+            {
+                "subtitle": "● Signed and stamped discharge voucher received from the claimant"
+            },
+            {
+                "subtitle": "● Claim amount paid/denied letter sent to the claimant"
+            }
+        ],
+        "button": [
+            {
+              "title": "Branch",
+              "link": "https://himalayanlife.com.np/Branches.aspx"
+            }
+          ]
+    },
+
+        "claim_process":
+        {
+            "type": "quick_reply",
+            "title": "Please choose whether it is death claim or non-death claim.",
+            "data": [
+            {
+                "title": "Death Claim",
+                "payload": "/claim{\"claim_type\":\"death\"}"
+            },
+            {
+              "title": "Non Death Claim",
+              "payload": "/claim{\"claim_type\":\"non death\"}"
+          }     
+            ]
+        }
+}

@@ -1,0 +1,22 @@
+version: "3.1"
+
+nlu:
+  - intent: become_agent
+    examples: |
+      - Become an [agent](user_type)
+      - [agent](user_type) in himalayan life
+      - What is the process to become an [agent](user_type)?
+      - How can I become an [agent](user_type)?
+      - Tell me the process to be an [agent](user_type) of your life insurance company.
+      - Who can become reliable life insurance [agent](user_type)?
+      - What is the procedure to become an [agent](user_type) of ime life insurance?
+      - I want to fill up the [form](document) to become an [agent](user_type).
+      - I want to apply for [agent](user_type).
+      - Can you guide me through the process of becoming an [agent](user_type)?
+      - What should I do to become a life insurance [agent](user_type)?
+      - I am interested to be an [agent](user_type) at ime life.
+      - Please provide me the [form](document) to become an agent.
+      - I want to become an [agent](user_type). Where can I get the [form](document)?
+      - How can I fill up the [form](document) to be an [agent](user_type)?
+      - Can you send me online application form for [agent](user_type) Registration ?
+      - how to register for [agent](user_type) online?

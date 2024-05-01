@@ -1,0 +1,64 @@
+version: "3.1"
+
+nlu:
+
+- intent: feedback
+  examples: |
+
+    - How can I provide [feedback](feedback_type)?
+    - Tell me how I can submit [complaint]{"entity":"feedback_type", "value":"complain"}?
+    - I want to make a [complain](feedback_type)
+    - What is the process for submitting [feedback](feedback_type)?
+    - I want to provide [suggestions]{"entity":"feedback_type", "value":"feedback"}.
+    - I would like to give [suggestion]{"entity":"feedback_type", "value":"feedback"}.
+    - I want to suggest you with something.
+    - The number provided by you is not reachable.
+    - Follow up has not been made.
+    - I think your office is not responsible towards the customer.
+    - I don't like your services.
+    - Your customer service is not good.
+    - No one to assist me, very bad company.
+    - I am not satisfied with your services.
+    - I want to advise you to improve your services.
+    - I paid my premium but didn't get any message.
+    - how to register my [complaint]{"entity":"feedback_type", "value":"complain"}
+    - I have a [complain](feedback_type)
+    - Why follow up has not been made regarding my policy until now?
+    - They don't pick up phone.
+    - getting frustated with himalayan life insurance
+    - I want to file [complaint]{"entity":"feedback_type", "value":"complain"}.
+    - I have a [complaint]{"entity":"feedback_type", "value":"complain"}. 
+    - I am not happy with your policy terms and conditions.
+    - You do not provide enough information to customers.
+    - I have filed a claim, but I have not received any refund yet.
+    - You have to modify your policy terms and conditions.
+    - I applied to become an agent, but I haven't received any confirmation from you.
+    - I am unable to pay from khalti.
+    - Why are you not replying to me on facebook?
+    - how can i fill up the [feedback](feedback_type) [form](document)?
+    - where is the [feedback](feedback_type) [form](document)?
+    - where can i find the [complain](feedback_type) [form](document)?
+    - provide me the [complain](feedback_type) [form](document).
+    - Life insurance is a huge scam.
+    - very bad company
+    - Your website is very slow.
+    - You are replying very slowly.
+    - This chatbot is very slow.
+    - Call is not received at head office.
+    - Phone not received in given contact number.
+    - I already called to head office, but call is not received yet.
+
+
+- synonym: complain
+  examples: |
+    - complaint
+
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,153 @@
+{
+    "critical_illness": {
+        "type": "table",
+        "data": [
+            {
+                "S.no.": "1.",
+                "२१ घातक रोगहरु ": "कडा प्रकृतिको क्यान्सर",
+                "21 Critical Diseases ": "Cancer of Specified Severity"
+            },
+            {
+                "S.no.": "2.",
+                "२१ घातक रोगहरु ": "ओपन चेष्ट सिएविजी",
+                "21 Critical Diseases ": "Open Chest CABG"
+            },
+            {
+                "S.no.": "3.",
+                "२१ घातक रोगहरु ": "माइयोकार्डिबल इन्फाक्सन (कडा प्रकृतिको पहिलो हृदयघात)",
+                "21 Critical Diseases ": "Myocardial Infarction (First Heart Attack of specific severity)"
+            },
+            {
+                "S.no.": "4.",
+                "२१ घातक रोगहरु ": "नियमित डायलासिसको आवश्यकता पर्ने गरी मृगौला विफल ",
+                "21 Critical Diseases ": "Kidney failure requiring regular dialysis"
+            },
+            {
+                "S.no.": "5.",
+                "२१ घातक रोगहरु ": "प्रमुख अङ्ग वा बोनम्यारो प्रत्यारोपण",
+                "21 Critical Diseases ": "Major organ/bone marrow transplant"
+            },
+            {
+                "S.no.": "6.",
+                "२१ घातक रोगहरु ": "निरन्तर लक्षण सहितको मल्टिपल स्क्लेरोसिस",
+                "21 Critical Diseases ": "Multiple Sclerosis with persisting symptoms"
+            },
+            {
+                "S.no.": "7.",
+                "२१ घातक रोगहरु ": "स्थायी लक्षणको रुपमा देखिएको मस्तिक घात ",
+                "21 Critical Diseases ": "Stroke resulting in permanent symptoms"
+            },
+            {
+                "S.no.": "8.",
+                "२१ घातक रोगहरु ": "स्थायी रुपमै भएको हाथखुट्टाको पक्षघात",
+                "21 Critical Diseases ": "Permanent Paralysis of Limbs"
+            },
+            {
+                "S.no.": "9.",
+                "२१ घातक रोगहरु ": "ओपन हार्ट सर्जरी वा मुटुको भल्भहरुको मर्मत",
+                "21 Critical Diseases ": "Open Heart Replacement or Repair of Heart Valves "
+            },
+            {
+                "S.no.": "10.",
+                "२१ घातक रोगहरु ": "विशेष कडा प्रकृतिको कोमा ",
+                "21 Critical Diseases ": "Coma of specified severity"
+            },
+            {
+                "S.no.": "11.",
+                "२१ घातक रोगहरु ": "एओर्टा ग्राफ्ट सर्जरी",
+                "21 Critical Diseases ": "Aorta Graft Surgery"
+            },
+            {
+                "S.no.": "12.",
+                "२१ घातक रोगहरु ": "प्राइमरी - इडियोप्याथिक प्ल्मनरी आर्टेरियल हाईपरटेन्सन",
+                "21 Critical Diseases ": "Primary(IDIOPATHIC) Pulmonary Arterial Hypertension"
+            },
+            {
+                "S.no.": "13.",
+                "२१ घातक रोगहरु ": "बेनाग ब्रेन ट्युमर",
+                "21 Critical Diseases ": "Benign Brain Tumor"
+            },
+            {
+                "S.no.": "14.",
+                "२१ घातक रोगहरु ": "पूर्ण अन्धोपन",
+                "21 Critical Diseases ": "Total Blindness"
+            },
+            {
+                "S.no.": "15.",
+                "२१ घातक रोगहरु ": "कलेजोको विफल अन्तिम चरणमा",
+                "21 Critical Diseases ": "End Stage Liver Failure"
+            },
+            {
+                "S.no.": "16.",
+                "२१ घातक रोगहरु ": "पार्किन्सन्स रोग",
+                "21 Critical Diseases ": "Parkinson’s disease"
+            },
+            {
+                "S.no.": "17.",
+                "२१ घातक रोगहरु ": "अल्जाइमर्स रोग",
+                "21 Critical Diseases ": "Alzheimer’s disease"
+            },
+            {
+                "S.no.": "18.",
+                "२१ घातक रोगहरु ": "थर्ड डिग्री बर्न (पोलेको)",
+                "21 Critical Diseases ": "Third Degree Burns"
+            },
+            {
+                "S.no.": "19.",
+                "२१ घातक रोगहरु ": "बोल्ने क्षमता हराएको",
+                "21 Critical Diseases ": "Loss of speech"
+            },
+            {
+                "S.no.": "20.",
+                "२१ घातक रोगहरु ": "बहिरोपन",
+                "21 Critical Diseases ": "Deafness"
+            },
+            {
+                "S.no.": "21.",
+                "२१ घातक रोगहरु ": "टाउको को मुख्य घाउचोट",
+                "21 Critical Diseases ": "Major Head Trauma"
+            }
+        ]
+    },
+
+    "agent_benefits": {
+        "type": "ListItem",
+        "title": "Becoming an agent of IME Life insurance presents several benefits. For more information, please contact to our nearest branch.",
+        "subtitle": "Benefits of becoming Agent",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Continuous Learning and Development"
+            },
+            {
+                "subtitle": "● Networking and Building Relationships"
+            },
+            {
+                "subtitle": "● High Earning Potential"
+            },
+            {
+                "subtitle": "● Flexible Work Schedules"
+            },
+            {
+                "subtitle": "● Rewards and Recognition"
+            },
+            {
+                "subtitle": "● Access to Insurance and Financial Products"
+            }
+        ],
+        "button": [
+            {
+                "title": "Become Agent",
+                "payload": "/become_agent"
+            }
+        ]
+    },
+
+    "insurance_benefits":
+    {
+        "type": "quick_reply",
+        "title": "Life insurance provides financial protection for your loved ones in the event of your death, ensuring they have support for living expenses, debts, and other financial obligations. Additionally, it offers peace of mind, estate planning benefits, and potential tax advantages for beneficiaries.",
+        "data": [
+        ]
+    }
+}

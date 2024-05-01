@@ -1,0 +1,17 @@
+{
+    "downloads":
+        {
+            "type": "quick_reply",
+            "title": "You can get our app from the Apple Store and Google Play.<br> In order to download the forms and brouchers online, please click the button below.",
+            "data": [
+            {
+                "title": "Google Play",
+                "link": "https://play.google.com/store/apps/details?id=com.sourcecode.imelife&hl=en&gl=US"
+            },
+            {
+                "title":"Apple Store",
+                "link":"https://apps.apple.com/np/app/ime-life-insurance/id6468636387"
+            }
+            ]
+        }
+}

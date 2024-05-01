@@ -1,0 +1,29 @@
+version: "3.1"
+
+nlu:
+  - intent: get_code
+    examples: |
+      - How can I get my policy code?
+      - How can I duplicate my policy file?
+      - I forget my policy number. 
+      - I lost my policy number. What shall I do now?
+      - How to know my policy number?
+      - I need my policy paper. How can I get it?
+      - I forgot my agent code? What shall I do now?
+      - What to do after losing my agent document?
+      - I forgot my policy holder details, what should i do ?
+      - I forgot my agency details, what should i do now?
+      - How can i get my agent code?
+      - I forgot my agent code, where should I contact?
+      - i do not remember my agent code.
+      - Please provide my policy number.
+      - How can I know my agent code?
+      - My agency document is misplaced. Where should I contact?
+
+
+
+# - synonym: license
+#   examples: |
+#     - licence
+#     - liscence
+#     - lisense

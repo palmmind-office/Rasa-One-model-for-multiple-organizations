@@ -1,0 +1,77 @@
+{
+    "commission_rate":
+        {
+            "type": "quick_reply",
+            "title": "The commission rates for agents are determined by the Nepal Insurance Authority.",
+            "data": [
+            ]
+        },
+
+        "agent_training":
+        {
+            "type": "quick_reply",
+            "title": "For information related to agent trainings, please click the button below.",
+            "data": [
+            {
+                "title": "Agent Trainings",
+                "link": "https://reliablelife.com.np/agent-trainings/"
+            }
+            ]
+        },
+        "agent_qualifications": {
+            "title": "To become an agent, you require the following documents and formal training for a period of 19 hours provided by Reliable Life.",
+            "type": "ListItem",
+            "subtitle": "Requirements to be an Agent",
+            "multi": true,
+            "data": [
+                {
+                    "subtitle": "● Minimum Age - 16 years"
+                },
+                {
+                    "subtitle": "● Copy of Citizenship"
+                },
+                {
+                    "subtitle": "● Copy of at least SEE/SLC pass Mark Sheet"
+                },
+                {
+                    "subtitle": "● Copy of at least SEE/SLC pass Character Certificate"
+                },
+                {
+                    "subtitle": "● Formal Training for a period of 19 hours provided by Reliable Life"
+                },
+                {
+                    "subtitle": "● Passport size color photo"
+                },
+                {
+                    "subtitle": "● NPR 500/-"
+                }
+            ]
+        },
+        "agency_general":
+        {
+            "type": "quick_reply",
+            "title": "What agency services are you interested in?",
+            "data": [
+            {
+                "title": "Personal Details",
+                "payload": "/view_details{\"category\":\"personal\",\"user_type\":\"agent\"}"
+            },
+            {
+                "title": "Commission Details",
+                "payload": "/view_details{\"category\":\"commission\"}"
+            },
+            {
+                "title": "Business Details",
+                "payload": "/view_details{\"category\":\"business\"}"
+            },
+            {
+                "title": "Due Policies",
+                "payload": "/view_details{\"category\":\"premium due\",\"user_type\":\"agent\"}"
+            },
+            {
+                "title": "Update Profile",
+                "payload": "/update_profile{\"user_type\":\"agent\"}"
+            }
+            ]
+        }
+}

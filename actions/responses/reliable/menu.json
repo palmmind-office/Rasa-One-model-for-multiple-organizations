@@ -1,0 +1,77 @@
+{
+    "menu_rest": {
+      "title": "Hello world",
+      "type": "home",
+      "Greeting": "Namaste!",
+      "Header": "I am Reliable ChatBot. How May I Help You?",
+      "subHeader": "Life is uncertain. People are not. Our Reliable life insurance will always be there for you.",
+      "data": [
+        {
+          "title": "Products/Services",
+          "payload": "/product_info",
+          "icon": "images/menu/product.png"
+        },
+        {
+          "title": "Policy Services",
+          "payload": "/policy",
+          "icon": "images/menu/compliant.png"
+        },
+        {
+          "title": "Agency",
+          "payload": "Agency",
+          "icon": "images/menu/agent.png"
+        },
+        {
+          "title": "Claim/Loan",
+          "payload": "/about_claim",
+          "icon": "images/menu/Claim.png"
+        },
+        {
+          "title": "Payment",
+          "payload": "/payment",
+          "icon": "images/menu/wallet.png"
+        },
+        {
+          "title": "Branches",
+          "payload": "/contact{\"office_type\":\"branch office\"}",
+          "icon": "images/menu/location-pin.png"
+        },
+        {
+          "title": "Contact Us",
+          "payload": "/contact{\"office_type\":\"main office\"}",
+          "icon": "images/menu/customer-service.png"
+        },
+        {
+          "title": "Feedback/Complain",
+          "id": "feedbackId",
+          "payload": "/feedback",
+          "icon": "images/menu/feedback.png"
+        }
+      ]
+    },
+
+    "menu_facebook":
+    {
+      "text": "Namaste, I am Your Virtual Assistant. How may I help you?",
+      "elements": [
+          {
+              "title": "Welcome to Reliable Life Insurance :)",
+              "image_url": "https://reliablelife.com.np/wp-content/themes/reliablelife/theme-files/img/reliable-logo.png",
+              "buttons": [
+                  {
+                      "title": "Products",
+                      "payload": "/product_info"
+                  },
+                  {
+                      "title": "Policy Services",
+                      "payload": "/policy"
+                  },
+                  {
+                      "title": "Agency",
+                      "payload": "Agency"
+                  }
+              ]
+          }
+      ]
+  }
+  }

@@ -1,0 +1,33 @@
+version: "3.1"
+
+nlu:
+  - intent: cancel_subscription
+    examples: |
+      - Can I cancel my life insurance policy?
+      - How do I cancel my subscription?
+      - What is the process for cancelling my life insurance?
+      - What are the steps to terminate my life insurance coverage?
+      - Terminate my policy
+      - How to withdraw my policy?
+      - Cancel plan
+      - I want to drop my policy.
+      - What happens if I close my plan?
+      - Are there any penalties for cancelling my subscription early?
+      - What happens to my premium payments if I cancel my policy?
+      - Is there a fee for cancelling my subscription?
+      - Termination of issued policy
+      - Procedure to surrender my policy
+      - I cannot pay for my life insurance policy. What is the process to surrender my policy?
+      - discontinue insurance
+      - How can I discontinue my plan?
+      - policy surrender
+      - Can I surrender the policy within one year of having it. What charges will I have to pay in such case?
+      - Can I cancel my life insurance and get reimbursement on the same ?
+      
+
+      - I cannot afford to pay my premium. Can I close it and get my money back?
+      - reimbursement after cancelling my policy
+      - Can I get a refund if I cancel my life insurance?
+      - How much money is deducted if insurance policy is surrendered?
+      - What is the refund policy of this insurance company?
+      - How much return will I get if I surrender my policy?

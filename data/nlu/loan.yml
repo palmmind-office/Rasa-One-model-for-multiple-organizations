@@ -1,0 +1,33 @@
+version: "3.1"
+
+nlu:
+  - intent: loan
+    examples: |
+      - Process for applying [policy holder](user_type) [loan](insurance_info)
+      - How can I apply for [policy holder](user_type) [loan](insurance_info)?
+      - I am an [agent](user_type). How can I apply for [loan](insurance_info)?
+      - How can I get [policyholer]{"entity":"user_type", "value":"policy holder"} [loan](insurance_info)?
+      - I want [loan](insurance_info) from my policy.
+      - What is the procedure to apply for a [loan](insurance_info)?
+      - Process to get the [loan](insurance_info) for an [agent](user_type)
+      - How [loan](insurance_info) amount is calculated?
+      - my [loan](insurance_info) status
+      - i want to view my [loan](insurance_info) status
+      - can you show me my [loan](insurance_info) status
+      - can i get the [loan](insurance_info)
+      - i need [loan](insurance_info) for my further studies
+      - can i [borrow]{"entity":"insurance_info", "value":"loan"} some money?
+      - process to [borrow]{"entity":"insurance_info", "value":"loan"} money from himalayan life?
+      - [loan](insurance_info)
+      - [agent](user_type) [loan](insurance_info)
+      - [policy holder](user_type) [loan](insurance_info)
+      - How much [loan](insurance_info) can I take from my policy?
+      - I want policy [loan](insurance_info).
+      - How can I get policy [loan](insurance_info)?
+      - I want to know the [loan](insurance_info) application procedure.
+      - What is the process for [loan](insurance_info)?
+      
+
+  - synonym: loan
+    examples: |
+      - lone

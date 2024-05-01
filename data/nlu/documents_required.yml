@@ -1,0 +1,87 @@
+version: "3.1"
+
+nlu:
+  - intent: documents_required
+    examples: |
+      - What documents are required for policy [endorsement](insurance_info)?
+      - what are the requirements to [endorse]{"entity":"insurance_info", "value":"endorsement"} my policy?
+      - tell me the necessary documents for policy [endorsement](insurance_info).
+      - can you tell me the documents required to [endorse]{"entity":"insurance_info", "value":"endorsement"} a policy?
+
+      - what documents do i need to [revive](category) my lapsed policy?
+      - do i need medical reports for the [revival]{"entity":"category", "value":"revive"} of my lapsed policy?
+      - what are the requirements to [revive](category) the policy that has been lapsed?
+      - are there any requirements for policy [revival]{"entity":"category", "value":"revive"}?
+
+      - what are the required documents to [duplicate](insurance_info) my policy?
+      - I lost my policy. What papers do I need to submit to [duplicate](insurance_info) it?
+      - My policy is destroyed due to fire. What documents do I need to provide to get a [copy]{"entity":"insurance_info", "value":"duplicate"}?
+      - I want to know the documents required to make a [copy]{"entity":"insurance_info", "value":"duplicate"} of my policy.
+
+      - What documents are required to [purchase](insurance_info) life insurance?
+      - I am thinking of [pursuing]{"entity":"insurance_info", "value":"purchase"} life insurance. What are the necessary papers?
+      - Tell me the necessary documents to [purchase](insurance_info) life insurance.
+      - What files do I need to [purchase](insurance_info) life insurance?
+      - Give me the list of papers I need to [buy]{"entity":"insurance_info", "value":"purchase"} life insurance.
+      - what are the documents required to [do]{"entity":"insurance_info", "value":"purchase"} life insurance
+      - what documents do I need to [issue]{"entity":"insurance_info", "value":"purchase"} a new policy?
+      - what are the age requirements for [getting]{"entity":"insurance_info", "value":"purchase"} life insurance coverage?
+
+      - documents needed to [get]{"entity":"insurance_info", "value":"purchase"} [child](product_type) insurance
+      - What files do I need to [purchase](insurance_info) [child](product_type) life insurance?
+      - necessary documents to [buy]{"entity":"insurance_info", "value":"purchase"} life insurance for a [baby]{"entity":"product_info", "value":"child"} 
+      - what documents are necessary to [do]{"entity":"insurance_info", "value":"purchase"} [child](product_type) life insurance?
+      - I am 16 years old, can i [purchase](insurance_info) [child](product_type) insurance plan?
+      - what are the requirements to [issue]{"entity":"insurance_info", "value":"purchase"} a new policy for my [children]{"entity":"product_info", "value":"child"}?
+
+      - I want to become an [agent](user_type). What are the necessary documents?
+      - What documents do I need to become an [agent](user_type)?
+      - Tell me the documents required to become an [agent](user_type) of a life insurance company.
+      - necessary documents to become life insurance company [agent](user_type)
+
+      - Do I need to fill up some form to become an [agent](user_type) at himalayan life?
+      - What are the documents required to be a life insurance company [agent](user_type)?
+      - what are the requirements to apply for [agent](user_type) at himalayan life?
+
+      - what are the documents required to make a [claim](insurance_info)?
+      - what documents do I need to submit to get payment for [claim](insurance_info)?
+      - tell me all the necessary documents to apply for a [claim](insurance_info). 
+
+      - documents required to get [death](claim_type) [claim](insurance_info) payment
+      - do i need to provide postmortem report to get payment for [death](claim_type) [claim](insurance_info)?
+      - what are the necessary documents to [claim](insurance_info) for [death](claim_type) case?
+      - Tell me the documents required to process [death](claim_type) claim(insurance_info).
+      - do i need to submit death certificate to get [death](claim_type) [claim](insurance_info) payment?
+      - is relationship certificate needed to get payment for [death](claim_type) [claim](insurance_info)?
+
+      - what papers do i need to submit to get money for [maturity](claim_type) [claim](insurance_info)?
+      - Can you tell me the documents required to get payment for [maturity](claim_type) [claim](insurance_info)?
+      - Do i need to submit my payment receipts to get [maturity](claim_type) [claim](insurance_info)?
+      - what are the required documents to get [maturity](claim_type) [claim](insurance_info) payment?
+
+      - what are the requirements to get payment of [survival benefit](insurance_info)?
+      - Do I need to submit citizenship to get payment of [survival benefit](insurance_info)?
+      - Can you tell me all the documents needed for [survival benefit](insurance_info) payment?
+
+      - What are the requirements to get my [surrender](insurance_info) value?
+      - I am planning to [terminate]{"entity":"insrance_info", "value":"surrender"} my plan. What are the necessary documents to get my paid up value?
+      - Can you please provide a list of documents required to get the [surrender](insurance_info) amount for my life insurance policy?
+      - What are the documents required to get the [surrender](insurance_info) amount for my life insurance policy?
+      - what documents are needed to get my money back after i [close]{"entity":"insrance_info", "value":"surrender"} my plan?
+
+      - documents required to get [loan](insurance_info)
+      - what documents do i need to provide to get the [loan](insurance_info)?
+      - What are the necessary documents to apply for a [loan](insurance_info) using my life insurance policy?
+      - Can you provide a list of documents needed to apply for a [loan](insurance_info) for policy holders?
+      - Do I need to submit citizenship certificate to apply for policy [loan](insurance_info)?
+      - What are the documents required to get policy [loan](insurance_info)?
+      - Do I need to submit original policy bond to get policy [loan](insurance_info)?
+
+      - what are the documents required to get agent [training](insurance_info)?
+      - Do I need to submit notarized documents to apply for agent [trainings]{"entity":"insurance_info", "value":"training"}?
+      - what are the requirements to process for agent [training](insurance_info) and appointments?
+
+  - synonym: purchase
+    examples: |
+      - pursue
+      - buy

@@ -1,0 +1,120 @@
+version: "3.1"
+
+nlu:
+  - intent: greet/start
+    examples: |
+      - hlo
+      - hlw
+      - hloo
+      - heloo
+      - hii
+      - heya
+      - whtsup
+      - hello mam
+      - hlo mam
+      - hlw mam
+      - hello ma'am/sir
+      - hello there
+      - hey
+      - hello
+      - hi
+      - hello there
+      - namaste
+      - namastey
+      - Howdy!
+      - hey there
+      - hey dude
+      - hello bro
+
+  - intent: greet/good_morning
+    examples: |
+      - good morning
+      - good evening
+      - morning
+      - G'day
+      - shubaprabhat
+      - good afternoon
+
+  - intent: greet/help_bot
+    examples: |
+      - is there any one to available to chat
+      - you cannot help me
+      - can u help me
+      - will you help me
+      - help please
+      - help me
+      - can you answer my question
+
+  - intent: greet/iam_bot
+    examples: |
+      - Are you a bot?
+      - Am i taking to human?
+      - Human or bot?
+      - Who are you?
+      - is this being answered by bot?
+      - who is answering the messages?
+      - What is your name?
+
+  - intent: greet/how_are_you
+    examples: |
+      - How are you?
+      - Are you fine?
+      - Is everything good?
+      - What's new
+      - How is your day going?
+      - hey, what's going on.
+
+  - intent: greet/feeling_good
+    examples: |
+      - I am fine thank you.
+      - I am doing great.
+      - Wonderful.
+      - Amazing.
+      - Yes, i am happy.
+      - I am in a good mood.
+      - Fine.
+      - I feel amazing today.
+
+  - intent: greet/feeling_sad
+    examples: |
+      - I am having a bad day.
+      - I am sad.
+      - I don't feel well.
+      - super sad
+      - unhappy.
+      - Right now, i am in a bad mood.
+      - Extremely sad
+
+  - intent: goodbye
+    examples: |
+      - good bye
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+      - see you soon
+      - see you
+
+  - intent: thankyou
+    examples: |
+      - that sounds good
+      - correct
+      - I appreciate
+      - cool
+      - thank you
+      - thanks
+      - thank you for informations
+      - okay
+      - ok
+      - okayy
+      - nice
+
+  - intent: out_of_scope
+    examples: |
+      - abcbc
+      - asdwdwfweufnweds
+      - where do you live?

@@ -1,0 +1,408 @@
+version: "3.1"
+
+nlu:
+  - intent: faq
+    examples: |
+      - Who is an agent?
+      - Who is an insurance agent?
+      - What do you mean by agent?
+      - Is there any fee involved in becoming insurance agent?
+      - Do I have to pay any charges to become an agent?
+      - Are there any requirements to get license for agent?
+      - Do I have to pay fees to become an agent?
+      - I want to be an agent. Do I have to pay the money?
+      - What do I need to process for agent license?
+      - What documents are necessary to get agent license?
+      - Are there any requirements to get license for agent?
+      - What do I require to process for an agent license?
+      - What are the documents required to process for agent license?
+      - Where should I contact to get the agent license?
+      - Shall I contact Beema Samiti to obtain the license?
+      - Do I have to follow up at Beema Samiti to obtain the license?
+      - Do I need to invest some money to be an agent at your company?
+      - Is it necessary to make some investment to become an insurance agent?
+      - Do I need to contact with Beema Samiti to get the license?
+      - Where should I follow up to get the agent license?
+      - Is it necessary to invest some money to be an agent at Himalayan life?
+      - Should I invest money to become an agent?
+      - Am I eligible to become an agent at your insurance company?
+      - Who is eligible to be a life insurance agent?
+      - Who can become an insurance agent?
+      - Whom can an insurance agent sell insurance policies to?
+      - Does the company provide any help after I become an agent?
+      - What kind of support can I expect from the company once I become an agent?
+      - After becoming an agent, does the company offer any assistance or support?
+      - On what basis is the commission paid to the agent?
+      - Whom can an agent sell insurance policies to?
+      - What kind of support does the company provide after I become an agent?
+      - What factors are considered when calculating the agent's commission?
+      - Can insurance agents have flexible working hours?
+      - Do I need to work full time after I become an agent?
+      - How many days does it take to get the agent license?
+      - Do I need some training to become an agent?
+      - Where can I get the training to be an agent?
+      - How much fee do I need to pay to become an agent?
+      - How long does it take to get the agent license?
+      - How can I know about the schemes going on for agents?
+      - Are there any current promotional schemes going on for agents?
+      - What factors are considered when calculating the agent's commission?
+      - How does the company decide the commission percentage given to agents?
+      - Do insurance agents need to work on a full-time basis?
+      - Can insurance agents work part-time?
+      - Do insurance agents have flexible working hours?
+      - How long does it take to obtain the license?
+      - How many days do I need to wait to get an agent license?
+      - How long is the process of obtaining an insurance agent license?
+      - What is the minimum required age to become an agent?
+      - Is there any age limit to become an agent of insurance company?
+      - How much is the fee for becoming agent?
+      - what is the youngest age to become an agent?
+      - Are there any fees to get agent trainings?
+      - Do I need to pay charges to get agent training?
+      - Do I need citizenship to be life insurance agent?
+      - Is citizenship certificate necessary to become an agent at himalayan life?
+      - Can we make a claim in case of suicide or criminal activity?
+      - Can I make a claim for death case?
+      - Can I make a claim in case of an accident?
+      - Is it possible to make a claim in suicidal case?
+      - Can we make claim for non-death case?
+      - How much time does it take to settle a claim?
+      - What is the claim settlement time?
+      - I want to know the claim settlement time.
+      - After how long should I file a claim?
+      - How much time does it take to get my claim approved?
+      - How long does it take to process a death claim?
+      - When should I make a claim after an incident?
+      - What is the suitable time to make a claim?
+      - What happens if i do not register a claim for a long time after the incident?
+      - How long should I wait before making a claim after an incident?
+      - I made a claim for my accident. Why did it get rejected?
+      - What are the reasons my claim got cancelled? 
+      - In which cases the claim gets rejected?
+      - My claim got rejected. Why did that happen?
+      - Why did not my claim get accepted?
+      - Do the nominee have to pay tax for death claim?
+      - Do I need to pay tax on the death claim?
+      - Do I have to pay taxes on the money I receive from a life insurance claim?
+      - What portion of the life insurance claim is subject to taxes?
+      - Taxation policy for insurance claims
+      - How will the nominee get claim amount payment?
+      - Who receives claim benefits?
+      - How much time to finalize a claim?
+      - How much time does it take to settle a claim?
+      - How much money will be returned after terminating the plan?
+      - Can I make a claim in suicidal case?
+      - Can I make a claim in case of an accident?
+      - How much time does it take to get my claim approved?
+      - What is the normal claim settlement time?
+      - When should I make a claim after an incident?
+      - What happens if i do not register a claim for a long time after the incident?
+      - I made a claim for my accident. Why did it get rejected?
+      - What are the reasons my claim got cancelled?
+      - In which cases the claim gets rejected?
+      - Do I have to pay taxes on the money I receive from a life insurance claim?
+      - Taxation policy for insurance claims
+      - Who benefits from my life insurance?
+      - How will my beneficiaries receive the claim payout?
+      - What is insurance?
+      - What is life insurance?
+      - Why do I need life insurance?
+      - What is the importance of life insurance?
+      - Who is eligible for life insurance?
+      - Are there any age restrictions for obtaining life insurance?
+      - What do you mean by life insurance?
+      - Tell me the importance of life insurance
+      - Who can do life insurance?
+      - Is someone with low income eligible for life insurance?
+      - Are there any age restrictions for obtaining life insurance?
+      - What are the requirements to get life insurance?
+      - What are Life Insurance riders?
+      - Can I get Life Insurance if I have certain medical condition?
+      - What is policy document?
+      - What information does a typical policy document contain?
+      - I lost my policy document. What shall I do now?
+      - What should I do if my policy document gets damaged?
+      - What to do if my policy document gets lost or damaged?
+      - What do you mean by riders in life insurance?
+      - Can I hold multiple life insurance policies?
+      - What are Life Insurance riders?
+      - Can I buy two or more life insurance policies?
+      - What can I do if my policy document gets lost?
+      - What if my policy document gets lost or damaged?
+      - What is the maximum loan amount that I can take from my policy?
+      - Can I take loan against my policy?
+      - Can I take a loan from any type of life insurance policy?
+      - What are agents supposed to do?
+      - What are the responsibilities of agent?
+      - What do agents do?
+
+      - What are the requirements to get a loan against my life insurance policy?
+      - What is Accidental Death Benefit?
+      - What do you mean by ADB?
+      - What do you mean by CI Rider in life insurance?
+      - What do you mean by FE rider in life insurance?
+      - What do you mean by Premium Waiver benefit in Life insurance?
+      - What is Premium Waiver Benefit(PWB)?
+
+      - What do you mean by Critical Illness?
+      - What is Critical Illness Rider ?
+      - What is a Funeral Expense rider in life insurance?
+      - Is there difference in purchasing policy from the company or from agent?
+      - How will I get the bonus from my life insurance policy?
+      - What is bonus in life insurance and how is it paid?
+      - Will the insured receive medical expenses incase of an accident?
+      - What do you mean by death benefit?
+      - What will happen to my policy if I can't make payment in time?
+      - How will I get the bonus from my life insurance policy?
+      - Will the insured receive medical expenses incase of an accident?
+      - What will happen if I don't pay the premium at due date?
+      - What will happen to my policy if I can't make payment in time?
+      - Do I have to pay extra charges for late premium payments?
+      - Is there any fine or not for late payment?
+      - What happens if i miss a premium payment?
+      - What are the consequences of missing a premium payment?
+      - Can I decrease my premium amount?
+      - I am unable to pay my current premium amount. Can I decrease it?
+      - Why medical examination is necessary for life insurance?
+      - What are the consequences of missing a premium payment?
+      - How can I decrease my premium amount?
+      - I want to change the amount of premium to be paid.
+      - Is medical examination necessary for life insurance?
+      - Do I need to have a medical examination to get insurance?
+      - What is a tax certificate?
+      - Why is tax certificate necessary?
+      - Do I need tax certificate?
+      - Why do I need tax certificate?
+      - Will the insurance company pay the medical bills during revival of lapsed policy?
+      - How much money will be returned to me if I terminate my premium?
+      - How can I get my surrender value after terminating my policy?
+      - Do I need to do medical test again for the revival of lapsed policy?
+      - Is medical test necessary to resume my lapsed policy?
+      - Who will bear the medical cost to resume lapsed policy?
+      - Am I charged for the medical cost if I want to resume my lapsed policy?
+      - Will the insurance company pay the medical bills during revival of lapsed policy?
+      - What is my surrender value?
+      - How do you determine the surrender value of a life insurance policy?
+      - How much money will be returned to me if I terminate my premium?
+      - How much repay will I get after closing my plan early?
+      - How can I get my surrender value after terminating my policy?
+      - What is the pan number of your company?
+      - How many branches in total do you have?
+      - How many branches are there of your company?
+      - number of branches of Himalayan Life
+      - total branches of himalayan life insurance company
+      - what are riders in a life insurance policy?
+      - Can I put multiple nominees?
+      - is it possible to keep multiple nominees?
+      - Can I put more than one nominee on my life insurance policy?
+
+      - What are my duties after I purchase insurance policy?
+      - As a policyholder, what am I responsible for?
+      - What are the responsibilities of insurance policy holder?
+      - What factors should I consider while purchasing a policy?
+      - What should I keep in mind while buying life insurance?
+      - What do I need to be careful about while buying insurance?
+      - Do I need to provide citizenship card to purchase a policy?
+      - Is it necessary to have citizenship certificate to buy a life insurance policy?
+      - Do I need to provide the citizenship card to purchase the products?
+      - Can I get life insurance for my grandparents?
+      - Can I get life insurance for my brother or sister?
+      - Can anyone buy policy?
+      - Does the age matter while buying life insurance policy?
+      - Is it necessary to pay the premiums at exact times?
+      - Is citizen card compulsory to become an agent?
+      - What are the duties of insurance agents?
+      - What are life insurance agents responsible for?
+      - What works does an agent do?
+      - What is the work of life insurance agent?
+      - Can I purchase a policy if I do not have citizenship card?
+      - For how long do I have to pay premiums in whole life plans?
+      - What do you mean by whole life plans?
+      - What is whole life plans?
+      - Can I become an agent without any training?
+      - Is it compulsory to take training in order to become an agent?
+      - Can anyone purchase the policy?
+      - When will I receive my agent license?
+      - What happens if I stop paying premiums?
+      - Does an agent help to buy policy?
+      - How does the insurance agent help the policy holder?
+      - What do you mean by term plans?
+      - Why did my life insurance policy lapse?
+      - What are the reasons that my life insurance policy got lapsed?
+
+      - For how long will agent license be valid?
+      - What is the validity period of agent license?
+      - How can I get agent license?
+      - I want to apply for agent license.
+
+      - Can I transfer my life insurance policy to someone else?
+      - Is it possible to transfer a life insurance policy to another person?
+      - transfer my life insurance policy to my sister
+      - transfer policy from one person to another
+
+      - How much premium amount do I need to pay next time?
+      - Can you tell me my next premium amount?
+      - How to check next premium amount?
+      - How can I know my premium amount for coming year?
+
+      - How can I know the due date to pay for my premium?
+      - How can I check the premium payment date?
+      - Can you tell me the last date to pay my premium?
+      - deadline for premium payment
+      - what is the deadline to pay my premium amount for this year?
+      - What is the policy name of my policy?
+      - Can you tell me the policy name of my policy?
+      - I missed to pay 1 year premium. Now I want to pay my premium so how much interest should I pay now?
+      - How can I get details about the list of insurance policies I have taken?
+      - I am in foreign country. How can I pay my premium?
+
+      - How to view policy through mobile app?
+      - how can i see my policy details from mobile app?
+      - What are the tips and tricks for AGM?
+      - I want to know the ways to be the AGM.
+      - Why I do not receive commission in my agent code?
+      - I have not got any commission in my agent code.
+      - Why is there no commission in my agent code?
+      - I forget my license number, how can i get my license number?
+      - Can we renew agency code through online?
+      - I want to renew agency code through online process.
+      - Can we renew the license through online process?
+
+      - What happens if my health status changes after getting the policy?
+      - About term life insurance
+      - What is term life insurance?
+      - What are the things life insurance cover?
+      - What things are covered by life insurance?
+      - What is MIB?
+      - What is PWB?
+      - What is CI?
+      - How to apply for loan?
+      - what is surrender value?
+      - After how many premiums can I surrender?
+      - After how many premium payments will I be able to surrender?
+      - Why buy life insurance?
+      - How do I buy life insurance?
+      - What does life insurance cover?
+      - Does term life insurance policy have cash value?
+      - What is whole life insurance?
+      - What are policy riders?
+      - How soon does the coverage start?
+      - Do women pay less for life insurance?
+      - Do men pay more for life insurance compared to women?
+      - What is the difference between life insurance and life assurance?
+      - Do I need a personal life insurance policy if I have group coverage through work?
+      - Do I need life insurance if I am single and have no family depending on me?
+      - Can I change my insurance policy once I purchase it?
+      - what is underwriting process?
+      - what is bonus?
+      - What are the online services provided by the company?
+      - what requirements are needed to take a loan against my policy ?
+      - who can become an agent?
+      - can i purchase multiple insurance at a same time?
+      - Can anyone buy the policy?
+      - What is endowment life insurance?
+      - What do you mean by endowment plan?
+      - What is Money Back Insurance?
+      - What do you mean by money back plan?
+      - Do I need to pay money to get agent license?
+      - What is the fee for agent license?
+
+      - Is Union Life Insurance merged to Himalayan Life Insurance?
+      - Is Prime Life Insurance merged to Himalayan Life Insurance?
+      - Is Gurans Life Insurance merged to Himalayan Life Insurance?
+      - How is Himalayan Life Insurance formed?
+      - I had my policy in Gurans Life Insurance. What happens to my policy now?
+      - Is Union Life changed to Himalayan Life?
+      - I have my insurance at Union Life. What is my policy number now?
+      - I have entered correct policy number while logging in but it says wrong.What should I do?
+      - Why does it says wrong policy number while I am entering the correct policy number?
+      - It says that agent code is wrong while trying to login. What can I do now?
+      - I want to know about the merger process of Himalayan Life Insurance.
+      - Why am I not able to login to Himalayan Life app?
+      - I am facing problems in logging in to your app.
+      - What happens to my insurance at Prime Life?
+
+      - Tell me about the process to renew policy
+      - I want to know the process to renew my policy.
+      - Give info about renew process
+      - I want to know about renew process
+      - renew
+      - How can I renew my old policy?
+      - I want to renew my license.
+      - How can I activate my account?
+      - I have to renew my policy
+      - Process for license renew 
+      - How to renew my agent license?
+      - Process for renewal of agent license
+      - how can i renew my old policy?
+      - Can I renew my life insurance policy after it expires?
+      - Can you tell me the process to renew my license?
+
+      - Can non-nepali citizen purchase life insurance policy?
+      - Can I get life insurance if I am not a nepali citizen?
+      - Do you provide insurance for non-nepali people as well?
+      - insurance plan for people from other countries
+      - Can I have more than one policy?
+      - Can I take multiple policies at the same time?
+
+      - What is micro insurance?
+      - about micro insurance
+      - What do you mean by micro insurance?
+      - Who is eligible for term life insurance?
+      - What are the benefits of term life insurance?
+      - What are the maturity benefit of term policy?
+      - I want to know about the maturity benefits of term policy.
+      - Tell me about the maturity benefits of term life insurance.
+      - What are the documents for Term Life Insurance?
+      - What documents are required to get Term Life plan?
+      - What is Bishesh Myadi Jeevan Beema?
+      - About Bishesh Myadi Jeevan Bima
+      - Is there any commission in term insurance?
+      - Do you provide commission in term insurance?
+      - Is there any commission in conventional plan?
+      - Do you provide some commission in conventional plan?
+      - Where to send Top Sheet?
+      - Who is the contact person for Term Life Insurance?
+      - Who is the contact person for Micro Insurance Department?
+
+      - I am an agent, but I haven't received the commission from the company yet. When will I get it?
+      - I haven't received my agent commission of last three months. Why is it not coming?
+      - Why am I not getting my agent commissions?
+      - I have not received my agent commission.
+      - I am trying to login to the mobile app, but it is showing that I am unable to login. How do I resolve this?
+      - I am unable to login to mobile app.
+      - Why am I not able to login to mobile app?
+      - Please provide the customer support phone number.
+      - Can you provide phone number of customer support or help desk?
+      - I need to talk to customer support representative.
+      - How can I contact to customer support department?
+      - I have entered all the information, but I am unable to pay my premium via Khalti. Please advise.
+      - Why am I not able to pay through Khalti or esewa?
+      - I am facing issues while paying through Khalti.
+      - I am having problem while trying to pay through esewa.
+      - How can I get a receipt for my online premium payment?
+      - How can I get my payment receipt after paying premium from khalti or esewa?
+      - How to download payment receipt after paying premium?
+      - This phone is very busy, do you have another contact number?
+      - The phone number of head office is always busy. Can you provide alternative number?
+      - Head office phone is not received, how can I contact?
+      - How we can get tax rebate, if we have life insurance policy?
+      - I am unable to pay premium through online.
+      - When will the policy be lapsed?
+      - After how much time will my policy get lapsed?
+      - When will my policy get lapsed?
+
+      - Can I add rider in my policy?
+      - What is total permanent disability?
+      - What do you mean by total permanent disability?
+      - What is permanent disability benefit?
+      - What is monthly income benefit?
+      - I want to know about monthly income benefit.
+      - What do you mean by Hospitalization Cash Benefit?
+      - I want to know about Hospitalization Cash Benefit.
+      - Do you have any toll free number?
+
+
+
+      
+      

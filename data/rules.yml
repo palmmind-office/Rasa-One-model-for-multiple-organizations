@@ -1,0 +1,238 @@
+version: "3.1"
+
+rules:
+  - rule: say about products
+    steps:
+      - intent: product_info
+      - action: action_product_info
+      - action: action_reset_product_info
+
+  - rule: say about cancel subscription
+    steps:
+      - intent: cancel_subscription
+      - action: action_cancel_subscription
+
+  - rule: say about agency
+    steps:
+      - intent: agency
+      - action: action_agency
+      - action: action_reset_agency
+
+  - rule: say about become agent
+    steps:
+      - intent: become_agent
+      - action: action_become_agent
+
+  - rule: say about offers
+    steps:
+      - intent: offers
+      - action: action_offers
+
+  - rule: say about ipo
+    steps:
+      - intent: ipo
+      - action: action_ipo
+
+  - rule: say about documents required
+    steps:
+      - intent: documents_required
+      - action: action_documents_required
+      - action: action_reset_documents_required
+
+  - rule: say about loan
+    steps:
+      - intent: loan
+      - action: action_loan
+      - action: action_reset_loan
+
+  - rule: say about benefit
+    steps:
+      - intent: benefits
+      - action: action_benefits
+      - action: action_reset_benefits
+
+  - rule: say about careers
+    steps:
+      - intent: careers
+      - action: action_careers
+
+  - rule: say about contact
+    steps:
+      - intent: contact
+      - action: action_contact
+      - action: action_reset_contact
+
+  - rule: say about update profile
+    steps:
+      - intent: update_profile
+      - action: action_update_profile
+      - action: action_reset_update_profile
+
+  - rule: say about view details
+    steps:
+      - intent: view_details
+      - action: action_view_details
+      - action: action_reset_view_details
+
+  - rule: say about file a claim
+    steps:
+      - intent: file_a_claim
+      - action: action_file_a_claim
+      - action: action_reset_file_a_claim
+
+  - rule: say about claim
+    steps:
+      - intent: about_claim
+      - action: action_about_claim
+
+  - rule: say about purchase
+    steps:
+      - intent: purchase
+      - action: action_purchase
+      - action: action_reset_purchase
+
+  - rule: say about payment
+    steps:
+      - intent: payment
+      - action: action_payment
+      - action: action_reset_payment
+
+  - rule: say about company profile
+    steps:
+      - intent: company_profile
+      - action: action_company_profile
+      - action: action_reset_company_profile
+
+  - rule: say about downloads
+    steps:
+      - intent: downloads
+      - action: action_downloads
+      - action: action_reset_downloads
+
+  - rule: say about premium calculation
+    steps:
+      - intent: premium_calculation
+      - action: action_premium_calculation
+
+  - rule: say about get code
+    steps:
+      - intent: get_code
+      - action: action_get_code
+
+  - rule: say about policy
+    steps:
+      - intent: policy
+      - action: action_policy
+
+  - rule: say about login
+    steps:
+      - intent: login
+      - action: action_login
+      - action: action_reset_login
+
+  - rule: say about office time
+    steps:
+      - intent: office_time
+      - action: action_office_time
+
+  - rule: say about menu
+    steps:
+      - intent: menu
+      - action: action_set_dashboard_data
+      - action: action_menu
+      - action: action_reset_menu
+
+  - rule: say about live agent
+    steps:
+      - intent: live_agent
+      - action: action_live_agent
+
+  #two stage fallback:
+  - rule: Implementation of the Two-Stage-Fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_two_stage_fallback
+      - active_loop: action_two_stage_fallback
+
+  ## testing form ,so adding
+  - rule: say about callback
+    steps:
+      - intent: callback
+      - action: action_set_dashboard_data
+      - action: action_callback
+
+  - rule: Activate a feedback complaint form
+    steps:
+      - intent: feedback
+      - action: action_set_dashboard_data
+      - action: action_feedback
+      - action: action_reset_feedback
+
+  - rule: Submit form
+    condition:
+      # Condition that form is active.
+      - active_loop: feedback_complaints_form
+    steps:
+      # Form is deactivated
+      - action: feedback_complaints_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: action_feedback_submit
+      - action: action_reset_feedback_complaints_slot
+
+  - rule: Activate agent login form
+    steps:
+      # - intent: view_details
+      - action: agent_login_form
+      - active_loop: agent_login_form
+
+  - rule: Submit form
+    condition:
+      # Condition that form is active.
+      - active_loop: agent_login_form
+    steps:
+      # Form is deactivated
+      - action: agent_login_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: action_agent_form_submit
+      - action: action_reset_agent_login_slot
+
+  - rule: Activate policy form
+    steps:
+      - action: policy_form
+      - active_loop: policy_form
+
+  - rule: Submit form
+    condition:
+      # Condition that form is active.
+      - active_loop: policy_form
+    steps:
+      # Form is deactivated
+      - action: policy_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: action_policy_form_submit
+      - action: action_reset_policy_slot
+
+  - rule: Activate agency business form
+    steps:
+      # - intent: view_details
+      - action: agency_business_form
+      - active_loop: agency_business_form
+
+  - rule: Submit form
+    condition:
+      # Condition that form is active.
+      - active_loop: agency_business_form
+    steps:
+      # Form is deactivated
+      - action: agency_business_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: action_agency_business_form_submit
+      - action: action_reset_agency_business_slot

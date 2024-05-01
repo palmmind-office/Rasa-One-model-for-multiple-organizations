@@ -1,0 +1,29 @@
+version: "3.1"
+
+nlu:
+  - intent: live_agent
+    examples: |
+      - live agent
+      - I want to talk to live agent.
+      - Redirect me to live agent.
+      - Human support
+      - How can I get human support?
+      - Take me to human support.
+      - I need human support.
+      - Can I talk to live agent?
+      - How can I talk to live agent?
+      - Can you redirect me to human support?
+      - Can I talk to anyone live?
+      - How do I reach human support?
+      - I prefer talking to a human instead of a bot.
+      - I need assistance from a real person.
+      - Is there someone I can speak to directly?
+      - Can I talk to human?
+      - Is anyone available to meet?
+      - live chat
+      - can i have a conversation with a human?
+      - can someone assist me?
+      - Could you please connect me to the assistant?
+      - How may I talk with your information desk?
+      - Can I talk to any person in service at this time?
+

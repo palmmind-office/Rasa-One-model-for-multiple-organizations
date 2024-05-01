@@ -1,0 +1,37 @@
+{
+    "policy":
+    {
+        "type": "quick_reply",
+        "title": "Which service are you interested in? Please choose from the following options.",
+        "data": [
+        {
+            "title": "Due Policies",
+            "payload": "/view_details{\"category\":\"premium due\",\"user_type\":\"policy holder\"}"
+        },
+        {
+            "title": "Update Profile",
+            "payload": "/update_profile{\"user_type\":\"policy holder\"}"
+        },
+        {
+            "title": "Lapsed Policy",
+            "payload": "/view_details{\"category\":\"lapsed policy\"}"
+        },
+        {
+            "title": "Transaction History",
+            "payload": "/view_details{\"category\":\"transaction history\"}"
+        },
+        {
+            "title": "View Policy Details",
+            "payload": "/view_details{\"category\":\"policy\"}"
+        },
+        {
+            "title": "Premium Calculation",
+            "payload": "/premium_calculation"
+        },
+        {
+            "title": "Loan",
+            "payload": "/loan{\"user_type\":\"policy holder\"}"
+        }
+        ]
+    }
+    }

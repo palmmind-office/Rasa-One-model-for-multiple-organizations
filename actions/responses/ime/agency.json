@@ -1,0 +1,73 @@
+{
+    "commission_rate":
+        {
+            "type": "quick_reply",
+            "title": "The commission rates for agents are determined by the Nepal Insurance Authority.",
+            "data": [
+            ]
+        },
+    "agent_training":
+        {
+            "type": "quick_reply",
+            "title": "For information related to agent trainings, please click the button below.",
+            "data": [
+            {
+                "title": "Agent Trainings",
+                "link": "https://imelifeinsurance.com/wp-content/uploads/2023/12/agent-training.pdf"
+            }
+            ]
+        },
+    "agent_qualifications": {
+            "title": "To become an agent, you require the following documents and formal training provided by IME Life.",
+            "type": "ListItem",
+            "subtitle": "Requirements to be an Agent",
+            "multi": false,
+            "data": [
+                {
+                    "subtitle": "● Minimum Age - 16 years"
+                },
+                {
+                    "subtitle": "● Copy of Citizenship"
+                },
+                {
+                    "subtitle": "● Copy of at least S.L.C. pass Mark Sheet"
+                },
+                {
+                    "subtitle": "● Copy of at least S.L.C. pass Character Certificate"
+                },
+                {
+                    "subtitle": "● Formal Training for a period of 50 hours provided by IME Life"
+                },
+                {
+                    "subtitle": "● Passport size photo"
+                },
+                {
+                    "subtitle": "● NPR. 500/-"
+                }
+            ]
+        },
+
+        "agency_general":
+        {
+            "type": "quick_reply",
+            "title": "What agency services are you interested in?",
+            "data": [
+            {
+                "title": "Become Agent",
+                "payload": "/become_agent"
+            },
+            {
+                "title": "Business Details",
+                "payload": "/view_details{\"category\":\"business\"}"
+            },
+            {
+                "title": "Issued Policies",
+                "payload": "/view_details{\"category\":\"issued policies\",\"user_type\":\"agent\"}"
+            },
+            {
+                "title": "Update Profile",
+                "payload": "/update_profile{\"user_type\":\"agent\"}"
+            }
+            ]
+        }
+}

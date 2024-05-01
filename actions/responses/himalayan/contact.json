@@ -1,0 +1,168 @@
+{
+    "main_office": {
+        "type": "contact",
+        "title": "Dear customer, following is the contact details for our head office.",
+        "backIcon": {
+            "title": "Back",
+            "payload": "menu"
+        },
+        "data": {
+            "Name": "Head Office",
+            "subtitle": "Manakamana Marga, Kathmandu",
+            "info": [
+                {
+                    "title": "Email",
+                    "key": "Email",
+                    "value": "info@himalayanlife.com.np"
+                },
+                {
+                    "title": "Phone",
+                    "key": "Phone",
+                    "value": "+977-1-5970057"
+                }
+            ],
+            "facebook": [
+                {
+                    "title": "Facebook",
+                    "img": "images/banner/facebook.png",
+                    "link": "https://www.facebook.com/HimalayanInsurance"
+                },
+                {
+                    "title": "Twitter",
+                    "img": "images/banner/twitter.png",
+                    "link": "https://twitter.com/life_himalayan"
+                },
+                {
+                    "title": "LinkedIn",
+                    "img": "images/banner/linkedin.png",
+                    "link": "https://www.linkedin.com/in/himalayan-life-insurance-a18899265/"
+                },
+                {
+                    "title": "Youtube",
+                    "img": "images/banner/youtube.png",
+                    "link": "https://www.youtube.com/channel/"
+                }
+            ]
+        }
+    },
+
+    "main_office_fb":
+    {
+        "type": "quick_reply",
+        "title": "Head Office: <br> Location: Manakamana Marga, Kathmandu <br> Email: info@himalayanlife.com.np <br> Phone: +977-1-5970057",
+        "data": [
+        ]
+    },
+
+    "branch_office":
+    {
+        "type": "quick_reply",
+        "title": "Please click the button below to view our branch offices.",
+        "data": [
+        {
+            "title": "Branch",
+            "link": "https://himalayanlife.com.np/Branches.aspx"
+        }
+        ]
+    },
+
+    "branch_office_fb":
+    {
+        "type": "quick_reply",
+        "title": "Please click the button below to view our branch offices.",
+        "data": [
+        {
+            "title": "Branch",
+            "link": "https://himalayanlife.com.np/Branches.aspx"
+        }
+        ]
+    },
+    "facebook":
+        {
+            "type": "quick_reply",
+            "title": "Please click the button below to visit the official Facebook page of Himalayan Life and stay connected with us.",
+            "data": [
+            {
+                "title": "Facebook",
+                "link": "https://www.facebook.com/HimalayanLifeNepal"
+            }
+            ]
+        },
+
+        "twitter":
+        {
+            "type": "quick_reply",
+            "title": "Please click the button below to visit the official Twitter page of Himalayan Life and stay connected with us.",
+            "data": [
+            {
+                "title": "Twitter",
+                "link": "https://twitter.com/life_himalayan"
+            }
+            ]
+        },
+
+        "linkedin":
+        {
+            "type": "quick_reply",
+            "title": "Please click the button below to visit the official LinkedIn page of Himalayan Life and stay connected with us.",
+            "data": [
+            {
+                "title": "LinkedIn",
+                "link": "https://www.linkedin.com/in/himalayan-life-insurance-a18899265/"
+            }
+            ]
+        },
+
+        "agent_contact":
+        {
+            "type": "quick_reply",
+            "title": "Please click the buttons below to get the contact details of our agents.",
+            "data": [
+            {
+                "title": "Corporate Agents",
+                "link": "https://himalayanlife.com.np/Corporate-Agent.aspx"
+            },
+            {
+                "title": "Insurance Agents",
+                "link": "https://himalayanlife.com.np/Insurance-Agent.aspx"
+            }
+            ]
+        },
+
+        "social media":
+        {
+            "type": "quick_reply",
+            "title": "We are available on following social platforms.",
+            "data": [
+            {
+                "title": "Facebook",
+                "link": "https://www.facebook.com/HimalayanLifeNepal"
+            },
+            {
+                "title": "Twitter",
+                "link": "https://twitter.com/life_himalayan"
+            },
+            {
+                "title": "LinkedIn",
+                "link": "https://www.linkedin.com/in/himalayan-life-insurance-a18899265/"
+            }
+            ]
+        },
+
+        "else_part_contact":
+        {
+            "type": "quick_reply",
+            "title": "Please click the buttons below to get the contact details and locations of head office and branch offices.",
+            "data": [
+            {
+                "title": "Head Office",
+                "payload": "/contact{\"office_type\":\"main office\"}"
+            },
+            {
+                "title": "Branch Office",
+                "link": "https://himalayanlife.com.np/Branches.aspx"
+            }
+            ]
+        }
+
+}

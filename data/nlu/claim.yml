@@ -1,0 +1,46 @@
+version: "3.1"
+
+nlu:
+  - intent: file_a_claim
+    examples: |
+      - Where can I make a claim?
+      - Tell me where to file a claim.
+      - I need to make a claim. Where should I contact?
+      - How can I register the claim?
+      - How to make an insurance claim?
+      - Where should I submit the claim?
+      - What is the process for claim?
+      - I want to file a claim.
+      - process for claim
+      - My grandma died two weeks ago, how can i make a claim?
+      - What is the process to apply for [death](claim_type) claim?
+      - What is the procedure to apply for [non death](claim_type) claim?
+      - What steps should I follow to apply for a [death](claim_type) claim?
+      - Can you guide me through the process of filing a claim for a [death](claim_type) related incident?
+      - How do I go about initiating a claim for a [non death](claim_type) circumstance?
+      - Could you outline the procedure for applying for a claim that doesn't involve a death?
+      - Can you provide instructions on how to submit a claim for a [non-death]{"entity":"claim_type", "value":"non death"} related issue?
+      - How can I register the [non-death]{"entity":"claim_type", "value":"non death"} claim?
+      - Tell me the process to apply for life insurance claim.
+      - Where can I get the claim [form](document)?
+      - Please provide me the [form](document) to file a claim.
+      - Can I fill up the online [form](document) to file a claim?
+      - I want to claim.
+      - What is the process for claim?
+      - Please tell me the process for [death](claim_type) claim.
+      - How can I register [non-death]{"entity":"claim_type", "value":"non death"} claim?
+      
+
+  - intent: about_claim
+    examples: |
+      - claim
+      - I want to know about claim
+      - Give info about claim
+      - Detailed information about claim
+      - Claim provisions
+      - about claim
+
+  - lookup: claim_type
+    examples: |
+      - non death
+      - death

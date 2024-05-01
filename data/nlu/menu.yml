@@ -1,0 +1,17 @@
+version: "3.1"
+
+nlu:
+
+- intent: menu
+  examples: |
+    - take me to the main menu
+    - what is the main menu
+    - menu
+    - home
+    - main menu
+    - let's get started
+    - how to get started
+    - how can i go the menu
+    - take me to the home page
+    - home page
+    - get started

@@ -1,0 +1,469 @@
+version: "3.1"
+
+intents:
+  - agency
+  - become_agent
+  - benefits
+  - callback
+  - cancel_subscription
+  - file_a_claim
+  - about_claim
+  - careers
+  - company_profile
+  - contact
+  - documents_required
+  - downloads
+  - feedback
+  - get_code
+  - greet
+  - goodbye
+  - thankyou
+  - office_time
+  - offers
+  - out_of_scope
+  - live_agent
+  - loan
+  - login
+  - menu
+  - payment
+  - policy
+  - premium_calculation
+  - product_info
+  - purchase
+  - update_profile
+  - view_details
+  - faq
+  - ipo
+
+entities:
+  - user_type
+  - company_info
+  - document
+  - feedback_type
+  - insurance_info
+  - action
+  - product_type
+  - category
+  - payment_option
+  - social_media
+  - bank_name
+  - wallet_name
+  - claim_type
+  - office_type
+  - branch_type
+
+slots:
+  user_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: user_type
+
+  branch_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: branch_type
+
+  company_info:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: company_info
+
+  social_media:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: social_media
+        not_intent: feedback
+
+  bank_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: bank_name
+
+  wallet_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: wallet_name
+
+  feedback_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: feedback_type
+
+  office_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: office_type
+
+  insurance_info:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: insurance_info
+        not_intent: faq
+
+  action:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: action
+        not_intent: faq
+
+  product_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: product_type
+
+  category:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: category
+
+  payment_option:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: payment_option
+
+  claim_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: claim_type
+        not_intent: faq
+
+  document:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: document
+        not_intent: downloads
+
+  policyNo:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: policy_form
+            requested_slot: policyNo
+
+  lastName:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: policy_form
+            requested_slot: lastName
+
+  birthYear:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: policy_form
+            requested_slot: birthYear
+
+  agentId:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: agency_business_form
+            requested_slot: agentId
+  from_date:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: agency_business_form
+            requested_slot: from_date
+
+  to_date:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: agency_business_form
+            requested_slot: to_date
+
+  agent_id:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: agent_login_form
+            requested_slot: agent_id
+
+  last_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: agent_login_form
+            requested_slot: last_name
+
+  dob:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: agent_login_form
+            requested_slot: dob
+
+  feedback_complaints_full_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: feedback_complaints_form
+            requested_slot: feedback_complaints_full_name
+
+  feedback_complaints_phone_number:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: feedback_complaints_form
+            requested_slot: feedback_complaints_phone_number
+
+  feedback_complaints_email:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: feedback_complaints_form
+            requested_slot: feedback_complaints_email
+
+  feedback_complaints_suggestions:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: feedback_complaints_form
+            requested_slot: feedback_complaints_suggestions
+
+  feedback_complaints_problems:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: feedback_complaints_form
+            requested_slot: feedback_complaints_problems
+
+  ####form testing
+  lead_interest:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: feedback_complaints_form
+            requested_slot: lead_interest
+
+  form_asked_counter:
+    type: float
+    mappings:
+      - type: custom
+
+  dynamic_slot:
+    type: text
+    mappings: 
+      - type: custom
+
+forms:
+  feedback_complaints_form:
+    required_slots:
+      - feedback_complaints_full_name
+      - feedback_complaints_phone_number
+      - feedback_complaints_email
+
+  agent_login_form:
+    required_slots:
+      - agent_id
+      - last_name
+      - dob
+
+  policy_form:
+    required_slots:
+      - policyNo
+      - lastName
+      - birthYear
+
+  agency_business_form:
+    required_slots:
+      - agentId
+      - from_date
+      - to_date
+      # - business_type
+
+responses:
+  utter_thankyou:
+    - text: "Thank you for giving us the chance to serve you."
+
+  utter_out_of_scope:
+    - text: "I apologize for any confusion. If you would like to speak with one of our live agents during our office hours (10:00 am to 5:00 pm), please click the button below."
+      buttons:
+        - title: "Talk to Live Agent"
+          payload: "human"
+
+  utter_greet/start:
+    - text: "Hello there! It's great to meet you. How can I help you today?"
+    - text: "Hello and welcome! I'm excited to be able to assist you. How may I help you today?"
+
+  utter_greet/good_morning:
+    - text: "Greetings! What can I do for you today?"
+    - text: "Hello!! How may i help you?"
+
+  utter_greet/help_bot:
+    - text: "I will try my best to answer your queries related to Life Insurance."
+    - text: "I am always available to help you with your queries regarding Life Insurance."
+
+  utter_greet/iam_bot:
+    - text: "Hi! I am your Digital Assistant. How can I assist you?"
+    - text: "Hi! I am your virtual assistant. What can I do for you?"
+
+  utter_greet/how_are_you:
+    - text: "Hello! How can I assist you today?"
+
+  utter_greet/feeling_good:
+    - text: "I'm glad to hear that! Is there anything else I can do to assist you?"
+    - text: "I'm glad you're doing well. Do you need help with anything else?"
+    - text: "That's good to hear! Is there anything else I can assist you with?"
+
+  utter_greet/feeling_sad:
+    - text: "I'm sorry to hear that. Is there anything I can do to help you?"
+
+  utter_goodbye:
+    - text: "Thank you for giving us the chance to serve you."
+
+actions:
+  - action_product_info
+  - action_cancel_subscription
+  - action_documents_required
+  - action_live_agent
+  - action_two_stage_fallback
+  - action_callback
+  - action_feedback
+  - action_agency
+  - action_become_agent
+  - action_loan
+  - action_benefits
+  - action_careers
+  - action_file_a_claim
+  - action_about_claim
+  - action_contact
+  - action_update_profile
+  - action_view_details
+  - action_purchase
+  - action_payment
+  - action_company_profile
+  - action_downloads
+  - action_premium_calculation
+  - action_get_code
+  - action_login
+  - action_menu
+  - action_office_time
+  - action_faq
+  - action_offers
+  - action_ipo
+
+  - action_policy
+
+  # for feedback complaint and lead form
+  - action_feedback_submit
+  - action_set_feedback_type_slot
+  - action_reset_feedback_complaints_slot
+  - validate_feedback_complaints_form
+  - action_feedback_complaints
+  - action_agent_login_form
+  - validate_agent_login_form
+  - action_reset_agent_login_slot
+  - action_agent_form_submit
+  - action_reset_agency_business_slot
+  - action_agency_business_form_submit
+  - validate_agency_business_form
+  - action_agency_business_form
+  - action_policy_form
+  - validate_policy_form
+  - action_policy_form_submit
+  - action_reset_policy_slot
+
+  - action_ask_policyNo
+  - action_ask_lastName
+  - action_ask_birthYear
+  - action_ask_agentId
+  - action_ask_from_date
+  - action_ask_to_date
+  - action_ask_agent_id
+  - action_ask_last_name
+  - action_ask_dob
+  - action_ask_feedback_complaints_full_name
+  - action_ask_feedback_complaints_phone_number
+  - action_ask_feedback_complaints_email
+  - action_ask_feedback_complaints_problems
+  - action_ask_feedback_complaints_suggestions
+  - action_ask_lead_interest
+  - action_set_dashboard_data
+  # - action_thankyou_for_feedback
+  # - action_thankyou_for_complaint
+  # - action_thankyou_for_info
+  - action_thankyou_for_interest
+  # - action_session_start
+  - action_reset_view_details
+  - action_reset_update_profile
+  - action_reset_purchase
+  - action_reset_product_info
+  - action_reset_payment
+  - action_reset_menu
+  - action_reset_login
+  - action_reset_loan
+  - action_reset_feedback
+  - action_reset_downloads
+  - action_reset_documents_required
+  - action_reset_contact
+  - action_reset_company_profile
+  - action_reset_file_a_claim
+  - action_reset_benefits
+  - action_reset_agency
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

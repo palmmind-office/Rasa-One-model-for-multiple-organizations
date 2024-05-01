@@ -1,0 +1,159 @@
+{
+    "feedback": {
+        "type": "form",
+        "subtype": "report_issue",
+        "formType": "feedback",
+        "Back": {
+            "title": "Feedback and Complain",
+            "payload": "FeedBack"
+        },
+        "action": "rest/v1/feedback",
+        "title": "Feedback Form",
+        "data": [
+            {
+                "label": "Full Name",
+                "placeholder": "Enter full name",
+                "id": "fullName",
+                "type": "text",
+                "validation": {
+                    "required": true,
+                    "fullname": true
+                }
+            },
+            {
+                "label": "Email Address",
+                "placeholder": "Enter email address",
+                "id": "emailAddress",
+                "type": "email",
+                "validation": {
+                    "required": true,
+                    "email": true
+                }
+            },
+            {
+                "label": "Mobile Number",
+                "placeholder": "Enter mobile number",
+                "id": "mobileNumber",
+                "type": "number",
+                "validation": {
+                    "required": true,
+                    "mobile": true
+                }
+            },
+            {
+                "label": "Suggestion",
+                "placeholder": "Enter your suggestion here ...",
+                "id": "suggestion",
+                "type": "textarea",
+                "validation": {
+                    "required": true,
+                    "suggestion": true
+                }
+            }
+        ],
+        "buttons": {
+            "data": [
+                {
+                    "text": "Cancel",
+                    "type": "cancel"
+                },
+                {
+                    "text": "Submit",
+                    "type": "submit"
+                }
+            ]
+        }
+    },
+    "complain": {
+        "type": "form",
+        "subtype": "report_issue",
+        "formType": "complain",
+        "Back": {
+            "title": "Feedback and Complain",
+            "payload": "Complain"
+        },
+        "action": "rest/v1/complaint/",
+        "title": "Complaint Form",
+        "data": [
+            {
+                "label": "Full Name",
+                "placeholder": "Enter full name",
+                "id": "fullName",
+                "type": "text",
+                "validation": {
+                    "required": true,
+                    "fullname": true
+                }
+            },
+            {
+                "label": "Email Address",
+                "placeholder": "Enter email address",
+                "id": "emailAddress",
+                "type": "email",
+                "validation": {
+                    "required": true,
+                    "email": true
+                }
+            },
+            {
+                "label": "Mobile Number",
+                "placeholder": "Enter mobile number",
+                "id": "mobileNumber",
+                "type": "number",
+                "validation": {
+                    "required": true,
+                    "mobile": true
+                }
+            },
+            {
+                "id": "category",
+                "label": "Category",
+                "type": "dropdown",
+                "placeholder": "Select your category",
+                "data": [
+                    {
+                        "for": "Select your category"
+                    },
+                    {
+                        "for": "Claim Related"
+                    },
+                    {
+                        "for": "Customer Service Related"
+                    },
+                    {
+                        "for": "Payment Related"
+                    },
+                    {
+                        "for": "Others"
+                    }
+                ],
+                "validation": {
+                    "required": true,
+                    "category": true
+                }
+            },
+            {
+                "label": "Problem",
+                "placeholder": "Enter your Problem here....",
+                "id": "problem",
+                "type": "textarea",
+                "validation": {
+                    "required": true,
+                    "problem": true
+                }
+            }
+        ],
+        "buttons": {
+            "data": [
+                {
+                    "text": "Cancel",
+                    "type": "cancel"
+                },
+                {
+                    "text": "Submit",
+                    "type": "submit"
+                }
+            ]
+        }
+    }
+}

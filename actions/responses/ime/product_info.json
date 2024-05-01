@@ -1,0 +1,1384 @@
+{
+    "bonus_rates":
+    {
+        "type": "quick_reply",
+        "title": "Please click the button below to know about our bonus rates.",
+        "data": [
+        {
+            "title": "Bonus Rates",
+            "link": "https://imelifeinsurance.com/bonus-rate/"
+        }
+        ]
+    },
+"child_plan_rest":
+{
+    "type": "detailDrawer",
+    "title": "We offer the following child plans.",
+    "data": [
+        {
+            "title": "IME Child Annual Money Back Plan (IME Bal Kiran)",
+            "subtitle": "IME Child Annual Money Back Plan is a combination of insurance and investment plan to help you secure your child's future. This is an annual money back policy with profit plan.",
+            "img": "images/products/child3.png",
+            "interest": "IME Child Annual Money Back Plan (IME Bal Kiran)",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn3",
+                        "Back_icon": {
+                            "title": "I am interested",
+                            "payload": "/purchase"
+                        },
+                        "Details": {
+                            "title": "IME Child Annual Money Back Plan (IME Bal Kiran)",
+                            "paragraph": "",
+                            "subtitle1": [
+                                {
+                                    "title": "Key Features",
+                                    "listitem": [
+                                        {
+                                            "text": "Minimum Entry Age (Assured) : 0 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Entry Age (Proposer) : 18 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Entry Age (Assured) : 15 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Entry Age (Proposer) : 65 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Policy Term : 10 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Policy Term : 25 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Maturity Age : 16 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Maturity Age (Assured) : 25 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Maturity Age (Proposer) : 70 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Sum Assured : Rs. 1,00,000"
+                                        },
+                                        {
+                                            "text": "Premium Payment Frequency : Yearly/Half Yearly/Quarterly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "Survival Benefit"
+                                        },
+                                        {
+                                            "text": "Death Benefit"
+                                        },
+                                        {
+                                            "text": "Loan/Surrender Facility : Available"
+                                        },
+                                        {
+                                            "text": "Tax Benefit : Available"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits(Riders)",
+                                    "listitem": [
+                                        {
+                                            "text": "1. Lump-Sum Benefit"
+                                        },
+                                        {
+                                            "text": "2. Premium Waiver Benefit"
+                                        },
+                                        {
+                                            "text": "3. Educational Income Benefit"
+                                        },
+                                        {
+                                            "text": "4. Funeral Expense Rider"
+                                        },
+                                        {
+                                            "text": "5. Accidental Death Benefit Rider"
+                                        },
+                                        {
+                                            "text": "6. Critical Illness Rider"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "First Policy Issue Date:2022-04-05"
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "I want to purchase",
+                                        "payload": "/purchase"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "IME Child Endowment Plan (IME Bal Ujjwal)",
+            "subtitle": "This policy allows to make provision for Children's Education or Marriage. Under this policy Sum Assured along with bonus is payable only at the end of the selected term.",
+            "img": "images/products/child1.png",
+            "interest": "IME Child Endowment Plan (IME Bal Ujjwal)",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn3",
+                        "Back_icon": {
+                            "title": "I am interested",
+                            "payload": "/purchase"
+                        },
+                        "Details": {
+                            "title": "IME Child Endowment Plan (IME Bal Ujjwal)",
+                            "paragraph": "This policy allows to make provision for Children's Education or Marriage. Under this policy Sum Assured along with bonus is payable only at the end of the selected term.",
+                            "subtitle1": [
+                                {
+                                    "title": "Key Features",
+                                    "listitem": [
+                                        {
+                                            "text": "Minimum Entry Age (Assured) : 0 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Entry Age (Proposer) : 17 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Entry Age (Assured) : 15 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Entry Age (Proposer) : 65 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Policy Term : 10 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Policy Term : 30 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Maturity Age : 16 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Maturity Age (Assured) : 30 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Maturity Age (Proposer) : 70 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Sum Assured : Rs. 50 Thousand"
+                                        },
+                                        {
+                                            "text": "Premium Payment Frequency : Yearly/Half Yearly/Quarterly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "At Maturity: Sum assured plus bonus"
+                                        },
+                                        {
+                                            "text": "Loan facility."
+                                        },
+                                        {
+                                            "text": "Tax benefits."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits(Riders)",
+                                    "listitem": [
+                                        {
+                                            "text": "Premium Waiver Benefit"
+                                        },
+                                        {
+                                            "text": "Monthly Income Benefit"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "First Policy Issue Date:2017-10-04"
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "I want to purchase",
+                                        "payload": "/purchase"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "IME Child Money Back Plan (IME Bal Umanga)",
+            "subtitle": "This policy allows to make provision for Children's Education or Marriage. Under this policy, a Survival to Maturity benefit is paid in latest 5 installments starts from 4th Anniversary prior to Date of Maturity.",
+            "img": "images/products/child2.png",
+            "interest": "IME Child Money Back Plan (IME Bal Umanga)",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn3",
+                        "Back_icon": {
+                            "title": "I am interested",
+                            "payload": "/purchase"
+                        },
+                        "Details": {
+                            "title": "IME Child Money Back Plan (IME Bal Umanga)",
+                            "paragraph": "This policy allows to make provision for Children's Education or Marriage. Under this policy, a Survival to Maturity benefit is paid in latest 5 installments starts from 4th Anniversary prior to Date of Maturity.",
+                            "subtitle1": [
+                                {
+                                    "title": "Key Features",
+                                    "listitem": [
+                                        {
+                                            "text": "Minimum Entry Age (Assured) : 0 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Entry Age (Proposer) : 17 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Entry Age (Assured) : 15 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Entry Age (Proposer) : 65 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Policy Term : 10 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Policy Term : 30 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Maturity Age : 16 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Maturity Age (Assured) : 30 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Maturity Age (Proposer) : 70 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Sum Assured : Rs. 50 Thousand"
+                                        },
+                                        {
+                                            "text": "Premium Payment Frequency : Yearly/Half Yearly/Quarterly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "Money Back Benefit in installments at the last 5 years of maturity"
+                                        },
+                                        {
+                                            "text": "Remaining Sum assured plus bonus in case of the maturity"
+                                        },
+                                        {
+                                            "text": "Sum assured plus bonus will be paid to nominated person in case of death of the assured."
+                                        },
+                                        {
+                                            "text": "Loan Facility"
+                                        },
+                                        {
+                                            "text": "Tax benefit"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits(Riders)",
+                                    "listitem": [
+                                        {
+                                            "text": "Premium Waiver Benefit"
+                                        },
+                                        {
+                                            "text": "Monthly Income Benefit"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "First Policy Issue Date: 2017-11-16"
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "I want to purchase",
+                                        "payload": "/purchase"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+},
+"whole life_plan_rest":
+{
+    "type": "detailDrawer",
+    "title": "We offer the following whole life plans.",
+    "data": [
+        {
+            "title": "IME Endowment cum Whole Life Plan (IME Aajeevan Sawadhik Beema Yojana)",
+            "subtitle": "IME Aajeevan Sawadhik Beema Yojana is one of the best products. Basically this plan is a unique combination of Whole Life Plan and Endowment Assurance Plan. It provides financial protection against death throughout the lifetime or 99 years of age of the life assured even after maturity payment.",
+            "img": "images/products/wholeLife1.png",
+            "interest": "IME Endowment cum Whole Life Plan (IME Aajeevan Sawadhik Beema Yojana)",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn3",
+                        "Back_icon": {
+                            "title": "I am interested",
+                            "payload": "/purchase"
+                        },
+                        "Details": {
+                            "title": "IME Endowment cum Whole Life Plan (IME Aajeevan Sawadhik Beema Yojana)",
+                            "paragraph": "IME Aajeevan Sawadhik Beema Yojana is one of the best products. Basically this plan is a unique combination of Whole Life Plan and Endowment Assurance Plan. It provides financial protection against death throughout the lifetime or 99 years of age of the life assured even after maturity payment.",
+                            "subtitle1": [
+                                {
+                                    "title": "Key Features",
+                                    "listitem": [
+                                        {
+                                            "text": "Minimum Entry Age : 16 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Entry Age : 65 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Policy Term: 5 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Policy Term: 54 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Maturity Age: 83 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Sum Assured:Rs. 1 Lac"
+                                        },
+                                        {
+                                            "text": "Premium Payment Frequency : Yearly/Half Yearly/Quarterly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "On Death within Policy Term: FULL SUM ASSURED + BONUS"
+                                        },
+                                        {
+                                            "text": "On Death after Policy Maturity: FULL SUM ASSURED"
+                                        },
+                                        {
+                                            "text": "At Maturity: SUM ASSURED + BONUS"
+                                        },
+                                        {
+                                            "text": "Loan facility"
+                                        },
+                                        {
+                                            "text": "Tax benefit"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits(Riders)",
+                                    "listitem": [
+                                        {
+                                            "text": "Accident Double Benefit"
+                                        },
+                                        {
+                                            "text": "Permanent Total Disability Benefit"
+                                        },
+                                        {
+                                            "text": "Premium Waiver Benefit"
+                                        },
+                                        {
+                                            "text": "Monthly Education Benefit"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "First Policy Issue Date: 2017-10-17"
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "I want to purchase",
+                                        "payload": "/purchase"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "IME Money Back Cum Whole Life Plan (IME Kalpandhan)",
+            "subtitle": "This plan covers the risk of life assured for whole life. This product provides the partial payment in certain time interval to life assured and the bonus at the end of the term and after demise of life assured the nominee gets the benefits of Sum Assured.",
+            "img": "images/products/money3.png",
+            "interest": "IME Money Back Cum Whole Life Plan (IME Kalpandhan)",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn3",
+                        "Back_icon": {
+                            "title": "I am interested",
+                            "payload": "/purchase"
+                        },
+                        "Details": {
+                            "title": "IME Money Back Cum Whole Life Plan (IME Kalpandhan)",
+                            "paragraph": "This plan covers the risk of life assured for whole life. This product provides the partial payment in certain time interval to life assured and the bonus at the end of the term and after demise of life assured the nominee gets the benefits of Sum Assured. Under this policy, a survival to maturity benefit is paid in installments as given below table depending on term of the policy can be taken for 10th, 12th, 15th, 20th and 25th years.",
+                            "subtitle1": [
+                                {
+                                    "title": "Key Features",
+                                    "listitem": [
+                                        {
+                                            "text": "Entry Age: 16 Years"
+                                        },
+                                        {
+                                            "text": "Max. Entry Age: 60, 58, 55, 50, 45 years (for money back term of 10, 12, 15, 20 and 25 years)"
+                                        },
+                                        {
+                                            "text": "  Policy Term: 10,12,15,20 and 25 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Maturity Age: 26 years"
+                                        },
+                                        {
+                                            "text": "Maximum Maturity Age: 70 years"
+                                        },
+                                        {
+                                            "text": "Minimum Sum Assured: 50,000/-"
+                                        },
+                                        {
+                                            "text": "Premium payment frequency: Single, Yearly, Half Yearly, Quarterly"
+                                        },
+                                        {
+                                            "text": " Maximum Sum Assured: According to the income source of life to be Assured"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "Survival Benefit in installments"
+                                        },
+                                        {
+                                            "text": "Whole life Maturity at age of 99 years : Sum Assured"
+                                        },
+                                        {
+                                            "text": "Remaining Sum assured plus bonus in case of the maturity"
+                                        },
+                                        {
+                                            "text": "Sum assured plus bonus will be paid to nominated person in case of death of the assured."
+                                        },
+                                        {
+                                            "text": "Tax benefits"
+                                        },
+                                        {
+                                            "text": "Accidental Death benefits: Available up to maximum 50 lakh"
+                                        },
+                                        {
+                                            "text": "PTD/ PWB Benefits: Waiver of Premium/ Monthly income benefit if total permanent disability occurs due to accident."
+                                        },
+                                        {
+                                            "text": "Surrender value and policy loan is allowed."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "First Policy Issue Date: 2018-06-03"
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "I want to purchase",
+                                        "payload": "/purchase"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+},
+"annual_plan_rest":
+{
+    "type": "detailDrawer",
+    "title": "We offer the following annual cash back plans.",
+    "data": [
+        {
+            "title": "IME Annual Cash Back Plan(5%)",
+            "subtitle": "Annual Money Back Plan is participating anticipated endowment plan. This plan is especially for those who wants the annual return back money in yearly basis. In this case 5% of Sum Assured will be provided to Policy holder every year at time of renewal.",
+            "img": "images/products/cash1.png",
+            "interest": "IME Annual Cash Back Plan(5%)",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am interested",
+                            "payload": "/purchase"
+                        },
+                        "Details": {
+                            "title": "IME Annual Cash Back Plan(5%)",
+                            "paragraph": "Annual Money Back Plan is participating anticipated endowment plan. This plan is especially for those who wants the annual return back money in yearly basis. In this case 5% of Sum Assured will be provided to Policy holder every year at time of renewal.",
+                            "subtitle1": [
+                                {
+                                    "title": "Key Features",
+                                    "listitem": [
+                                        {
+                                            "text": "Minimum Entry Age : 16 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Entry Age : 65 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Policy Term: 5 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Policy Term: 20 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Maturity Age : 70 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Sum Assured: Rs. 4 lakhs"
+                                        },
+                                        {
+                                            "text": "Premium Payment Frequency : Yearly/Half Yearly/Quarterly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "5% of sum assured will be returned back to assured annually."
+                                        },
+                                        {
+                                            "text": "Remaining sum assured plus bonus in case of the maturity."
+                                        },
+                                        {
+                                            "text": "Sum assured plus bonus will be paid to nominated person in case of death of the assured."
+                                        },
+                                        {
+                                            "text": "Loan facility."
+                                        },
+                                        {
+                                            "text": "Tax benefits."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits(Riders)",
+                                    "listitem": [
+                                        {
+                                            "text": "Accident Double Benefit"
+                                        },
+                                        {
+                                            "text": "Permanent Total Disability Benefit"
+                                        },
+                                        {
+                                            "text": "Premium Waiver"
+                                        },
+                                        {
+                                            "text": "Monthly Income Benefit"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "First Policy Issue Date: 2019-02-06"
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "I want to purchase",
+                                        "payload": "/purchase"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "IME Annual Cash Back Plan(6%)",
+            "subtitle": "Annual Money Back Plan is participating anticipated endowment plan. This plan is especially for those who wants the annual return back money in yearly basis. In this case 6% of Sum Assured will be provided to Policy holder every year at time of renewal.",
+            "img": "images/products/cash2.png",
+            "interest": "IME Annual Cash Back Plan(6%)",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn2",
+                        "Back_icon": {
+                            "title": "I am interested",
+                            "payload": "/purchase"
+                        },
+                        "Details": {
+                            "title": "IME Annual Cash Back Plan(6%)",
+                            "paragraph": "Annual Money Back Plan is participating anticipated endowment plan. This plan is especially for those who wants the annual return back money in yearly basis. In this case 6% of Sum Assured will be provided to Policy holder every year at time of renewal.",
+                            "subtitle1": [
+                                {
+                                    "title": "Key Features",
+                                    "listitem": [
+                                        {
+                                            "text": "Minimum Entry Age : 16 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Entry Age : 65 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Policy Term: 5 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Policy Term: 20 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Maturity Age : 70 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Sum Assured: Rs. 4 lakhs"
+                                        },
+                                        {
+                                            "text": "Premium Payment Frequency : Yearly/Half Yearly/Quarterly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "6% of sum assured will be returned back to assured annually."
+                                        },
+                                        {
+                                            "text": "Remaining sum assured plus bonus in case of the maturity."
+                                        },
+                                        {
+                                            "text": "Sum assured plus bonus will be paid to nominated person in case of death of the assured."
+                                        },
+                                        {
+                                            "text": "Loan facility."
+                                        },
+                                        {
+                                            "text": "Tax benefits."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits(Riders)",
+                                    "listitem": [
+                                        {
+                                            "text": "Accident Double Benefit"
+                                        },
+                                        {
+                                            "text": "Permanent Total Disability Benefit"
+                                        },
+                                        {
+                                            "text": "Premium Waiver"
+                                        },
+                                        {
+                                            "text": "Monthly Income Benefit"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "First Policy Issue Date: 2019-02-07"
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "I want to purchase",
+                                        "payload": "/purchase"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "IME Annual Cash Back Plan(7%)",
+            "subtitle": "Annual Money Back Plan is participating anticipated endowment plan. This plan is especially for those who wants the annual return back money in yearly basis. In this case 7% of Sum Assured will be provided to Policy holder every year at time of renewal.",
+            "img": "images/products/cash3.png",
+            "interest": "IME Annual Cash Back Plan(7%)",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn3",
+                        "Back_icon": {
+                            "title": "I am interested",
+                            "payload": "/purchase"
+                        },
+                        "Details": {
+                            "title": "IME Annual Cash Back Plan(7%)",
+                            "paragraph": "Annual Money Back Plan is participating anticipated endowment plan. This plan is especially for those who wants the annual return back money in yearly basis. In this case 7% of Sum Assured will be provided to Policy holder every year at time of renewal.",
+                            "subtitle1": [
+                                {
+                                    "title": "Key Features",
+                                    "listitem": [
+                                        {
+                                            "text": "Minimum Entry Age : 16 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Entry Age : 65 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Policy Term: 5 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Policy Term: 20 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Maturity Age : 70 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Sum Assured: Rs. 4 lakhs"
+                                        },
+                                        {
+                                            "text": "Premium Payment Frequency : Yearly/Half Yearly/Quarterly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "7% of sum assured will be returned back to assured annually."
+                                        },
+                                        {
+                                            "text": "Remaining sum assured plus bonus in case of the maturity."
+                                        },
+                                        {
+                                            "text": "Sum assured plus bonus will be paid to nominated person in case of death of the assured."
+                                        },
+                                        {
+                                            "text": "Loan facility."
+                                        },
+                                        {
+                                            "text": "Tax benefits."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits(Riders)",
+                                    "listitem": [
+                                        {
+                                            "text": "Accident Double Benefit"
+                                        },
+                                        {
+                                            "text": "Permanent Total Disability Benefit"
+                                        },
+                                        {
+                                            "text": "Premium Waiver"
+                                        },
+                                        {
+                                            "text": "Monthly Income Benefit"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "First Policy Issue Date: 2019-02-12"
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "I want to purchase",
+                                        "payload": "/purchase"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+},
+"money back_plan_rest":
+{
+    "type": "detailDrawer",
+    "title": "We offer following money back plans.",
+    "data": [
+        {
+            "title": "IME Limited Payment Money Back Plan (Dhanbriksha Jeewan Beema Yojana)",
+            "subtitle": "This Policy allows to make provision for recurring expenses. Under this policy, a survival to maturity benefit is paid in installments in every 10th, 15th, 20th and 25th year depending on the term of the policy.",
+            "img": "images/products/money2.png",
+            "interest": "IME Limited Payment Money Back Plans",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn3",
+                        "Back_icon": {
+                            "title": "I am interested",
+                            "payload": "/purchase"
+                        },
+                        "Details": {
+                            "title": "IME Limited Payment Money Back Plan (Dhanbriksha Jeewan Beema Yojana)",
+                            "subtitle1": [
+                                {
+                                    "title": "Key Features",
+                                    "listitem": [
+                                        {
+                                            "text": "This Policy allows to make provision for recurring expenses. Under this policy, a survival to maturity benefit is paid in installments in every 10th, 15th, 20th and 25th year depending on the term of the policy. The portion of each installment shall be paid on 8, 12, 16, and 20 years respectively of the sum assured depending on the term of the policy."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Discounts",
+                                    "listitem": [
+                                        {
+                                            "text": "Based on the Sum Assured amount"
+                                        },
+                                        {
+                                            "text": "Rs. 1 per Thousand for the amount above Rs. 2,10,000.00 upto 5,00,000.00"
+                                        },
+                                        {
+                                            "text": "Rs. 2 per Thousand for the amount Rs. 5,10,000.00 and above."
+                                        },
+                                        {
+                                            "text": "Based on the Mode of Payment- "
+                                        },
+                                        {
+                                            "text": "Special Discount for Single Payment."
+                                        },
+                                        {
+                                            "text": "For Yearly Payment: 2% "
+                                        },
+                                        {
+                                            "text": "For Half Yearly Payment: 1% but No Discounts given for Quarterly Payment Mode."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "Money Back Benefit in installments"
+                                        },
+                                        {
+                                            "text": "Remaining Sum assured plus bonus in case of the maturity"
+                                        },
+                                        {
+                                            "text": "Sum assured plus bonus will be paid to nominated person in case of death of the assured."
+                                        },
+                                        {
+                                            "text": "Tax benefits"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits(Riders)",
+                                    "listitem": [
+                                        {
+                                            "text": "Monthly Education Benefit"
+                                        },
+                                        {
+                                            "text": "Premium Waiver Benefit"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "First Policy Issue Date: 2017-12-14"
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "I want to purchase",
+                                        "payload": "/purchase"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "IME Dhanbardhan Money Back Plan",
+            "subtitle": "This Policy allows to make provision for recurring expenses. Under this policy, a survival to maturity benefit is paid in installments in every 10th, 15th, 20th and 25th year depending on the term of the policy.",
+            "img": "images/products/money1.png",
+            "interest": "IME Dhanbardhan Money Back Plan",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn3",
+                        "Back_icon": {
+                            "title": "I am interested",
+                            "payload": "/purchase"
+                        },
+                        "Details": {
+                            "title": "IME Dhanbardhan Money Back Plan",
+                            "subtitle1": [
+                                {
+                                    "title": "Key Features",
+                                    "listitem": [
+                                        {
+                                            "text": "Minimum Entry Age : 15 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Entry Age : 55, 50, 45 Years for 15,20,25 years term respectively"
+                                        },
+                                        {
+                                            "text": "Minimum Policy Term: 15,20,25 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Policy Term: 15,20,25 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Maturity Age : 70 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Sum Assured: Rs. 50 Thousand"
+                                        },
+                                        {
+                                            "text": "Premium Payment Frequency : Yearly/Half Yearly/Quarterly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "Money Back Benefit in installments"
+                                        },
+                                        {
+                                            "text": "Remaining Sum assured plus bonus in case of the maturity"
+                                        },
+                                        {
+                                            "text": "Sum assured plus bonus will be paid to nominated person in case of death of the assured."
+                                        },
+                                        {
+                                            "text": "Tax benefits"
+                                        },
+                                        {
+                                            "text": "Survival Benefit (Money Back)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits(Riders)",
+                                    "listitem": [
+                                        {
+                                            "text": "Accident Death Benefit"
+                                        },
+                                        {
+                                            "text": "Premium Waiver Benefit"
+                                        },
+                                        {
+                                            "text": "Income Benefit"
+                                        },
+                                        {
+                                            "text": "Lump-Sum Amount Benefit"
+                                        },
+                                        {
+                                            "text": "Funeral Expenses"
+                                        },
+                                        {
+                                            "text": "Critical Illness"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "First Policy Issue Date: 2017-11-05"
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "I want to purchase",
+                                        "payload": "/purchase"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+},
+"endowment_plan_rest":
+{
+    "type": "detailDrawer",
+    "title": "We offer the following endowment plans.",
+    "data": [
+        {
+            "title": "IME Simple Endowment Plan ( IME Saral Sawadhik Beema Yojana)",
+            "subtitle": "It is the most popular form of life assurance since it makes provision for the family of the assured in the event of early death, as also assures a lump sum amount at the desired age.",
+            "img": "images/products/endowment3.png",
+            "interest": "IME Simple Endowment Plan ( IME Saral Sawadhik Bima Yojana)",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn3",
+                        "Back_icon": {
+                            "title": "I am interested",
+                            "payload": "/purchase"
+                        },
+                        "Details": {
+                            "title": "IME Simple Endowment Plan ( IME Saral Sawadhik Bima Yojana)",
+                            "paragraph": "It is the most popular form of life assurance since it makes provision for the family of the assured in the event of early death, as also assures a lump sum amount at a desired age. The amount assured, if not paid by reason of earlier death becomes payable at the end of the policy term. Premiums are payable for a term of years equal to the endowment term or until death if it occurs within this period.",
+                            "subtitle1": [
+                                {
+                                    "title": "Key Features",
+                                    "listitem": [
+                                        {
+                                            "text": "Entry Age: 16 Years"
+                                        },
+                                        {
+                                            "text": "Max. Entry Age: 65 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Policy Term: 5 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Maturity Age: 70 years"
+                                        },
+                                        {
+                                            "text": " Maximum Policy Term: 54 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Sum Assured: Rs. 25 Thousand"
+                                        },
+                                        {
+                                            "text": " Premium Payment Frequency : Yearly/Half Yearly/Quarterly"
+                                        },
+                                        {
+                                            "text": " Maximum Sum Assured: According to the income source of life to be Assured"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "Sum assured plus bonus in case of the maturity"
+                                        },
+                                        {
+                                            "text": "Sum assured plus bonus will be paid to nominated person in case of death of the assured."
+                                        },
+                                        {
+                                            "text": "Loan facility"
+                                        },
+                                        {
+                                            "text": "Tax benefits"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits(Riders)",
+                                    "listitem": [
+                                        {
+                                            "text": "Accident Double Benefit"
+                                        },
+                                        {
+                                            "text": "Permanent Total Disability Benefit"
+                                        },
+                                        {
+                                            "text": "Premium Waiver"
+                                        },
+                                        {
+                                            "text": "Monthly Income Benefit"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "First Policy Issue Date: 17/08/2017"
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "I want to purchase",
+                                        "payload": "/purchase"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "IME Group Endowment Plan",
+            "subtitle": "IME Group Endowment Scheme offers employees insurance protection throughout their service and a lump sum cash amount upon retirement if they survive until then.",
+            "img": "images/products/endowment2.png",
+            "interest": "IME Group Endowment Plan",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn3",
+                        "Back_icon": {
+                            "title": "I am interested",
+                            "payload": "/purchase"
+                        },
+                        "Details": {
+                            "title": "IME Group Endowment Plan",
+                            "paragraph": "IME Group Endowment Scheme is a unique saving and protection scheme through which the employees of an employer can enjoy insurance protection throughout their service and also get a lump sum cash amount upon their retirement if they survive up to retirement. Each employee is offered insurance coverage, which can be a fixed amount or linked to their designation or salary.",
+                            "subtitle1": [
+                                {
+                                    "title": "Key Features",
+                                    "listitem": [
+                                        {
+                                            "text": "Minimum Entry Age: 18 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Entry Age: 65 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Policy Term: 5 Years"
+                                        },
+                                        {
+                                            "text": " Maximum Policy Term: 54 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Maturity Age: 21 years"
+                                        },
+                                        {
+                                            "text": "Maximum Maturity Age: 70 years"
+                                        },
+                                        {
+                                            "text": "Minimum Sum Assured: Rs. 50 Thousand"
+                                        },
+                                        {
+                                            "text": "Maximum Sum Assured: No Limit (Subject to Underwriting)"
+                                        },
+                                        {
+                                            "text": " Premium Payment Frequency : Yearly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "Policy Benefits"
+                                        },
+                                        {
+                                            "text": "Rider Benefits"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits(Riders)",
+                                    "listitem": [
+                                        {
+                                            "text": "Loan Facility"
+                                        },
+                                        {
+                                            "text": "Surrender Value facility"
+                                        },
+                                        {
+                                            "text": "Tax Benefits"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "First Policy Issue Date: 22/06/2022"
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "I want to purchase",
+                                        "payload": "/purchase"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "IME Limited Payment Endowment Plan (IME Sabal Jeevan Beema Yojana)",
+            "subtitle": "This Policy allows to make provision for recurring expenses. Under this policy, a survival to maturity benefit is paid in installments in every 5th, 10th, 15th, and 20th year depending on the term of the policy.",
+            "img": "images/products/endowment1.png",
+            "interest": "IME Limited Payment Endowment Plan (IME Sabal Jeevan Beema Yojana)",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn3",
+                        "Back_icon": {
+                            "title": "I am interested",
+                            "payload": "/purchase"
+                        },
+                        "Details": {
+                            "title": "IME Limited Payment Endowment Plan (IME Sabal Jeevan Beema Yojana)",
+                            "paragraph": "This Policy allows to make provision for recurring expenses. Under this policy, a survival to maturity benefit is paid in installments every 5th, 10th, 15th, and 20th year depending on the term of the policy. The premium payment frequency is 3 or 5 times depending on the policy term.",
+                            "subtitle1": [
+                                {
+                                    "title": "Key Features",
+                                    "listitem": [
+                                        {
+                                            "text": "Minimum Entry Age : 16 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Entry Age : 60 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Policy Term: 5,10,15,20 Years"
+                                        },
+                                        {
+                                            "text": "Maximum Policy Term: 5,10,15,20 Years"
+                                        },
+                                        {
+                                            "text": "Minimum Sum Assured: Rs. 50,000/-s"
+                                        },
+                                        {
+                                            "text": "Premium Payment Frequency:  3 or 5 times depending on the policy terms"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "On Death within Policy Term: FULL SUM ASSURED + BONUS"
+                                        },
+                                        {
+                                            "text": "On Death after Policy Maturity: FULL SUM ASSURED"
+                                        },
+                                        {
+                                            "text": "At Maturity: SUM ASSURED + BONUS."
+                                        },
+                                        {
+                                            "text": "Loan facility"
+                                        },
+                                        {
+                                            "text": "Tax benefits"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits(Riders)",
+                                    "listitem": [
+                                        {
+                                            "text": "Premium Waiver"
+                                        },
+                                        {
+                                            "text": "Double Accident Benefit"
+                                        },
+                                        {
+                                            "text": "Monthly Income Benefit / Permanent Total Disability Benefit"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "First Policy Issue Date: 2017-11-16"
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "I want to purchase",
+                                        "payload": "/purchase"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+},
+
+"non-life_plan_rest":
+{
+    "type": "quick_reply",
+    "title": "Our focus lies solely on providing life insurance coverage, and we do not offer any non-life insurance options. For detail information about the products we offer, please click the buttons given below:",
+    "data": [
+    {
+        "title": "Child Plans",
+        "payload": "/product_info{\"product_type\":\"child\"}"
+    },
+    {
+        "title": "Whole Life Plans",
+        "payload": "/product_info{\"product_type\":\"whole life\"}"
+    },
+    {
+        "title": "Annual Plans",
+        "payload": "/product_info{\"product_type\":\"annual\"}"
+    },
+    {
+        "title": "Money Back Plans",
+        "payload": "/product_info{\"product_type\":\"money back\"}"
+    },
+    {
+        "title": "Endowment Plans",
+        "payload": "/product_info{\"product_type\":\"endowment\"}"
+    }
+    ]
+},
+"product_else_part":
+{
+    "type": "quick_reply",
+    "title": "We offer a wide range of insurance products. Please select the product type you are interested in.",
+    "data": [
+    {
+        "title": "Child Plans",
+        "payload": "/product_info{\"product_type\":\"child\"}"
+    },
+    {
+        "title": "Whole Life Plans",
+        "payload": "/product_info{\"product_type\":\"whole life\"}"
+    },
+    {
+        "title": "Annual Plans",
+        "payload": "/product_info{\"product_type\":\"annual\"}"
+    },
+    {
+        "title": "Money Back Plans",
+        "payload": "/product_info{\"product_type\":\"money back\"}"
+    },
+    {
+        "title": "Endowment Plans",
+        "payload": "/product_info{\"product_type\":\"endowment\"}"
+    }
+    ]
+}  
+}

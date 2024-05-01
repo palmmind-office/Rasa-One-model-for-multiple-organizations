@@ -1,0 +1,504 @@
+{
+    "pan_number": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway during PAN number change.",
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Your Last Name Please ?",
+                    "type": "textbox",
+                    "placeholder": "Please Enter Your Last Name",
+                    "utterances": [
+                        {
+                            "message": "Please authenticate yourself by answering some questions to request for PAN Number change"
+                        }
+                    ],
+                    "validation": {
+                        "type": "name",
+                        "error": "Please enter valid last name."
+                    },
+                    "label": "LastName"
+                },
+                {
+                    "order": "number",
+                    "title": "Your Agent Code please  ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Agent Code here",
+                    "validation": {
+                        "type": "AgentCode",
+                        "error": "Invalid!! Provide 8 digit Agent Code"
+                    },
+                    "label": "AgentCode"
+                },
+                {
+                    "order": "text",
+                    "title": "Please specify Date Of Birth.",
+                    "placeholder": "Please Enter Date Of Birth",
+                    "type": "date",
+                    "label": "DateOfBirth"
+                },
+                {
+                    "order": "cancle",
+                    "title": " Please click Submit button to proceed further and Cancel to quit.",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "/rest/v1/insurance/ime/agent?type=agent&action=email&emailfor=Updatepan"
+    },
+    "account_number": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway during Bank Account Number update.",
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Your Last Name please ?",
+                    "type": "textbox",
+                    "placeholder": "Please Enter Your Last Name",
+                    "utterances": [
+                        {
+                            "message": "Please authenticate yourself by answering some questions to request for bank Account number update"
+                        }
+                    ],
+                    "validation": {
+                        "type": "name",
+                        "error": "Please enter valid last name."
+                    },
+                    "label": "LastName"
+                },
+                {
+                    "order": "number",
+                    "title": "Your Agent Code please ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Agent Code",
+                    "validation": {
+                        "type": "AgentCode",
+                        "error": "Invalid!! Provide 8 digit Agent Code"
+                    },
+                    "label": "AgentCode"
+                },
+                {
+                    "order": "text",
+                    "title": "Please specify Date Of Birth",
+                    "placeholder": "Please Enter Date Of Birth",
+                    "type": "date",
+                    "label": "DateOfBirth"
+                },
+                {
+                    "order": "cancle",
+                    "title": " Please confirm and click Submit button to proceed further and Cancel to quit.",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "/rest/v1/insurance/ime/agent?type=agent&action=email&emailfor=UpdateBankAcn"
+    },
+    "payment_mode": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway during Mode change.",
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Your Last Name Please ?",
+                    "type": "textbox",
+                    "placeholder": "Please Type Your Last Name",
+                    "utterances": [
+                        {
+                            "message": "Please authenticate yourself by answering some questions to perform mode change request"
+                        }
+                    ],
+                    "validation": {
+                        "type": "name",
+                        "error": "Doesn't Look like a valid name. Please specify valid name"
+                    },
+                    "label": "LastName"
+                },
+                {
+                    "order": "number",
+                    "title": "What is your Policy Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your Policy Number",
+                    "validation": {
+                        "type": "PolicyNumber",
+                        "error": "Invalid!! Provide 9 digit Policy Number"
+                    },
+                    "label": "PolicyNumber"
+                },
+                {
+                    "order": "selectMode",
+                    "title": "Which mode you want to change to ?",
+                    "type": "select",
+                    "placeholder": "Select mode type",
+                    "label": "select",
+                    "selectvalue": [
+                        "Monthly",
+                        "Quarterly",
+                        "Semi-annually",
+                        "Annually"
+                    ]
+                },
+                {
+                    "order": "text",
+                    "title": "What is Policy holder's  DOB ?",
+                    "placeholder": "Please Enter Assured DOB",
+                    "type": "date",
+                    "label": "DateOfBirth"
+                },
+                {
+                    "order": "cancle",
+                    "title": " Please click Submit button to proceed further and Cancel to quit",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "/rest/v1/insurance/ime/agent?type=policy_dueinfo&action=email&emailfor=ModeChange"
+    },
+    "occupation": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway during occupation change.",
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Your Policy Last Name Please?",
+                    "type": "textbox",
+                    "placeholder": "Please Type Your Last Name",
+                    "utterances": [
+                        {
+                            "message": "Please authenticate yourself by answering some questions to change occupation ."
+                        }
+                    ],
+                    "validation": {
+                        "type": "name",
+                        "error": "Please enter valid last  name."
+                    },
+                    "label": "LastName"
+                },
+                {
+                    "order": "number",
+                    "title": "Enter Policy Number which you want to change occupation ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Policy Number",
+                    "validation": {
+                        "type": "PolicyNumber",
+                        "error": "Invalid!! Provide 9 digit Policy Number"
+                    },
+                    "label": "PolicyNumber"
+                },
+                {
+                    "order": "text",
+                    "title": "Specify Assured DOB",
+                    "placeholder": "Please Enter Assured Date",
+                    "type": "date",
+                    "label": "DateOfBirth"
+                },
+                {
+                    "order": "text",
+                    "title": "Which occupation do you change?",
+                    "type": "textbox",
+                    "placeholder": "Please enter occupation",
+                    "validation": {
+                        "type": "name",
+                        "error": "occupation should not be Number"
+                    },
+                    "label": "occupation"
+                },
+                {
+                    "order": "cancle",
+                    "title": " Please click Submit button to proceed further and Cancel to quit ",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "/rest/v1/insurance/ime/agent?type=policy_dueinfo&action=email&emailfor=Occupation"
+    },
+    "nominee": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway during Nominee change.",
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Your Policy Last Name Please ?",
+                    "type": "textbox",
+                    "placeholder": "Please Type Your Last Name",
+                    "utterances": [
+                        {
+                            "message": "Please authenticate yourself by answering some questions to request for nominee change"
+                        }
+                    ],
+                    "validation": {
+                        "type": "name",
+                        "error": "Please enter valid Last name."
+                    },
+                    "label": "LastName"
+                },
+                {
+                    "order": "number",
+                    "title": "What is your Policy Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your Policy Number",
+                    "validation": {
+                        "type": "PolicyNumber",
+                        "error": "Invalid!! Provide 9 digit Policy Number"
+                    },
+                    "label": "PolicyNumber"
+                },
+                {
+                    "order": "text",
+                    "title": "Please Specify Assured's DOB",
+                    "placeholder": "Please Enter Assured Date",
+                    "type": "date",
+                    "label": "DateOfBirth"
+                },
+                {
+                    "order": "cancel",
+                    "title": " Please click Submit button to proceed further and Cancel to quit.",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "/rest/v1/insurance/ime/agent?type=policy_dueinfo&action=email&emailfor=NomineeChange"
+    },
+    "mobile_number": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway during Mobile change.",
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Your Policy Last Name Please ?",
+                    "type": "textbox",
+                    "placeholder": "Please Type Your Last Name",
+                    "utterances": [
+                        {
+                            "message": "Please authenticate yourself by answering some questions to request for mobile change ."
+                        }
+                    ],
+                    "validation": {
+                        "type": "name",
+                        "error": "Please enter valid last name."
+                    },
+                    "label": "LastName"
+                },
+                {
+                    "order": "number",
+                    "title": "What is your Policy Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your Policy Number",
+                    "validation": {
+                        "type": "PolicyNumber",
+                        "error": "Invalid!! Provide 9 digit Policy Number"
+                    },
+                    "label": "PolicyNumber"
+                },
+                {
+                    "order": "number",
+                    "title": "Mobile number you want to change ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your mobile Number",
+                    "validation": {
+                        "type": "mobile",
+                        "error": "Invalid!! Provide 10 digit number"
+                    },
+                    "label": "mobile"
+                },
+                {
+                    "order": "text",
+                    "title": "Policy DOB please ? ",
+                    "placeholder": "Please Enter Assured Date",
+                    "type": "date",
+                    "label": "DateOfBirth"
+                },
+                {
+                    "order": "cancle",
+                    "title": " Please click Submit button to proceed further and Cancel to quit.",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "/rest/v1/insurance/ime/agent?type=policy_dueinfo&action=email&emailfor=MobileChange"
+    },
+    "revive_policy": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway during revival change.",
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Your Policy Last Name Please?",
+                    "type": "textbox",
+                    "placeholder": "Please Type Your Last Name",
+                    "utterances": [
+                        {
+                            "message": "Please authenticate yourself by answering some questions to revive the policy ."
+                        }
+                    ],
+                    "validation": {
+                        "type": "name",
+                        "error": "Please enter valid last  name."
+                    },
+                    "label": "LastName"
+                },
+                {
+                    "order": "number",
+                    "title": "Enter Policy Number which you want to revive ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Policy Number",
+                    "validation": {
+                        "type": "PolicyNumber",
+                        "error": "Invalid!! Provide 9 digit Policy Number"
+                    },
+                    "label": "PolicyNumber"
+                },
+                {
+                    "order": "text",
+                    "title": "Specify Assured DOB",
+                    "placeholder": "Please Enter Assured Date",
+                    "type": "date",
+                    "label": "DateOfBirth"
+                },
+                {
+                    "order": "email",
+                    "title": "Provide us your Email ?",
+                    "type": "textbox",
+                    "placeholder": "Enter your Email",
+                    "validation": {
+                        "type": "email",
+                        "error": "Invalid email"
+                    },
+                    "label": "email"
+                },
+                {
+                    "order": "cancle",
+                    "title": " Please click Submit button to proceed further and Cancel to quit ",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "/rest/v1/insurance/ime/agent?type=policy_dueinfo&action=email&emailfor=Revival"
+    },
+
+    "update_agent":
+    {
+        "type": "quick_reply",
+        "title": "Please choose an option to update your details.",
+        "data": [
+        {
+            "title": "Pan Number",
+            "payload": "/update_profile{\"category\":\"pan number\"}"
+        },
+        {
+            "title": "Account Number",
+            "payload": "/update_profile{\"category\":\"account number\"}"
+        } 
+        ]
+    },
+    "update_policyholder":
+    {
+        "type": "quick_reply",
+        "title": "Please choose an option to update your details.",
+        "data": [
+        {
+            "title": "Payment Mode",
+            "payload": "/update_profile{\"category\":\"payment mode\"}"
+        },
+        {
+            "title": "Occupation",
+            "payload": "/update_profile{\"category\":\"occupation\"}"
+        },
+        {
+          "title": "Nominee",
+          "payload": "/update_profile{\"category\":\"nominee\"}"
+        },
+        {
+          "title": "Mobile Number",
+          "payload": "/update_profile{\"category\":\"mobile number\"}"
+        },
+        {
+          "title": "Revive Policy",
+          "payload": "/update_profile{\"category\":\"revive\"}"
+        }
+        ]
+    }
+}

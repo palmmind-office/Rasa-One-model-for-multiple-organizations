@@ -1,0 +1,32 @@
+version: "3.1"
+
+nlu:
+- intent: downloads
+  examples: |
+    - Where can I get the kyc forms?
+    - I need the form for making death claim.
+    - micro term policy form
+    - micro term insurance form
+    - rental agreement form
+    - Where can I download the rental agreement form?
+    - rental form
+    - application for changing mode of payment
+    - forms
+    - download forms
+    - proposal form
+    - Please send me the proposal form.
+    - How can I download form?
+    - kyc form
+    - term policy form
+    - share lagani form
+    - where can I get the agent form to become an agent?
+    - Can I download forms, brochures of the company online?
+
+    - Where can I get the himalayan life [app](company_info)?
+    - mobile [app](company_info)
+    - your mobile [app](company_info)
+    - is himalayan life mobile [app](company_info) available on [app](company_info) store?
+    - from where can i download your mobile [app](company_info)?
+    - is your [app](company_info) available for download on play store?
+    - can i download your mobile [app](company_info) from google play
+    - how can i download himalayan life [app](company_info)?

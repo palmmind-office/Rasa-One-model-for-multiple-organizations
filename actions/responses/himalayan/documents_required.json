@@ -1,0 +1,124 @@
+{
+    "death_claim_payment": {
+        "type": "ListItem",
+        "title": "Following are the documents required for death claim payment.",
+        "subtitle": "Required documents for death claim payment",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Intimation letter from the nominee or the claimant of the policy holder (Note: the intimation should include date / time / place and cause of death.)"
+            },
+            {
+                "subtitle": "● Original Policy Bond"
+            },
+            {
+                "subtitle": "● Last premium paid receipt"
+            },
+            {
+                "subtitle": "● Details of claimant"
+            },
+            {
+                "subtitle": "● Copy of citizenship or passport of claimant"
+            },
+            {
+                "subtitle": "● Death Registration Certificate"
+            },
+            {
+                "subtitle": "● Relationship proof certificate"
+            },
+            {
+                "subtitle": "● Postmortem report or police report with accident site and dead body position. (if the death is accidental)"
+            },
+            {
+                "subtitle": "● Documents of medical treatment (if death is in course of treatment)"
+            },
+            {
+                "subtitle": "● Other documents asked by company if additional information is required."
+            }
+        ]
+    },
+    "policy_issue": {
+        "type": "ListItem",
+        "title": "Following documents are required for issuing a new policy.",
+        "subtitle": "Required documents for Policy Issue",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Proposal form"
+            },
+            {
+                "subtitle": "● Personal Health Declaration Form"
+            },
+            {
+                "subtitle": "● Agent Report"
+            },
+            {
+                "subtitle": "● Medical Report"
+            },
+            {
+                "subtitle": "● Receipt of amount paid for Medical Examination"
+            },
+            {
+                "subtitle": "● KYC (Know Your Customer)"
+            },
+            {
+                "subtitle": "● Copy of Citizenship Certificate and/or Birth Registration Certificate"
+            },
+            {
+                "subtitle": "● 1/1 piece of photograph of proposer/assured"
+            },
+            {
+                "subtitle": "● Other required documents"
+            }
+        ]
+    },
+    "maturity_claim_payment": {
+        "type": "ListItem",
+        "title": "Following are the documents required for maturity claim payment.",
+        "subtitle": "Required documents for maturity claim payment",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Application of assured"
+            },
+            {
+                "subtitle": "● Original policy bond"
+            },
+            {
+                "subtitle": "● Last premium paid receipt"
+            },
+            {
+                "subtitle": "● Copy of citizenship certificate"
+            }
+        ]
+    },
+    "agent_qualifications": {
+        "title": "To become an agent, you require the following documents and formal training of 3 days provided by Himalayan Life.",
+        "type": "ListItem",
+        "subtitle": "Requirements to be an Agent",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Minimum Age - 16 years"
+            },
+            {
+                "subtitle": "● Copy of Citizenship"
+            },
+            {
+                "subtitle": "● Copy of at least SEE/SLC pass Mark Sheet"
+            },
+            {
+                "subtitle": "● Copy of at least SEE/SLC pass Character Certificate"
+            },
+            {
+                "subtitle": "● Formal Training of 3 days provided by Himalayan Life"
+            },
+            {
+                "subtitle": "● Passport size color photo (both ears must be visible, photo on police and army dress won't be accepted)"
+            },
+            {
+                "subtitle": "● Fee as per the Nepal Insurance Authority"
+            }
+        ]
+    }
+}

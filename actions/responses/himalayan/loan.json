@@ -1,0 +1,32 @@
+{
+    "agent_loan":
+        {
+            "type": "quick_reply",
+            "title": "Please understand that agents cannot apply for loan.",
+            "data": [
+            ]
+        },
+    "policy holder_loan":
+        {
+            "type": "quick_reply",
+            "title": "You can apply for loan against policy after 3 years completed from the date of commencement of the policy. Maximum eligible loan is 90% of surrender value. <br> For more information, please contact the nearest local branch.",
+            "data": [
+            {
+                "title": "Branch",
+                "link": "https://himalayanlife.com.np/Branches.aspx"
+            }
+            ]
+        },
+    "loan":
+        {
+            "type": "quick_reply",
+            "title": "Agents are not eligible to apply for loans. Policyholders who want a loan should contact their nearest local branch. You can apply for loan against policy after 3 years completed from the date of commencement of the policy. Maximum eligible loan is 90% of surrender value.",
+            "data": [
+            {
+                "title": "Branch",
+                "link": "https://himalayanlife.com.np/Branches.aspx"
+            }
+            ]
+        }
+    
+}

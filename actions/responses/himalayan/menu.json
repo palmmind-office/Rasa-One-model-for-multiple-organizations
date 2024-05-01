@@ -1,0 +1,197 @@
+{
+"menu_rest":
+{
+    "title": "Namaste, I am Himalayan Chatbot - Your Virtual Assistant. How may I help you?",
+    "type": "hamburger",
+    "welcomeImage": "images/menu/logo-himalayan.png",
+    "descriptionEnglish": "Namaste, I am Himalayan Chatbot - Your Virtual Assistant. How may I help you?",
+    "descriptionNepali": "नमस्ते, म हिमालयन च्याटबोट - तपाईको स्वचालित सहायक | म तपाईलाई कसरी सहयोग गर्न सक्छु ?",
+    "data": [
+        {
+            "title": "Products",
+            "payload": "/product_info",
+            "icon": "images/menu/product.png"
+        },
+        {
+            "title": "Policy Services",
+            "payload": "/policy",
+            "icon": "images/menu/compliant.png"
+        },
+        {
+            "title": "Agency",
+            "payload": "Agency",
+            "icon": "images/menu/travel-agency.png"
+        },
+        {
+            "title": "Claim & Loan",
+            "payload": "/about_claim",
+            "icon": "images/menu/claim.png"
+        },
+        {
+            "title": "Payment",
+            "payload": "/payment",
+            "icon": "images/menu/operation.png"
+        },
+        {
+            "title": "Contact Us",
+            "payload": "/contact",
+            "icon": "images/menu/bank.png"
+        }
+    ]
+},
+"menu_facebook":
+{
+    "text": "Namaste, I am Your Virtual Assistant. How may I help you?",
+    "elements": [
+        {
+            "title": "Welcome to Himalayan Life Insurance :)",
+            "image_url": "https://media.licdn.com/dms/image/D4D03AQElI9_j5YiCXA/profile-displayphoto-shrink_800_800/0/1684254735699?e=2147483647&v=beta&t=awoDx1vJCiKYogWvrHKLwUVqprNnTcGgM_uW9vmDlu0",
+            "buttons": [
+                {
+                    "title": "Products",
+                    "payload": "/product_info"
+                },
+                {
+                    "title": "Policy Services",
+                    "payload": "/policy"
+                },
+                {
+                    "title": "Agency",
+                    "payload": "Agency"
+                }
+            ]
+        }
+    ]
+},
+"menu_instagram":{
+    "text": "Namaste, I am Your Virtual Assistant. How may I help you?",
+    "elements": [
+        {
+            "title": "Welcome to Himalayan Life Insurance :)",
+            "image_url": "https://media.licdn.com/dms/image/D4D03AQElI9_j5YiCXA/profile-displayphoto-shrink_800_800/0/1684254735699?e=2147483647&v=beta&t=awoDx1vJCiKYogWvrHKLwUVqprNnTcGgM_uW9vmDlu0",
+            "buttons": [
+                {
+                    "title": "Products",
+                    "payload": "/product_info"
+                },
+                {
+                    "title": "Policy Services",
+                    "payload": "/policy"
+                },
+                {
+                    "title": "Agency",
+                    "payload": "Agency"
+                }
+            ]
+        }
+    ]
+},
+"menu_viber":{
+    "Type": "keyboard",
+    "Buttons": [
+        {
+            "Columns": 2,
+            "Rows": 2,
+            "Text": "<br><font color=\"#0171b6\"><b>Products</b></font>",
+            "TextSize": "large",
+            "TextHAlign": "center",
+            "TextVAlign": "bottom",
+            "ActionType": "reply",
+            "ActionBody": "/product_info",
+            "BgColor": "#ffffff",
+            "Image": "https://himalayanbot.palmchatbot.com/images/menu/productViber.png"
+        },
+        {
+            "Columns": 2,
+            "Rows": 2,
+            "Text": "<br><font color=\"#0171b6\"><b>Policy Services</b></font>",
+            "TextSize": "large",
+            "TextHAlign": "center",
+            "TextVAlign": "bottom",
+            "ActionType": "reply",
+            "ActionBody": "/policy",
+            "BgColor": "#ffffff",
+            "Image": "https://himalayanbot.palmchatbot.com/images/menu/policyViber.png"
+        },
+        {
+            "Columns": 2,
+            "Rows": 2,
+            "Text": "<br><font color=\"#0171b6\"><b>Agency</b></font>",
+            "TextSize": "large",
+            "TextHAlign": "center",
+            "TextVAlign": "bottom",
+            "ActionType": "reply",
+            "ActionBody": "Agency",
+            "BgColor": "#ffffff",
+            "Image": "https://himalayanbot.palmchatbot.com/images/menu/agencyViber.png"
+        },
+        {
+            "Columns": 2,
+            "Rows": 2,
+            "Text": "<br><font color=\"#0171b6\"><b>Claim & Loan</b></font>",
+            "TextSize": "large",
+            "TextHAlign": "center",
+            "TextVAlign": "bottom",
+            "ActionType": "reply",
+            "ActionBody": "/about_claim",
+            "BgColor": "#ffffff",
+            "Image": "https://himalayanbot.palmchatbot.com/images/menu/claimViber.png"
+        },
+        {
+            "Columns": 2,
+            "Rows": 2,
+            "Text": "<br><font color=\"#0171b6\"><b>Payment</b></font>",
+            "TextSize": "large",
+            "TextHAlign": "center",
+            "TextVAlign": "bottom",
+            "ActionType": "reply",
+            "ActionBody": "/payment",
+            "BgColor": "#ffffff",
+            "Image": "https://himalayanbot.palmchatbot.com/images/menu/paymentViber.png"
+        },
+        {
+            "Columns": 2,
+            "Rows": 2,
+            "Text": "<br><font color=\"#0171b6\"><b>Contact Us</b></font>",
+            "TextSize": "large",
+            "TextHAlign": "center",
+            "TextVAlign": "bottom",
+            "ActionType": "reply",
+            "ActionBody": "/contact",
+            "BgColor": "#ffffff",
+            "Image": "https://himalayanbot.palmchatbot.com/images/menu/contactViber.png"
+        }
+    ]
+},
+"menu_whatsapp":{
+    "type": "list",
+    "buttonName": "Options",
+    "bodyText": "Namaste 🙏 \nI am *Himalayan Chatbot* - _Your Virtual Assistant_.\nHow may I help you today? \n\nKindly click on the *Options* button below for quick links or type the queries you may have.",
+    "sections":
+        {"": [
+            {
+                "id": "/product_info",
+                "title": "Products"
+            },
+            {
+                "id": "/policy",
+                "title": "Policy Services"
+            },
+            {
+                "id": "Agency",
+                "title": "Agency"
+            },
+            {
+                "id": "/about_claim",
+                "title": "Claim and Loan"
+            },
+            {
+                "id": "/payment",
+                "title": "Payment"
+            },
+            {
+                "id": "/contact",
+                "title": "Contact Us"
+            }
+        ]}
+}}

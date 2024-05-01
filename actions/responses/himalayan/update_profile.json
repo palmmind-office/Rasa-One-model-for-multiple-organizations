@@ -1,0 +1,101 @@
+{
+"pan_number":
+{
+    "type": "quick_reply",
+    "title": "Please contact our nearest local branch to update your pan number.",
+    "data": [
+    {
+        "title": "Branch",
+        "link": "https://himalayanlife.com.np/Branches.aspx"
+    }
+    ]
+},
+"account_number":
+{
+    "type": "quick_reply",
+    "title": "Please contact our nearest local branch to update your account number.",
+    "data": [
+    {
+        "title": "Branch",
+        "link": "https://himalayanlife.com.np/Branches.aspx"
+    }
+    ]
+},
+"payment_mode":
+{
+    "type": "quick_reply",
+    "title": "Please contact our nearest local branch to update your payment mode.",
+    "data": [
+    {
+        "title": "Branch",
+        "link": "https://himalayanlife.com.np/Branches.aspx"
+    }
+    ]
+},
+"occupation":
+{
+    "type": "quick_reply",
+    "title": "Please contact our nearest local branch to update your occupation.",
+    "data": [
+    {
+        "title": "Branch",
+        "link": "https://himalayanlife.com.np/Branches.aspx"
+    }
+    ]
+},
+"nominee":
+{
+    "type": "quick_reply",
+    "title": "Please contact our nearest local branch to update your nominee.",
+    "data": [
+    {
+        "title": "Branch",
+        "link": "https://himalayanlife.com.np/Branches.aspx"
+    }
+    ]
+},
+"mobile_number":
+{
+    "type": "quick_reply",
+    "title": "Please contact our nearest local branch to update your mobile number.",
+    "data": [
+    {
+        "title": "Branch",
+        "link": "https://himalayanlife.com.np/Branches.aspx"
+    }
+    ]
+},
+"revive":
+{
+    "type": "quick_reply",
+    "title": "Please contact our nearest local branch to revive your lapsed policy.",
+    "data": [
+    {
+        "title": "Branch",
+        "link": "https://himalayanlife.com.np/Branches.aspx"
+    }
+    ]
+},
+"update_agent":
+{
+    "type": "quick_reply",
+    "title": "Please contact our nearest branch to update the agent details.",
+    "data": [
+        {
+            "title": "Branch",
+            "link": "https://himalayanlife.com.np/Branches.aspx"
+        }  
+    ]
+},
+"update_policyholder":
+{
+    "type": "quick_reply",
+    "title": "Please contact our nearest branch to update your policy details or personal details.",
+    "data": [
+        {
+            "title": "Branch",
+            "link": "https://himalayanlife.com.np/Branches.aspx"
+        }    
+    ]
+}
+}

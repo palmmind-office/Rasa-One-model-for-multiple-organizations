@@ -1,0 +1,119 @@
+{
+
+
+"suitable":{
+    "type": "quick_reply",
+    "title": "At Himalayan Life, we offer a variety of life insurance plans, which are listed below. <br>To obtain detailed information about the insurance plan that best suits your needs, we kindly request you to contact our nearest branch.",
+    "data": [
+        {
+            "title": "Products",
+            "payload": "/product_info"
+        },
+        {
+            "title": "Branch",
+            "link": "https://himalayanlife.com.np/Branches.aspx"
+        }
+    ]   
+},
+"insurance_purchase": {
+    "type": "form",
+    "subtype": "Apply Online",
+    "action": "rest/v1/user/userInterest",
+    "Back": {
+      "title": "Back",
+      "payload": "menu"
+    },
+    "title": "Insurance Purchase Form",
+    "data": [
+      {
+        "label": "Full name",
+        "placeholder": "Enter full name",
+        "id": "fullname",
+        "type": "text",
+        "validation": {
+          "required": true,
+          "fullName": true
+        }
+      },
+      {
+        "label": "Current Address",
+        "placeholder": "Enter your address",
+        "id": "current_address",
+        "type": "text",
+        "validation": {
+          "required": true,
+          "fullName": true
+        }
+      },
+      {
+        "label": "Mobile Number",
+        "placeholder": "Enter mobile number",
+        "id": "mobileNumber",
+        "type": "number",
+        "validation": {
+          "required": true,
+          "mobile": true
+        }
+      },
+      {
+        "type": "dropdown",
+        "placeholder": "Choose insurance type",
+        "label": "Insurance Category",
+        "id": "droper",
+        "validation": {
+          "required": false,
+          "droper": true
+        },
+        "data": [
+          {
+            "for": "Select Your Category",
+            "id": "default"
+          },
+          {
+            "for": "Money Back Plan"
+          },
+          {
+            "for": "Endowment Plan"
+          },
+          {
+            "for": "Child Plan"
+          },
+          {
+            "for": "Retirement Plan"
+          },
+          {
+            "for": "Term Plan"
+          },
+          {
+            "for": "Whole Life Plan"
+          },
+          {
+            "for": "Woman's Plan"
+          }
+        ]
+      },
+      {
+        "label": "Email Address",
+        "placeholder": "Enter email address",
+        "id": "mobile_email",
+        "type": "email",
+        "validation": {
+          "required": true,
+          "email": true
+        }
+      }
+    ],
+    "buttons": {
+      "data": [
+        {
+          "text": "Cancel",
+          "type": "cancel"
+        },
+        {
+          "text": "Submit",
+          "type": "submit"
+        }
+      ]
+    }
+  }
+}

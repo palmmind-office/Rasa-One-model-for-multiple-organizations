@@ -1,0 +1,29 @@
+version: "3.1"
+
+nlu:
+  - intent: careers
+    examples: |
+      - [vacancy](company_info)
+      - Take me to your [career]{"entity":"company_info", "value":"vacancy"} page
+      - [Careers]{"entity":"company_info", "value":"vacancy"} in himalayan life
+      - Any job [vacancies]{"entity":"company_info", "value":"vacancy"} for women?
+      - How can I get a [job]{"entity":"company_info", "value":"vacancy"} in himalayan life?
+      - Any [job]{"entity":"company_info", "value":"vacancy"} openings in your company?
+
+      - Can you guide me to the [careers]{"entity":"company_info", "value":"vacancy"} page of himalayan life?
+      - [careers]{"entity":"company_info", "value":"vacancy"} page
+      - How to apply for assistant at your company?
+      - Is there a position for marketing at your company?
+      - Can I apply for branch manager at your company?
+      - Are there any positions open at himalayan life?
+      - job openings at your company
+      - Can I apply for a customer service representative position?
+      - Are there any entry level positions open at your company?
+      - I want to be an employee of your company.
+      - Can I do some job at your organization?
+      - Can I do job?
+      - are there any job vacancy at your company?
+      - Internships available or not?
+      - Any internship opportunities at your organization?
+      - Internships
+      - Is there vacancy?

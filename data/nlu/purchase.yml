@@ -1,0 +1,69 @@
+version: "3.1"
+
+nlu:
+  - intent: purchase
+    examples: |
+
+      - I want to buy your policy.
+      - I want to purchase a life insurance policy from your organization.
+      - How can I purchase life insurance?
+      - What is the process to buy life insurance?
+      - How can a person take insurance?
+      - I want new insurance.
+      - I would like to get a new insurance.
+      - I want to book life insurance.
+      - How to do life insurance?
+      - Can I get life insurance if I engage in high-risk activities or occupations?
+      - I am interested in your life insurance.
+      - I am interested to do life insurance from your company. 
+
+      - Please provide me the insurance purchase [form](document).
+      - How can i fill up the [form](document) to buy an insurance?
+      - Can you provide me some [form](document) to purchase a policy?
+      - where can i find the insurance purchase [form](document)?
+
+      - how can i purchase [money back](product_type) insurance policy?
+      - i want to buy [endowment](product_type) plan.
+      - how can i pursue [retirement](product_type) insurance policy so that i am secured at my old age?
+      - what is the process to buy [whole life](product_type) plan from himalayan life?
+      - i want to issue a new policy for my mom. how can i buy [woman](product_type) plan?
+      - how can i purchase [child](product_type) insurance policy?
+      - tell me the process to pursue [term](product_type) insurance policy.
+      - how can i buy [money back](product_type) plan from you?
+
+      - What are the provisions for buying a policy online? Can I complete the entire process digitally?
+      - Tell me about the provisions for buying a policy online.
+      - I live abroad. Can I buy a policy online?
+      - get policy online
+      - I want to apply online for life insurance. Can I do that?
+
+      - life insurance from abroad
+      - how can i purchase insurance from foreign country?
+
+      - Which is the [best]{"entity":"insurance_info", "value":"suitable"} insurance product that you offer?
+      - Which product do you [recommend]{"entity":"insurance_info", "value":"suitable"} to purchase?
+      - the [best]{"entity":"insurance_info", "value":"suitable"} insurance plan for my child
+      - which product do you [suggest]{"entity":"insurance_info", "value":"suitable"} me to buy?
+      - the most [suitable](insurance_info) insurance product for my father
+      - which is the [good]{"entity":"insurance_info", "value":"suitable"} policy for a child?
+      - I am 16 years old, which insurance plan is [suitable](insurance_info) for me?
+      - my have a 3 years old baby, please suggest the best plan.
+      - which plan is [best]{"entity":"insurance_info", "value":"suitable"} for 50 year old woman? 
+      - which product is [good]{"entity":"insurance_info", "value":"suitable"}?
+      - please tell me which life insurance plan is [good]{"entity":"insurance_info", "value":"suitable"}.
+      - which insurance is [good]{"entity":"insurance_info", "value":"suitable"} for my child?
+      - which policy is [good]{"entity":"insurance_info", "value":"suitable"} for a 20 year old girl?
+      - can you [suggest]{"entity":"insurance_info", "value":"suitable"} me a life insurance based on my age and health conditions?
+      - which life insurance is [better]{"entity":"insurance_info", "value":"suitable"} for a old man?
+
+  - synonym: plan
+    examples: |
+      - policy
+      - product
+
+  - synonym: child
+    examples: |
+      - children
+      - kids
+      - baby
+      - bal

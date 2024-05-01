@@ -1,0 +1,180 @@
+{ "main_office":
+    {
+        "type": "contact",
+        "title": "Dear customer, here are the contact details for our head office.",
+        "backIcon": {
+            "title": "Back",
+            "payload": "menu"
+        },
+        "data": {
+            "Name": "Head Office",
+            "subtitle": "3rd Floor, Hathway Complex, Lainchaur, Kathmandu",
+            
+            "info": [
+                {
+                    "title": "Email",
+                    "key": "Email",
+                    "value": "info@imelifeinsurance.com"
+                },
+                {
+                    "title": "Phone",
+                    "key": "Phone",
+                    "value": "977-01-4024071"
+                }
+            ],
+            "facebook": [
+                {
+                    "title": "Facebook",
+                    "img": "images/banner/facebook.png",
+                    "link": "https://www.facebook.com/imelife/"
+                },
+                {
+                    "title": "Instagram",
+                    "img": "images/banner/instagram.png",
+                    "link": "https://www.instagram.com/imelifeinsurance/?igshid=YmMyMTA2M2Y%3D"
+                },
+                {
+                    "title": "LinkedIn",
+                    "img": "images/banner/linkedin.png",
+                    "link": "https://www.linkedin.com/company/imelife/"
+                },
+                {
+                    "title": "Youtube",
+                    "img": "images/banner/youtube.png",
+                    "link": "https://www.youtube.com/@imelifeinsurance"
+                }
+            ]
+        }
+    },
+    "branch_office": {
+        "type": "location",
+        "title": "",
+        "header": "Branch Location",
+        "img": "images/address.png",
+        "subtitle": "To find a nearby branch, please provide your current location or share your location with us.",
+        "button": {
+            "contents": [
+                {
+                    "title": "Get Branches Near Me",
+                    "type": "send_location"
+                },
+                {
+                    "title": "Type Location",
+                    "type": "type_location"
+                }
+            ]
+        }
+    },
+
+    "branch_office_fb":
+    {
+        "type": "quick_reply",
+        "title": "Please click the button below to view our branch offices.",
+        "data": [
+        {
+            "title": "Branch",
+            "link": "https://imelifeinsurance.com/ime-network/"
+        }
+        ]
+    },
+
+    "facebook":
+        {
+            "type": "quick_reply",
+            "title": "Please click the button below to visit the official Facebook page of IME Life and stay connected with us.",
+            "data": [
+            {
+                "title": "Facebook",
+                "link": "https://www.facebook.com/imelife"
+            }
+            ]
+        },
+
+        "instagram":
+        {
+            "type": "quick_reply",
+            "title": "Please click the button below to visit the official Instagram page of IME Life and stay connected with us.",
+            "data": [
+            {
+                "title": "Instagram",
+                "link": "https://www.instagram.com/imelifeinsurance/"
+            }
+            ]
+        },
+
+        "twitter":
+        {
+            "type": "quick_reply",
+            "title": "Please click the button below to visit the official Twitter page of IME Life and stay connected with us.",
+            "data": [
+            {
+                "title": "Twitter",
+                "link": "https://twitter.com/Imelife_Ins"
+            }
+            ]
+        },
+
+        "linkedin":
+        {
+            "type": "quick_reply",
+            "title": "Please click the button below to visit the official LinkedIn page of IME Life and stay connected with us.",
+            "data": [
+            {
+                "title": "LinkedIn",
+                "link": "https://www.linkedin.com/company/imelife/"
+            }
+            ]
+        },
+
+        "agent_contact":
+        {
+            "type": "quick_reply",
+            "title": "To obtain the contact details of life insurance agents, kindly reach out to the nearest branch of IME Life.",
+            "data": [
+            {
+                "title": "Branch",
+                "payload": "/contact{\"office_type\":\"branch office\"}"
+            }
+            ]
+        },
+
+        "social media":
+        {
+            "type": "quick_reply",
+            "title": "We are available on following social platforms.",
+            "data": [
+            {
+                "title": "Facebook",
+                "link": "https://www.facebook.com/imelife"
+            },
+            {
+                "title": "Instagram",
+                "link": "https://www.instagram.com/imelifeinsurance/"
+            },
+            {
+                "title": "Twitter",
+                "link": "https://twitter.com/Imelife_Ins"
+            },
+            {
+                "title": "LinkedIn",
+                "link": "https://www.linkedin.com/company/imelife/"
+            }
+            ]
+        },
+
+        "else_part_contact":
+        {
+            "type": "quick_reply",
+            "title": "Please click the buttons below to get the contact details and locations of head office and branch offices.",
+            "data": [
+            {
+                "title": "Head Office",
+                "payload": "/contact{\"office_type\":\"main office\"}"
+            },
+            {
+                "title": "Branch",
+                "payload": "/contact{\"office_type\":\"branch office\"}"
+            }
+            ]
+        }
+}

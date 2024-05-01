@@ -1,0 +1,14 @@
+
+{
+    "careers":
+        {
+            "type": "quick_reply",
+            "title": "For information about Jobs and Career in Reliable life please contact our head office.",
+            "data": [
+            {
+                "title": "Head Office",
+                "payload": "/contact{\"office_type\":\"main office\"}"
+            }
+            ]
+        }
+}

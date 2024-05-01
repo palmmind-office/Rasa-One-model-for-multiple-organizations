@@ -1,0 +1,88 @@
+
+
+{
+    "death_claim_process": {
+        "type": "ListItem",
+        "title": "You can file a claim at any nearest branch office or directly to the claim department through email claim@reliablelife.com.np.",
+        "subtitle": "Death Claim Process",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Written information to the company by the claimant"
+            },
+            {
+                "subtitle": "● Claim related notarized document received from the claimant"
+            },
+            {
+                "subtitle": "● Investigation by the company"
+            },
+            {
+                "subtitle": "● Decision made by the company"
+            },
+            {
+                "subtitle": "● Discharge voucher sent to the claimant"
+            },
+            {
+                "subtitle": "● Signed and stamped discharge voucher received from the claimant"
+            },
+            {
+                "subtitle": "● Claim amount paid/denied letter sent to the claimant"
+            }
+        ],
+        "button": [
+          {
+            "title": "Read More",
+            "link": "https://reliablelife.com.np/claim-process"
+          }
+        ]
+    },
+
+    "non_death_claim_process": {
+        "type": "ListItem",
+        "title": "You can file a claim at any nearest branch office or directly to the claim department through email claim@reliablelife.com.np.",
+        "subtitle": "Non-Death Claim Process",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Written information to the company by the claimant"
+            },
+            {
+                "subtitle": "● Claim related notarized document received from the claimant"
+            },
+            {
+                "subtitle": "● Review and Decision made by the company"
+            },
+            {
+                "subtitle": "● Discharge voucher sent to the claimant"
+            },
+            {
+                "subtitle": "● Signed and stamped discharge voucher received from the claimant"
+            },
+            {
+                "subtitle": "● Claim amount paid/denied letter sent to the claimant"
+            }
+        ],
+        "button": [
+            {
+              "title": "Read More",
+              "link": "https://reliablelife.com.np/claim-process"
+            }
+          ]
+    },
+
+        "claim_process":
+        {
+            "type": "quick_reply",
+            "title": "Please choose whether it is death claim or non-death claim.",
+            "data": [
+            {
+                "title": "Death Claim",
+                "payload": "/file_a_claim{\"claim_type\":\"death\"}"
+            },
+            {
+              "title": "Non Death Claim",
+              "payload": "/file_a_claim{\"claim_type\":\"non death\"}"
+          }     
+            ]
+        }
+}

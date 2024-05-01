@@ -1,0 +1,101 @@
+version: "3.1"
+
+nlu:
+  - intent: product_info
+    examples: |
+      - give product details
+      - details of all your products
+      - about products
+      - what are your products?
+      - All products
+      - what are the available policies?
+      - policies
+      - couple insurance plan
+      - insurance plan for husband and wife together
+      - what are the life insurance products that you offer?
+      - life insurance policies offered by himalayan life
+      - type of life insurance products
+      - i want to know about the product you provide
+      - how many types of insurance products are available?
+      - insurance products available in market
+      - are there any insurance options available for old people?
+      - how many types of insurance products are available in your company?
+      - what life insurances do you have?
+      - when will the new revised [child](product_type) be launched?
+
+      - what is the [bonus](insurance_info) rate for [child](product_type) plans?
+      - [bonus](insurance_info) rates
+      - give info about [bonus](insurance_info) rate of [retirement](product_type) plans
+      - tell me [bonus](insurance_info) rates of [money back](product_type) plans you offer?
+      - what are the [bonus](insurance_info) rates for this year?
+      - tell me the [bonus](insurance_info) rate of different products
+      - which of your policies has the highest [bonus](insurance_info) rate?
+      - which product shall i buy to get more [bonus](insurance_info)
+      - i want to know the [bonus](insurance_info) rate of different products.
+      - how much [bonus](insurance_info) do you provide?
+      - [bonus](insurance_info) calculation process
+      - If you invest 500,000 for 15 years, how is the annual [bonus](insurance_info) calculated every year?
+      - [bonus](insurance_info) rate for this fiscal year
+
+      - What are the different [money back](product_type) plans?
+      - [money-back]{"entity":"product_type", "value":"money back"} plans offered by himalayan life insurance
+      - I want to know about your [money back](product_type) plans.
+      - Provide me the details of [money back](product_type) plan.
+
+      - Show me all the [endowment](product_type) plans.
+      - I want to know about himalayan [endowment](product_type) plan.
+      - Give info about himalayan [endowment cum]{"entity":"product_type", "value":"endowment"} whole life policy.
+
+      - What [retirement](product_type) plans do you offer?
+      - Can I know the details of [retire]{"entity":"product_type", "value":"retirement"} plans?
+      - I want to know about [retirement](product_type) plans.
+      - What is himalayan life [pension]{"entity":"product_type", "value":"retirement"} plans.
+
+      - [term](product_type) insurance offered by himalayan life
+      - what are the [term](product_type) policies offered by himalayan life?
+      - give info about himalayan life new [term](product_type) assurance plan.
+      - [term](product_type) plans
+
+      - what are the different [whole life](product_type) policies provided by your company?
+      - give me details of all [whole-life]{"entity":"product_type", "value":"whole life"} plans.
+      - [whole life](product_type) plans
+
+      - Are there any policies specific for [women]{"entity":"product_type", "value":"woman"}?
+      - What [woman](product_type) plans do you provide?
+      - [female]{"entity":"product_type", "value":"woman"} plans
+
+      - Show me all the [child](product_type) plans.
+      - Are there any specific products for [children]{"entity":"product_type", "value":"child"}?
+      - I want to know the details of [child](product_type) insurance.
+      - How can I get information about the [child](product_type) insurance plans?
+
+      - Give info about [annual](product_type) cash back plans.
+      - What are your [cash back]{"entity":"product_type", "value":"annual"} plans?
+      - Tell me about [annual](product_type) plans offered by your company.
+
+      - I want to know about [single premium](product_type) plan.
+      - How can i get [single premium](product_type) plan.
+      - [single premium](product_type) plans available
+
+      - [foreign employment](product_type) plan
+      - what are the [foreign employment](product_type) plans available?
+      - Do you offer any [foreign employment](product_type) plans
+
+      - Can I add [health](product_type) benefits to my plan?
+      - How can I include [health](product_type) benefit rider?
+      - What [health](product_type) benefits do you offer?
+
+      - Can I do the [motorcycle]{"entity":"product_type", "value":"non-life"} insurance?
+      - tell about [motorbike]{"entity":"product_type", "value":"non-life"} insurance
+      - How to do the insurance of my [bike]{"entity":"product_type", "value":"non-life"}?
+      - give info about [travel]{"entity":"product_type", "value":"non-life"} insurance
+      - tell me about [medical]{"entity":"product_type", "value":"non-life"} insurance    
+      - Are there options for [travel]{"entity":"product_type", "value":"non-life"} and trek insurance?
+      - Insurance of my [car]{"entity":"product_type", "value":"non-life"}
+      - give info about [vehicle]{"entity":"product_type", "value":"non-life"} insurance
+      - I want to know about [travel]{"entity":"product_type", "value":"non-life"} /trekking insurance for foreign passport holder.
+      - What [medical]{"entity":"product_type", "value":"non-life"} insurance do you offer?
+      - tell me about [third party]{"entity":"product_type", "value":"non-life"} insurance
+      - tell me about [pet]{"entity":"product_type", "value":"non-life"} insurance
+      - Do you also provide [non life]{"entity":"product_type", "value":"non-life"} insurance plans?
+      - Are there any options for [non life]{"entity":"product_type", "value":"non-life"} insurance?

@@ -1,0 +1,32 @@
+{
+    "ceo":
+        {
+            "type": "quick_reply",
+            "title": "Narayan B. Lohani, a visionary leader with exceptional intelligence and determination, holds the position of CEO at Reliable Life Insurance.",
+            "data": [
+            ]
+        },
+    "about_company":{
+    "type": "ListItem",
+    "title": "You can get more information about Reliable Life from below.",
+    "subtitle": "Introduction",
+    "multi": true,
+    "data": [
+      {
+        "subtitle": "● Reliable Nepal life insurance Ltd. was registered on office of Company Register on dated 2064.08.18 with registration no. 1036/064/065 Company got operating license of Life Insurance on 2074.04.18 and started commercial operation since 2074.05.15. Company is offering wide range of life insurance products to individuals as well as groups."
+      },
+      {
+        "subtitle": "● Reliable Nepal Life Insurance Limited is a life insurance company, duly approved by the Insurance Board and Government of Nepal. Reliable Nepal Life Insurance Limited having Registration No: 1036-064/065, was incorporated under the Companies Act 2053, on 18th Mangsir 2064 (4th December 2007) and started its operation from 15th Bhadra 2074 (31st August 2017)"
+      },
+      {
+        "subtitle": "● The vision of the company is to be first choice of Nepalese people in the field of life insurance for the financial security and prosperity. To win the trust of people, easy accessibility to insurance with wide range of life insurance products, friendly staffs, use of modern technology and presence at strategic locations."
+      }
+    ],
+    "button": [
+      {
+        "title": "About Us",
+        "link": "https://reliablelife.com.np/introduction/"
+      }
+    ]
+}
+}

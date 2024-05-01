@@ -1,0 +1,37 @@
+{
+    "ceo":
+        {
+            "type": "quick_reply",
+            "title": "Mr. Kabi Phuyal is the current CEO. You can contact him at 01-4024071 or mail at kabi.phuyal@imelifeinsurance.com",
+            "data": [
+            ]
+        },
+
+    "about_company":{
+    "type": "ListItem",
+    "title": "You can get more information about IME Life from below.",
+    "subtitle": "Introduction",
+    "multi": true,
+    "data": [
+      {
+        "subtitle": "● IME Life Insurance has rapidly opened 50 fully operational branches across Nepal, following a strict code of principles. With our strong and reliable branch network, we are equipped to serve customers from all corners of the country.<br>"
+      },
+      {
+        "subtitle": "● We focus on providing international standard qualitative services using advanced technology and a strong IT infrastructure. All IME Life branches are securely connected through a wide area network, enabling safe and fast customer service."
+      },
+      {
+        "subtitle": "● Our customer service team is always ready to help you during the policy issuance and also after the policy sales.  We provide diligent underwriting service for quick and optimal claim settlement."
+      }
+    ],
+    "button": [
+      {
+        "title": "About IME Life",
+        "link": "https://imelifeinsurance.com/about/"
+      },
+      {
+        "title": "Company Profile",
+        "link": "https://imelifeinsurance.com/company-profile/"
+      }
+    ]
+}
+}

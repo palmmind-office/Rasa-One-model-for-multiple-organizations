@@ -1,0 +1,328 @@
+{
+"khalti":
+{
+    "type": "quick_reply",
+    "title": "Please click the button below to make payment from khalti.",
+    "data": [
+    {
+        "title": "Khalti",
+        "link": "https://khalti.com/"
+    }
+    ]
+},
+"esewa":
+{
+    "type": "quick_reply",
+    "title": "Please click the button below to make payment from esewa.",
+    "data": [
+    {
+        "title": "eSewa",
+        "link": "https://esewa.com.np/#/home"
+    }
+    ]
+},
+
+"connectips":
+{
+    "type": "quick_reply",
+    "title": "Please click the button below to make payment from Connect IPS.",
+    "data": [
+    {
+        "title": "Connect IPS",
+        "link": "https://www.connectips.com/"
+    }
+    ]
+},
+
+"imepay":
+{
+    "type": "quick_reply",
+    "title": "Please click the button below to make payment from IME Pay.",
+    "data": [
+    {
+        "title": "IME Pay",
+        "link": "https://www.imepay.com.np/"
+    }
+    ]
+},
+
+"digital_wallets":
+{
+    "type": "quick_reply",
+    "title": "We accept payment from following digital wallets. Please choose an option:",
+    "data": [
+    {
+        "title": "eSewa",
+        "link": "https://esewa.com.np/#/home"
+    },
+    {
+        "title": "Khalti",
+        "link": "https://khalti.com/"
+    },
+    {
+        "title": "Connect IPS",
+        "payload": "https://www.connectips.com/"
+    },
+    {
+        "title": "IME Pay",
+        "payload": "https://www.imepay.com.np/"
+    }
+    ]
+},
+"payment_office":
+{
+    "type": "quick_reply",
+    "title": "You can make payment of your life insurance policy from our nearest local branch. But if visiting the office is not feasible for you, you can pay via our partner banks or digital wallets. <br> <br> To find the location of nearest branches, please click the button below.",
+    "data": [
+    {
+        "title": "Branch",
+        "payload": "/contact{\"office_type\":\"branch office\"}"
+    }
+    ]
+},
+"banking_partners":
+{
+    "type": "detailpolicy",
+    "subtitle": "IME Payment Partners.",
+    "for": "bank detil",
+    "payload": "/payment{{\"renew_type\":\"premium\"}}",
+    "Headers": [
+        {
+            "Sn": "Sn",
+            "accountName": "Account Name",
+            "bank": "Bank Name",
+            "branch": "Branch",
+            "accountNumber": "Account Number"
+        }
+    ],
+    "data": [
+        {
+            "index": "citizen bank international",
+            "Sn": 1,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Citizen Bank International Ltd.",
+            "Branch": "Durbarmarg",
+            "AccountNumber": 110100000371201
+        },
+        {
+            "index": "everest",
+            "Sn": 2,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Everest Bank Limited",
+            "Branch": "Newroad",
+            "AccountNumber": 200105201385
+        },
+        {
+            "index": "lumbini bikash",
+            "Sn": 3,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Lumbini Bikash Bank Ltd.",
+            "Branch": "Gongabu",
+            "AccountNumber": 1300120085333000002
+        },
+        {
+            "index": "machhapuchchhre",
+            "Sn": 4,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Machhapuchchhre Bank Ltd.",
+            "Branch": "Lazimpat",
+            "AccountNumber": 9990053960100021
+        },
+        {
+            "index": "mahalaxmi",
+            "Sn": 5,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Mahalaxmi Bikas Bank Limited",
+            "Branch": "Durbarmarg",
+            "AccountNumber": 4200100403923000001
+        },
+        {
+            "index": "muktinath",
+            "Sn": 6,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Muktinath Bikas Bank Limited",
+            "Branch": "Kamaladi",
+            "AccountNumber": 1310200215816000001
+        },
+        {
+            "index": "nabil",
+            "Sn": 7,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Nabil Bank",
+            "Branch": "Kamaladi",
+            "AccountNumber": 16901017503623
+        },
+        {
+            "index": "nepal bank",
+            "Sn": 8,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Nepal Bank Ltd.",
+            "Branch": "Dillibazar",
+            "AccountNumber": 3200106487876000001
+        },
+        {
+            "index": "nic asia",
+            "Sn": 9,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "NIC Asia Bank Ltd.",
+            "Branch": "Kamaladi",
+            "AccountNumber": 3241499086524001
+        },
+        {
+            "index": "nic asia",
+            "Sn": 10,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "NIC Asia Bank Ltd.(For agent license fee)",
+            "Branch": "Kamaladi",
+            "AccountNumber": 3241249908652403
+        },
+        {
+            "index": "siddhartha",
+            "Sn": 11,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Siddhartha Bank ltd.",
+            "Branch": "Gongabu",
+            "AccountNumber": 1615322948
+        },
+        {
+            "index": "sunrise",
+            "Sn": 12,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Sunrise Bank Limited",
+            "Branch": "Gairidhara",
+            "AccountNumber": 20464595701001
+        },
+        {
+            "index": "rastriya banijya",
+            "Sn": 13,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Rastriya Banijya Bank Ltd.",
+            "Branch": "Naxal",
+            "AccountNumber": 1160100001565001
+        },
+        {
+            "index": "nmb",
+            "Sn": 14,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "NMB Bank Ltd.",
+            "Branch": "Mahendranagar",
+            "AccountNumber": 980138972800031
+        },
+        {
+            "index": "shine resunga",
+            "Sn": 15,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Shine Resunga Dev Bank Ltd.",
+            "Branch": "Dhangadhi",
+            "AccountNumber": 8100100439654000001
+        },
+        {
+            "index": "shangrila",
+            "Sn": 16,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Shangri-la Development Bank Ltd.",
+            "Branch": "Chabahil",
+            "AccountNumber": 9100800252165000009
+        },
+        {
+            "index": "jyoti",
+            "Sn": 17,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Jyoti Bikash Bank Ltd.",
+            "Branch": "Kamalpokhari",
+            "AccountNumber": 100100099461000008
+        },
+        {
+            "index": "garima",
+            "Sn": 18,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Garima Bikash Bank Ltd.",
+            "Branch": "Lazimpat",
+            "AccountNumber": 4000100807104000014
+        },
+        {
+            "index": "kumari",
+            "Sn": 19,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Kumari Bank Limited",
+            "Branch": "Putalisadak",
+            "AccountNumber": 10033808900001
+        },
+        {
+            "index": "nepal investment mega bank",
+            "Sn": 20,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Nepal Investment Mega Bank Limited(NIMB) ",
+            "Branch": "Putalisadak",
+            "AccountNumber": 1201020263856
+        },
+        {
+            "index": "prabhu",
+            "Sn": 21,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Prabhu Bank Ltd.",
+            "Branch": "Lainchour",
+            "AccountNumber": 860092658400022
+        },
+        {
+            "index": "himalayan",
+            "Sn": 22,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Himalayan Bank Ltd.",
+            "Branch": "Teku",
+            "AccountNumber": 1807355200021
+        },
+        {
+            "index": "global ime",
+            "Sn": 23,
+            "Account_Name": "I.M.E. Life Insurance Company Limited",
+            "Bank_Name": "Global IME Bank Ltd.",
+            "Branch": "Panipokhari",
+            "AccountNumber": 3301010000466
+        }
+    ]
+},
+"banking_partners_fb":
+{
+    "type": "quick_reply",
+    "title": "Please click the button below to view our banking partners.",
+    "data": [
+    {
+        "title": "Banking Partners",
+        "link": "https://imelifeinsurance.com/Banking-Partners.aspx"
+    }
+    ]
+},
+"else_part_payment":
+{
+    "type": "quick_reply",
+    "title": "You can make payment by visiting our office or via our banking partners or via digital wallets. Please choose an option:",
+    "data": [
+    {
+        "title": "Visit our office",
+        "payload": "/contact"
+    },
+    {
+        "title": "Partner Banks",
+        "payload": "/payment{\"payment_option\":\"bank\"}"
+    },
+    {
+        "title": "eSewa",
+        "link": "https://esewa.com.np/#/home"
+    },
+    {
+        "title": "Khalti",
+        "link": "https://khalti.com/"
+    },
+    {
+        "title": "Connect IPS",
+        "link": "https://www.connectips.com/"
+    },
+    {
+        "title": "IME Pay",
+        "link": "https://www.imepay.com.np/"
+    }
+    ]
+}
+
+}

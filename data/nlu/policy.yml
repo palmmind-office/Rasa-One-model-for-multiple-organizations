@@ -1,0 +1,26 @@
+version: "3.1"
+
+nlu:
+  - intent: policy
+    examples: |
+
+      - Policy
+      - policy holder
+      - Tell me about policy holder
+      - Give information about policy holders
+      - about policy holders
+      - new policyholder
+      - how to be a policyholder
+      - i am a policy holder
+      - policyholder
+      - policy services
+      - What are the policy services you have?
+      - Services
+      - I want to inquire about my policy.
+      - I want to know about policy details.
+      - How can I know about my policy?
+      - I need information regarding the policy.
+
+  - synonym: policy holder
+    examples: |
+      - policyholder

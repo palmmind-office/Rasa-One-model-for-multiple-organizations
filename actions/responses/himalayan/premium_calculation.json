@@ -1,0 +1,13 @@
+{
+    "premium_calculation":
+        {
+            "type": "quick_reply",
+            "title": "Please click the button below and fill up the details for premium calculation.",
+            "data": [
+            {
+                "title": "Premium Calculator",
+                "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+            }
+            ]
+        }
+}

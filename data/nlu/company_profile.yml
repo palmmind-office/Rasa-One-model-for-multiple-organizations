@@ -1,0 +1,58 @@
+version: "3.1"
+
+nlu:
+  - intent: company_profile
+    examples: |
+      - Who is the [ceo](company_info) of the company? 
+      - [ceo](company_info) of himalayan life insurance
+      - [ceo](company_info) of your company
+      - [chief executive officer]{"entity": "company_info", "value":"ceo"} of himalayan life insurance
+      - [ceo](company_info) details
+      - can i get the contact details of [ceo](company_info)?
+      - can i contact your [ceo](company_info)?
+
+      - Who is the [chairman](company_info) of the company? 
+      - [chairman](company_info) of himalayan life insurance
+      - [chairman](company_info) of your company
+      - [chairperson]{"entity": "company_info", "value":"chairman"} of himalayan life insurance
+      - can i get the contact details of [chairman](company_info)?
+      - can i contact your [chairman](company_info)?
+
+      - [information officer](company_info) of himalayan life insurance
+      - who is the [information officer](company_info) of himalayan life insurance?
+      - How can I contact the [information officer](company_info) of himalayan life insurance?
+      - [information officer](company_info) details
+      - can i get the contact details of [information officer](company_info)?
+      - can i contact your [information officer](company_info)?
+
+      - Give the detail info of himalayan life insurance.
+      - about company
+      - about your company
+      - goals of your company
+      - What are the objectives of this company? 
+      - What is the objective of himalayan life insurance?
+      - Give detail info about himalayan.
+      - About himalayan life insurance
+      - I am interested to know about your company.
+      - Can you give detail information about your company?
+      - Investment of himalayan 
+      - Tell me about your organization
+      - Tell me about Reliable Life Insurance
+        
+      - Why should I choose your company?
+      - Why should I choose Himalayan Life insurance?
+      - Why should I do insurance from your company?
+      - How can i know about your company?
+      - Why should I choose your products?
+      - why should i choose you?
+      - What benefits will I get if I choose your products?
+
+      - [management team](company_info)
+      - [human resources]{"entity": "company_info", "value": "management team"}
+      - show me the [management team](company_info)
+
+      - [board of directors](company_info)
+      - I want to know the [board of directors](company_info)
+      - Can you show me the [board of directors](company_info)?
+      - How many employees in your company?
+      - Which is the best life insurance company in nepal?

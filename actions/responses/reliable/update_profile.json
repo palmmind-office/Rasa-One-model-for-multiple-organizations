@@ -1,0 +1,583 @@
+{
+  "address": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway. Please try again",
+        "form": {
+          "elements": [
+            {
+              "order": "number",
+              "utterances": [
+                {
+                  "message": "Please provide following details to update your Address."
+                }
+              ],
+              "title": "Enter your Policy Number ?",
+              "type": "textbox",
+              "placeholder": "Enter Policy Number",
+              "validation": {
+                "type": "PolicyNumber",
+                "error": "Invalid!! Provide 12 digit PolicyNumber"
+              },
+              "label": "policyNo"
+            },
+            {
+              "order": "text",
+              "utterances": [
+                {
+                  "message": "Your age will help us keep you in good Services. "
+                }
+              ],
+              "title": "Please choose your date of birth.",
+              "placeholder": "Please Enter birthdate",
+              "type": "date",
+              "label": "dob"
+            },
+            {
+              "order": "number",
+              "title": "Provide your mobile number",
+              "type": "textbox",
+              "placeholder": "Enter your Mobile Number",
+              "validation": {
+                "type": "mobile",
+                "error": "Invalid!! Provide 10 digit MobileNumber"
+              }
+            },
+            {
+              "order": "text",
+              "type": "textbox",
+              "title": "Please provide your new Address",
+              "placeholder": "Enter new address",
+              "validation": {
+                "type": "requested_value",
+                "error": "Address should not be empty"
+              },
+              "label": "requestedValue"
+            },
+            {
+              "order": "cancle",
+              "title": " Do you want to submit your information ?",
+              "type": "submitbutton",
+              "placeholder": "Enter your email",
+              "button": [
+                {
+                  "submit": "Submit",
+                  "type": "submit"
+                },
+                {
+                  "submit": "Cancel",
+                  "type": "cancle"
+                }
+              ]
+            }
+          ]
+        },
+        "post": "rest/v1/reliable/policy?type=AddressChangeRequest"
+      }
+,
+"pan_number": 
+{
+    "type": "formMessageSection",
+    "exitMSG": "Oops !! you quitted midway. Please try again",
+    "form": {
+      "elements": [
+        {
+          "order": "number",
+          "utterances": [
+            {
+              "message": "To change your Pan Number please provide your details."
+            }
+          ],
+          "title": "Enter your Agent Code ?",
+          "type": "textbox",
+          "placeholder": "Enter Agent Code",
+          "validation": {
+            "type": "AgentCode",
+            "error": "Invalid!! Provide 8 digit Agent Code"
+          },
+          "label": "agentCode"
+        },
+        {
+          "order": "text",
+          "utterances": [
+            {
+              "message": "Your age will help us keep you in good Services. "
+            }
+          ],
+          "title": "Please choose your date of birth.",
+          "placeholder": "Please Enter birthdate",
+          "type": "date",
+          "label": "dob"
+        },
+        {
+          "order": "number",
+          "title": "Enter your Mobile Number ?",
+          "type": "textbox",
+          "placeholder": "Enter MobileNumber",
+          "validation": {
+            "type": "mobile",
+            "error": "Invalid!! Provide 10 digit MobileNumber"
+          },
+          "label": "mobileNo"
+        },
+        {
+          "order": "number",
+          "title": "Enter your New Pan Number for Update ?",
+          "type": "textbox",
+          "placeholder": "Enter Pan Number",
+          "validation": {
+            "type": "pannumber",
+            "error": "Pan Number Should not be empty"
+          },
+          "label": "requestedValue"
+        },
+        {
+          "order": "cancle",
+          "title": " Do you want to submit your information ?",
+          "type": "submitbutton",
+          "placeholder": "Enter your email",
+          "button": [
+            {
+              "submit": "Submit",
+              "type": "submit"
+            },
+            {
+              "submit": "Cancel",
+              "type": "cancle"
+            }
+          ]
+        }
+      ]
+    },
+    "post": "rest/v1/reliable/policy?type=PanNumberUpdateRequest"
+  },
+  "account_number": 
+  {
+      "type": "formMessageSection",
+      "exitMSG": "Oops !! you quitted midway during Mode change. Please try again",
+      "form": {
+        "elements": [
+          {
+            "order": "number",
+            "utterances": [
+              {
+                "message": "To change your Account Number please provide your details."
+              }
+            ],
+            "title": "Enter your Agent Code ?",
+            "type": "textbox",
+            "placeholder": "Enter Agent Code",
+            "validation": {
+              "type": "AgentCode",
+              "error": "Invalid!! Provide 8 digit Agent Code"
+            },
+            "label": "agentCode"
+          },
+          {
+            "order": "text",
+            "utterances": [
+              {
+                "message": "Your age will help us keep you in good Services. "
+              }
+            ],
+            "title": "Please choose your date of birth.",
+            "placeholder": "Please Enter birthdate",
+            "type": "date",
+            "label": "dob"
+          },
+          {
+            "order": "number",
+            "title": "Enter your Mobile Number ?",
+            "type": "textbox",
+            "placeholder": "Enter MobileNumber",
+            "validation": {
+              "type": "mobile",
+              "error": "Invalid!! Provide 10 digit MobileNumber"
+            },
+            "label": "mobileNo"
+          },
+          {
+            "order": "string",
+            "title": "Enter your New Bank Account for Change ?",
+            "type": "textbox",
+            "placeholder": "Enter Bank Account",
+            "validation": {
+              "type": "requested_value",
+              "error": "Bank Account Should not be empty"
+            },
+            "label": "requestedValue"
+          },
+          {
+            "order": "cancle",
+            "title": " Do you want to submit your information ?",
+            "type": "submitbutton",
+            "placeholder": "Enter your email",
+            "button": [
+              {
+                "submit": "Submit",
+                "type": "submit"
+              },
+              {
+                "submit": "Cancel",
+                "type": "cancle"
+              }
+            ]
+          }
+        ]
+      },
+      "post": "rest/v1/reliable/policy?type=BankAccountChangeRequest"
+    },
+
+    "payment_mode":
+        {
+            "type": "formMessageSection",
+            "exitMSG": "Oops !! you quitted midway. Please try again",
+            "form": {
+              "elements": [
+                {
+                  "order": "number",
+                  "utterances": [
+                    {
+                      "message": "Please provide following details to change your pay mode options."
+                    }
+                  ],
+                  "title": "Enter your Policy Number ?",
+                  "type": "textbox",
+                  "placeholder": "Enter Policy Number",
+                  "validation": {
+                    "type": "PolicyNumber",
+                    "error": "Invalid!! Provide 12 digit PolicyNumber"
+                  },
+                  "label": "policyNo"
+                },
+                {
+                  "order": "text",
+                  "utterances": [
+                    {
+                      "message": "Your age will help us keep you in good Services. "
+                    }
+                  ],
+                  "title": "Please choose your date of birth.",
+                  "placeholder": "Please Enter birthdate",
+                  "type": "date",
+                  "label": "dob"
+                },
+                {
+                  "order": "number",
+                  "title": "Enter your Mobile Number ?",
+                  "type": "textbox",
+                  "placeholder": "Enter Mobile Number",
+                  "validation": {
+                    "type": "mobile",
+                    "error": "Invalid!! Provide 10 digit MobileNumber"
+                  },
+                  "label": "mobileNo"
+                },
+                {
+                  "order": "text",
+                  "title": "Enter your Requested Value ?",
+                  "type": "dropdown",
+                  "placeholder": "Enter Requested Value",
+                  "validation": {
+                    "type": "requested_value",
+                    "error": "Invalid!! Provide 4 digit Requested Value"
+                  },
+                  "label": "requestedValue"
+                },
+                {
+                  "order": "cancle",
+                  "title": " Do you want to submit your information ?",
+                  "type": "submitbutton",
+                  "placeholder": "Enter your email",
+                  "button": [
+                    {
+                      "submit": "Submit",
+                      "type": "submit"
+                    },
+                    {
+                      "submit": "Cancel",
+                      "type": "cancle"
+                    }
+                  ]
+                }
+              ]
+            },
+            "post": "rest/v1/reliable/policy?type=PaymodeChangeRequest",
+            "getpost": "rest/v1/reliable/policy?type=PaymodeChangeCheck"
+          },
+
+          "occupation": 
+          {
+              "type": "formMessageSection",
+              "exitMSG": "Oops !! you quitted midway. Please try again",
+              "form": {
+                "elements": [
+                  {
+                    "order": "text",
+                    "utterances": [
+                      {
+                        "message": "Please provide following details to update your Occupation. "
+                      }
+                    ],
+                    "title": "Enter your Policy Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Policy Number",
+                    "validation": {
+                      "type": "PolicyNumber",
+                      "error": "Invalid!! Provide 12 digit PolicyNumber"
+                    },
+                    "label": "policyNo"
+                  },
+                  {
+                    "order": "text",
+                    "utterances": [
+                      {
+                        "message": "Your age will help us keep you in good Services. "
+                      }
+                    ],
+                    "title": "Please choose your date of birth.",
+                    "placeholder": "Please Enter birthdate",
+                    "type": "date",
+                    "label": "dob"
+                  },
+                  {
+                    "order": "number",
+                    "title": "Enter your Mobile Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Mobile Number",
+                    "validation": {
+                      "type": "mobile",
+                      "error": "Invalid!! Provide 10 digit MobileNumber"
+                    },
+                    "label": "mobileNo"
+                  },
+                  {
+                    "order": "text",
+                    "title": "Enter your Occupation ?",
+                    "type": "dropdown",
+                    "placeholder": "Enter Occupation",
+                    "validation": {
+                      "type": "requested_value",
+                      "error": "Occupation should not be empty"
+                    },
+                    "label": "requestedValue"
+                  },
+                  {
+                    "order": "cancle",
+                    "title": " Do you want to submit your information ?",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                      {
+                        "submit": "Submit",
+                        "type": "submit"
+                      },
+                      {
+                        "submit": "Cancel",
+                        "type": "cancle"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "post": "rest/v1/reliable/policy?type=OccupationChangeRequest",
+              "getpost": "rest/v1/reliable/policy?type=OccupationChangeCheck"
+            },
+  
+      "nominee":
+             {
+              "type": "formMessageSection",
+              "exitMSG": "Oops !! you quitted midway. Please try again",
+              "form": {
+                "elements": [
+                  {
+                    "order": "text",
+                    "utterances": [
+                      {
+                        "message": "Please provide following details to update your Nominee "
+                      }
+                    ],
+                    "title": "Enter your Policy Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Policy Number",
+                    "validation": {
+                      "type": "PolicyNumber",
+                      "error": "Invalid!! Provide 12 digit PolicyNumber"
+                    },
+                    "label": "policyNo"
+                  },
+                  {
+                    "order": "text",
+                    "utterances": [
+                      {
+                        "message": "Your age will help us keep you in good Services. "
+                      }
+                    ],
+                    "title": "Please choose your date of birth.",
+                    "placeholder": "Please Enter birthdate",
+                    "type": "date",
+                    "label": "dob"
+                  },
+                  {
+                    "order": "number",
+                    "title": "Enter your Mobile Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Mobile Number",
+                    "validation": {
+                      "type": "mobile",
+                      "error": "Invalid!! Provide 10 digit MobileNumber"
+                    },
+                    "label": "mobileNo"
+                  },
+                  {
+                    "order": "text",
+                    "type": "textbox",
+                    "title": "Please provide your new Nominee name",
+                    "placeholder": "Enter new Nominee name",
+                    "validation": {
+                      "type": "requested_value",
+                      "error": "Nominee name should not be empty"
+                    },
+                    "label": "requestedValue"
+                  },
+                  {
+                    "order": "cancle",
+                    "title": " Do you want to submit your information ?",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                      {
+                        "submit": "Submit",
+                        "type": "submit"
+                      },
+                      {
+                        "submit": "Cancel",
+                        "type": "cancle"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "post": "rest/v1/reliable/policy?type=NomineeChangeRequest"
+            },
+          
+      "mobile_number":
+           {
+              "type": "formMessageSection",
+              "exitMSG": "Oops !! you quitted midway. Please try again",
+              "form": {
+                "elements": [
+                  {
+                    "order": "number",
+                    "utterances": [
+                      {
+                        "message": "Please provide following details to update your mobile number."
+                      }
+                    ],
+                    "title": "Enter your Policy Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Policy Number",
+                    "validation": {
+                      "type": "PolicyNumber",
+                      "error": "Invalid!! Provide 12 digit PolicyNumber"
+                    },
+                    "label": "policyNo"
+                  },
+                  {
+                    "order": "text",
+                    "utterances": [
+                      {
+                        "message": "Your age will help us keep you in good Services. "
+                      }
+                    ],
+                    "title": "Please choose your date of birth.",
+                    "placeholder": "Please Enter birthdate",
+                    "type": "date",
+                    "label": "dob"
+                  },
+                  {
+                    "order": "number",
+                    "title": "Enter your New MobileNumber ?",
+                    "type": "textbox",
+                    "placeholder": "Enter New MobileNumber",
+                    "validation": {
+                      "type": "mobile",
+                      "error": "Invalid!! Provide 10 digit MobileNumber"
+                    },
+                    "label": "requestedValue"
+                  },
+                  {
+                    "order": "cancle",
+                    "title": " Do you want to submit your information ?",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                      {
+                        "submit": "Submit",
+                        "type": "submit"
+                      },
+                      {
+                        "submit": "Cancel",
+                        "type": "cancle"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "post": "rest/v1/reliable/policy?type=MobileNumberChange"
+            },
+  "update_agent":
+  {
+      "type": "quick_reply",
+      "title": "Please choose an option to update your details.",
+      "data": [
+      {
+          "title": "Pan Number",
+          "payload": "/update_profile{\"category\":\"pan number\"}"
+      },
+      {
+          "title": "Account Number",
+          "payload": "/update_profile{\"category\":\"account number\"}"
+      } 
+      ]
+  },
+  "update_policyholder":
+  {
+      "type": "quick_reply",
+      "title": "Please choose an option to update your details.",
+      "data": [
+      {
+          "title": "Payment Mode",
+          "payload": "/update_profile{\"category\":\"payment mode\"}"
+      },
+      {
+          "title": "Occupation",
+          "payload": "/update_profile{\"category\":\"occupation\"}"
+      },
+      {
+        "title": "Nominee",
+        "payload": "/update_profile{\"category\":\"nominee\"}"
+      },
+      {
+        "title": "Mobile Number",
+        "payload": "/update_profile{\"category\":\"mobile number\"}"
+      },
+      {
+        "title": "Address",
+        "payload": "/update_profile{\"category\":\"address\"}"
+      }
+      ]
+  },
+
+  "update_profile_fb":
+{
+    "type": "quick_reply",
+    "title": "To update your details, please contact to our nearest branch.",
+    "data": [ 
+      {
+        "title": "Branch",
+        "payload": "/contact{\"office_type\":\"branch office\", \"branch_type\":\"nearby\"}"
+    } 
+    ]
+}
+         
+}

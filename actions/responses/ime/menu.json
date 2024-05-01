@@ -1,0 +1,41 @@
+{
+    "menu_rest": {
+        "title": "Namaste, I am Your Virtual Assistant. How may I help you?",
+        "type": "hamburger",
+        "welcomeImage": "images/menu/logo.png",
+        "descriptionEnglish": "Namaste, I am Your Virtual Assistant. How may I help you?",
+        "descriptionNepali": "नमस्ते, म (आई. एम. ई. लाईफ च्याटबोट) तपाईको स्वचालित सहायक | म तपाईलाई कसरी सहयोग गर्न सक्छु ?",
+        "data": [
+            {
+                "title": "Products",
+                "payload": "/product_info",
+                "icon": "images/menu/product.png"
+            },
+            {
+                "title": "Policy Services",
+                "payload": "/policy",
+                "icon": "images/menu/compliant.png"
+            },
+            {
+                "title": "Agency",
+                "payload": "Agency",
+                "icon": "images/menu/business-woman.png"
+            },
+            {
+                "title": "Claim & Loan",
+                "payload": "/about_claim",
+                "icon": "images/menu/home.png"
+            },
+            {
+                "title": "Branch",
+                "payload": "/contact",
+                "icon": "images/menu/branch.png"
+            },
+            {
+                "title": "Payment",
+                "payload": "/payment",
+                "icon": "images/menu/debit-card.png"
+            }
+        ]
+    }
+}

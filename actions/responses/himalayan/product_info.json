@@ -1,0 +1,3268 @@
+{
+"bonus_rates":
+    {
+        "type": "quick_reply",
+        "title": "Please click the button below to know about our bonus rates.",
+        "data": [
+        {
+            "title": "Bonus Rates",
+            "link": "https://himalayanlife.com.np/Bonus-Rate.aspx"
+        }
+        ]
+    },
+"child_plan_rest":
+{
+    "type": "detailDrawer",
+    "subType": "free-accounts",
+    "title": "We have different child plans available. Please find the one that best suits your needs from the following options.",
+    "previousUtter": "back",
+    "data": [
+        {
+            "title": "Himalayan Child Endowment Plan",
+            "subtitle": "You can find the key features of this plan in view details section.",
+            "img": "images/menu/products/child.png",
+            "interest": "Himalayan Child Endowment Plan",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Child Endowment Plan",
+                            "title": "Himalayan Child Endowment Plan",
+                            "subtitle": "Key Features",
+                            "paragraph": "",
+                            "subtitle1": [
+                                {
+                                    "title": "FEATURES",
+                                    "listitem": [
+                                        {
+                                            "text": "• Plan Name: Child Endowment life Assurance Plan"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: 50,000/-"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: According to the income of Life Assurance"
+                                        },
+                                        {
+                                            "text": "• Entry Age (Child): (New Born) 0 Years to 13Years"
+                                        },
+                                        {
+                                            "text": "• Maximum entry age child/ (Proposer): 13 Years to 65 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum maturity age child/proposer: 18 years/70 years"
+                                        },
+                                        {
+                                            "text": "• Term: min. 5 Years to max. 18 Years"
+                                        },
+                                        {
+                                            "text": "• Mode of paying method: Monthly, Quarterly, half Yearly, Yearly"
+                                        },
+                                        {
+                                            "text": "• Medical Requirement: As per Company Rule"
+                                        },
+                                        {
+                                            "text": "• Age Calculation Method: Age Nearer Birthday"
+                                        },
+                                        {
+                                            "text": "• Accidental Benefit: PWB/PTD Available up to Max. 1,00,00,000/-"
+                                        },
+                                        {
+                                            "text": "• Loan Facility: 2 year complete premium paid should be require for taking loan."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>RISK COMMENCEMENT:</b> Risk of the Child will be commence either 2 Years after the date of commencement or from the policy anniversary falling immediately after the child completing 6 years of age, whichever is later."
+                                        },
+                                        {
+                                            "text": "• <b>OTHER FACILITIES:</b> Surrender value, Paid up Value as per policy."
+                                        },
+                                        {
+                                            "text": "• <b>POLICY BENEFITS:</b> 1. On the death of Child before commencement of risk<br> 2. On the Death of Child After commencement of Risk<br> 3. Premium Waiver Benefit <br> 4. Monthly Income Benefits"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Life Swarnim Jeewan Beema",
+            "subtitle": "This plan is specially designed to meet the increasing educational, marriage and other needs of growing children. ",
+            "img": "images/menu/products/swarnim.png",
+            "interest": "Himalayan Life Swarnim Jeewan Beema",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Life Swarnim Jeewan Beema",
+                            "title": "Himalayan Life Swarnim Jeewan Beema",
+                            "subtitle": "Key Features",
+                            "paragraph": "This plan is specially designed to meet the increasing educational, marriage and other needs of growing children. At HimalayaneLife, we understand the value of securing child's future and offer a plan 'PrimeLife Swarnim' to help secure a bright future for children.</br>• Insurance term can be determined as per requirement</br>• Premium payment frequency can be chosen as per convenience</br>• Sum insured can be chosen as per customer's need",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Age of Child: 0 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Age of Child: 15 years nearest birthday"
+                                        },
+                                        {
+                                            "text": "• Minimum Age of Prosper: 18 years"
+                                        },
+                                        {
+                                            "text": "• Maximum Age of Propose: 60 years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age of Prosper: 60 years"
+                                        },
+                                        {
+                                            "text": "• Minimum Policy Term: 10 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Policy Term: 30 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: Rs. 50,000"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: Rs. 5,000,000"
+                                        },
+                                        {
+                                            "text": "• Premium Paying Term: Equal to policy term"
+                                        },
+                                        {
+                                            "text": "• Premium Payment Frequency: Yearly, Half Yearly, Quarterly & Monthly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>At the time of Maturity:</b> Full Sum Assured plus bonus"
+                                        },
+                                        {
+                                            "text": "• <b>After commnecement of Risk:</b> Full Sum Assured plus Bonus"
+                                        },
+                                        {
+                                            "text": "• <b>Before commnecement of Risk:</b> Refund of full premium paid after deducting riders premium, if any"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Riders",
+                                    "listitem": [
+                                        {
+                                            "text": "Premium Waiver Benefit (PWB) and Monthly Incime Benefit (MIB)"
+                                        },
+                                        {
+                                            "text": "MIB/PWB coverage is for proposer (i.e child's father or mother) with following features:"
+                                        },
+                                        {
+                                            "text": "• Minimum Rider Sum Assured: NPR 50,000"
+                                        },
+                                        {
+                                            "text": "• Maximum Rider Sum Assured: NPR 50,00,000"
+                                        },
+                                        {
+                                            "text": "• Minimum Rider Term: 2 years"
+                                        },
+                                        {
+                                            "text": "• Maximum Rider Term: 16 - age of child"
+                                        },
+                                        {
+                                            "text": "• Minimum Entry Age of Proposer: 18 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age of Proposer: 58 Years"
+                                        },
+                                        {
+                                            "text": "• Premium Payment Frequency: Yearly, Half Yearly, Quarterly and Monthly"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+},
+"whole life_plan_rest":
+{
+    "type": "detailDrawer",
+    "subType": "free-accounts",
+    "title": "We have different whole life plans available. Please find the one that best suits your needs from the following options.",
+    "previousUtter": "back",
+    "data": [
+        {
+            "title": "Himalayan Endowment Cum Whole Life Insurance Plan",
+            "subtitle": "This is an extension of the term insurance whereby the Assured amount is payable only on death of the assured whenever that may occur at the time of maturity. ",
+            "img": "images/menu/products/endowmentwholelife1.png",
+            "interest": "Himalayan Endowment Cum Whole Life Insurance Plan",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Endowment Cum Whole Life Insurance Plan",
+                            "title": "Himalayan Endowment Cum Whole Life Insurance Plan",
+                            "subtitle": "Key Features",
+                            "paragraph": "This is an extension of the term insurance whereby the Assured amount is payable only on death of the assured whenever that may occur at the time of maturity. In this case, the premium is payable up to a stipulated period by insured sum is payable only upon the death of the insured to his nominee.",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Entry Age: 11 to 65 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum age at the end of premium paying term: 70 years"
+                                        },
+                                        {
+                                            "text": "• Term: min. 5 Years to max. 59 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Policy Term: 20 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: Rs. 100,000"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: According to the income of Life Assurance"
+                                        },
+                                        {
+                                            "text": "• Mode of paying method: Monthly, Quarterly, half Yearly, Yearly"
+                                        },
+                                        {
+                                            "text": "• Medical Requirement: As per Company Rule"
+                                        },
+                                        {
+                                            "text": "• Age Calculation Method: Age Nearer Birthday"
+                                        },
+                                        {
+                                            "text": "• Loan Facility: 2 year complete premium paid should be require for taking loan"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "<b>SPECIAL FEATURES</b>"
+                                        },
+                                        {
+                                            "text": "<b>• Rebate on large Sum Assured:</b></br> Sum Assured: 2,00,000 /-  to 2,99,999 /-  Rebate Rs. 1/-</br>Sum Assured: 3,00,000 /-  & Above   Rebate Rs. 2/-"
+                                        },
+                                        {
+                                            "text": "<b>• Rebate on Premium Paying Terms:</b></br>Yearly: 2 % Rebate</br>Half Yearly: 1 % Rebate</br>Quaterly: NIL</br>Monthly: Additional 5 % Rebate"
+                                        },
+                                        {
+                                            "text": "<b>OTHER FACILITIES: </b></br>1. Loan Facility: 2-year complete premium paid should be required for getting a Policyholder loan.</br>2. Surrender value, Paid-up Value as per policy.</br>3. Policy Mature Benefit: Sum Assured + Accrued Bonus</br>4. Survival Benefits at age of 100 years: Sum Assured</br>5. Death Benefits: Within Term Period - Sum Assured + Accrued Bonus up to Term Period during Death.</br>6. Death Benefits after policy mature: Sum Assured."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Riders",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Accidental Death benefits:</b> Sum Assured + Additional Sum Assured up to Max. 1 crore or Actual sum assured whichever is lower. + Accrued bonus up to Term Period during Death."
+                                        },
+                                        {
+                                            "text": "• <b>PTD/ PWB Benefits:</b>Waiver of Premium during term period of the policy after the total permanent disability occurs and monthly income benefits (MIB) be provided provide to policyholder equals to Sum Assured up to 120 months instalment basis and in case of remaining term to maturity be less than 120 months the balancing instalment will be payable in a lump sum on maturity or at death, if earlier."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Limited Payment (Endowment Cum Whole Life) Plan",
+            "subtitle": "Limited Payment Endowment Cum Whole Life Plan covers the features of both limited payment and whole life. It is a participating life product. ",
+            "img": "images/menu/products/limitedWhole.png",
+            "interest": "Himalayan Limited Payment (Endowment Cum Whole Life) Plan",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Limited Payment (Endowment Cum Whole Life) Plan",
+                            "title": "Himalayan Limited Payment (Endowment Cum Whole Life) Plan",
+                            "subtitle": "Key Features",
+                            "paragraph": "In this policy, policyholders may pay premium for the limited of time and will cover risk for the whole life. The policyholder may choose the various premium paying term based on policy term. Premium paying term will be lesser than the policy term.",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Sum Assured: 50,000/-"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: No limit (As per Income Source)"
+                                        },
+                                        {
+                                            "text": "• Entry Age: 11 to 65 Years"
+                                        },
+                                        {
+                                            "text": "• Policy Term: 5 to 30 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 70 Years"
+                                        },
+                                        {
+                                            "text": "• Rider Benefits: ADB, MIB, PWB"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "<b>• Survival Benefit:</b></br> Sum Assured and Vested Bonus up to Maturity Period<br> Survival to Maturity Date (Age 100 Years)<br> Sum Assured Only"
+                                        },
+                                        {
+                                            "text": "<b>• Death Benefit within Policy Term Period:</b><br> Sum Assured and Vested Bonus"
+                                        },
+                                        {
+                                            "text": "<b>• Death Benefit after Policy Maturity :</b><br>Sum Assured Only"
+                                        },
+                                        {
+                                            "text": "<b>• Other facilities :</b><br> Surrender Value<br> Policy holder Loan<br> Tax benefit As per ITA,058"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Riders",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Death Benefit due to Accident:</b><br> Additional amount equal to Sum Assured or Rs. 1,00,00,000/- whichever  is lower<br> Rider  Benefits ADB Covers upto Age 70 Years"
+                                        },
+                                        {
+                                            "text": "• <b>TPD Benefit due to Accident:</b><br> Sum Assured is payable in 120 monthly installment, Balancing installment shall bepayable  in lump sum on maturity or at death."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Life Jeewan Surakshya",
+            "subtitle": "This policy  provides few details about the new term. To know more information click on view details below.",
+            "img": "images/menu/products/jeevan surakhsya.png",
+            "interest": "Himalayan Life Jeewan Surakshya",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Life Jeewan Surakshya",
+                            "title": "Himalayan Life Jeewan Surakshya",
+                            "subtitle": "Key Features",
+                            "paragraph": "• Insurance term can be determined as per requirement</br>• Premium payment frequency can be chosen as per convenience</br>• Sum insured can be chosen as per customer’s need",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Entry Age: 16 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 55 years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 70 years"
+                                        },
+                                        {
+                                            "text": "• Minimum Policy Term: 15 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Policy Term: 54 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: Rs. 100,000"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: No limit"
+                                        },
+                                        {
+                                            "text": "• Premium Paying Term: Equal to policy term"
+                                        },
+                                        {
+                                            "text": "• Premium Payment Frequency: Yearly, Half Yearly, Quarterly & Monthly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Maturity Benefits:</b> Full Sum Assured plus Bonus"
+                                        },
+                                        {
+                                            "text": "• <b>Death Before Maturity:</b> Basic Sum Assured plus Vested Bonus"
+                                        },
+                                        {
+                                            "text": "• <b>Death after Maturity:</b> Basic Sum Assured or Basic Sum Assured plus Accidental Death Benefit upto age 70, in case of accidental death only"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Applicable Riders and Maximum Limit",
+                                    "listitem": [
+                                        {
+                                            "text": "• Accidental Death Benefit (ADB)"
+                                        },
+                                        {
+                                            "text": "• (Equal to basic sum assured or maximum NPR. 10,000,000 whichever is lower)"
+                                        },
+                                        {
+                                            "text": "• <b>Critical Illness (CI) – This is optional</b> rider coverage which shall be allowed to take our existing policyholders in the condition of medical fitness with effect from the policy anniversary date in all the product portfolio. However, the Company has sole discretion to accept or reject the application. The medical cost shall be borne by an applicant whatsoever. The maximum rider sum assured shall be NPR. 25,00,000 or actual basic sum assured whichever is lower."
+                                        },
+                                        {
+                                            "text": "• <b>Personal Accident (PA) –</b> This is optional rider coverage  which offers immense benefits during the policy period. This rider shall be allowed to take new policy holder as well as existing policy holders with effect from the policy anniversary date by paying additional rider premium. The maximum rider sum assured shall be NPR. 50,00,000 or actual basic sum assured whichever is lower."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+},
+"money back_plan_rest":
+{
+    "type": "detailDrawer",
+    "subType": "free-accounts",
+    "title": "We have different money back plans available. Please find the one that best suits your needs from the following options.",
+    "previousUtter": "back",
+    "data": [
+        {
+            "title": "Himalayan Barshik Nagad Firta Jeevan Beema Yojana (Annual Cash Back Policy)",
+            "subtitle": "This policy is an anticipated endowment policy which gives money back every year after one year till maturity at the rate of 4% of the sum assured.",
+            "img": "images/menu/products/nagad.png",
+            "interest": "Himalayan Barshik Nagad Firta Jeevan Beema Yojana (Annual Cash Back Policy)",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Barshik Nagad Firta Jeevan Beema Yojana (Annual Cash Back Policy)",
+                            "title": "Details of Himalayan Barshik Nagad Firta Jeevan Beema Yojana (Annual Cash Back Policy)",
+                            "subtitle": "Key Features",
+                            "paragraph": "This policy is an anticipated endowment policy which gives money back every year after one year till maturity at the rate of 4% of the sum assured. This innovative product was first introduced by Himalayan Life Insurance LTD in considerations of the policy holders who need money every year.",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Entry Age: 18 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 55 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 65 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum Policy Term: 10 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Policy Term: 20 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: Rs. 500,000"
+                                        },
+                                        {
+                                            "text": "• Premium Payment Mode: Yearly/Half Yearly/Quarterly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• 4% of Sum Assured will be returned back to assured annually."
+                                        },
+                                        {
+                                            "text": "• Accrued Bonus plus remaining sum assured will be paid to the assured after maturity."
+                                        },
+                                        {
+                                            "text": "• Sum Assured plus bonus will be paid to nominee person in case of death of the assured during policy term"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• Premium Waiver"
+                                        },
+                                        {
+                                            "text": "• Accidental Death Benefit"
+                                        },
+                                        {
+                                            "text": "• Permanent Total Disability Benefit"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Applicable Riders and Maximum Limit",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Accidental Death Benefit (ADB):</b> (Equal to basic sum assured or maximum NPR. 50,00,000 which ever is less)"
+                                        },
+                                        {
+                                            "text": "• <b>Total Permanent Disability and Premium Waiver  (TPD/PW) :</b> (Equal to basic sum assured or maximum NPR. 50,00,000 whichever is less)"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Jeevan Adhar Insurance Plan - With Profits",
+            "subtitle": "You can find the key features of this plan in view details section.",
+            "img": "images/menu/products/aadhar.png",
+            "interest": "Himalayan Jeevan Adhar Insurance Plan - With Profits",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Jeevan Adhar Insurance Plan - With Profits",
+                            "title": "Himalayan Jeevan Adhar Insurance Plan - With Profits",
+                            "subtitle": "Key Features",
+                            "paragraph": "",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Sum Assured: 500,000/-"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: No limit (As per Income Source)"
+                                        },
+                                        {
+                                            "text": "• Entry Age Age: 18 to 50 Years"
+                                        },
+                                        {
+                                            "text": "• Policy Term: 10 to 20 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 70 Years"
+                                        },
+                                        {
+                                            "text": "• Rider Benefits: ADB, MIB, PWB"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• Survival / Maturity Benefit"
+                                        },
+                                        {
+                                            "text": "• Death Benefit"
+                                        },
+                                        {
+                                            "text": "• Surrender Value"
+                                        },
+                                        {
+                                            "text": "• Policyholder Loan"
+                                        },
+                                        {
+                                            "text": "• Tax benefit As per ITA,058"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Applicable Riders and Maximum Limit",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Death Benefit due to Accident:</b> Additional amount equal to Sum Assured or Rs. 100,00,000/- whichever  is lower."
+                                        },
+                                        {
+                                            "text": "• <b>TPD Benefit due to Accident:</b> Full Sum Assured is payable in 120 monthly installment, Balancing installment shall be payable  in lump sum on maturity or at death."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Jeevan Utthan Insurance Plan",
+            "subtitle": "You can find the key features of this plan in view details section.",
+            "img": "images/menu/products/utthan.png",
+            "interest": "Himalayan Jeevan Utthan Insurance Plan",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Jeevan Utthan Insurance Plan",
+                            "title": "Himalayan Jeevan Utthan Insurance Plan",
+                            "subtitle": "Key Features",
+                            "paragraph": "",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Sum Assured: 50,000/-"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: As per income of the Assured"
+                                        },
+                                        {
+                                            "text": "• Minimum Entry Age: 16 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 50 years"
+                                        },
+                                        {
+                                            "text": "• Policy Term: 9,12,15 and 18 Years"
+                                        },
+                                        {
+                                            "text": "• Mode of paying premium: Yearly and Half-yearly"
+                                        },
+                                        {
+                                            "text": "• Premium Paying Term: Same as Policy Term"
+                                        },
+                                        {
+                                            "text": "• Premium Paying Term: Same as Policy Term"
+                                        },
+                                        {
+                                            "text": "• Medical Requirement: As per Company Rule"
+                                        },
+                                        {
+                                            "text": "• Age Calculation Method: Age Nearer Birthday"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 68 Years"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Policy Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• Survival / Maturity Benefit."
+                                        },
+                                        {
+                                            "text": "• Death Benefit"
+                                        },
+                                        {
+                                            "text": "• Policy Loan / Surrender Value /Paid Up Value"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Death Benefit due to Accident: </b>An additional amount equal to Sum Assured or Rs. 100,00,000/- whichever is lower."
+                                        },
+                                        {
+                                            "text": "• <b>TPD Benefit due to Accident</b> Full Sum Assured is payable in 120 monthly installments, Balancing installment shall be payable in a lump sum on maturity or at death."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Jeewan Upahar",
+            "subtitle": "Himalayan Life Insurance Company has introduced an innovative new product as “Himalayan Jeevan Upahar Plan”, money back cum endowment plan with riders benefit as optional.",
+            "img": "images/menu/products/jeevan.png",
+            "interest": "Himalayan Jeewan Upahar",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Jeewan Upahar",
+                            "title": "Details of Himalayan Jeewan Upahar",
+                            "subtitle": "Key Features",
+                            "paragraph": "Himalayan Life Insurance Company has introduced an innovative new product as Himalayan Jeevan Upahar Plan, money back cum endowment plan with riders benefit as optional. The product is developed to cover high net worth people who are out of the ring of life insurance.</br> The product offered immense return at the time of Maturity as well as covers high death benefit during policy period. The attractiveness of this product is a policyholder gets an equal sum assured  endowment policy at the first policy anniversary date of master policy without any cost, as Upahar.</br> This is a tremendously unique and special plan that offers multiple covers by providing UPAHAR POLICY (pure endowment) equal to the basic sum of PJUP plan. Both the policies mature at the same date with extensive benefits.",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "<b>PJUP</b>"
+                                        },
+                                        {
+                                            "text": "• Minimum Entry Age: 16 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 54 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 70 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum/Maximum Policy Term: 16 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: 500,000 NPR"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: -"
+                                        },
+                                        {
+                                            "text": "<b>UPAHAR</b>"
+                                        },
+                                        {
+                                            "text": "• Minimum Entry Age: 17 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 55 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 70 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum/Maximum Policy Term: 15 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum/Maximum Sum Assured: As per Original policy Sum Assure"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>At the time of Maturity:</b> 25% of the sum assured on the base plan and 100% basic sum assured of the UPAHAR plan plus earned bonuses on both the policies shall be paid to assured i.e.,125% of the basic sum and 200% of bonus."
+                                        },
+                                        {
+                                            "text": "• <b>Death before maturity:</b>  100% sum of the base plan plus earned bonus shall be paid within the first policy anniversary. 100% sum of the base plan and 100% sum of the UPAHAR plan plus earned bonuses on both the policies shall be paid after the first policy anniversary on the basis of the terms and conditions of the policy."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Applicable Riders and Maximum Limit",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Accidental Death Benefit (ADB):</b> (Equal to basic sum assured or maximum NPR. 10,000,000 which ever is less) Upto age 70 Years"
+                                        },
+                                        {
+                                            "text": "• <b>Total Permanent Disability and Premium Waiver (TPD/PW) </b> (Equal to basic sum assured or maximum NPR. 10,00,000 which ever is less) Upto age 70 Years"
+                                        },
+                                        {
+                                            "text": "• <b>Critical Illness (CI):</b>Critical Illness Cover up to NPR. 25 Lakh. Upto age 65 Years"
+                                        },
+                                        {
+                                            "text": "•  <b>Personal Accident Benifit (PAB) </b>Personal accident and disabilities with Medical expenses cover up to NPR. 50 Lakh. Upto age 65 Years"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Life Sulav Money Back",
+            "subtitle": "Himalayan Life  Sulav Jeevan Beema Insurance Scheme is a new kind of money back-life insurance scheme.",
+            "img": "images/menu/products/sulav.png",
+            "interest": "Himalayan Life Sulav Money Back",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Life Sulav Money Back",
+                            "title": "Details of Himalayan Life Sulav Money Back",
+                            "subtitle": "Key Features",
+                            "paragraph": "Himalayan Life  Sulav Jeevan Beema Insurance Scheme is a new kind of money back-life insurance scheme. Insured during this insurance plan after completing sometime of insurance period get some percentage of Insured amount is refunded, which helps you to fulfill your daily need works.100 percentage of insurance risk will be covered after the remaining term. The mind delivers much when insurance gets an over-all bonus amount.",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Entry Age: 16 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 55 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 70 Years"
+                                        },
+                                        {
+                                            "text": "• Policy Term: 12 / 15 / 20 / 25"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: 500,000 NPR"
+                                        },
+                                        {
+                                            "text": "• Premium Paying Term: Single or  9 / 12 / 16 / 20"
+                                        },
+                                        {
+                                            "text": "• Premium Payment Frequency: Single, Yearly, Half Yearly, Quarterly & Monthly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• Survival Benefits"
+                                        },
+                                        {
+                                            "text": "• Death Benefits"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Supplementary Riders",
+                                    "listitem": [
+                                        {
+                                            "text": "• Accidental Death Benefit (ADB) and Total Permanent Disability and Premium Waiver  (TPD/PW)"
+                                        },
+                                        {
+                                            "text": "• (Equal to basic sum assured or maximum NPR. 10,000,000 which ever is less)"
+                                        },
+                                        {
+                                            "text": "• <b>Critical Illness (CI) - This is optional</b> rider coverage which shall be allowed to take our existing policyholders in the condition of medical fitness with effect from the policy anniversary date in all the product portfolio. However, the Company has sole discretion to accept or reject the application. The medical cost shall be borne by an applicant whatsoever. The maximum rider sum assured shall be NPR. 25,00,000 or actual basic sum assured whichever is lower."
+                                        },
+                                        {
+                                            "text": "• <b>Personal Accident (PA) -</b> This is optional rider coverage  which offers immense benefits during the policy period. This rider shall be allowed to take new policy holder as well as existing policy holders with effect from the policy anniversary date by paying additional rider premium. The maximum rider sum assured shall be NPR. 50,00,000 or actual basic sum assured whichever is lower"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Money Back Cum Whole Life Plan",
+            "subtitle": "This product provides the partial payment in certain time interval to life assured and the bonus at the end of the term and after demise of life assured the nominee gets the benefits of Sum Assured.",
+            "img": "images/menu/products/money cum.png",
+            "interest": "Himalayan Money Back Cum Whole Life Plan",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Money Back Cum Whole Life Plan",
+                            "title": "Details of Himalayan Money Back Cum Whole Life Plan",
+                            "subtitle": "Key Features",
+                            "paragraph": "This plan covers the risk of life assured for whole life. This product provides the partial payment in certain time interval to life assured and the bonus at the end of the term and after demise of life assured the nominee gets the benefits of Sum Assured.",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Sum Assured: 50,000/-"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: According to the income of Life Assurance"
+                                        },
+                                        {
+                                            "text": "• Entry Age: 11 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 60,55,50,45 years (for premium paying term of 10, 15, 20 and 25 years)"
+                                        },
+                                        {
+                                            "text": "• Maximum age at the end of premium paying term: 70 years"
+                                        },
+                                        {
+                                            "text": "• Term: 10,15,20,25 Years"
+                                        },
+                                        {
+                                            "text": "• Mode of paying method: Monthly, Quarterly, half Yearly, Yearly"
+                                        },
+                                        {
+                                            "text": "• Medical Requirement: As per Company Rule"
+                                        },
+                                        {
+                                            "text": "• Age Calculation Method: Age Nearer Birthday"
+                                        },
+                                        {
+                                            "text": "• Accidental Benefit: ADB/PWB/PTD Available up to Max. 1,00,00,000/-"
+                                        },
+                                        {
+                                            "text": "• Loan Facility: 2 year complete premium paid should be require for taking loan."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "<b>OTHER FACILITIES:</b> Surrender value, Paid up Value as per policy."
+                                        },
+                                        {
+                                            "text": "<b>POLICY BENEFITS:</b>"
+                                        },
+                                        {
+                                            "text": "• Survival Benefits at age of 99 years : Sum Assured"
+                                        },
+                                        {
+                                            "text": "• Death Benefits: Within Term Period - Sum Assured + Accrued Bonus up to Term Period during Death."
+                                        },
+                                        {
+                                            "text": "• Death Benefits after policy term mature: Sum Assured only."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Supplementary Riders",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Accidental Death benefits:</b> Sum Assured+Additional Sum Assured up to Max. 1 crore or Actual sum assured whichever is lower.+Accrued bonus up to Term Period during Death."
+                                        },
+                                        {
+                                            "text": "• <b>PTD/ PWB Benefits:</b> Waiver of Premium during term period of policy after total permanent disability occurs and monthly income benefits (MIB)  provide to policy holder of Sum Assured up to 120 months instalment basis and in case of remaining policy term to maturity be less than 120 months the balancing instalment will be payable in lump sum on maturity or at death, if earlier."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Life Dhan Sagar",
+            "subtitle": "You can find the key features of this plan in view details section",
+            "img": "images/menu/products/dhansagar.png",
+            "interest": "Himalayan Life Dhan Sagar",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "HImalayan Life Dhan Sagar",
+                            "title": "Details of HImalayan Life Dhan Sagar",
+                            "subtitle": "Key Features",
+                            "paragraph": "• Insurance term will be 15 years</br>• Premium payment frequency can be chosen as per convenience</br> • Sum insured can be chosen as per customer’s need",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Sum Assured: 50,000/-"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: No limit"
+                                        },
+                                        {
+                                            "text": "• Minimum Entry Age: 16 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 50 Years for 15 Years Term"
+                                        },
+                                        {
+                                            "text": "• Minimum Policy Term : 15 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Policy Term: 50 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 65 Years"
+                                        },
+                                        {
+                                            "text": "• Premium Payment Frequency: Yearly, Half Yearly, Quarterly & Monthly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• After Completion of 5 years from commencement: 25% of basic sum assured"
+                                        },
+                                        {
+                                            "text": "• After Completion of 10 years from commencement: 25% of basic sum assured"
+                                        },
+                                        {
+                                            "text": "• After Completion of 15 years from commencement: (for 15 years term) 50% of basic sum assured plus Vested Bonus"
+                                        },
+                                        {
+                                            "text": "• Death before maturity: Full Basic Sum Assured plus Vested Bonus"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Supplementary Riders",
+                                    "listitem": [
+                                        {
+                                            "text": "• Accidental Death Benefit (ADB), Total Permanent Disability and Premium Waiver  (TPD/PW)"
+                                        },
+                                        {
+                                            "text": "• (Equal to basic sum assured or maximum NPR. 10,000,000 whichever is lower)"
+                                        },
+                                        {
+                                            "text": "• <b>Critical Illness (CI) – This is optional</b> rider coverage which shall be allowed to take our existing policyholders in the condition of medical fitness with effect from the policy anniversary date in all the product portfolio. However, the Company has sole discretion to accept or reject the application. The medical cost shall be borne by an applicant whatsoever. The maximum rider sum assured shall be NPR. 25,00,000 or actual basic sum assured whichever is lower"
+                                        },
+                                        {
+                                            "text": "• <b>Personal Accident (PA) –</b> This is optional rider coverage  which offers immense benefits during the policy period. This rider shall be allowed to take new policy holder as well as existing policy holders with effect from the policy anniversary date by paying additional rider premium. The maximum rider sum assured shall be NPR. 50,00,000 or actual basic sum assured whichever is lower"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+},
+"endowment_plan_rest":
+{
+    "type": "detailDrawer",
+    "subType": "free-accounts",
+    "title": "We have different endowment plans available. Please find the one that best suits your needs from the following options.",
+    "previousUtter": "back",
+    "data": [
+        {
+            "title": "Himalayan Jeevan Aawaran Insurance Plan",
+            "subtitle": "You can find the key features of this plan in view details section.",
+            "img": "images/menu/products/aawaran.png",
+            "interest": "Himalayan Jeevan Aawaran Insurance Plan",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Jeevan Aawaran Insurance Plan",
+                            "title": "Himalayan Jeevan Aawaran Insurance Plan",
+                            "subtitle": "Key Features",
+                            "paragraph": "",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Sum Assured: 1,00,000/-"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: No limit (As per Income Source)"
+                                        },
+                                        {
+                                            "text": "• Entry Age: 16 to 50 Years"
+                                        },
+                                        {
+                                            "text": "• Policy Term: 7 to 25 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 70 Years"
+                                        },
+                                        {
+                                            "text": "• Rider Benefits: ADB, MIB & PWB, CI"
+                                        },
+                                        {
+                                            "text": "• Mode of paying a premium: Yearly and Half-Yearly"
+                                        },
+                                        {
+                                            "text": "• Premium Paying Term: Same as Policy Term"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "<b>• Rebate on large Sum Assured:</b>"
+                                        },
+                                        {
+                                            "text": "<b>• Policy Loan / Surrender Value /Paid Up Value:</br> As Per Company Rule"
+                                        },
+                                        {
+                                            "text": "<b>Survival / Maturity Benefit:</b> Sum Assured and Vested Bonus up to Maturity Period"
+                                        },
+                                        {
+                                            "text": "<b>Death Benefit:</b> On the death of the assured during the policy term, Sum Assured + Additional  Sum Assured + Accrued simple reversionary bonus will be payable."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Rider facility:</b> <br>Accidental Death Benefit / Premium Waiver Benefit / Monthly Income Benefit <br>Critical Illness Benefit"
+                                        },
+                                        {
+                                            "text": "• <b>Death Benefit due to Accident:</b>Additional amount equal to Sum Assured or Rs. 100,00,000/- whichever is lower"
+                                        },
+                                        {
+                                            "text": "• <b>TPD Benefit due to Accident:</b>Full Sum Assured is payable in 120 monthly installments, Balancing installment shall be payable in a lump sum on maturity or at death."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Jeevan Sampanna",
+            "subtitle": "You can find the key features of this plan in view details section.",
+            "img": "images/menu/products/sampanna.png",
+            "interest": "Himalayan Jeevan Sampanna",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Jeevan Sampanna",
+                            "title": "Himalayan Jeevan Sampanna",
+                            "subtitle": "Key Features",
+                            "paragraph": "",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Plan Name: Limited Endowment Assurance Plan"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: 1,50,000/-"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: According to the income of Life Assurance"
+                                        },
+                                        {
+                                            "text": "• Entry Age: 18 Years to 60 Years"
+                                        },
+                                        {
+                                            "text": "• Term: 5,10,15,20 and 25 Years"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "<b>• Loan Facility:</b>In Single premium term Loan facility should be provide in 3 year after policy issued to policy holder and for Regular premium 2 year complete period and 2 year full premium  paid is eligible for policyholder loan."
+                                        },
+                                        {
+                                            "text": "<b>• Other Facilities:</b>Surrender value, Paid Up Value as per policy."
+                                        },
+                                        {
+                                            "text": "<b>Survival Benefit: </b>Sum Assured + Vested Bonus"
+                                        },
+                                        {
+                                            "text": "<b>Death Benefits: </b>Within Term Period : Sum Assured + Vested  Bonus up to Term Period during Death."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Riders",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Accidental Death benefits:</b> Sum Assured + Additional Sum Assured upto Max. 1,00,00,000/-or Actual sum Assured with ever is lower. + Vested Bonus upto Term Period during Death."
+                                        },
+                                        {
+                                            "text": "• <b>PTD/ PWB Benefits:</b>Waiver of Premium during term period of  policy after total permanent disability occurs  and monthly income benefits (MIB) provide to policy holder of Sum Assured  upto 120 months instalment basis and remaining term to maturity be less than 120 months the balancing instalment will be payable in lumpsum on maturity or at death, if earlier."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Endowment Plan",
+            "subtitle": "This is a combination of the term insurance and a saving plan whereby the assured amount is payable either on the completion of a specified number of years or in case of death if it occurs earlier.",
+            "img": "images/menu/products/endowment.png",
+            "interest": "Himalayan Endowment Plan",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Endowment Plan",
+                            "title": "Himalayan Endowment Plan",
+                            "subtitle": "Key Features",
+                            "paragraph": "This is a combination of the term insurance and a saving plan whereby the assured amount is payable either on the completion of a specified number of years or in case of death if it occurs earlier.",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Entry Age: 11 to 65 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum age at the end of premium paying term: 70 years"
+                                        },
+                                        {
+                                            "text": "• Term: min. 5 Years to max. 59 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Policy Term: 20 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: Rs. 50,000"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: According to the income of Life Assurance"
+                                        },
+                                        {
+                                            "text": "• Mode of paying method: Monthly, Quarterly, half Yearly, Yearly"
+                                        },
+                                        {
+                                            "text": "• Medical Requirement: As per Company Rule"
+                                        },
+                                        {
+                                            "text": "• Age Calculation Method: Age Nearer Birthday"
+                                        },
+                                        {
+                                            "text": "• Accidental Benefit: ADB/PWB/PTD Available up to Max. 1,00,00,000/-"
+                                        },
+                                        {
+                                            "text": "• Loan Facility: 2 year complete premium paid should be require for taking loan"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "<b>SPECIAL FEATURES</b>"
+                                        },
+                                        {
+                                            "text": "<b>• Rebate on large Sum Assured:</b></br>Sum Assured: 2,00,000 /-  to 2,99,999 /-  Rebate Rs. 1/-</br>Sum Assured: 3,00,000 /-  & Above   Rebate Rs. 2/-"
+                                        },
+                                        {
+                                            "text": "<b>• Rebate on Premium Paying Terms:</b></br> Yearly: 2 % Rebate</br>Half Yearly: 1 % Rebate</br>Quaterly: NIL</br>Monthly: Additional 5 % Rebate"
+                                        },
+                                        {
+                                            "text": "<b>OTHER FACILITIES: </b></br>1. Loan Facility: 2-year complete premium paid should be required for getting a Policyholder loan.</br>2. Surrender value, Paid-up Value as per policy.</br>3. Policy Mature Benefit: Sum Assured + Accrued Bonus</br>4. Death Benefits: Within Term Period - Sum Assured + Accrued Bonus up to Term Period during Death.</br>"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Riders",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Accidental Death benefits:</b> Sum Assured + Additional Sum Assured up to Max. 1 crore or Actual sum assured whichever is lower. + Accrued bonus up to Term Period during Death."
+                                        },
+                                        {
+                                            "text": "• <b>PTD/ PWB Benefits:</b> Waiver of Premium during term period of the policy after the total permanent disability occurs and monthly income benefits (MIB) be provided provide to policyholder equals to Sum Assured up to 120 months installment basis and in case of remaining term to maturity be less than 120 months the balancing installment will be payable in a lump sum on maturity or at death, if earlier."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Shuvalabh",
+            "subtitle": "This plan offers the Guaranteed Bonus, multiple risk covers as well as loyalty additions at the policy maturity.",
+            "img": "images/menu/products/suva lav.png",
+            "interest": "Himalayan Shuvalabh",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Shuvalabh",
+                            "title": "Himalayan Shuvalabh",
+                            "subtitle": "Key Features",
+                            "paragraph": "This plan offers the Guaranteed Bonus, multiple risk covers as well as loyalty additions at the policy maturity.",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Entry Age: 18 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 60 years"
+                                        },
+                                        {
+                                            "text": "• Minimum Policy Term: 12 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Policy Term: 15 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: Rs. 100,000"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: No Limit"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 75 Years"
+                                        },
+                                        {
+                                            "text": "• Premium Paying Term: Single or 6/8"
+                                        },
+                                        {
+                                            "text": "• Premium Payment Frequency : Yearly, Half Yearly & Single"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "<h7><b>Benefits on SINGLE Payment</b></br></h7>"
+                                        },
+                                        {
+                                            "text": "<b>• At the time of Maturity:</b></br> 100% base sum assured plus Rs. 40/1000 guaranteed bonus plus additional loyalty bonus 15/1000 and 30/1000 of the base sum assured for 12 & 15 Years policy terms respectively"
+                                        },
+                                        {
+                                            "text": "<b>• Death before maturity:</b></br> {Base sum assured in case of death in first 2 years, 125% of base sum assured in case of death between year 3 and 5 & 150% of base sum in case of death after 5 years} + Accured Guaranteed bonus Rs. 40/1000 SA as at the date of death."
+                                        },
+                                        {
+                                            "text": "<h7><b>Benefits on REGULAR Payment:</b></br></h7>"
+                                        },
+                                        {
+                                            "text": "<b>• At the time of Maturity:</b></br>100% base sum assured plus Rs. 60/1000 guaranteed bonus plus additional loyalty bonus 25% and 30% of the base sum assured for 12 & 15 Years policy terms respectively"
+                                        },
+                                        {
+                                            "text": "<b>• Death before maturity:</b></br> {Base sum assured in case of death in first 2 years, 150% of base sum assured in case of death between year 3 and 5 & 200% of base sum in case of death after 5 years} + Accured Guaranteed bonus Rs. 60/1000 SA as at the date of death"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Rider Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• Accidental Death Benefit (ADB) and Total Permanent Disability and Premium Waiver  (TPD/PW) (Equal to basic sum assured or maximum NPR. 10,000,000 which ever is less)"
+                                        },
+                                        {
+                                            "text": "• Critical Illness Cover up to NPR. 25 Lakh."
+                                        },
+                                        {
+                                            "text": "• Personal accident and disabilities with Medical expenses cover up to NPR. 50 Lakh."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Life Saral Beema",
+            "subtitle": "Regular saving is the best tool to protect family against unseen future uncertainties. We at PrimeLife understand the value of savings and present a regular Premium Endowment Plan which will help save regular amount for a safer tomorrow",
+            "img": "images/menu/products/saral.png",
+            "interest": "Himalayan Life Saral Beema",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Life Saral Beema",
+                            "title": "Himalayan Life Saral Beema",
+                            "subtitle": "Key Features",
+                            "paragraph": "Regular saving is the best tool to protect family against unseen future uncertainties. We at PrimeLife understand the value of savings and present a regular Premium Endowment Plan which will help save regular amount for a safer tomorrow</br>• Insurance term can be determined as per requirement</br>• Premium payment frequency can be chosen as per convenience</br>• Sum insured can be chosen as per customer’s need",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Entry Age: 16 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 55 years"
+                                        },
+                                        {
+                                            "text": "• Minimum Policy Term: 10 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Policy Term: 49 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: Rs. 25,000"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: No Limit"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 65 Years"
+                                        },
+                                        {
+                                            "text": "• Premium Paying Term: Equal to policy term"
+                                        },
+                                        {
+                                            "text": "• Premium Payment Frequency : Yearly, Half Yearly, Quaterly & Monthly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "Maturity Benefit: Sum Assured plus Bonus"
+                                        },
+                                        {
+                                            "text": "Death before maturity: Sum Assured plus Bonus"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Supplementary Riders",
+                                    "listitem": [
+                                        {
+                                            "text": "• Accidental Death Benefit (ADB), Total Permanent Disability and Premium Waiver  (TPD/PW)"
+                                        },
+                                        {
+                                            "text": "• (Equal to basic sum assured or maximum NPR. 10,000,000 whichever is lower)"
+                                        },
+                                        {
+                                            "text": "• <b>Critical Illness (CI) – This is optional</b> rider coverage which shall be allowed to take our existing policyholders in the condition of medical fitness with effect from the policy anniversary date in all the product portfolio. However, the Company has sole discretion to accept or reject the application. The medical cost shall be borne by an applicant whatsoever. The maximum rider sum assured shall be NPR. 25,00,000 or actual basic sum assured whichever is lower"
+                                        },
+                                        {
+                                            "text": "• <b>Personal Accident (PA) –</b>  This is optional rider coverage  which offers immense benefits during the policy period. This rider shall be allowed to take new policy holder as well as existing policy holders with effect from the policy anniversary date by paying additional rider premium. The maximum rider sum assured shall be NPR. 50,00,000 or actual basic sum assured whichever is lower"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Life Single And Limited Payment",
+            "subtitle": "Himalayan Life Single and Limited Payment Plan is designed to the people who wish to pay the premium in lump sum basis and who wish to pay premium for the limited payment.",
+            "img": "images/menu/products/ekal.png",
+            "interest": "Himalayan Life Single And Limited Payment",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Life Single And Limited Payment",
+                            "title": "Himalayan Life Single And Limited Payment",
+                            "subtitle": "Key Features",
+                            "paragraph": "Himalayan Life Single and Limited Payment Plan is designed to the people who wish to pay the premium in lump sum basis and who wish to pay premium for the limited payment.</br>• Premium can be paid in lump sum basis as a single payment or for the desired period</br>• Upon maturity of policy, Sum assured and vested bonus will be paid</br>• In case of death of the insured within the premium paying term, subject to policy in force, Sum Assured and vested bonus will be paid to the legal heir or beneficiary of the insured.",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Entry Age: 16 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 65 years"
+                                        },
+                                        {
+                                            "text": "• Minimum Policy Term: 5 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Policy Term: 30 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: Rs. 50,000"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: No Limit"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 70 Years"
+                                        },
+                                        {
+                                            "text": "• Premium Paying Term: Single or 5 / 10 / 15 / 20"
+                                        },
+                                        {
+                                            "text": "• Premium Payment Frequency : Yearly, Half Yearly, Quaterly & Monthly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "Maturity Benefit: Full Sum Assured plus Bonus"
+                                        },
+                                        {
+                                            "text": "Death before maturity: Basic Sum Assured plus Vested Bonus"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Supplementary Riders",
+                                    "listitem": [
+                                        {
+                                            "text": "• Flexibility to add in riders like Accidental death benefits and permanent total disability in case of an unfortunate event of death of disability during policy enforce period, additional benefits will be paid as covered by ADB. All future premiums will be waived and monthly benefit will be paid to "
+                                        },
+                                        {
+                                            "text": "• <b>Critical Illness (CI) – This is optional</b> rider coverage which shall be allowed to take our existing policyholders in the condition of medical fitness with effect from the policy anniversary date in all the product portfolio. However, the Company has sole discretion to accept or reject the application. The medical cost shall be borne by an applicant whatsoever. The maximum rider sum assured shall be NPR. 25,00,000 or actual basic sum assured whichever is lower."
+                                        },
+                                        {
+                                            "text": "• <b>Personal Accident (PA) –</b> This is optional rider coverage  which offers immense benefits during the policy period. This rider shall be allowed to take new policy holder as well as existing policy holders with effect from the policy anniversary date by paying additional rider premium. The maximum rider sum assured shall be NPR. 50,00,000 or actual basic sum assured whichever is lower"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+},
+"retirement_plan_rest":
+{
+    "type": "detailDrawer",
+    "subType": "free-accounts",
+    "title": "We have different retirement plans available. Please find the one that best suits your needs from the following options.",
+    "previousUtter": "back",
+    "data": [
+        {
+            "title": "Himalayan Surakshit Bhavisya Jeevan Beema Yojana ( Pension Plan)",
+            "subtitle": "This policy  provides combine benefit of endowment policy, whole life and annual pension after premium paying term.",
+            "img": "images/menu/products/bhawishya.png",
+            "interest": "Himalayan Surakshit Bhavisya Jeevan Beema Yojana ( Pension Plan)",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Surakshit Bhavisya Jeevan Beema Yojana ( Pension Plan)",
+                            "title": "Himalayan Surakshit Bhavisya Jeevan Beema Yojana ( Pension Plan)",
+                            "subtitle": "Key Features",
+                            "paragraph": "This policy  provides combine benefit of endowment policy, whole life and annual pension after premium paying term.",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Entry Age: 16 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 60 years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 70 years"
+                                        },
+                                        {
+                                            "text": "• Minimum Policy Term: 10 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Policy Term: 30 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: Rs. 500,000"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: Unlimited as per income source"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• Accrued bonus at maturity"
+                                        },
+                                        {
+                                            "text": "• On death of life assured during premium paying term: Full sum assured plus accrued bonus will be paid to the nominee."
+                                        },
+                                        {
+                                            "text": "• On death of life assured after premium paying term: Full sum assured will be paid to the nominee."
+                                        },
+                                        {
+                                            "text": "• On surviving after premium paying till 99 years of age: 6 % of Sum assured per annum and at the age of 100 years or death sum assured will be paid."
+                                        },
+                                        {
+                                            "text": "• Loan facility"
+                                        },
+                                        {
+                                            "text": "• Tax benefits"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Additional Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• Premium Waiver"
+                                        },
+                                        {
+                                            "text": "• Accidental Death Benefit"
+                                        },
+                                        {
+                                            "text": "• Monthly Income Benefit"
+                                        },
+                                        {
+                                            "text": "• Permanent Total Disability Benefit"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Applicable Riders and Maximum Limit",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Accidental Death benefits(ADB):</b> (Equal to basic sum assured or maximum NPR. 50,00,000 which ever is less)"
+                                        },
+                                        {
+                                            "text": "• <b>Total Permanent Disability and Premium Waiver  (TPD/PW):</b> (Equal to basic sum assured or maximum NPR. 50,00,000 which ever is less)"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Life Pension Plan",
+            "subtitle": "Himalayan Life Pension Plan is a pension product that provides the security after active work-life. You have an option to choose two ways to get your pension for your life time.",
+            "img": "images/menu/products/retirement1.png",
+            "interest": "Himalayan Life Pension Plan",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Life Pension Plan",
+                            "title": "Himalayan Life Pension Plan",
+                            "subtitle": "Key Features",
+                            "paragraph": "Himalayan Life Pension Plan is a pension product that provides the security after active work-life. You have an option to choose two ways to get your pension for your life time.",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Entry Age: 16 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 65 years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 70 years"
+                                        },
+                                        {
+                                            "text": "• Minimum Policy Term: 10 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Policy Term: 54 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: Rs. 25,000"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: No limit"
+                                        },
+                                        {
+                                            "text": "• Premium Paying Term: Equal to policy term"
+                                        },
+                                        {
+                                            "text": "• Premium Paying Frequency: Yearly, Half Yearly, Quarterly & Monthly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>At the time of Maturity:</b>Basic Sum Assured plus Vested Bonus with option to convert into immediate annuity (Pension) Plan"
+                                        },
+                                        {
+                                            "text": "• <b>Death before Maturity:</b>Basic Sum Assured plus Vested Bonus"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Applicable Riders and Maximum Limit",
+                                    "listitem": [
+                                        {
+                                            "text": "• Accidental Death Benefit (ADB) and Total Permanent Disability and Premium Waiver  (TPD/PW)"
+                                        },
+                                        {
+                                            "text": "• (Equal to basic sum assured or maximum NPR. 10,000,000 whichever is lower)"
+                                        },
+                                        {
+                                            "text": "• <b>Critical Illness (CI) – This is optional</b> rider coverage which shall be allowed to take our existing policyholders in the condition of medical fitness with effect from the policy anniversary date in all the product portfolio. However, the Company has sole discretion to accept or reject the application. The medical cost shall be borne by an applicant whatsoever. The maximum rider sum assured shall be NPR. 25,00,000 or actual basic sum assured whichever is lower."
+                                        },
+                                        {
+                                            "text": "• <b>Personal Accident (PA) –</b> This is optional rider coverage  which offers immense benefits during the policy period. This rider shall be allowed to take new policy holder as well as existing policy holders with effect from the policy anniversary date by paying additional rider premium. The maximum rider sum assured shall be NPR. 50,00,000 or actual basic sum assured whichever is lower"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+},
+"term_plan_rest":
+{
+    "type": "detailDrawer",
+    "subType": "free-accounts",
+    "title": "We have different term plans available. Please find the one that best suits your needs from the following options.",
+    "previousUtter": "back",
+    "data": [
+        {
+            "title": "Himalayan Life New Term Assurance",
+            "subtitle": "This policy  provides few details about the new term. To know more information click on view details below.",
+            "img": "images/menu/products/groupAssurance.png",
+            "interest": "Himalayan Life New Term Assurance",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Life New Term Assurance",
+                            "title": "Himalayan Life New Term Assurance",
+                            "subtitle": "",
+                            "paragraph": "",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Entry Age: 16 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 65 years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 70 years"
+                                        },
+                                        {
+                                            "text": "• Minimum Policy Term: 5 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Policy Term: 35 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: Rs. 100,000"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: No limit"
+                                        },
+                                        {
+                                            "text": "• Premium Paying Term: Equal to policy term"
+                                        },
+                                        {
+                                            "text": "• Premium Payment Frequency: Yearly, Half Yearly, Quarterly & Monthly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Death Before Maturity:</b> Basic Sum assured"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Applicable Riders and Maximum Limit",
+                                    "listitem": [
+                                        {
+                                            "text": "• Accidental Death Benefit (ADB)"
+                                        },
+                                        {
+                                            "text": "• (Equal to basic sum assured or maximum NPR. 10,000,000 whichever is lower)"
+                                        },
+                                        {
+                                            "text": "• <b>Critical Illness (CI) – This is optional</b> rider coverage which shall be allowed to take our existing policyholders in the condition of medical fitness with effect from the policy anniversary date in all the product portfolio. However, the Company has sole discretion to accept or reject the application. The medical cost shall be borne by an applicant whatsoever. The maximum rider sum assured shall be NPR. 25,00,000 or actual basic sum assured whichever is lower."
+                                        },
+                                        {
+                                            "text": "• <b>Personal Accident (PA) –</b> This is optional rider coverage  which offers immense benefits during the policy period. This rider shall be allowed to take new policy holder as well as existing policy holders with effect from the policy anniversary date by paying additional rider premium. The maximum rider sum assured shall be NPR. 50,00,000 or actual basic sum assured whichever is lower"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Himalayan Group Term Assurance Policy",
+            "subtitle": "Provides for payment of sum insured in the event of death of the assured at any time during the enforcement policy term. If insured survives, nothing is payable. The premiums collected represent the premium for the death risk only.",
+            "img": "images/menu/products/groupAssurance.png",
+            "interest": "Himalayan Group Term Assurance Policy",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Group Term Assurance Policy",
+                            "title": "Himalayan Group Term Assurance Policy",
+                            "subtitle": "",
+                            "paragraph": "",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Term: 1 Year"
+                                        },
+                                        {
+                                            "text": "• Maximum S.A: 50,000/-"
+                                        },
+                                        {
+                                            "text": "• Maximum S.A: 20,00,000/-"
+                                        },
+                                        {
+                                            "text": "• Entry Age: 16 to 64 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 65 Years"
+                                        },
+                                        {
+                                            "text": "• Mode of Payment: Yearly"
+                                        },
+                                        {
+                                            "text": "• Minimum member in Group: 25"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Policy Mature Benefit:</b> Nil"
+                                        },
+                                        {
+                                            "text": "• <b>Death Benefits:</b> Within Term Period - Sum Assured only."
+                                        },
+                                        {
+                                            "text": "• <b>Riders are not applicable in this plan.</b>"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+},
+"woman_plan_rest":
+{
+    "type": "detailDrawer",
+    "subType": "free-accounts",
+    "title": "Here are the details of woman's plan.",
+    "previousUtter": "back",
+    "data": [
+        {
+            "title": "Himalayan Life Naari Jeewan Beema",
+            "subtitle": "This policy  provides few details about the new term. To know more information click on view details below.",
+            "img": "images/menu/products/woman.png",
+            "interest": "Himalayan Life Naari Jeewan Beema",
+            "button": {
+                "contents": [
+                    {
+                        "title": "View Details",
+                        "id": "btn1",
+                        "Back_icon": {
+                            "title": "I am Interested",
+                            "payload": "/purchase{\"document\":\"form\"}"
+                        },
+                        "Details": {
+                            "interest": "Himalayan Life Naari Jeewan Beema",
+                            "title": "Himalayan Life Naari Jeewan Beema",
+                            "subtitle": "Key Features",
+                            "paragraph": "• Insurance term can be determined as per requirement</br>• Premium payment frequency can be chosen as per convenience</br>• Sum insured can be chosen as per customer's need",
+                            "subtitle1": [
+                                {
+                                    "title": "Policy Requirements",
+                                    "listitem": [
+                                        {
+                                            "text": "• Minimum Entry Age: 16 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Entry Age: 54 years"
+                                        },
+                                        {
+                                            "text": "• Maximum Maturity Age: 70 years"
+                                        },
+                                        {
+                                            "text": "• Minimum Policy Term: 16 Years"
+                                        },
+                                        {
+                                            "text": "• Maximum Policy Term: 25 Years"
+                                        },
+                                        {
+                                            "text": "• Minimum Sum Assured: Rs. 200,000"
+                                        },
+                                        {
+                                            "text": "• Maximum Sum Assured: No limit"
+                                        },
+                                        {
+                                            "text": "• Premium Paying Term: Equal to policy term"
+                                        },
+                                        {
+                                            "text": "• Premium Payment Frequency: Yearly, Half Yearly, Quarterly & Monthly"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Benefits",
+                                    "listitem": [
+                                        {
+                                            "text": "• <b>Annually:</b> 2.5% of Sum Assured will be returned in desired occasion after completion of first policy anniversary date"
+                                        },
+                                        {
+                                            "text": "• <b>Maturity Benefits:</b> 60 % Sum Assured plus Bonus"
+                                        },
+                                        {
+                                            "text": "• <b>Death Benefit:</b> Sum Assured plus Bonus"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Applicable Riders and Maximum Limit",
+                                    "listitem": [
+                                        {
+                                            "text": "• Accidental Death Benefit (ADB) and Total Permanent Disability and Premium Waiver  (TPD/PW)"
+                                        },
+                                        {
+                                            "text": "• (Equal to basic sum assured or maximum NPR. 10,000,000 whichever is lower)"
+                                        },
+                                        {
+                                            "text": "• <b>Critical Illness (CI) – This is optional</b> rider coverage which shall be allowed to take our existing policyholders in the condition of medical fitness with effect from the policy anniversary date in all the product portfolio. However, the Company has sole discretion to accept or reject the application. The medical cost shall be borne by an applicant whatsoever. The maximum rider sum assured shall be NPR. 25,00,000 or actual basic sum assured whichever is lower."
+                                        },
+                                        {
+                                            "text": "• <b>Personal Accident (PA) –</b> This is optional rider coverage  which offers immense benefits during the policy period. This rider shall be allowed to take new policy holder as well as existing policy holders with effect from the policy anniversary date by paying additional rider premium. The maximum rider sum assured shall be NPR. 50,00,000 or actual basic sum assured whichever is lower."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "button": {
+                                "contents": [
+                                    {
+                                        "title": "Premium Calculation",
+                                        "link": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+},
+"non-life_plan_rest":
+{
+    "type": "quick_reply",
+    "title": "Our focus lies solely on providing life insurance coverage, and we do not offer any non-life insurance options. For detail information about the products we offer, please click the buttons given below:",
+    "data": [
+    {
+        "title": "Child Plans",
+        "payload": "/product_info{\"product_type\":\"child\"}"
+    },
+    {
+        "title": "Whole Life Plans",
+        "payload": "/product_info{\"product_type\":\"whole life\"}"
+    },
+    {
+        "title": "Money Back Plans",
+        "payload": "/product_info{\"product_type\":\"money back\"}"
+    },
+    {
+        "title": "Endowment Plans",
+        "payload": "/product_info{\"product_type\":\"endowment\"}"
+    },
+    {
+        "title": "Retirement Plans",
+        "payload": "/product_info{\"product_type\":\"retirement\"}"
+    },
+    {
+        "title": "Term Plan",
+        "payload": "/product_info{\"product_type\":\"term\"}"
+    },
+    {
+        "title": "Woman's Plan",
+        "payload": "/product_info{\"product_type\":\"woman\"}"
+    } 
+    ]
+} ,
+"product_else_part":
+{
+    "type": "quick_reply",
+    "title": "We offer a wide range of insurance products. Please select the product type you are interested in.",
+    "data": [
+    {
+        "title": "Child Plans",
+        "payload": "/product_info{\"product_type\":\"child\"}"
+    },
+    {
+        "title": "Whole Life Plans",
+        "payload": "/product_info{\"product_type\":\"whole life\"}"
+    },
+    {
+        "title": "Money Back Plans",
+        "payload": "/product_info{\"product_type\":\"money back\"}"
+    },
+    {
+        "title": "Endowment Plans",
+        "payload": "/product_info{\"product_type\":\"endowment\"}"
+    },
+    {
+        "title": "Retirement Plans",
+        "payload": "/product_info{\"product_type\":\"retirement\"}"
+    },
+    {
+        "title": "Term Plan",
+        "payload": "/product_info{\"product_type\":\"term\"}"
+    },
+    {
+        "title": "Woman's Plan",
+        "payload": "/product_info{\"product_type\":\"woman\"}"
+    } 
+    ]
+},
+
+
+"money back_plan_facebook": {
+        "text": "We have different money back plans available. Please find the one that best suits your needs from the following options.",
+        "elements": [
+            {
+                "title": "Himalayan Barshik Nagad Firta Jeevan Beema Yojana (Annual Cash Back Policy)",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/nagad.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=32"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Jeevan Adhar Insurance Plan - With Profits",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/aadhar.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=35"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Jeevan Utthan Insurance Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/utthan.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=36"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Jeewan Upahar",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/jeevan.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=25"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Sulav Money Back",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/sulav.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=15"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Money Back Cum Whole Life Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/money%20cum.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=31"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Dhan Sagar",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/dhansagar.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=4"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+"endowment_plan_facebook": {
+        "text": "We have different endowment plans available. Please find the one that best suits your needs from the following options.",
+        "elements": [
+            {
+                "title": "Himalayan Endowment Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/endowment.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=30"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Jeevan Aawaran Insurance Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/aawaran.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=34"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Jeevan Sampanna",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/sampanna.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=37"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Shuvalabh",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/suva%20lav.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=28"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Saral Beema",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/saral.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=7"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Single And Limited Payment",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/ekal.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=1"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+"retirement_plan_facebook": {
+        "text": "We have different retirement plans available. Please find the one that best suits your needs from the following options.",
+        "elements": [
+            {
+                "title": "Himalayan Surakshit Bhavisya Jeevan Beema Yojana ( Pension Plan)",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/bhawishya.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=33"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Pension Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/retirement1.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=10"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+"term_plan_facebook": {
+        "text": "We have different term plans available. Please find the one that best suits your needs from the following options.",
+        "elements": [
+            {
+                "title": "Himalayan Life New Term Assurance",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/groupAssurance.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=14"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Group Term Assurance Policy",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/groupAssurance.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=39"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+"whole life_plan_facebook": {
+        "text": "We have different whole life plans available. Please find the one that best suits your needs from the following options.",
+        "elements": [
+            {
+                "title": "Himalayan Endowment Cum Whole Life Insurance Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/endowmentwholelife1.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=29"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Limited Payment (Endowment Cum Whole Life) Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/limitedWhole.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=40"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Jeewan Surakshya",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/jeevan%20surakhsya.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=5"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+"woman_plan_facebook": {
+        "text": "Here are the details of woman's plan.",
+        "elements": [
+            {
+                "title": "Himalayan Life Naari Jeewan Beema",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/woman.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=3"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+"child_plan_facebook": {
+        "text": "We have different child plans available. Please find the one that best suits your needs from the following options.",
+        "elements": [
+            {
+                "title": "Himalayan Child Endowment Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/child.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=38"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Swarnim Jeewan Beema",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/swarnim.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=2"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+"non-life_plan_facebook":
+    {
+        "type": "quick_reply",
+        "title": "Our focus lies solely on providing life insurance coverage, and we do not offer any non-life insurance options. For detail information about the products we offer, please click the buttons given below:",
+        "data": [
+        {
+            "title": "Child Plans",
+            "payload": "/product_info{\"product_type\":\"child\"}"
+        },
+        {
+            "title": "Whole Life Plans",
+            "payload": "/product_info{\"product_type\":\"whole life\"}"
+        },
+        {
+            "title": "Money Back Plans",
+            "payload": "/product_info{\"product_type\":\"money back\"}"
+        },
+        {
+            "title": "Endowment Plans",
+            "payload": "/product_info{\"product_type\":\"endowment\"}"
+        },
+        {
+            "title": "Retirement Plans",
+            "payload": "/product_info{\"product_type\":\"retirement\"}"
+        },
+        {
+            "title": "Term Plan",
+            "payload": "/product_info{\"product_type\":\"term\"}"
+        },
+        {
+            "title": "Woman's Plan",
+            "payload": "/product_info{\"product_type\":\"woman\"}"
+        } 
+        ]
+    } ,
+
+    
+
+"money back_plan_viber": {
+        "text": "We have different money back plans available. Please find the one that best suits your needs from the following options.",
+        "elements": [
+            {
+                "title": "Himalayan Barshik Nagad Firta Jeevan Beema Yojana (Annual Cash Back Policy)",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/nagad.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=32"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Jeevan Adhar Insurance Plan - With Profits",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/aadhar.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=35"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Jeevan Utthan Insurance Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/utthan.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=36"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Jeewan Upahar",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/jeevan.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=25"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Sulav Money Back",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/sulav.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=15"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Money Back Cum Whole Life Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/money%20cum.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=31"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Dhan Sagar",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/dhansagar.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=4"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+"endowment_plan_viber": {
+        "text": "We have different endowment plans available. Please find the one that best suits your needs from the following options.",
+        "elements": [
+            {
+                "title": "Himalayan Endowment Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/endowment.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=30"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Jeevan Aawaran Insurance Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/aawaran.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=34"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Jeevan Sampanna",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/sampanna.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=37"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Shuvalabh",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/suva%20lav.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=28"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Saral Beema",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/saral.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=7"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Single And Limited Payment",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/ekal.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=1"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+"retirement_plan_viber": {
+        "text": "We have different retirement plans available. Please find the one that best suits your needs from the following options.",
+        "elements": [
+            {
+                "title": "Himalayan Surakshit Bhavisya Jeevan Beema Yojana ( Pension Plan)",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/bhawishya.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=33"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Pension Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/retirement1.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=10"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+"term_plan_viber": {
+        "text": "We have different term plans available. Please find the one that best suits your needs from the following options.",
+        "elements": [
+            {
+                "title": "Himalayan Life New Term Assurance",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/groupAssurance.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=14"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Group Term Assurance Policy",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/groupAssurance.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=39"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+"whole life_plan_viber": {
+        "text": "We have different whole life plans available. Please find the one that best suits your needs from the following options.",
+        "elements": [
+            {
+                "title": "Himalayan Endowment Cum Whole Life Insurance Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/endowmentwholelife1.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=29"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Limited Payment (Endowment Cum Whole Life) Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/limitedWhole.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=40"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Jeewan Surakshya",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/jeevan%20surakhsya.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=5"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+"woman_plan_viber": {
+        "text": "Here are the details of woman's plan.",
+        "elements": [
+            {
+                "title": "Himalayan Life Naari Jeewan Beema",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/woman.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=3"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+"child_plan_viber": {
+        "text": "We have different child plans available. Please find the one that best suits your needs from the following options.",
+        "elements": [
+            {
+                "title": "Himalayan Child Endowment Plan",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/child.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=38"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Swarnim Jeewan Beema",
+                "image_url": "https://himalayanbot.palmchatbot.com/images/menu/products/swarnim.png",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=2"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+"non-life_plan_viber":
+    {
+        "type": "quick_reply",
+        "title": "Our focus lies solely on providing life insurance coverage, and we do not offer any non-life insurance options. For detail information about the products we offer, please click the buttons given below:",
+        "data": [
+        {
+            "title": "Child Plans",
+            "payload": "/product_info{\"product_type\":\"child\"}"
+        },
+        {
+            "title": "Whole Life Plans",
+            "payload": "/product_info{\"product_type\":\"whole life\"}"
+        },
+        {
+            "title": "Money Back Plans",
+            "payload": "/product_info{\"product_type\":\"money back\"}"
+        },
+        {
+            "title": "Endowment Plans",
+            "payload": "/product_info{\"product_type\":\"endowment\"}"
+        },
+        {
+            "title": "Retirement Plans",
+            "payload": "/product_info{\"product_type\":\"retirement\"}"
+        },
+        {
+            "title": "Term Plan",
+            "payload": "/product_info{\"product_type\":\"term\"}"
+        },
+        {
+            "title": "Woman's Plan",
+            "payload": "/product_info{\"product_type\":\"woman\"}"
+        } 
+        ]
+    }
+}

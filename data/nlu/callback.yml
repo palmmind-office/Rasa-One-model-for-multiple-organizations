@@ -1,0 +1,29 @@
+version: "3.1"
+
+nlu:
+  - intent: callback
+    examples: |
+      - Can you call me?
+      - Please call me back.
+      - I need to talk to you. Please call me.
+      - I want to speak with you. Please give me a call.
+      - I am in need of a conversation. Can you call me?
+      - Call me on my phone.
+      - Return my call please
+      - Can I get a callback?
+      - Can you contact me later?
+      - Can I speak to someone on the phone?
+      - How can I arrange a call with a life insurance expert?
+      - How do I request a phone call?
+      - Can I schedule a call to discuss my premium payment?
+      - When can I expect a call back?
+      - Will someone call me soon?
+      - Can I expect a call from your team?
+      - I am interested in your services. Can you call me?
+      - This is my number 9865743253.
+      - Sir please call me on this number 9823451324.
+      - My number is 9865371527, please call me back.
+      - 9845237635, call me on this number please
+      - My phone number is 9821345642
+      - Please sir call me on phone 9812657458
+      - Please get back soon.

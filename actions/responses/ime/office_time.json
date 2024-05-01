@@ -1,0 +1,9 @@
+{
+    "office_time":
+    {
+        "type": "quick_reply",
+        "title": "Our office is open from 10am to 5pm, Sunday to Friday.",
+        "data": [
+        ]
+    }
+    }

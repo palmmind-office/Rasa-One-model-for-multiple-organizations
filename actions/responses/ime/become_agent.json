@@ -1,0 +1,72 @@
+{
+    "become_agent": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway during requesting for becoming Agent.",
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Your Full Name Please ?",
+                    "type": "textbox",
+                    "placeholder": "Please Enter Your Full Name",
+                    "validation": {
+                        "type": "name",
+                        "error": "Please enter valid Name."
+                    },
+                    "label": "name"
+                },
+                {
+                    "order": "text",
+                    "title": "Where are you from ? Please mention your Address.",
+                    "type": "textbox",
+                    "placeholder": "Please enter your Address",
+                    "validation": {
+                        "type": "name",
+                        "error": "Address should not be Number"
+                    },
+                    "label": "address"
+                },
+                {
+                    "order": "number",
+                    "title": "Your mobile number please ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your mobile Number",
+                    "validation": {
+                        "type": "mobile",
+                        "error": "Invalid!! Provide 10 digit number"
+                    },
+                    
+                    "label": "mobile"
+                },
+                {
+                    "order": "email",
+                    "title": "Provide us your Email",
+                    "type": "textbox",
+                    "placeholder": "Enter your Email",
+                    "validation": {
+                        "type": "email",
+                        "error": "Invalid email"
+                    },
+                    "label": "email"
+                },
+                {
+                    "order": "cancle",
+                    "title": " Do you want to submit your information ?",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "/rest/v1/insurance/ime/agent?type=agent&action=email&emailfor=BecomeAgent"
+    }
+}

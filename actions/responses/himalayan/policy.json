@@ -1,0 +1,25 @@
+{
+"policy":
+{
+    "type": "quick_reply",
+    "title": "Which service are you interested in? Please choose from the following options.",
+    "data": [
+    {
+        "title": "View Policy Details",
+        "payload": "/view_details{\"category\":\"policy\"}"
+    },
+    {
+        "title": "View Premium Details",
+        "payload": "/view_details{\"category\":\"premium\"}"
+    },
+    {
+        "title": "Loan",
+        "payload": "/loan{\"user_type\":\"policy holder\"}"
+    },
+    {
+        "title": "Premium Calculation",
+        "payload": "/premium_calculation"
+    }
+    ]
+}
+}

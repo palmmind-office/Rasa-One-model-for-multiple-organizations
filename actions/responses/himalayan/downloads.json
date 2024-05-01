@@ -1,0 +1,13 @@
+{
+    "downloads":
+        {
+            "type": "quick_reply",
+            "title": "You can get our app from the Apple Store and Google Play.<br> In order to download the forms and brouchers online, please click the button below.",
+            "data": [
+            {
+                "title": "Downloads",
+                "link": "https://himalayanlife.com.np/Downloads.aspx"
+            }
+            ]
+        }
+}

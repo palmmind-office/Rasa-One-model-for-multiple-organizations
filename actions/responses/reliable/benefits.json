@@ -1,0 +1,95 @@
+{
+    "critical_illness": 
+    {
+    "type": "ListItem",
+    "title": "We cover 15 critical illnesses:",
+    "subtitle": "Critical Illness",
+    "multi": true,
+    "data": [
+        {
+            "subtitle": "1. Cancer (All Types of Cancer)"
+        },
+        {
+            "subtitle": "2. Kidney Failure (End Stage Renal Failure)"
+        },
+        {
+            "subtitle": "3. Primary Pulmonary Arterial Hypertension"
+        },
+        {
+            "subtitle": "4. Multiple Sclerosis"
+        },
+        {
+            "subtitle": "5. Major Organ Transplant"
+        },
+        {
+            "subtitle": "6. Coronary Artery By-Pass graft (with surgery to divide the breastbone)"
+        },
+        {
+            "subtitle": "7. Surgery to Aorta"
+        },
+        {
+            "subtitle": "8. Heart Valve Surgery"
+        },
+        {
+            "subtitle": "9. Stroke"
+        },
+        {
+            "subtitle": "10. Myocardial infraction (First Heart Attack)"
+        },
+        {
+            "subtitle": "11. Coma"
+        },
+        {
+            "subtitle": "12. Total Blindness"
+        },
+        {
+            "subtitle": "13. Paralysis"
+        },
+        {
+            "subtitle": "14. Benign Brain Tumor"
+        },
+        {
+            "subtitle": "15. Mental Illness caused due to accident (Traumatic)"
+        }
+    ]
+},
+"agent_benefits": {
+    "type": "ListItem",
+    "title": "Becoming an agent of Reliable Life insurance presents several benefits. For more information, please contact to our nearest branch.",
+    "subtitle": "Benefits of becoming Agent",
+    "multi": true,
+    "data": [
+        {
+            "subtitle": "● Continuous Learning and Development"
+        },
+        {
+            "subtitle": "● Networking and Building Relationships"
+        },
+        {
+            "subtitle": "● High Earning Potential"
+        },
+        {
+            "subtitle": "● Flexible Work Schedules"
+        },
+        {
+            "subtitle": "● Rewards and Recognition"
+        },
+        {
+            "subtitle": "● Access to Insurance and Financial Products"
+        }
+    ],
+    "button": [
+        {
+            "title": "Become Agent",
+            "link": "https://reliablelife.com.np/become-an-agent/"
+        }
+    ]
+},
+"insurance_benefits":
+{
+    "type": "quick_reply",
+    "title": "Life insurance provides financial protection for your loved ones in the event of your death, ensuring they have support for living expenses, debts, and other financial obligations. Additionally, it offers peace of mind, estate planning benefits, and potential tax advantages for beneficiaries.",
+    "data": [
+    ]
+}
+}

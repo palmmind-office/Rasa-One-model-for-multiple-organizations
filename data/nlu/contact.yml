@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: contact
+    examples: |
+      - contact
+      - contact details
+      - contact number
+      - how can i contact?
+      - give me the contact number of your company.
+      - where is himalayan life insurance located?
+      - himalayan life insurance office in Pokhara
+      - where are you located at?
+      - location of reliable life insurance
+      - how many branches of ime life insurance?
+      - where are your offices?
+      - Where is our branch in Udaypur district?
+      - [head office]{"entity":"office_type","value":"main office"}
+      - where is the [corporate]{"entity":"office_type","value":"main office"} office of reliable life?
+      - can i get the details of your [head office]{"entity":"office_type","value":"main office"}?
+      - where is the [head office]{"entity":"office_type","value":"main office"} of reliable life located?
+      - [branch](office_type) office
+      - where are your [branches]{"entity":"office_type","value":"branch office"}
+      - location of your [branches]{"entity":"office_type","value":"branch office"}
+      - location of your company
+      - [branch]{"entity":"office_type","value":"branch office"} details
+      - any [branches]{"entity":"office_type","value":"branch office"} near Banasthali
+      - [address]{"entity":"office_type","value":"branch office"} of your company
+      - Please provide me the links to all your [social media](social_media).
+      - What are your [social media](social_media) handles?
+      - Please give the location of your [main office](office_type).
+      - Can you provide me the address of your [head office]{"entity":"office_type","value":"main office"}?
+      - Give me the location of Butwal [branch]{"entity":"office_type","value":"branch office"}.
+      - I need the address of Birgunj [branch](office_type).
+      - Can you provide me the exact location of Dhangadi [branch](office_type) office?
+      - Where is the Pokhara [branch](office_type) office located?
+      - how can i contact the [customer support department]{"entity":"office_type", "value":"customer support"}?
+      - email of [customer support](office_type) department of ime life
+      - give me the phone number of [customer support](office_type) of your organization
+      - [customer care]{"entity":"office_type", "value":"customer support"} number
+      - take me to [facebook](social_media)
+      - [facebook](social_media) of himalayan life
+      - [youtube](social_media) of ime life
+      - [twitter](social_media) of himalayan life
+      - contact on [facebook](social_media)
+      - Can I reach out to you on [facebook](social_media) or [youtube](social_media)?
+      - How can I contact you on [linkedin]{"entity":"social_media","value" :"linkedin"} ?
+      - do you have any [social media](social_media) links?
+      - are you on [social media](social_media)?
+      - are you available on any [social platforms](social_media)?
+      - can you provide your [social handles](social_media) please?                                       
+      - Please provide the phone number of Itahari [branch](office_type) office.
+      - Can you give me the email of [head office]{"entity":"office_type","value":"main office"}?
+      - I need the mobile number of Kathmandu [branch](office_type) office.
+      - How can I contact the Kohalpur [branch](office_type) office?
+      - Can I get the contact details of [agent](user_type)?
+      - Provide me the contact information of life insurance [agent](user_type).
+      - How can I reach out to the [agents]{"entity":"user_type", "value":"agent"} ?
+      - I want to talk to the [agents]{"entity":"user_type", "value":"agent"}.
+      - I am planning to do life insurance. How can I connect with [agents]{"entity":"user_type", "value":"agent"} ?
+      - How to find an [agent](user_type)?
+      - Please help me to find an [agent](user_type)?
+      - How can I find [agent](user_type) to do life insurance?
+      - Can i talk to [agent](user_type)? I want to purchase life insurance.
+      - How can I get the phone number of life insurance [agents]{"entity":"user_type","value":"agent"} ?
+      - I need to contact to the [agent](user_type) for life insurance.
+      - How can I talk to life insurance [agents]{"entity":"user_type","value":"agent"} .
+      - I am interested to talk with [agents]{"entity":"user_type", "value":"agent"} ?
+      - I am looking for an [agent](user_type).
+      - Provide me the contact details of [agents]{"entity":"user_type", "value":"agent"} . I want to buy a life insurance product.
+
+      - What is the phone number of himalayan life?
+      - How can I contact to your company?
+      - What is your email adddress?
+      - Can I get your contact details?
+      - Can I get phone number of himalayan life?
+      - Give the phone no of your company
+      - What is your contact number?
+      - What is your email address?
+      - mail id
+      - Please give me your contact number.
+      - Do you have viber contact number?
+
+  - lookup: social_media
+    examples: |
+      - facebook
+      - twitter
+      - youtube
+      - linkedin
+
+  - synonym: facebook
+    examples: |
+      - fb

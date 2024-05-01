@@ -1,0 +1,102 @@
+version: "3.1"
+
+nlu:
+  - intent: view_details
+    examples: |
+      - How can I view my details?
+      - Tell me how to check my details.
+      - I want to view details.
+      - View my details
+      - See my details
+      - I want to view commission of my issued policy
+      - details of my policy
+      - check my details
+      - check my kista
+      - check how many kista paid
+      - how can i know about my policy?
+      - how can I check my account?
+
+      - view my [agent](user_type) details
+      - how do i know the details of my policy?
+      - i want to check [policyholder]{"entity":"user_type", "value":"policy holder"} details
+
+      - I want to view my [premium due](category) dates.
+      - see my [policy due]{"entity":"category", "value":"premium due"} dates.
+      - How can I check [premium due](category) dates.
+      - I want to see the [due]{"entity":"category", "value":"premium due"} dates of my policyholders.
+      - [premium due](category)
+      - I have to pay the premium, i want to know my [premium due](category).
+      - I want to check the [premium due](category) dates.
+
+      - agency [business](category)
+      - i want to see my total [business](category)
+      - how can i see my agency [business](category) details?
+      - I want to check my [business](category).
+      - I am an agent. How to check my [business](category) till today?
+      - Help me to check my [business](category) details.
+      - Can I see my total agency [business](category)?
+      - [business](category) done by me
+      - can you show me how much [business](category) i have done?
+      - how can i know my [business](category) till today?
+      - my agency [business](category) last month
+      - i want to see my [downline business]{"entity":"category", "value":"downline"}.
+      - how can i check my [downline business]{"entity":"category", "value":"downline"}?
+      - [downline business]{"entity":"category", "value":"downline"}
+      - I want to check my [downline business]{"entity":"category", "value":"downline"}.
+
+      - how can I see my agency [downline](category)?
+      - agency [downline](category)
+      - Help me to check my agency [downline](category) details.
+      - How to view my agency [downline](category) details?
+      - Can I see my agency [downline](category) details?
+      - I am an agent. How can i check my agency [downline](category) details?
+      - How can I know about my agency [downline](category) details?
+      - I want to check my [downline](category) agents.
+      
+      - can I see my [policy](category) details?
+      - how can policyholders check their [policy](category) details?
+      - view my [policy](category) details
+      - how can i see my [personal](category) details?
+      - I am a policyholder. I am interested to see my [policy](category) details.
+      - [personal](category) details
+      - please provide my [personal](category) details
+      - I want to see my [personal](category) details.
+      - I am an [agent](user_type). How can I view my [personal](category) details?
+      - view [personal](category) details of agent
+      - I want to check my [policy](category) details.
+
+      - can I see my [premium](category) details?
+      - how can policyholders check their [premium](category) details?
+      - view my [premium](category) details
+      - how can i see my [premium](category) details?
+      - I am a policyholder. I am interested to see my [premium](category) details.
+      - [premium](category) details
+      - how can I know about my [premium](category) details?
+      - How can I check my [premium](category)?
+
+      - Can you tell the process of policy [revival]{"entity":"category", "value":"revive"}?
+      - How can I [revive](category) my policy that has been lapsed?
+      - What should I do for policy [revival]{"entity":"category", "value":"revive"}?
+      - [revive](category) my policy
+
+      - What is the process to view my [lapsed policy](category)?
+      - I want to check the [lapsed policy](category).
+      - view my [lapsed policy](category) details.
+
+      - What is the process to check my [issued policies](category)?
+      - I want to see all of my [issued policies](category).
+      - How can I view my [issued policy]{"entity":"category", "value":"issued policies"} details?
+
+      - Can you please show me my [commission](category) details?
+      - I want to check my [agent](user_type) [commission](category).
+      - What is my total [commission](category) till now?
+
+      - how can i see my [transaction history](category)?
+      - I am a [policy holder](user_type). I want to look at my [statement]{"entity":"category", "value":"transaction history"}.
+      - view my [policy statement]{"entity":"category", "value":"transaction history"}
+      - my [transaction]{"entity":"category", "value":"transaction history"} details?
+
+      - see my [tax certificate](category)
+      - how can i check my [tax certificate](category)
+      - Can you please show my [tax certificate](category)?
+      - What is the process for [tax certificate](category)?

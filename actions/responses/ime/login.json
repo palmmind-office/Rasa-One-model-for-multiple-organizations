@@ -1,0 +1,24 @@
+{
+    "agent_login":
+    {
+        "type": "quick_reply",
+        "title": "For agent login, please click the button below and enter your details.",
+        "data": [
+        {
+            "title": "Login",
+            "link": "https://imelifeinsurance.com/agent/"
+        }
+        ]
+    },
+    "policy holder_login":
+    {
+        "type": "quick_reply",
+        "title": "For policyholder login, please click the button below and enter your details.",
+        "data": [
+        {
+            "title": "Login",
+            "link": "https://imelifeinsurance.com/agent/"
+        }
+        ]
+    }
+    }

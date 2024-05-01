@@ -1,0 +1,458 @@
+{
+    "khalti":
+{
+    "type": "quick_reply",
+    "title": "Please click the button below to make payment from khalti.",
+    "data": [
+    {
+        "title": "Khalti",
+        "link": "https://khalti.com/"
+    }
+    ]
+},
+"esewa":
+{
+    "type": "quick_reply",
+    "title": "Please click the button below to make payment from esewa.",
+    "data": [
+    {
+        "title": "eSewa",
+        "link": "https://esewa.com.np/#/home"
+    }
+    ]
+},
+
+"connectips":
+{
+    "type": "quick_reply",
+    "title": "Please click the button below to make payment from Connect IPS.",
+    "data": [
+    {
+        "title": "Connect IPS",
+        "link": "https://www.connectips.com/"
+    }
+    ]
+},
+
+"imepay":
+{
+    "type": "quick_reply",
+    "title": "Please click the button below to make payment from IME Pay.",
+    "data": [
+    {
+        "title": "IME Pay",
+        "link": "https://www.imepay.com.np/"
+    }
+    ]
+},
+"digital_wallets":
+{
+    "type": "quick_reply",
+    "title": "We accept payment from following digital wallets. Please choose an option:",
+    "data": [
+    {
+        "title": "eSewa",
+        "link": "https://esewa.com.np/#/home"
+    },
+    {
+        "title": "Khalti",
+        "link": "https://khalti.com/"
+    },
+    {
+        "title": "Connect IPS",
+        "link": "https://www.connectips.com/"
+    },
+    {
+        "title": "IME Pay",
+        "link": "https://www.imepay.com.np/"
+    }
+    ]
+},
+"payment_office":
+{
+    "type": "quick_reply",
+    "title": "You can make payment of your life insurance policy from our nearest local branch. But if visiting the office is not feasible for you, you can pay via our partner banks or digital wallets. <br> <br> To find the location of nearest branches, please click the button below.",
+    "data": [
+    {
+        "title": "Branch",
+        "payload": "/contact{\"office_type\":\"branch office\"}"
+    }
+    ]
+},
+"banking_partners":
+{
+    "type": "detailpolicy",
+    "subtitle": "Reliable Payment Partners.",
+    "for": "bank detil",
+    "payload": "/payment{{\"renew_type\":\"policy\"}}",
+    "Headers": [
+      {
+        "Sn": "Sn",
+        "accountName": "Account Name",
+        "bank": "Bank Name",
+        "branch": "Branch",
+        "accountNumber": "Account Number"
+      }
+    ],
+    "data": [
+      {
+        "Sn": 1,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Bank Of Kathmandu Ltd.",
+        "Branch": "Naxal",
+        "AccountNumber": "15900000181524"
+      },
+      {
+        "Sn": 2,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Central Finance Ltd.",
+        "Branch": "Kupondole",
+        "AccountNumber": "00100500016937000001"
+      },
+      {
+        "Sn": 3,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Century Commercial Bank Ltd",
+        "Branch": "Diktel",
+        "AccountNumber": "0150001788CA"
+      },
+      {
+        "Sn": 4,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Citizens Bank Ltd.",
+        "Branch": "Kalanki",
+        "AccountNumber": "110100000386201"
+      },
+      {
+        "Sn": 5,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Civil Bank Ltd.",
+        "Branch": "Kamaladi",
+        "AccountNumber": "210124192018"
+      },
+      {
+        "Sn": 6,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Everest Bank Ltd.",
+        "Branch": "Bagbazar",
+        "AccountNumber": "4400105200603"
+      },
+      {
+        "Sn": 7,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Excel Development Bank Ltd.",
+        "Branch": "Birtamod",
+        "AccountNumber": "00110700075428000001"
+      },
+      {
+        "Sn": 8,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Garima Bikas Bank Ltd.",
+        "Branch": "Lazimpat",
+        "AccountNumber": "04000100710690000001"
+      },
+      {
+        "Sn": 9,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Global IME Bank Ltd.",
+        "Branch": "Sundhara",
+        "AccountNumber": "A401010000133"
+      },
+      {
+        "Sn": 10,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Himalayan Bank Ltd",
+        "Branch": "Dillibazar",
+        "AccountNumber": "3207167740019"
+      },
+      {
+        "Sn": 11,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "ICFC Finance Limited",
+        "Branch": "Corporate",
+        "AccountNumber": "00100700047543000007"
+      },
+      {
+        "Sn": 12,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Janata Bank Nepal Ltd.",
+        "Branch": "New Baneshwor",
+        "AccountNumber": "1002045696101"
+      },
+      {
+        "Sn": 13,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Jyoti Bikas Bank Ltd.",
+        "Branch": "Kamaladi",
+        "AccountNumber": "00100100142936000001"
+      },
+      {
+        "Sn": 14,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Kamana Sewa Bikash Bank Ltd.",
+        "Branch": "Gyaneshwor",
+        "AccountNumber": "04100300196989000001"
+      },
+      {
+        "Sn": 15,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Kankai Bikas Bank Ltd.",
+        "Branch": "Biratnagar",
+        "AccountNumber": "01200100041730000001"
+      },
+      {
+        "Sn": 16,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Kumari Bank Ltd.",
+        "Branch": "Putalisadak",
+        "AccountNumber": "10017395900001"
+      },
+      {
+        "Sn": 17,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Laxmi Bank Ltd.",
+        "Branch": "Old Baneshwor",
+        "AccountNumber": "6811000235"
+      },
+      {
+        "Sn": 18,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Lumbini Bikash Bank Ltd.",
+        "Branch": "Tokha",
+        "AccountNumber": "03300120094362000001"
+      },
+      {
+        "Sn": 19,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Machhapuchchhre Bank Ltd.",
+        "Branch": "Lazimpat",
+        "AccountNumber": "101524539751018"
+      },
+      {
+        "Sn": 20,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Mahalaxmi Bikas Bank Ltd.",
+        "Branch": "Durbar Marga",
+        "AccountNumber": "04200100362248000001"
+      },
+      {
+        "Sn": 21,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Manjushree Finance Limited",
+        "Branch": "New Road",
+        "AccountNumber": "3000009128"
+      },
+      {
+        "Sn": 22,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Mega Bank Nepal Ltd",
+        "Branch": "Maitidevi",
+        "AccountNumber": "240010062941"
+      },
+      {
+        "Sn": 23,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Miteri Develpoment Bank Ltd.",
+        "Branch": "Surunga",
+        "AccountNumber": "00800200031205000002"
+      },
+      {
+        "Sn": 24,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Muktinath Bikash Bank Ltd.",
+        "Branch": "Kamaladi",
+        "AccountNumber": "03510200234132000001"
+      },
+      {
+        "Sn": 25,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Muktinath Bikash Bank Ltd.",
+        "Branch": "Dhading",
+        "AccountNumber": "02710200248442000001"
+      },
+      {
+        "Sn": 26,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Nabil Bank Ltd.",
+        "Branch": "Dillibazar",
+        "AccountNumber": "3601017500747"
+      },
+      {
+        "Sn": 27,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "NCC Bank Ltd.",
+        "Branch": "Ratopul",
+        "AccountNumber": "970000002101"
+      },
+      {
+        "Sn": 28,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Nepal Bangladesh Bank Ltd.",
+        "Branch": "Kamaladi",
+        "AccountNumber": "001247351C"
+      },
+      {
+        "Sn": 29,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Nepal Investment Bank Ltd.",
+        "Branch": "Kalimati",
+        "AccountNumber": "1701030039154"
+      },
+      {
+        "Sn": 30,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Nepal SBI Bank Ltd.",
+        "Branch": "New Road",
+        "AccountNumber": "17825240200704"
+      },
+      {
+        "Sn": 31,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "NIC Asia Bank Ltd.",
+        "Branch": "Kamaladi",
+        "AccountNumber": "32410510922524001"
+      },
+      {
+        "Sn": 32,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "NMB Bank Ltd.",
+        "Branch": "Thamel",
+        "AccountNumber": "01200600665962000001"
+      },
+      {
+        "Sn": 33,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Prabhu Bank Ltd",
+        "Branch": "Hattigauda",
+        "AccountNumber": "1000097973700019"
+      },
+      {
+        "Sn": 34,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Prime Commercial Bank Ltd.",
+        "Branch": "Kamalpokhari",
+        "AccountNumber": "00105533CA"
+      },
+      {
+        "Sn": 35,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Rastriya Banijya Bank",
+        "Branch": "Ilam",
+        "AccountNumber": "2460100000326001"
+      },
+      {
+        "Sn": 36,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Reliance Finance Ltd.",
+        "Branch": "New Road",
+        "AccountNumber": "10212000000070"
+      },
+      {
+        "Sn": 37,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Shangri-la Development Bank Ltd.",
+        "Branch": "Baluwatar",
+        "AccountNumber": "025008002016310000002"
+      },
+      {
+        "Sn": 38,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Shine Resunga Development Bank Ltd.",
+        "Branch": "Butwal",
+        "AccountNumber": "00100100149840000001"
+      },
+      {
+        "Sn": 39,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Siddhartha Bank Ltd.",
+        "Branch": "New Road",
+        "AccountNumber": "415188901"
+      },
+      {
+        "Sn": 40,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Sindhu Bikash Bank Ltd.",
+        "Branch": "Banepa",
+        "AccountNumber": "00200200395SP"
+      },
+      {
+        "Sn": 41,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Srijana Finance Ltd.",
+        "Branch": "Biratnagar",
+        "AccountNumber": "100100097775000000"
+      },
+      {
+        "Sn": 42,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Sunrise Bank Ltd.",
+        "Branch": "Kalikasthan",
+        "AccountNumber": "710419317701001"
+      },
+      {
+        "Sn": 43,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Sanima Bank Ltd.,",
+        "Branch": "Gongabu Branch",
+        "AccountNumber": "13010010000750"
+      },
+      {
+        "Sn": 44,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Pokhara Finance limited",
+        "Branch": "butwal",
+        "AccountNumber": "01800200030873000009"
+      },
+      {
+        "Sn": 45,
+        "Account_Name": "Reliable Nepal Life Insurance Ltd",
+        "Bank_Name": "Janaki Finance Company Ltd.,",
+        "Branch": "Janakpur",
+        "AccountNumber": "00100100005742000001"
+      }
+    ]
+},
+"banking_partners_fb":
+{
+    "type": "quick_reply",
+    "title": "Please click the button below and visit our website to see our banking partners.",
+    "data": [
+    {
+        "title": "Banking Partners",
+        "link": "https://reliablelife.com.np/"
+    }
+    ]
+},
+"else_part_payment":
+{ 
+    "type": "quick_reply",
+    "title": "You can make payment by visiting our office or via our banking partners or via digital wallets. Please choose an option:",
+    "data": [
+    {
+        "title": "Visit our office",
+        "payload": "/contact"
+    },
+    {
+        "title": "Partner Banks",
+        "payload": "/payment{\"payment_option\":\"bank\"}"
+    },
+    {
+        "title": "eSewa",
+        "link": "https://esewa.com.np/#/home"
+    },
+    {
+        "title": "Khalti",
+        "link": "https://khalti.com/"
+    },
+    {
+        "title": "Connect IPS",
+        "link": "https://www.connectips.com/"
+    },
+    {
+        "title": "IME Pay",
+        "link": "https://www.imepay.com.np/"
+    }
+    ]
+}
+
+}

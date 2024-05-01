@@ -1,0 +1,99 @@
+version: "3.1"
+
+nlu:
+  - intent: update_profile
+    examples: |
+      - How can I update my profile information?
+      - What is the procedure to update my profile details?
+      - Please provide me the form to update my profile information.
+      - I need to update my profile details.
+      - Can you help me update my profile information?
+      - Can I change policuy after 1 year?
+
+      - I am an [agent](user_type). I need to update my profile details.
+      - How can an [agent](user_type) update their profile information?
+      - I am a [policy holder](user_type). How can I update my profile information?
+      - I need to update my profile. I am a [policy holder](user_type).
+
+      - I need to update my [account number](category).
+      - How to change my [nominee](category) information?
+      - What is the process to update my [mobile number](category).
+      - Tell me the way to update my [pan number](category).
+      - I want to update my [occupation](category).
+      - Can I update [beneficiary]{"entity":"category", "value":"nominee"} for my policy.
+      - Is it possible to change my [beneficiary]{"entity":"category", "value":"nominee"} after marriage?
+      - Can I change the [beneficiaries]{"entity":"category", "value":"nominee"} on my life insurance policy after it's issued?
+
+      - How to update my [pan number](category)? I am an [agent](user_type).
+      - I am an [agent](user_type). I need to change my [account number](category).
+      - I am a [policy holder](user_type). How to update my [payment mode](category)?
+      - How can I update my [occupation](category)? I am a [policy holder](user_type).
+      - I am a [policy holder](user_type). I need to change my [nominee](category).
+      - I need to update my [mobile number](category). I am an [agent](user_type). 
+      - change the [mode of premium]{"entity":"category", "value":"payment mode"}
+      - How can I edit my [mobile number](category)?
+      - I have to change my [mobile number](category).
+
+      - I want to change my [bank account number]{"entity":"category", "value":"account number"}.
+      - How can I update [bank account number]{"entity":"category", "value":"account number"}?
+      - update [agent](user_type) [bank account]{"entity":"category", "value":"account number"} 
+
+
+      - How to change my [phone number]{"entity":"category","value":"mobile number"}?
+      - I am an [agent](user_type). I need to update my [account number](category).
+      - Tell me the process to update [paan number]{"entity":"category","value":"pan number"} of an [agent](user_type).
+      - Update [paan number]{"entity":"category","value":"pan number"} of the [agent](user_type). 
+      - How can an [agent](user_type) update his/her [account number](category?
+
+      - I am a [policy holder](user_type). I want to change my [payment mode](category).
+      - Please tell me how can I update my [occupation](category). I am a [policy holder](user_type).
+      - I am a [policyholder]{"entity":"user_type", "value":"policy holder"}. How to update my profile information?
+
+      - What is the process to update [nominee](category) details in my policy?
+      - I need to change my [nominee](category). How can I do that?
+      - How do I add or remove a [beneficiary]{"entity":"category", "value":"nominee"}?
+
+      - How can I switch the [payment mode](category) from monthly to annually?
+      - I would like to update the [payment mode](category) for my policy to quarterly payments. Can you guide me through it?
+
+      - I am a policy holder. I want to [revive](category) my policy.
+      - How can I [revive](category) my policy?
+      - My policy is lapsed. How can I [revive](category) it?
+      - How can I [revive](category) my lapsed policy?
+      - Process for policy [revival]{"entity":"category", "value":"revive"}
+      - Please tell me the process for [revival]{"entity":"category", "value":"revive"} of my policy.
+      
+      - I want to change my [dob](category).
+      - Change [date of birth]{"entity":"category", "value":"dob"}
+      - Change my [sum assured](category) amount
+      - Can i update my total [sum assured](category)?
+      - I want to modify my insurance [plan](category).
+      - How can I change my [plan](category) from term life to whole life?
+      - Change my insurance [term](category)
+      - I want to update the [term](category) of my insurance plan.
+      - Change the [proposer details](category)
+      - Tell me how can I update my [name]{"entity":"category", "value":"proposer details"} in my policy?
+
+
+      - Change my [address](category)
+      - I want to modify my [address](category) in my policy.
+
+  - lookup: category
+    examples: |
+      - pan number
+      - account number
+      - payment mode
+      - occupation
+      - nominee
+      - revive
+      - mobile number
+      - dob
+      - sum assured
+      - plan
+      - term
+      - proposer details
+      - address
+
+  - synonym: mobile number
+    examples: |
+      - phone number

@@ -1,0 +1,777 @@
+{"main_office": {
+    "type": "contact",
+    "title": "You can find the contact details and location of our head office below. For branches and social media, please click the buttons.",
+    "backIcon": {
+      "title": "Back",
+      "payload": "menu"
+    },
+    "data": {
+      "Name": "Head Office",
+      "subtitle": "Gyaneshwor, Kathmandu",
+      "button": {
+        "title": "Branches",
+        "payload": "/contact{\"office_type\":\"branch office\", \"branch_type\":\"list\"}"
+      },
+      "info": [
+        {
+          "title": "Email",
+          "key": "Email",
+          "value": "info@reliablelife.com.np"
+        },
+        {
+          "title": "Phone",
+          "key": "Phone",
+          "value": "01-4523618/01-4523630"
+        }
+      ],
+      "facebook": [
+        {
+          "title": "Facebook",
+          "img": "images/banner/facebook.png",
+          "link": "https://www.facebook.com/reliablelifeinsurancelimited/"
+        },
+        {
+          "title": "Instagram",
+          "img": "images/banner/instagram.png",
+          "link": "https://www.instagram.com/reliablelifenep/"
+        },
+        {
+          "title": "Viber",
+          "img": "images/banner/viber.png",
+          "link": "https://bit.ly/3c4On73"
+        }
+      ]
+    }
+  },
+
+  "main_office_fb":
+  {
+      "type": "quick_reply",
+      "title": "Head Office: <br> Location: Gyaneshwor, Kathmandu <br> Email: info@reliablelife.com.np <br> Phone: 01-4523618/01-4523630",
+      "data": [
+      ]
+  },
+
+  "branch_office": {
+    "type": "detailpolicy",
+    "title": "Following are the branch list of Reliable Life Insurance.",
+    "subtitle": "Reliable Branches",
+    "for": "bank detil",
+    "payload": "/branch",
+    "Headers": [
+      {
+        "Sn": "Sn",
+        "accountName": "Name",
+        "bank": "Address",
+        "branch": "Phone Number",
+        "accountNumber": "Email"
+      }
+    ],
+    "data": [
+      {
+        "Sn": 1,
+        "Account_Name": "Abukhaireni",
+        "Bank_Name": " Aabukhaireni-03,Tanahu. Nearest of Prabhu Bank Ltd.",
+        "Branch": "+977-065-540136",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 2,
+        "Account_Name": "Baglung",
+        "Bank_Name": "Baglung -2 baglung ,jippark chock . Near NIC ASIA Bank , Dhaulagiri campus",
+        "Branch": "+977-068-522211",
+        "AccountNumber": " baglung@reliablelife.com.np"
+      },
+      {
+        "Sn": 3,
+        "Account_Name": "Baitadi",
+        "Bank_Name": "'Dasharathachand Municipality-04,Jhulaghat road, Gothalapani,Baitadi.\n Opposite of Nepal Red cross society Baitadi'",
+        "Branch": "+977-095-520525",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 4,
+        "Account_Name": "Bajhang",
+        "Bank_Name": "Bajhang",
+        "Branch": "+977-092-421469",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 5,
+        "Account_Name": "Banepa",
+        "Bank_Name": "Banepa -7, kavre ( Tarkari Bazar ) Near to Nepal SBI bank and Satya Sai Hospital",
+        "Branch": " +977-044-550239",
+        "AccountNumber": " banepa@reliablelife.com.np"
+      },
+      {
+        "Sn": 6,
+        "Account_Name": "Bardibas",
+        "Bank_Name": "Bardibas -1 mohattari, Near central finance and muktinath bikash Bank",
+        "Branch": "+977-065-540136",
+        "AccountNumber": " bardibas@reliablelife.com.np"
+      },
+      {
+        "Sn": 7,
+        "Account_Name": "Beni",
+        "Bank_Name": "New road 8 Beni myagdi",
+        "Branch": " +977-069-522127",
+        "AccountNumber": " beni@reliablelife.com.np"
+      },
+      {
+        "Sn": 8,
+        "Account_Name": "Bhairawa",
+        "Bank_Name": "Bhairawa, Rupandehi",
+        "Branch": " +977-071-522880",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 9,
+        "Account_Name": "Bhaktapur",
+        "Bank_Name": "Bhaktapur Municipality – 4,Bhaktapur Near to Rastriya Banijya Bank limited",
+        "Branch": " +977-01-6616398",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 10,
+        "Account_Name": "Bhimdatt",
+        "Bank_Name": "Bhimdatt Municipality-04 Galli no. 5, Campus Road (Above of Sunrise Bank Ltd. 3rd Floor)",
+        "Branch": "+977-099-521510",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 11,
+        "Account_Name": "Bhojpur",
+        "Bank_Name": " Ziro point Dadagau, Bhojpur- 7 , Bhojpur",
+        "Branch": "+977-022-9420798",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 12,
+        "Account_Name": "Bhumahi",
+        "Bank_Name": " Sunawal Municipality -12 Bhumahi(Main chok, Opposite of Sahid Gate)",
+        "Branch": " +977-078-415393",
+        "AccountNumber": " bhumahi@reliablelife.com.np"
+      },
+      {
+        "Sn": 13,
+        "Account_Name": "Bhurigaun",
+        "Bank_Name": "Bhurigaun",
+        "Branch": "",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 14,
+        "Account_Name": "Biratnagar",
+        "Bank_Name": " Biratnagar-07, Hanumandas road/Sani Mandir Road",
+        "Branch": " +977-021-590144",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 15,
+        "Account_Name": "Birgunj",
+        "Bank_Name": " Birgunj , Ghantaghar , Tanga stand road , Near patanjali Store",
+        "Branch": " +977-051-521064",
+        "AccountNumber": " birgunj@reliablelife.com.np"
+      },
+      {
+        "Sn": 16,
+        "Account_Name": "Birtamode",
+        "Bank_Name": " Bhadrapur Road, Birtamode-4 Jhapa, Nearby Ncell Center",
+        "Branch": "+977-023-542162",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 17,
+        "Account_Name": "Butwal",
+        "Bank_Name": " Butwal Sub-Metropolitan-09, Buddha TV Building (Butwal, Rajmarga Chauraha), Rupandehi",
+        "Branch": " +977-071-438888",
+        "AccountNumber": " butwal@reliablelife.com.np"
+      },
+      {
+        "Sn": 18,
+        "Account_Name": "Chabahil",
+        "Bank_Name": " MitraPark, Sifalmarga, Chabahil",
+        "Branch": " +977-01-4483658",
+        "AccountNumber": " chabahil@reliablelife.com.np"
+      },
+      {
+        "Sn": 19,
+        "Account_Name": "chandragiri",
+        "Bank_Name": " opposite side in between Krishi bikas bank and dursanchar (chandragiri -05 , Kathmandu)",
+        "Branch": " +977-01-4312758",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 20,
+        "Account_Name": "Chapur",
+        "Bank_Name": " Gaur road , opposite side of Nepal bank Ltd,Chapur",
+        "Branch": " +977-055-540340",
+        "AccountNumber": " chapur@reliablelife.com.np"
+      },
+      {
+        "Sn": 21,
+        "Account_Name": "Charikot",
+        "Bank_Name": " Charikot Bizbazar- 03, Dolakha",
+        "Branch": " +977-049-421791",
+        "AccountNumber": " charikot@reliablelife.com.np"
+      },
+      {
+        "Sn": 22,
+        "Account_Name": "Chautara",
+        "Bank_Name": " Chautara Sangachok Gadhi Municipality-05, Sindhupalchok",
+        "Branch": " +977-011-620444",
+        "AccountNumber": " chautara@reliablelife.com.np"
+      },
+      {
+        "Sn": 23,
+        "Account_Name": "Corporate Office",
+        "Bank_Name": " Gyaneshwor, Kathmandu",
+        "Branch": " +977-01-4423618,4423630",
+        "AccountNumber": " info@reliablelife.com.np"
+      },
+      {
+        "Sn": 24,
+        "Account_Name": "Dadeldhura",
+        "Bank_Name": " Amargadhi Municipality-05,Tuphandada,dadeldhura. Opposite of Nepal Bank & NCC Bank Ltd.",
+        "Branch": "+977-096-420288",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 25,
+        "Account_Name": "Dailekh",
+        "Bank_Name": " Narayan-01, Devkota Chowk, Dailekh",
+        "Branch": " +977-089-410258",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 26,
+        "Account_Name": "Damak",
+        "Bank_Name": " Purba Taxi station Damak 6 Jhapa",
+        "Branch": " +977-023-583700",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 27,
+        "Account_Name": "Damauli",
+        "Bank_Name": " Vyas -2,Safasadak ,Damauli Tanahun",
+        "Branch": " +977-065-562754",
+        "AccountNumber": " damauli@reliablelife.com.np"
+      },
+      {
+        "Sn": 28,
+        "Account_Name": "Dang",
+        "Bank_Name": " Tulshipur – Dang",
+        "Branch": "",
+        "AccountNumber": " dang@reliablelife.com.np"
+      },
+      {
+        "Sn": 29,
+        "Account_Name": "Devdaha, Rupandehi",
+        "Bank_Name": " Devdaha municipality 06, Buddhachok Rupandehi",
+        "Branch": "",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 30,
+        "Account_Name": "Dhading",
+        "Bank_Name": " Nillkantha Municipality-03,Dhading (Above of Siddhartha Bank Ltd. 2nd Floor)",
+        "Branch": " +977-010-521428",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 31,
+        "Account_Name": "Dhangadhi",
+        "Bank_Name": "'Dhangadhi 3 Kailali, Way to Dhangadhi Attariya Six line Near : BB marts opposit side'",
+        "Branch": " +977-091-417048",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 32,
+        "Account_Name": "Dharan",
+        "Bank_Name": " GS Market, Chhata chowk, Dharan- 12, Sunsari",
+        "Branch": " +977-025-532370",
+        "AccountNumber": " dharan@reliablelife.com.np"
+      },
+      {
+        "Sn": 33,
+        "Account_Name": "Diktel",
+        "Bank_Name": " Diktel Rupakot Majhuwagadhi Municipality Word no – 01,(Jilla Hulak Karyalay chheu) ,Diktel, Khotang.",
+        "Branch": " +977-036-420759",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 34,
+        "Account_Name": "Dillibazar",
+        "Bank_Name": " Dillibazar, Charkhal, Kathmandu",
+        "Branch": "",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 35,
+        "Account_Name": "Dulegaunda",
+        "Bank_Name": " Shuklagandaki Municipality Ward No.4, Dulegaunda Bankewa Chowk, (Pandit Bhawan) Tanahun",
+        "Branch": " +977-065-414466",
+        "AccountNumber": " dulegaunda@reliablelife.com.np"
+      },
+      {
+        "Sn": 36,
+        "Account_Name": "Gaighat",
+        "Bank_Name": " B.P chowk,old agriculture bank Gaighat- 11, udayapur",
+        "Branch": " +977-035-420292",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 37,
+        "Account_Name": "Ghorahi",
+        "Bank_Name": " Ghorahi,Dang Tulsipur chowk (mana tower 3rd floor)",
+        "Branch": "+977-082-563882",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 38,
+        "Account_Name": "Gongabu",
+        "Bank_Name": "Kathmandu Municipality – 26,Gongabu chowk Near to Nepal Investment Bank limited",
+        "Branch": " +977-01-4981241",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 39,
+        "Account_Name": "Gorkha",
+        "Bank_Name": " Gorkha Municipality – 6, Haramtaari, Gorkha",
+        "Branch": " +977-064-421290",
+        "AccountNumber": " gorkha@reliablelife.com.np"
+      },
+      {
+        "Sn": 40,
+        "Account_Name": "Gulariya",
+        "Bank_Name": " Gulariya Municipality-06,Bardiya Above Nepal bank ltd.",
+        "Branch": " +977-084-420081",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 41,
+        "Account_Name": "Hakim Chowk",
+        "Bank_Name": " Hakim Chowk – Narayangarh",
+        "Branch": "",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 42,
+        "Account_Name": "Hariwon",
+        "Bank_Name": " Hariwon Municipality –Main Chowk, opposite NIC ASIA Bank/Machhapuchchhre Bank and Swabhiman Hospital attached to our office.",
+        "Branch": " +977-041-420016",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 43,
+        "Account_Name": "Hetauda",
+        "Bank_Name": " Hetauda – 04, Makwanpur ,Naya Marga Near Bank of Kathmandu , civil bank and NMB Bank",
+        "Branch": " +977-057-525312",
+        "AccountNumber": " hetauda@reliablelife.com.np"
+      },
+      {
+        "Sn": 44,
+        "Account_Name": "Ilam",
+        "Bank_Name": " Ilam Chowk Bazar,Ilam Municipality-7",
+        "Branch": " +977-027-523245",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 45,
+        "Account_Name": "Inaruwa",
+        "Bank_Name": "Inaruwa – 1, Kamal Cinema Hall, Gunu Marge",
+        "Branch": " +977-025-560541",
+        "AccountNumber": "inaruwa@reliablelife.com.np"
+      },
+      {
+        "Sn": 46,
+        "Account_Name": "Itahari",
+        "Bank_Name": " Itahari – 06, Purba line,Purano Yatat Math",
+        "Branch": " +977-025-588977",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 47,
+        "Account_Name": "Jaleshwor",
+        "Bank_Name": " Jaleshwor Na.Pa. -02,Mahottari.(Near by Bus Park)",
+        "Branch": " +977-044-521074",
+        "AccountNumber": " jaleshwor@reliablelife.com.np"
+      },
+      {
+        "Sn": 48,
+        "Account_Name": "Janakpur",
+        "Bank_Name": " Janakpur Municipality 02 Kadam Chowk Near Global IME Bank Ltd",
+        "Branch": " +977-041-420016",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 49,
+        "Account_Name": "Jeetpur",
+        "Bank_Name": " Jeetpur, Bara",
+        "Branch": "+977-053-520010",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 50,
+        "Account_Name": "Jorpati",
+        "Bank_Name": " Jorpati ( Jorpati – sundarijal road )",
+        "Branch": " +977-01-4917898",
+        "AccountNumber": " jorpati@reliablelife.com.np"
+      },
+      {
+        "Sn": 51,
+        "Account_Name": "Kailali",
+        "Bank_Name": "Godawari Municipality -01 Attariya Kailali ( Dhangadhi Road )",
+        "Branch": "+977-091-550859",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 52,
+        "Account_Name": "Kanchanpur",
+        "Bank_Name": " Punarbas Municipality-03,IBRD bazzar,Kanchanpur .Upstairs of NIC asia Bank Ltd.",
+        "Branch": " +977-099-420034",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 53,
+        "Account_Name": "Kapilvastu",
+        "Bank_Name": " Shivaraj Municipality 05 Kapilvastu Chandrauta Near Nepal bank ltd",
+        "Branch": " +977-076-540513",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 54,
+        "Account_Name": "kapilvastu",
+        "Bank_Name": " Banganga -4 kapilvastu, Taulihawa Road",
+        "Branch": " +977-076-550451",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 55,
+        "Account_Name": "Kawasoti",
+        "Bank_Name": "Kawasoti, Nawalparasi",
+        "Branch": "+977-078-540783",
+        "AccountNumber": "kawasoti@reliablelife.com.np"
+      },
+      {
+        "Sn": 56,
+        "Account_Name": "Khalanga",
+        "Bank_Name": " Bheri Municipality-4,Gairi Khali, Khalanga, Jajarkot",
+        "Branch": "",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 57,
+        "Account_Name": "Khandbari",
+        "Bank_Name": " Khandbari Municipality ward no.1, Buddha chowk near by Everest bank",
+        "Branch": " +977-029-560766",
+        "AccountNumber": "khandbari@reliablelife.com.np"
+      },
+      {
+        "Sn": 58,
+        "Account_Name": "Kohalpur",
+        "Bank_Name": "Kohalpur",
+        "Branch": "",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 59,
+        "Account_Name": "Koteshwor",
+        "Bank_Name": "65 meter ahead from Koteshwor chok Police station towards overhead bridge to west",
+        "Branch": " +977-01-4601617",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 60,
+        "Account_Name": " Kushma,Parbat",
+        "Bank_Name": "Inaruwa – 1, Kamal Cinema Hall, Gunu Marge",
+        "Branch": "",
+        "AccountNumber": " kushmaparbat@reliablelife.com.np"
+      },
+      {
+        "Sn": 61,
+        "Account_Name": "Lahan",
+        "Bank_Name": " Lahan-04 Opposite side of Army Camp South side of Nepal Bank Ltd Top of Sunrise Bank Ltd.",
+        "Branch": " +977-033-563144",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 62,
+        "Account_Name": "Lalbandi",
+        "Bank_Name": " Lalbandi-7,Sarlahi(Near Mahalaxmi Bank Ltd).",
+        "Branch": "",
+        "AccountNumber": " lalbandi@reliablelife.com.np"
+      },
+      {
+        "Sn": 63,
+        "Account_Name": "Lalitpur",
+        "Bank_Name": " Kumaripati,Lalitpur (next building behind NCC Bank)",
+        "Branch": " +977-01-5538695",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 64,
+        "Account_Name": "Lamjung",
+        "Bank_Name": " Besishahar – 08, Sera, Lamjung",
+        "Branch": "+977-066-521390",
+        "AccountNumber": "lamjung@reliablelife.com.np"
+      },
+      {
+        "Sn": 65,
+        "Account_Name": "Lamki",
+        "Bank_Name": " Lamki chuha Municipality 01 Lamki kailali Nearest of Machhapuchchhre Bank Ltd.",
+        "Branch": "+977-091-540532",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 66,
+        "Account_Name": "Lekhnath",
+        "Bank_Name": " Pokhara metropolitan city ward no. 27, Taalchowk Lekhnath, near NCC bank",
+        "Branch": " +977-061-560363",
+        "AccountNumber": " lekhnath@reliablelife.com.np"
+      },
+      {
+        "Sn": 67,
+        "Account_Name": "Malangwa",
+        "Bank_Name": " Malangwa Municipality, Near Bus Stand Chok & beside Nepal Telicom",
+        "Branch": " +977-046-520662",
+        "AccountNumber": "malangwa@reliablelife.com.np"
+      },
+      {
+        "Sn": 68,
+        "Account_Name": "Manthali",
+        "Bank_Name": " Manthali Municipality – 01, Ramechhap ,Way to district Police office,Near Bajaj showroom Manthali",
+        "Branch": " +977-048-540597",
+        "AccountNumber": "manthali@reliablelife.com.np"
+      },
+      {
+        "Sn": 69,
+        "Account_Name": "Melamchi",
+        "Bank_Name": " Melamchi – 11, Sindhupalchok, Near Melamchi Police station.",
+        "Branch": " +977-011-401157",
+        "AccountNumber": " melamchi@reliablelife.com.np"
+      },
+      {
+        "Sn": 70,
+        "Account_Name": "Mirchaiya",
+        "Bank_Name": " Mirchaiya Na.Pa. ward N. 06, Katari chowk, Siraha. Building in Global IME bank, same floor (1st floor)",
+        "Branch": " +977-033-550227",
+        "AccountNumber": "mirchaiya@reliablelife.com.np"
+      },
+      {
+        "Sn": 71,
+        "Account_Name": "Narayanghat",
+        "Bank_Name": " Narayanghat, Chitwan",
+        "Branch": " +977-056-598523",
+        "AccountNumber": " narayanghar@reliablelife.com.np"
+      },
+      {
+        "Sn": 72,
+        "Account_Name": "Nepalgunj",
+        "Bank_Name": "Nepalgunj",
+        "Branch": " +977-081-551072",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 73,
+        "Account_Name": "Nijgadh",
+        "Bank_Name": " Nijgadh municipality , Ward No-09 Sunrise Market Near at Sahid Chowk",
+        "Branch": " +977-053-540374",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 74,
+        "Account_Name": "Nuwakot",
+        "Bank_Name": " Bidur Municipality-2, Bidur Loktantrik Chautara, Nuwakot",
+        "Branch": " +977-010-561543",
+        "AccountNumber": " nuwakot@reliablelife.com.np"
+      },
+      {
+        "Sn": 75,
+        "Account_Name": "Okhaldhunga",
+        "Bank_Name": " Siddhicharan municiplity-1 Okhaldhunga",
+        "Branch": " +977-037-520557",
+        "AccountNumber": " okhaldhunga@reliablelife.com.np"
+      },
+      {
+        "Sn": 76,
+        "Account_Name": "Palpa",
+        "Bank_Name": " Bishalbazar, Tansen, Palpa",
+        "Branch": " +977-075-520951",
+        "AccountNumber": " palpa@reliablelife.com.np"
+      },
+      {
+        "Sn": 77,
+        "Account_Name": "Pokhara",
+        "Bank_Name": " Pokhara -8 Newroad, 1st Floor ,Hari Om Building",
+        "Branch": " +977-061-527752",
+        "AccountNumber": " pokhara@reliablelife.com.np"
+      },
+      {
+        "Sn": 78,
+        "Account_Name": "Rajbiraj",
+        "Bank_Name": " Adalat Road, Rajbiraj- 07, Saptari",
+        "Branch": " +977-031-521211",
+        "AccountNumber": " rajbiraj@reliablelife.com.np"
+      },
+      {
+        "Sn": 79,
+        "Account_Name": "sindhuli",
+        "Bank_Name": " Kamalamai Municipality–06, Sindhuli, Near Prabhu bank sindhuli branch (opposite)",
+        "Branch": " +977-047-521336",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 80,
+        "Account_Name": "Siraha",
+        "Bank_Name": " Siraha Municipality 07, Siraha, Hem Narayan Chok. Near to Pravu Bank ltd .",
+        "Branch": "",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 81,
+        "Account_Name": "Solukhumbu",
+        "Bank_Name": " Solu dudhakunda M.P.-5, Sallery, Solukhumbu",
+        "Branch": " +977-038-720718",
+        "AccountNumber": " solukhumbu@reliablelife.com.np"
+      },
+      {
+        "Sn": 82,
+        "Account_Name": "Syangja",
+        "Bank_Name": "Syangja",
+        "Branch": "",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 83,
+        "Account_Name": "Tahachal",
+        "Bank_Name": " Kathmandu Metro Municipality-13, Besides The Soaltee Hotel,At the entrance of the way to blood bank,Tahachal, Redcross Marg",
+        "Branch": " +977-01-5909614",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 84,
+        "Account_Name": "Tarkeshwor",
+        "Bank_Name": " Tarakeshwor Municipality-10, Manamaiju Loktantrik chok, Near Prabhu bank, oposite of Angel’s Heart school",
+        "Branch": " +977-01-4027370",
+        "AccountNumber": ""
+      },
+      {
+        "Sn": 85,
+        "Account_Name": "Tikapur",
+        "Bank_Name": "Tikapur",
+        "Branch": "",
+        "AccountNumber": "inaruwa@reliablelife.com.np"
+      }
+    ]
+  },
+  "branch_nearby":  {
+    "type": "location",
+    "for": "atm",
+    "title": "",
+    "header": "Location",
+    "img": "images/address.png",
+    "backIcon": {
+      "title": "Go Back",
+      "payload": "menu"
+    },
+    "subtitle": "Dear customer, Please send your current location to find branch nearby",
+    "button": {
+      "contents": [
+        {
+          "title": "Nearest Branch",
+          "type": "send_location"
+        }
+      ]
+    }
+  },
+
+  "branch_office_fb":
+  {
+      "type": "quick_reply",
+      "title": "Please click the button below to view our branch offices.",
+      "data": [
+      {
+          "title": "Branch",
+          "link": "https://reliablelife.com.np/network-branch-sub-branch-upcoming/"
+      }
+      ]
+  },
+
+  "facebook":
+  {
+      "type": "quick_reply",
+      "title": "Please click the button below to visit the official Facebook page of Reliable Life and stay connected with us.",
+      "data": [
+      {
+          "title": "Facebook",
+          "link": "https://www.facebook.com/reliablelifeinsurancelimited/"
+      }
+      ]
+  },
+
+  "instagram":
+  {
+      "type": "quick_reply",
+      "title": "Please click the button below to visit the official Instagram page of Reliable Life and stay connected with us.",
+      "data": [
+      {
+          "title": "Instagram",
+          "link": "https://www.instagram.com/reliablelifenep/"
+      }
+      ]
+  },
+
+  "viber":
+  {
+      "type": "quick_reply",
+      "title": "Please click the button below to visit the official Viber page of Reliable Life and stay connected with us.",
+      "data": [
+      {
+          "title": "Viber",
+          "link": "https://invite.viber.com/?g2=AQBXso0HSyUdnEvGUrdzOfM4roJyVlAvOJjYx5HYftmHIsZWtbuipYIxnxPoZjhW&lang=en"
+      }
+      ]
+  },
+
+  "social media":
+  {
+      "type": "quick_reply",
+      "title": "We are available on following social platforms.",
+      "data": [
+      {
+          "title": "Facebook",
+          "link": "https://www.facebook.com/reliablelifeinsurancelimited/"
+      },
+      {
+          "title": "Instagram",
+          "link": "https://www.instagram.com/reliablelifenep/"
+      },
+      {
+          "title": "Viber",
+          "link": "https://invite.viber.com/?g2=AQBXso0HSyUdnEvGUrdzOfM4roJyVlAvOJjYx5HYftmHIsZWtbuipYIxnxPoZjhW&lang=en"
+      }
+      ]
+  },
+
+  "else_part_contact":
+  {
+      "type": "quick_reply",
+      "title": "Please click the buttons below to get the contact details and locations of head office and branch offices.",
+      "data": [
+      {
+          "title": "Head Office",
+          "payload": "/contact{\"office_type\":\"main office\"}"
+      },
+      {
+          "title": "Branch List",
+          "payload": "/contact{\"office_type\":\"branch office\", \"branch_type\":\"list\"}"
+      },
+      {
+        "title": "Nearby Branch",
+        "payload": "/contact{\"office_type\":\"branch office\", \"branch_type\":\"nearby\"}"
+      }
+      ]
+  }
+
+}

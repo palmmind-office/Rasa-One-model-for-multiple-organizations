@@ -1,0 +1,63 @@
+{
+    "agent_loan":
+    {
+        "type": "quick_reply",
+        "title": "For the agent loan scheme request you to contact or visit nearest branches. By joining our Reliable Life Viber Group you also can get latest Agent Loan Scheme information.",
+        "data": [
+        {
+            "title": "Nearby Branch",
+            "payload": "/contact{\"office_type\":\"branch office\", \"branch_type\":\"nearby\"}"
+        },
+        {
+            "title": "Join Viber Community",
+            "link": "https://bit.ly/3c4On73"
+        }
+        ]
+    },
+
+"policy holder_loan":
+    {"type": "ListItem",
+    "title": "To apply for Policy loan you need to submit following documents along with the policy loan application form.",
+    "subtitle": "Introduction",
+    "multi": true,
+    "data": [
+      {
+        "subtitle": "Original Policy"
+      },
+      {
+        "subtitle": "Citizenship"
+      },
+      {
+        "subtitle": "An Application"
+      },
+      {
+        "subtitle": "Bank Account Detail"
+      },
+      {
+        "subtitle": "Policy Loan Application Form"
+      }
+    ],
+    "button": [
+      {
+        "title": "Policy Loan Application Form",
+        "link": "https://reliablelife.com.np/wp-content/uploads/2022/08/Policy-Loan-Application.pdf"
+      }
+    ]
+    },
+
+    "loan":
+    {
+        "type": "quick_reply",
+        "title": "Are you an agent or a policyholder?",
+        "data": [
+        {
+            "title": "Agent Loan",
+            "payload": "/loan{\"user_type\":\"agent\"}"
+        },
+        {
+          "title": "Policy Loan",
+          "payload": "/loan{\"user_type\":\"policy holder\"}"
+      }     
+        ]
+    }
+}

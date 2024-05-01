@@ -1,0 +1,489 @@
+{
+    "agency_business":
+{
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway during viewing of policy commissions.",
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Your Last Name please?",
+                    "type": "textbox",
+                    "placeholder": "Please Enter Your Last Name",
+                    "utterances": [
+                        {
+                            "message": "Please authenticate yourself by answering some questions to view commissions on policies"
+                        }
+                    ],
+                    "validation": {
+                        "type": "name",
+                        "error": "Please enter valid Last Name."
+                    },
+                    "label": "LastName"
+                },
+                {
+                    "order": "number",
+                    "title": "Your Agent Code please ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Agent Code",
+                    "validation": {
+                        "type": "AgentCode",
+                        "error": "Invalid!! Provide 8 digit Agent Code."
+                    },
+                    "label": "agentCode"
+                },
+                {
+                    "order": "text",
+                    "title": "Please specify Date Of Birth",
+                    "placeholder": "Enter DOB Here",
+                    "type": "date",
+                    "label": "DateOfBirth"
+                },
+                {
+                    "order": "cancle",
+                    "title": "Please confirm and click Submit button to proceed further and Cancel to quit.",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "/rest/v1/ime/agentCommission"
+},
+
+"agency_downline":
+{
+    "type": "formMessageSection",
+    "exitMSG": "Oops !! you quitted midway during requesting agent downline business.",
+    "form": {
+        "elements": [
+            {
+                "order": "text",
+                "title": "please kindly provide your Last Name?",
+                "type": "textbox",
+                "placeholder": "Your Last Name",
+                "utterances": [
+                    {
+                        "message": "Please authenticate yourself by answering some questions to see your agent downline business."
+                    }
+                ],
+                "validation": {
+                    "type": "name",
+                    "error": "Please enter valid Last Name."
+                },
+                "label": "LastName"
+            },
+            {
+                "order": "number",
+                "title": "Enter Agent Code ?",
+                "type": "textbox",
+                "placeholder": "Enter Agent Code",
+                "validation": {
+                    "type": "AgentCode",
+                    "error": "Invalid!! Provide 8 digit Agent Code"
+                },
+                "label": "agentCode"
+            },
+            {
+                "order": "text",
+                "title": "Please choose Business From Date",
+                "placeholder": "Please Enter from date",
+                "type": "FromDate",
+                "label": "FromDate"
+            },
+            {
+                "order": "text",
+                "title": "Please choose Business Upto Date",
+                "placeholder": "Please Enter To Date",
+                "type": "ToDate",
+                "label": "ToDate"
+            },
+            {
+                "order": "number",
+                "title": "Enter Downline Number ?",
+                "type": "textbox",
+                "placeholder": "Enter Downline",
+                "validation": {
+                    "type": "Downline",
+                    "error": "Invalid!! Downline Number Should Be Required"
+                },
+                "label": "Downline"
+            },
+            {
+                "order": "text",
+                "title": "Please choose your date of birth.",
+                "placeholder": "Please Enter birthdate",
+                "type": "date",
+                "label": "DateOfBirth"
+            },
+            {
+                "order": "cancle",
+                "title": " Do you want to submit your information ?",
+                "type": "submitbutton",
+                "placeholder": "Enter your email",
+                "button": [
+                    {
+                        "submit": "Submit",
+                        "type": "submit"
+                    },
+                    {
+                        "submit": "Cancel",
+                        "type": "cancel"
+                    }
+                ]
+            }
+        ]
+    },
+    "post": "/rest/v1/ime/agentDownlineBusiness"
+},
+"agent_issued_policies":
+{
+    "type": "formMessageSection",
+    "exitMSG": "Oops !! you quitted midway during viewing of issued policies.",
+    "form": {
+        "elements": [
+            {
+                "order": "text",
+                "title": "Your Last Name please?",
+                "type": "textbox",
+                "placeholder": "Enter your Last Name",
+                "utterances": [
+                    {
+                        "message": "Please authenticate yourself by answering some questions to view issued policies"
+                    }
+                ],
+                "validation": {
+                    "type": "name",
+                    "error": "Please enter valid Last Name."
+                },
+                "label": "LastName"
+            },
+            {
+                "order": "number",
+                "title": "Your Agent Code please ?",
+                "type": "textbox",
+                "placeholder": "Enter AgentCode",
+                "validation": {
+                    "type": "AgentCode",
+                    "error": "Invalid!! Provide 8 digit Agent Code"
+                },
+                "label": "agentCode"
+            },
+            {
+                "order": "text",
+                "title": "Please specify Date Of Birth",
+                "placeholder": "Please Enter Birthdate",
+                "type": "date",
+                "label": "DateOfBirth"
+            },
+            {
+                "order": "cancle",
+                "title": " Please confirm and click Submit button to proceed further and Cancel to quit.",
+                "type": "submitbutton",
+                "placeholder": "Enter your email",
+                "button": [
+                    {
+                        "submit": "Submit",
+                        "type": "submit"
+                    },
+                    {
+                        "submit": "Cancel",
+                        "type": "cancel"
+                    }
+                ]
+            }
+        ]
+    },
+    "post": "/rest/v1/ime/agentPolicy"
+},
+"transaction_history":
+{
+    "type": "formMessageSection",
+    "exitMSG": "Oops !! you quitted midway during requesting Policy statement.",
+    "form": {
+        "elements": [
+            {
+                "order": "text",
+                "title": "Your Last Name Please?",
+                "type": "textbox",
+                "placeholder": "Please Type Your Last Name",
+                "utterances": [
+                    {
+                        "message": "Please authenticate yourself by answering some questions to view your statement. "
+                    }
+                ],
+                "validation": {
+                    "type": "name",
+                    "error": "Please enter valid last name."
+                },
+                "label": "LastName"
+            },
+            {
+                "order": "number",
+                "title": "What is your Policy Number ?",
+                "type": "textbox",
+                "placeholder": "Enter Your Policy Number",
+                "validation": {
+                    "type": "PolicyNumber",
+                    "error": "Invalid!! Provide 9 digit Policy Number"
+                },
+                "label": "policyNo"
+            },
+            {
+                "order": "text",
+                "title": "What is your DOB ?",
+                "placeholder": "Please Select Assured DOB",
+                "type": "date",
+                "label": "DateOfBirth"
+            },
+            {
+                "order": "cancel",
+                "title": " Please click Submit button to proceed further and Cancel to quit",
+                "type": "submitbutton",
+                "placeholder": "Enter your email",
+                "button": [
+                    {
+                        "submit": "Submit",
+                        "type": "submit"
+                    },
+                    {
+                        "submit": "Cancel",
+                        "type": "cancel"
+                    }
+                ]
+            }
+        ]
+    },
+    "post": "/rest/v1/ime/policyStatement"
+},
+"tax_certificate":
+{
+    "type": "formMessageSection",
+    "exitMSG": "Oops !! you quitted midway during requesting Tax Certificate.",
+    "form": {
+        "elements": [
+            {
+                "order": "text",
+                "title": "Your Policy Last Name Please?",
+                "type": "textbox",
+                "placeholder": "Please Type Your Last Name",
+                "utterances": [
+                    {
+                        "message": "Please authenticate yourself by answering some questions to request for Tax certificate."
+                    }
+                ],
+                "validation": {
+                    "type": "name",
+                    "error": "Please enter valid last name"
+                },
+                "label": "LastName"
+            },
+            {
+                "order": "number",
+                "title": "What is your Policy Number ?",
+                "type": "textbox",
+                "placeholder": "Enter Your Policy Number",
+                "validation": {
+                    "type": "PolicyNumber",
+                    "error": "Invalid!! Provide 9 digit Policy Number"
+                },
+                "label": "PolicyNumber"
+            },
+            {
+                "order": "text",
+                "title": "Specify Policy  DOB",
+                "placeholder": "Please Enter Assured Date",
+                "type": "date",
+                "label": "DateOfBirth"
+            },
+            {
+                "order": "cancle",
+                "title": " Please click Submit button to proceed further and Cancel to quit.",
+                "type": "submitbutton",
+                "placeholder": "Enter your email",
+                "button": [
+                    {
+                        "submit": "Submit",
+                        "type": "submit"
+                    },
+                    {
+                        "submit": "Cancel",
+                        "type": "cancel"
+                    }
+                ]
+            }
+        ]
+    },
+    "post": "/rest/v1/insurance/ime/agent?type=tax_certhificate&action=view"
+},
+
+"policyholder_premium_due":
+{
+    "type": "formMessageSection",
+    "exitMSG": "Oops !! you quitted midway during requesting Policy Details.",
+    "form": {
+        "elements": [
+            {
+                "order": "text",
+                "title": "Your Last Name Please ?",
+                "type": "textbox",
+                "placeholder": "Please Type Your Last Name",
+                "utterances": [
+                    {
+                        "message": "Please authenticate yourself by answering some questions to see your policy details."
+                    }
+                ],
+                "validation": {
+                    "type": "name",
+                    "error": "Please enter your valid Last Name."
+                },
+                "label": "LastName"
+            },
+            {
+                "order": "number",
+                "title": "What is your Policy Number ?",
+                "type": "textbox",
+                "placeholder": "Enter Your Policy Number",
+                "validation": {
+                    "type": "PolicyNumber",
+                    "error": "Invalid!! Provide 9 digit Policy Number"
+                },
+                "label": "policyNo"
+            },
+            {
+                "order": "text",
+                "title": "What is your DOB ?",
+                "placeholder": "Please Specify Assured DOB",
+                "type": "date",
+                "label": "DateOfBirth"
+            },
+            {
+                "order": "cancel",
+                "title": " Please click Submit button to proceed further and Cancel button to quit",
+                "type": "submitbutton",
+                "placeholder": "Enter your email",
+                "button": [
+                    {
+                        "submit": "Submit",
+                        "type": "submit"
+                    },
+                    {
+                        "submit": "Cancel",
+                        "type": "cancel"
+                    }
+                ]
+            }
+        ]
+    },
+    "post": "/rest/v1/ime/policyDueInfo"
+},
+
+"policy_details":
+{
+    "type": "formMessageSection",
+    "exitMSG": "Oops !! you quitted midway during requesting Policy Details.",
+    "form": {
+        "elements": [
+            {
+                "order": "text",
+                "title": "Your Last Name Please ?",
+                "type": "textbox",
+                "placeholder": "Please Type Your Last Name",
+                "utterances": [
+                    {
+                        "message": "Please authenticate yourself by answering some questions to see your policy details."
+                    }
+                ],
+                "validation": {
+                    "type": "name",
+                    "error": "Please enter your valid Last Name."
+                },
+                "label": "LastName"
+            },
+            {
+                "order": "number",
+                "title": "What is your Policy Number ?",
+                "type": "textbox",
+                "placeholder": "Enter Your Policy Number",
+                "validation": {
+                    "type": "PolicyNumber",
+                    "error": "Invalid!! Provide 9 digit Policy Number"
+                },
+                "label": "PolicyNumber"
+            },
+            {
+                "order": "text",
+                "title": "What is your DOB ?",
+                "placeholder": "Please Specify Assured DOB",
+                "type": "date",
+                "label": "DateOfBirth"
+            },
+            {
+                "order": "cancel",
+                "title": " Please click Submit button to proceed further and Cancel button to quit",
+                "type": "submitbutton",
+                "placeholder": "Enter your email",
+                "button": [
+                    {
+                        "submit": "Submit",
+                        "type": "submit"
+                    },
+                    {
+                        "submit": "Cancel",
+                        "type": "cancel"
+                    }
+                ]
+            }
+        ]
+    },
+    "post": "/rest/v1/insurance/ime/agent?type=policy_dueinfo&action=view"
+},
+
+"agent_view_details":
+{
+    "type": "quick_reply",
+    "title": "Please choose an option to view your details.",
+    "data": [
+    {
+        "title": "Business Commission",
+        "payload": "/view_details{\"category\":\"business\"}"
+    },
+    {
+        "title": "Issued Policies",
+        "payload": "/view_details{\"category\":\"issued policies\",\"user_type\":\"agent\"}"
+    },
+    {
+        "title": "Downline Business",
+        "payload": "/view_details{\"category\":\"downline\"}"
+    }   
+    ]
+},
+"policyholder_view_details":
+{
+    "type": "quick_reply",
+    "title": "Please choose an option to view your details.",
+    "data": [
+    {
+        "title": "Policy Details",
+        "payload": "/view_details{\"category\":\"premium due\",\"user_type\":\"policy holder\"}"
+    },
+    {
+        "title": "Transaction History",
+        "payload": "/view_details{\"category\":\"transaction history\"}"
+    },
+    {
+        "title": "Tax Certificate",
+        "payload": "/view_details{\"category\":\"tax certificate\"}"
+    }   
+    ]
+}
+}

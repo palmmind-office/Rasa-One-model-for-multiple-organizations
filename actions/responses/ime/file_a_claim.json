@@ -1,0 +1,104 @@
+{
+    "claim_process": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway claim registration.",
+        "form": {
+            "elements": [
+                {
+                    "order": "button",
+                    "title": "Do you want to register Claim ?",
+                    "type": "button",
+                    "button": [
+                        {
+                            "title": "Yes",
+                            "payload": true
+                        },
+                        {
+                            "title": "No",
+                            "payload": false
+                        }
+                    ],
+                    "label": "want"
+                },
+                {
+                    "order": "button",
+                    "title": "Cause of death",
+                    "type": "button",
+                    "button": [
+                        {
+                            "title": "Accidental",
+                            "payload": "Accidental"
+                        },
+                        {
+                            "title": "Illness",
+                            "payload": "Illness"
+                        }
+                    ],
+                    "label": "want"
+                },
+                {
+                    "order": "text",
+                    "title": "Your Policy Last Name Please ?",
+                    "type": "textbox",
+                    "placeholder": "Please Type Your Last Name",
+                    "utterances": [
+                        {
+                            "message": "Please authenticate yourself by answering some questions for claim registration."
+                        }
+                    ],
+                    "validation": {
+                        "type": "name",
+                        "error": "Please enter valid last name."
+                    },
+                    "label": "LastName"
+                },
+                {
+                    "order": "number",
+                    "title": "What is your Policy Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your Policy Number",
+                    "validation": {
+                        "type": "PolicyNumber",
+                        "error": "Invalid!! Provide 9 digit Policy Number"
+                    },
+                    "label": "PolicyNumber"
+                },
+                {
+                    "order": "text",
+                    "title": "Policy DOB please ? ",
+                    "placeholder": "Please Enter Assured Date",
+                    "type": "date",
+                    "label": "DateOfBirth"
+                },
+                {
+                    "order": "email",
+                    "title": "Provide us your Email ?",
+                    "type": "textbox",
+                    "placeholder": "Enter your Email",
+                    "validation": {
+                        "type": "email",
+                        "error": "Invalid email"
+                    },
+                    "label": "email"
+                },
+                {
+                    "order": "cancele",
+                    "title": " Please click submit button to proceed further and Cancel to quit.",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "/rest/v1/insurance/ime/agent?type=new_claim&action=email&emailfor=new_claim"
+    }
+}

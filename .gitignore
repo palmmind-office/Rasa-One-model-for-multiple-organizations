@@ -1,0 +1,21 @@
+tests
+__pycache__
+dist/
+*.py[cod]
+.rasa
+.keras
+venv
+venv1
+.venv
+.rasa
+en_core_web_md-3.4.0
+./en_core_web_md-3.4.0
+models
+./models
+convertModel
+./convertModel
+credentials.yml
+./credentials.yml
+config.py
+# docker-compose.yml
+# Dockerfile

@@ -1,0 +1,17 @@
+{
+    "ipo":
+        {
+            "type": "quick_reply",
+            "title": "For your queries related to IPO, please contact to our nearest branch or get a callback from us.",
+            "data": [
+            {
+                "title": "Branch",
+                "payload": "/contact{\"office_type\":\"branch office\"}"
+            } ,
+            {
+                "title": "Get a Callback",
+                "payload": "/callback"
+            }           
+            ]
+        }
+}

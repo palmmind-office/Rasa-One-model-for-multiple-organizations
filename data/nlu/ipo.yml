@@ -1,0 +1,17 @@
+version: "3.1"
+
+nlu:
+  - intent: ipo
+    examples: |
+      - Process for applying for ipo
+      - when will ipo open?
+      - ipo of your insurance company
+      - i want to apply for ipo in your company
+      - When will ipo be open for your insurance?
+      - I had applied for ipo in your company.
+      - How can I apply for ipo?
+      - I want to know about ipo opening time.
+      - Can you tell me when the ipo will be open for public?
+      - Can I apply for ipo at life insurance companies?
+      - ipo
+      - how to maximize price in insurance ipo?

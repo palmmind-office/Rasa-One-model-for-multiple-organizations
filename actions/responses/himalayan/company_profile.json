@@ -1,0 +1,57 @@
+{
+    "ceo":
+        {
+            "type": "quick_reply",
+            "title": "Mr.Manoj Kumar Lal Karn is the ceo of Himalayan Life Insurance Company.",
+            "data": [
+            ]
+        },
+        "about_company":
+        {
+            "type": "ListItem",
+            "title": "You can get more information about Himalayan Life Insurance from below.",
+            "subtitle": "Why choose us?",
+            "data": [
+                {
+                    "subtitle": "● Strong Financial Stability",
+                    "subdata": {
+                        "detail": "Our company is the result of a merger between Prime Life Insurance Company Ltd, Gurans Life Company Ltd, and Union Life Insurance Company Ltd. This merger has strengthened our financial stability, allowing us to provide reliable coverage and fulfill our commitments to policyholders. We have a solid financial foundation to ensure the long-term security of our customers."
+                    }
+                },
+                {
+                    "subtitle": "● Wide Range of Insurance Products",
+                    "subdata": {
+                        "detail": "We offer a comprehensive portfolio of life insurance products tailored to meet the diverse needs of our customers. Whether you require term life insurance, whole life insurance, we have a range of options to suit your preferences and financial goals. Our team of experts can help you choose the policy that best fits your individual circumstances."
+                    }
+                },
+                {
+                    "subtitle": "● Exceptional Customer Service",
+                    "subdata": {
+                        "detail": "At Himalayan Life Insurance Ltd, we prioritize customer satisfaction. Our dedicated team of professionals is committed to providing personalized service and addressing your insurance-related queries and concerns promptly. We understand that life insurance is a significant decision, and we strive to ensure a smooth and transparent experience throughout the entire process."
+                    }
+                },
+                {
+                    "subtitle": "● Competitive Premiums and Benefits",
+                    "subdata": {
+                        "detail": "We offer competitive premium rates while providing comprehensive coverage and attractive benefits. By leveraging our merger, we have optimized our operations and achieved cost efficiencies, allowing us to pass on the benefits to our customers. You can expect value for your money and peace of mind knowing that your financial future is protected at an affordable cost."
+                    }
+                },
+                {
+                    "subtitle": "● Strong Ethical Values and Integrity",
+                    "subdata": {
+                        "detail": "We uphold strong ethical values and operate with integrity in all our dealings. Trust is the foundation of our business, and we are committed to maintaining the highest standards of honesty, transparency, and professionalism. When you choose Himalayan Life Insurance Ltd, you can be confident that your interests will be protected with the utmost care and integrity."
+                    }
+                }
+            ],
+            "button": [
+                {
+                    "title": "About Us",
+                    "link": "https://himalayanlife.com.np/Introduction.aspx"
+                },
+                {
+                    "title": "Products",
+                    "payload": "/product_info"
+                }
+            ]
+        }
+}

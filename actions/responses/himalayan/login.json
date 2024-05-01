@@ -1,0 +1,24 @@
+{
+    "agent_login":
+    {
+        "type": "quick_reply",
+        "title": "For agent login, please click the button below and enter your details.<br>Note: - For Prime life, use PLI before agent code.<br> - For Union life, use ULI before agent code.<br> - For Gurans life, use GLI before agent code.",
+        "data": [
+        {
+            "title": "Login",
+            "link": "https://himalayanlife.com.np/Login.aspx"
+        }
+        ]
+    },
+    "policy holder_login":
+    {
+        "type": "quick_reply",
+        "title": "For policyholder login, please click the button below and enter your details.<br>Note: - For Prime life, use PLI before policy number.<br> - For Union life, use ULI before policy number.<br> - For Gurans life, use GLI before policy number.",
+        "data": [
+        {
+            "title": "Login",
+            "link": "https://himalayanlife.com.np/Login.aspx"
+        }
+        ]
+    }
+    }

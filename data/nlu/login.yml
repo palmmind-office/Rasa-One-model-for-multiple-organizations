@@ -1,0 +1,29 @@
+version: "3.1"
+
+nlu:
+  - intent: login
+    examples: |
+      - How can I login from mobile?
+      - Trying to login, but app not working
+      - register my account
+      - How can I login?
+      - How can I login to himalayan life app?
+      - Why am I not able to log in?
+      - I am trying to login. The app does not work.
+      - I am facing issues while logging in
+      - I am not able to login to himalayan life app. can you help me?
+
+      - I am an [agent](user_type). I am unable to login.
+      - How to login as an [agent](user_type)?
+      - I am a [policy holder](user_type). How can I log in?
+      - From where can i login? I am an [agent](user_type).
+      - Please help me to login. I am a [policy holder](user_type).
+      - I can't login with my user id.
+      - How to know my policy number?
+      - Why cannot I login with my policy number?
+      - I am trying to login with my policy number, but it says wrong.
+      - showing invalid login credentials while login
+      - I have put all my information on this but I cannot login my policy?
+      - [policyholder]{"entity":"user_type", "value":"policy holder"} login
+      
+

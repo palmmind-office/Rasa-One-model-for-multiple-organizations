@@ -1,0 +1,13 @@
+{
+    "ipo":
+        {
+            "type": "quick_reply",
+            "title": "For your queries related to IPO, please contact to our nearest branch.",
+            "data": [
+            {
+                "title": "Branch",
+                "link": "https://himalayanlife.com.np/Branches.aspx"
+            }          
+            ]
+        }
+}

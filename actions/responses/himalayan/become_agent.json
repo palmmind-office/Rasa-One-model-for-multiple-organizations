@@ -1,0 +1,13 @@
+{
+    "become_agent":
+        {
+            "type": "quick_reply",
+            "title": "Please fill up the given form to Apply for Agent.",
+            "data": [
+            {
+                "title": "Apply for Agent",
+                "link": "https://himalayanlife.com.np/Apply-for-Agent.aspx"
+            }
+            ]
+        }
+}

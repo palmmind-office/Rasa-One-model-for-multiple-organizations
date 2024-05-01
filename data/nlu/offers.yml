@@ -1,0 +1,18 @@
+version: "3.1"
+
+nlu:
+  - intent: offers
+    examples: | 
+
+      - Do you have any current offers?
+      - Are there any offers available?
+      - I want to know about ongoing discounts and offers.
+      - Do you provide some discount on policy?
+      - Are there any discounts available if I purchase policy for a whole family?
+      - What kinds of offers are provided if I am buying policy for all family?
+      - Discounts
+      - Offers
+      - Tell me about discounts and offers
+      - Give info about offers
+      - How can I get some discount on my policy?
+      - How can I know about ongoing discounts and offers?

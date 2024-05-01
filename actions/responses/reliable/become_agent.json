@@ -1,0 +1,13 @@
+{
+    "become_agent":
+        {
+            "type": "quick_reply",
+            "title": "Please fill up the given form to become an agent.",
+            "data": [
+            {
+                "title": "Become An Agent",
+                "link": "https://reliablelife.com.np/become-an-agent/"
+            }
+            ]
+        }
+}

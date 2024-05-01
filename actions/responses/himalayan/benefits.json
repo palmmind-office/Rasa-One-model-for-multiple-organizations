@@ -1,0 +1,54 @@
+{
+    "critical_illness":
+        {
+            "type": "quick_reply",
+            "title": "Please contact to the local branch to know about the critical illness.",
+            "data": [
+            {
+                "title": "Branch",
+                "link": "https://himalayanlife.com.np/Branches.aspx"
+            }
+            ]
+        },
+        "agent_benefits": 
+        {
+            "type": "ListItem",
+            "title": "Becoming an agent of Himalayan Life insurance presents several benefits. For more information, please contact to our nearest branch.",
+            "subtitle": "Benefits of becoming Agent",
+            "multi": true,
+            "data": [
+                {
+                    "subtitle": "● Continuous Learning and Development"
+                },
+                {
+                    "subtitle": "● Networking and Building Relationships"
+                },
+                {
+                    "subtitle": "● High Earning Potential"
+                },
+                {
+                    "subtitle": "● Flexible Work Schedules"
+                },
+                {
+                    "subtitle": "● Rewards and Recognition"
+                },
+                {
+                    "subtitle": "● Access to Insurance and Financial Products"
+                }
+            ],
+            "button": [
+                {
+                    "title": "Apply for Agent",
+                    "link": "https://himalayanlife.com.np/Apply-for-Agent.aspx"
+                }
+            ]
+        },
+
+        "insurance_benefits":
+        {
+            "type": "quick_reply",
+            "title": "Life insurance provides financial protection for your loved ones in the event of your death, ensuring they have support for living expenses, debts, and other financial obligations. Additionally, it offers peace of mind, estate planning benefits, and potential tax advantages for beneficiaries.",
+            "data": [
+            ]
+        }
+}

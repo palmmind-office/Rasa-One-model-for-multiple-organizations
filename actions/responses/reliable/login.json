@@ -1,0 +1,24 @@
+{
+    "agent_login":
+    {
+        "type": "quick_reply",
+        "title": "Please click the button below to login and view your details.",
+        "data": [
+        {
+            "title": "Agent Login",
+            "payload": "/view_details{\"user_type\":\"agent\"}"
+        }
+        ]
+    },
+    "policy holder_login":
+    {
+        "type": "quick_reply",
+        "title": "Please click the button below to login and view your details.",
+        "data": [
+        {
+            "title": "Policyholder Login",
+            "payload": "/view_details{\"user_type\":\"policy holder\"}"
+        }
+        ]
+    }
+    }

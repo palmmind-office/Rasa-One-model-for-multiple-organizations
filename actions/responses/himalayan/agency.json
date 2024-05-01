@@ -1,0 +1,72 @@
+{
+    "commission_rate":
+        {
+            "type": "quick_reply",
+            "title": "The commission rates for agents are determined by the Nepal Insurance Authority.",
+            "data": [
+            ]
+        },
+        "agent_training":
+        {
+            "type": "quick_reply",
+            "title": "To get training please contact to Branch office, 3 days training will be provided by branch to become an agent.",
+            "data": [
+            {
+                "title": "Agent Trainings",
+                "link": "https://himalayanlife.com.np/Agent-Training.aspx"
+            }
+            ]
+        },
+        "agent_qualifications": {
+            "title": "To become an agent, you require the following documents and formal training of 3 days provided by Himalayan Life.",
+            "type": "ListItem",
+            "subtitle": "Requirements to be an Agent",
+            "multi": true,
+            "data": [
+                {
+                    "subtitle": "● Minimum Age - 16 years"
+                },
+                {
+                    "subtitle": "● Copy of Citizenship"
+                },
+                {
+                    "subtitle": "● Copy of at least SEE/SLC pass Mark Sheet"
+                },
+                {
+                    "subtitle": "● Copy of at least SEE/SLC pass Character Certificate"
+                },
+                {
+                    "subtitle": "● Formal Training of 3 days provided by Himalayan Life"
+                },
+                {
+                    "subtitle": "● Passport size color photo (both ears must be visible, photo on police and army dress won't be accepted)"
+                },
+                {
+                    "subtitle": "● Fee as per the Nepal Insurance Authority"
+                }
+            ]
+        },
+        "agency_general":
+        {
+            "type": "quick_reply",
+            "title": "What agency services are you interested in?",
+            "data": [
+            {
+                "title": "Become Agent",
+                "payload": "/become_agent"
+            },
+            {
+                "title": "Personal Details",
+                "payload": "/view_details{\"category\":\"personal\",\"user_type\":\"agent\"}"
+            },
+            {
+                "title": "Business Details",
+                "payload": "/view_details{\"category\":\"business\"}"
+            },
+            {
+                "title": "Agency Downline",
+                "payload": "/view_details{\"category\":\"downline\"}"
+            }
+            ]
+        }
+}

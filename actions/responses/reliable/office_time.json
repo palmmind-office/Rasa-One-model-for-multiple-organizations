@@ -1,0 +1,9 @@
+{
+"office_time":
+{
+    "type": "quick_reply",
+    "title": "<b>Our business hours:</b><br>Summer:<br>9:30 am to 5:30 pm (Sun to Thu)<br>9:30 am to 3:00 pm (Fri)<br>Winter:<br>9:30 am to 4:30 pm (Sun to Thu)<br>9:30 am to 2:30 pm (Fri)",
+    "data": [
+    ]
+}
+}

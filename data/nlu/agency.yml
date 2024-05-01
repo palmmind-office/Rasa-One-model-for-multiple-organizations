@@ -1,0 +1,44 @@
+version: "3.1"
+
+nlu:
+  - intent: agency/commission_rate
+    examples: |
+      - What is the commission rate for agents?
+      - Agent commission rate
+      - Tell me about the agent commission rates.
+      - How much commission does an agent get?
+      - May I know the agent commission rates
+      - How much commission will i get after i become an agent?
+      - I want to know about the earnings of agents.
+      - Income of agents
+      - how much money does an agent make?
+
+  - intent: agency/qualification
+    examples: |
+      - What qualifications are required to be a life insurance agent?
+      - What [training](insurance_info) programs are available for aspiring life insurance agents?
+      - What kind of knowledge is expected from an agent?
+      - Is there any [training](insurance_info) available to become an agent?
+      - Do you provide [training](insurance_info) for people interested to be agent?
+      - agent [trainings]{"entity":"insurance_info", "value":"training"}
+      - How can I know about the upcoming [training](insurance_info) program for agents?
+      - What kind of [training](insurance_info) will be provided by the company?
+      - agent [training](insurance_info)
+      - [training](insurance_info) for agents
+      - what are the requirements to be an agent of himalayan life?
+      - who is eligible to be an insurance agent?
+      - what are the necessities to be be a life insurance agent?
+      - Is there agent [training](insurance_info) going on?
+
+#kept agency/license in faq sheets
+
+  - intent: agency/general
+    examples: |
+      - agent
+      - Agency
+      - Tell me about agency
+      - Give information about agency
+      - about agents
+      - I want to know about agents.
+      - agents
+    

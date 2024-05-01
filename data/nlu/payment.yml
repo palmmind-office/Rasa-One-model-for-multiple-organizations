@@ -1,0 +1,67 @@
+version: "3.1"
+
+nlu:
+  - intent: payment
+    examples: |
+      - How can make a premium payment of my life insurance policy?
+      - What are the different payment methods available?
+      - How to pay for my life insurance policy?
+      - I need to make payment for my life insurance policy. Guide me through it.
+      - how to pay loan online?
+      - i want to pay my loan.
+      - account number for payment
+      - premium payment online
+      - What are the payment options provided by himalayan life?
+      - What are your different payment options?
+      - how to pay premium with Prime Life Insurance's policy no?
+      - I would like to make payment of my policy.
+      - How can I pay my premium?
+
+      - What is the process for payment if I live abroad?
+      - I am out of the country. Can I pay for my life insurance policy online?
+
+      - Can I come to the [office]{"entity":"payment_option", "value":"office"} for paying?
+      - Is it necessary to visit [branch office]{"entity":"payment_option", "value":"office"} for making payment?
+
+      - Can I pay via [bank](payment_option)?
+      - From which [banks]{"entity":"payment_option", "value":"bank"} can I make the renewal payment?
+      - Give me the list of all the partner [banks]{"entity":"payment_option", "value":"bank"}.
+      - From which [banks]{"entity":"payment_option", "value":"bank"} can I make the pay for my life insurance policy?
+      - [bank](payment_option) details
+      - I need [bank](payment_option) account for renewal
+      - list of all [banks]{"entity":"payment_option", "value":"bank"}
+      - get the [bank](payment_option) details
+      - show me your [banking]{"entity":"payment_option", "value":"bank"} partners
+      - list of himalayan [banking]{"entity":"payment_option", "value":"bank"} partners
+      - i need to pay the premium, can you provide me the [bank](payment_option) account number?
+
+      - Can I make payments through online [wallets]{"entity":"payment_option", "value":"wallet"}?
+      - please tell me from which [e-wallets]{"entity":"payment_option", "value":"wallet"} can I pay?
+      - How to pay through [esewa](wallet_name)?
+      - Can I pay via [khalti](wallet_name)?
+      - Tell me the way to make payment via [connectips](wallet_name).
+      - how to pay my loan using [connect ips]{"entity":"wallet_name", "value":"connectips"}?
+      - can i renew policy online via [esewa](wallet_name)?
+      - [connect ips]{"entity":"wallet_name", "value":"connectips"} details
+      - pay from [connect ips]{"entity":"wallet_name", "value":"connectips"}
+      - [khalti](wallet_name) details
+      - [connectips](wallet_name)
+      - how can i make payment from [esewa](wallet_name)?
+      - Where to deposit micro insurance premium?
+      - Where can I deposit the premium amount of my insurance plan?
+
+  - lookup: wallet_name
+    examples: |
+      - esewa
+      - khalti
+      - connectips
+
+  - synonym: esewa
+    examples: |
+      - e-sewa
+      - e sewa
+
+  - synonym: connectips
+    examples: |
+      - connect-ips
+      - connect ips

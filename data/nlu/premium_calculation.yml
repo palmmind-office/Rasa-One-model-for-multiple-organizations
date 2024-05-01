@@ -1,0 +1,32 @@
+version: "3.1"
+
+nlu:
+  - intent: premium_calculation
+    examples: |
+      - premium calculation
+      - How to calculate premium?
+      - I want to calcuate premium
+      - calculate premium
+      - Where is premium calculation? 
+      - Premium calculator
+      - monthly payment for 2000000 sum assured
+      - how much money do i have to pay yearly to get 1000000 after 4 years
+      - how much premium should i pay monthly to receive total amount 2 lakhs after 3 years
+      - how much money is needed for life insurance?
+      - how can i calculate the premium amount?
+      - What are the premium rates for different types of life insurance policies?
+      - How much does life insurance cost?
+      - How much money is required to purchase a policy?
+      - Cost of child plan at himalayan life insurance
+      - How much should I pay to issue a new policy from himalayan life?
+      - What is the cost of buying life insurance policy?
+      - Is life insurance affordable?
+      - I earn very less money. Can I afford life insurance?
+      - Is life insurance expensive?
+      - What factors determine the cost of life insurance?
+      - What factors affect the premium rates for life insurance policies?
+      - What are the rates of different life insurance policies?
+      - How much amount will be returned to me at the end?
+      - How much money can I receive after the maturity of my policy?
+      - Which is the cheapest policy?
+      - Please provide me the most affordable life insurance options.

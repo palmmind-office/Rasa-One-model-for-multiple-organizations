@@ -1,0 +1,25 @@
+
+{"about_claim":
+{
+    "type": "quick_reply",
+    "title": "What do you want to know about claim and loan? Please select an option.",
+    "data": [
+    {
+        "title": "File a Claim",
+        "payload": "/file_a_claim{\"insurance_info\":\"claim\"}"
+    },
+    {
+        "title": "Claim Documents",
+        "payload": "/documents_required{\"insurance_info\":\"claim\"}"
+    },
+    {
+        "title": "Loan",
+        "payload": "/loan"
+    },
+    {
+        "title": "Loan Documents",
+        "payload": "/documents_required{\"insurance_info\":\"loan\"}"
+    }
+    ]
+}}
+

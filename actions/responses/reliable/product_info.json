@@ -1,0 +1,1781 @@
+{
+"bonus_rates":
+{
+    "type": "quick_reply",
+    "title": "To understand about our current bonus rates, please contact to the nearest branch.",
+    "data": [
+    {
+        "title": "Branch",
+        "payload": "/contact{\"office_type\":\"branch office\"}"
+    }
+    ]
+},
+"child_plan_rest":
+{
+    "type": "detailDrawer",
+    "title": "We have following child plans. To purchase any of these plans please click on I am interested button below.",
+    "data": [
+      {
+        "title": "RELIABLE SULAV BAL JEEVAN BIMA PLUS PLAN",
+        "subtitle": "Reliable Sulav Bal Jeevan Bima Plus Life Insurance is a best life insurance policy for children. Parents can plan for the higher education, marriage and so on of the children by purchasing this plan. The parents can purchase the policy from age 31 days till age of 15 years. This plan provides extra coverage of monthly income benefit (MIB), premium waiver benefit (PWB), accidental death benefit (ADB), Total disability benefit (TDB) and critical illness (CI) riders for the proposer.",
+        "img": "https://reliablelife.com.np/wp-content/uploads/2017/09/Reliable-Higher-Education-Life-Insurance.png",
+        "button": {
+          "contents": [
+            {
+              "title": "View Details",
+              "id": "btn1",
+              "Back_icon": {
+                "title": "I am interested",
+                "payload": "purchase online"
+              },
+              "Details": {
+                "interest": "Reliable Sulav Bal Jeevan Bima Plus Plan",
+                "title": "RELIABLE SULAV BAL JEEVAN BIMA PLUS PLAN",
+                "subtitle1": [
+                  {
+                    "title": "Salient features",
+                    "listitem": [
+                      {
+                        "text": "Minimum Sum Assured: NPR. 3,00,000"
+                      },
+                      {
+                        "text": "Maximum Sum Assured: NPR 50,00,000 (Cumulative for all policies as per the Beema Samiti Guidelines)."
+                      },
+                      {
+                        "text": "Minimum Entry Age: Life Assured – Child: 31 days, 0 years (last birthday)<b> Proposer: 18 years (last birthday)"
+                      },
+                      {
+                        "text": "Maximum Entry Age: Life Assured – Child: 15 years (last birthday)<br>Proposer: 65 years (last birthday)"
+                      },
+                      {
+                        "text": "Minimum Term: 5 years"
+                      },
+                      {
+                        "text": "Maximum Term: 54 years"
+                      },
+                      {
+                        "text": "Minimum Maturity Age: 18 years (last birthday)"
+                      },
+                      {
+                        "text": "Maximum Maturity Age: 69 years (last birthday)"
+                      },
+                      {
+                        "text": "Mode of Premium Payment: Yearly, Half-Yearly, Quarterly and Monthly"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Modal loading will be applicable for modal premium other than yearly as follows:",
+                    "listitem": [
+                      {
+                        "text": "Half Yearly : (Annual Premium x 1.01)/2"
+                      },
+                      {
+                        "text": "Quarterly: (Annual Premium x 1.02)/4"
+                      },
+                      {
+                        "text": "Monthly: (Annual Premium x 1.025)/12"
+                      },
+                      {
+                        "text": "Loading will not be applicable on monthly mode if premium payment is through salary scheme."
+                      },
+                      {
+                        "text": "Premium Payment Term: Equal to the Policy Term"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Additional benefits (proposer) for age of 18 years and above",
+                    "listitem": [
+                      {
+                        "text": "Monthly Income Benefit(MIB): In case of death of the proposer during the term of the policy, the child gets amount equal to 1% of Sum Assured in monthly basis up to age 16 years."
+                      },
+                      {
+                        "text": "Premium Waiver Benefit(PWB): If proposer becomes permanently disable due to accident or sickness then the entire future premium will be waived. On maturity the policy holder will receive the Insured amount plus accrued bonus without paying any installment from the date of disability."
+                      },
+                      {
+                        "text": "Accidental Death Benefit(ADB): In case of death of the proposer during the term of the policy due to accident the nominee gets accidental death benefit amount."
+                      },
+                      {
+                        "text": "Permanent Total Disability Benefit(PTD) : If a proposer becomes permanently disable due to accident or sickness then the proposer will receive a sum equal to the Insured amount."
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Policy Loan Provisions: Provided the policy has acquired surrender value, the life assured may obtain a loan up-to 90% of the surrender value."
+                  }
+                ],
+                "InputForm": {
+                  "title": "User Input",
+                  "data": [
+                    {
+                      "id": "fullname",
+                      "type": "text",
+                      "label": "Name",
+                      "placeholdaer": "name",
+                      "required": true
+                    },
+                    {
+                      "id": "mobile_email",
+                      "type": "number",
+                      "label": "Phone Number",
+                      "placeholdaer": "phone",
+                      "required": true
+                    }
+                  ],
+                  "button": [
+                    {
+                      "type": "cancel",
+                      "value": "Cancel"
+                    },
+                    {
+                      "type": "submit",
+                      "value": "Submit"
+                    }
+                  ],
+                  "action": "rest/v1/user/userInterest"
+                },
+                "button": {
+                  "contents": [
+                    {
+                      "title": "I am interested",
+                      "payload": "purchase online"
+                    },
+                    {
+                      "title": "Premium Calculation",
+                      "link": "https://reliablelife.com.np/premium-calculator/"
+                    },
+                    {
+                      "title": "Read More",
+                      "link": "https://reliablelife.com.np/reliable-sulav-bal-jeevan-bima-plus-plan/"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Reliable Higher Education Life Insurance",
+        "subtitle": "Reliable Higher Education Life Insurance is a best life insurance policy for children. Parents can plan for the higher education of the children by purchasing this plan. The maturity value received from this policy will be used for the higher education of the children. The parents can purchase the policy from the time of birth till age of 15 years. Risk date will start only when child attains age of 6 years or completion of 2 policy years whichever is later.",
+        "img": "https://reliablelife.com.np/wp-content/uploads/2017/09/Reliable-Higher-Education-Life-Insurance.png",
+        "button": {
+          "contents": [
+            {
+              "title": "View Details",
+              "id": "btn1",
+              "Back_icon": {
+                "title": "I am interested",
+                "payload": "purchase online"
+              },
+              "Details": {
+                "interest": "Reliable Higher Education Life Insurance",
+                "title": "Death Benefits:",
+                "paragraph": "On death of the child during the policy term but before commencement of risk, the Return of Premium excluding extra premiums till the date of death will be payable to the nominee / beneficiary. The policy will terminate upon such payment. On death of the child during the policy term but after commencement of risk, the Insured Amount under the policy plus the Accrued Bonus as on the date of death will be payable to the nominee / beneficiary. The policy will terminate upon such payment.",
+                "subtitle1": [
+                  {
+                    "title": "Features:",
+                    "listitem": [
+                      {
+                        "text": "Minimum Insured Amount : Nrs. 50,000"
+                      },
+                      {
+                        "text": "Minimum Age at Entry : 0 years (Last Birthday)"
+                      },
+                      {
+                        "text": "Maximum Age at Entry : 15 years (Last Birthday)"
+                      },
+                      {
+                        "text": "Minimum Age at Maturity : 10 years (Last Birthday)"
+                      },
+                      {
+                        "text": "Maximum Age at Maturity : 25 years (Last Birthday)"
+                      },
+                      {
+                        "text": "Policy Term : 10 to 25 years"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Monthly Income Benefits:",
+                    "listitem": [
+                      {
+                        "text": "By purchasing this child will be covered by additional benefit. On death of the proposer/parent during the policy term, a monthly benefit equal to 1% of the Insured Amount under the rider will be payable to the life assured  (child) under the base policy on every monthly anniversary of the rider from the date of death of the proposer/parent upto the end of the rider term or the death of the life assured (child) whichever is earlier and the rider shall terminate thereafter."
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Premium Waiver Benefits:",
+                    "listitem": [
+                      {
+                        "text": "By purchasing this child will be covered by additional benefit. All future Premiums under the base policy to which the rider is attached shall be waived off on disability of the proposer/parent resulting from accident or sickness. On maturity child will receive Insured Amount plus additional bonus. Bonus will be given according to the latest bonus rate."
+                      }
+                    ]
+                  },
+                  {
+                    "title": "First Policy Issue Date : 2074-06-31"
+                  }
+                ],
+                "InputForm": {
+                  "title": "User Input",
+                  "data": [
+                    {
+                      "id": "fullname",
+                      "type": "text",
+                      "label": "Name",
+                      "placeholdaer": "name",
+                      "required": true
+                    },
+                    {
+                      "id": "mobile_email",
+                      "type": "number",
+                      "label": "Phone Number",
+                      "placeholdaer": "phone",
+                      "required": true
+                    }
+                  ],
+                  "button": [
+                    {
+                      "type": "cancel",
+                      "value": "Cancel"
+                    },
+                    {
+                      "type": "submit",
+                      "value": "Submit"
+                    }
+                  ],
+                  "action": "rest/v1/user/userInterest"
+                },
+                "button": {
+                  "contents": [
+                    {
+                      "title": "I am interested",
+                      "payload": "purchase online"
+                    },
+                    {
+                      "title": "Premium Calculation",
+                      "link": "https://reliablelife.com.np/premium-calculator/"
+                    },
+                    {
+                      "title": "Read More",
+                      "link": "https://reliablelife.com.np/reliable-higher-education-life-insurance/"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+},
+"money back_plan_rest":
+{
+         
+    "type": "detailDrawer",
+    "title": "We have the following Cash Back Plans. To purchase any of these plans please click on I am interested button below.",
+    "data": [
+      {
+        "title": "Reliable Samunnati Jeevan Beema",
+        "subtitle": "Reliable Samunnati Jeevan Beema is an insurance plan which is anticipated (money back) life insurance plan. It can be purchased for a fixed period of time by paying the regular installment premium on yearly/half yearly/quarterly/monthly basis till policy term.",
+        "img": "https://reliablelife.com.np/wp-content/uploads/2017/09/Sammunati-Jiwan-1.png",
+        "button": {
+          "contents": [
+            {
+              "title": "View Details",
+              "id": "btn1",
+              "Back_icon": {
+                "title": "I am interested",
+                "payload": "purchase online"
+              },
+              "Details": {
+                "interest": "Reliable Samunnati Jeewan Beema",
+                "title": "Reliable Samunnati Jeevan Beema",
+                "paragraph": "The policy holder will receive the payouts (annually or four yearly) within policy term and on maturity the policy holder will receive accrued bonus plus the remaining Insured Amount (Sum Assured).",
+                "subtitle1": [
+                  {
+                    "title": "Features:",
+                    "listitem": [
+                      {
+                        "text": "Minimum Insured Amount : Nrs. 500,000"
+                      },
+                      {
+                        "text": "Maximum Insured Amount : Depends upon income of customer"
+                      },
+                      {
+                        "text": "Minimum Age at Entry : 16 year (Last Birthday)"
+                      },
+                      {
+                        "text": "Maximum Age at Entry : 65 years (Last Birthday)"
+                      },
+                      {
+                        "text": "Policy Term : 5 to 25 years"
+                      }
+                    ]
+                  }
+                ],
+                "InputForm": {
+                  "title": "User Input",
+                  "data": [
+                    {
+                      "id": "fullname",
+                      "type": "text",
+                      "label": "Name",
+                      "placeholdaer": "name",
+                      "required": true
+                    },
+                    {
+                      "id": "mobile_email",
+                      "type": "number",
+                      "label": "Phone Number",
+                      "placeholdaer": "phone",
+                      "required": true
+                    }
+                  ],
+                  "button": [
+                    {
+                      "type": "cancel",
+                      "value": "Cancel"
+                    },
+                    {
+                      "type": "submit",
+                      "value": "Submit"
+                    }
+                  ],
+                  "action": "rest/v1/user/userInterest"
+                },
+                "button": {
+                  "contents": [
+                    {
+                      "title": "I am interested",
+                      "payload": "purchase online"
+                    },
+                    {
+                      "title": "Premium Calculation",
+                      "link": "https://reliablelife.com.np/premium-calculator/"
+                    },
+                    {
+                      "title": "Read More",
+                      "link": "https://reliablelife.com.np/a-flexible-solutions-secure-the-future-protects-whats-important/"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Reliable Anticipated Plan",
+        "subtitle": "This is a money back (anticipated) product where the customers receives certain amount of money after paying 4 years of premium. The refund will be made on every alternate year (5th year, 7th year, 9th year and so on) .",
+        "img": "https://reliablelife.com.np/wp-content/uploads/2017/09/Reliable-Anticipated-Life-Insurance-1.png",
+        "button": {
+          "contents": [
+            {
+              "title": "View Details",
+              "id": "btn1",
+              "Back_icon": {
+                "title": "I am interested",
+                "payload": "purchase online"
+              },
+              "Details": {
+                "interest": "Reliable Anticipated Plan",
+                "title": "Reliable Anticipated Plan",
+                "paragraph": "",
+                "subtitle1": [
+                  {
+                    "title": "Features",
+                    "listitem": [
+                      {
+                        "text": "Minimum Insured Amount : Nrs. 200,000"
+                      },
+                      {
+                        "text": "Maximum Insured Amount : Depends upon income of customer"
+                      },
+                      {
+                        "text": "Minimum Age at Entry : 16 years (Last Birthday)"
+                      },
+                      {
+                        "text": "Maximum Age at Entry : 55 years (Last Birthday)"
+                      },
+                      {
+                        "text": "Policy Term : 10/12/14/16/18/20 years"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Optional Benefits:",
+                    "listitem": [
+                      {
+                        "text": "<b>Accidental Death Benefit</b> : In case of death of the policy holder during the term of the policy due to accident the nominee will get insured amount plus accidental death benefit amount and accrued bonus."
+                      },
+                      {
+                        "text": "<b>Permanent Total Disability Benefit</b>: If a policy holder becomes permanently disable due to accident or sickness then the policy holder will receive a sum equal to the Insured amount and policy will remain continue till maturity by paying the premium by the policy holder. On maturity policy holder will again receive the insured amount plus bonus."
+                      },
+                      {
+                        "text": "<b>Premium Waiver Benefit</b>: If a policy holder becomes permanently disable due to accident or sickness then all the future premium will be waived. On maturity the policy holder will receive the insured amount plus accrued bonus without paying any installment from the date of disability."
+                      },
+                      {
+                        "text": "First Policy Issue Date : 2074-06-31"
+                      }
+                    ]
+                  }
+                ],
+                "InputForm": {
+                  "title": "User Input",
+                  "data": [
+                    {
+                      "id": "fullname",
+                      "type": "text",
+                      "label": "Name",
+                      "placeholdaer": "name",
+                      "required": true
+                    },
+                    {
+                      "id": "mobile_email",
+                      "type": "number",
+                      "label": "Phone Number",
+                      "placeholdaer": "phone",
+                      "required": true
+                    }
+                  ],
+                  "button": [
+                    {
+                      "type": "cancel",
+                      "value": "Cancel"
+                    },
+                    {
+                      "type": "submit",
+                      "value": "Submit"
+                    }
+                  ],
+                  "action": "rest/v1/user/userInterest"
+                },
+                "button": {
+                  "contents": [
+                    {
+                      "title": "I am interested",
+                      "payload": "purchase online"
+                    },
+                    {
+                      "title": "Premium Calculation",
+                      "link": "https://reliablelife.com.np/premium-calculator/"
+                    },
+                    {
+                      "title": "Read More",
+                      "link": "https://reliablelife.com.np/reliable-anticipated-plan/"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+},
+"endowment_plan_rest":
+{
+    "type": "detailDrawer",
+    "title": "We have the following Endowment Plans. To purchase any of these plans please click on I am interested button below.",
+    "data": [
+      {
+        "title": "SULAV JEEVAN BEEMA",
+        "subtitle": "Sulav Jeevan Beema is an insurance plan which is one of the most appreciated life insurance policy among Life Insurance companies in Nepal. This policy can be purchased for a new born child as well as for an adult. It can be purchased for a fixed period of time by paying the regular installment premium on yearly/half yearly/quarterly/monthly basis.",
+        "img": "https://reliablelife.com.np/wp-content/uploads/2021/12/Sulav-jiwan-1024x425.png",
+        "button": {
+          "contents": [
+            {
+              "title": "View Details",
+              "id": "btn1",
+              "Back_icon": {
+                "title": "I am interested",
+                "payload": "purchase online"
+              },
+              "Details": {
+                "interest": "Sulav Jeevan Beema",
+                "title": "SULAV JEEVAN BEEMA",
+                "paragraph": "",
+                "subtitle1": [
+                  {
+                    "title": "Features:",
+                    "listitem": [
+                      {
+                        "text": "Minimum Insured Amount : Nrs. 200,000"
+                      },
+                      {
+                        "text": "Maximum Insured Amount : Depends upon income of customer"
+                      },
+                      {
+                        "text": "Minimum Age at Entry : 18 year (Last Birthday)"
+                      },
+                      {
+                        "text": "Maximum Age at Entry : 65 years (Last Birthday)"
+                      },
+                      {
+                        "text": "Policy Term : 5 to 54 years"
+                      },
+                      {
+                        "text": "Risk Commencement Date: Risk  will commence immediately after commencement of policy. "
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Benefits:",
+                    "listitem": [
+                      {
+                        "text": "<b>Death Benefit</b>: On death of policy holder during policy term Insured Amount plus accrued bonus will be paid to the nominee/beneficiary"
+                      },
+                      {
+                        "text": "<b>Maturity Benefit</b>: On maturity policy holder receives Insured Amount plus accrued bonus on maturity."
+                      },
+                      {
+                        "text": "First Policy Issue Date : 2074-11-20"
+                      }
+                    ]
+                  }
+                ],
+                "InputForm": {
+                  "title": "User Input",
+                  "data": [
+                    {
+                      "id": "fullname",
+                      "type": "text",
+                      "label": "Name",
+                      "placeholdaer": "name",
+                      "required": true
+                    },
+                    {
+                      "id": "mobile_email",
+                      "type": "number",
+                      "label": "Phone Number",
+                      "placeholdaer": "phone",
+                      "required": true
+                    }
+                  ],
+                  "button": [
+                    {
+                      "type": "cancel",
+                      "value": "Cancel"
+                    },
+                    {
+                      "type": "submit",
+                      "value": "Submit"
+                    }
+                  ],
+                  "action": "rest/v1/user/userInterest"
+                },
+                "button": {
+                  "contents": [
+                    {
+                      "title": "I am interested",
+                      "payload": "purchase online"
+                    },
+                    {
+                      "title": "Premium Calculation",
+                      "link": "https://reliablelife.com.np/premium-calculator/"
+                    },
+                    {
+                      "title": "Read More",
+                      "link": "https://reliablelife.com.np/sulav-jeevan-beema/"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Reliable Endowment Life Insurance",
+        "subtitle": "Reliable Endowment Life Insurance policy is the one of the highly chosen life insurance plan. It can be purchased for a fixed period of time by paying the regular installment premium on yearly/half yearly/quarterly/monthly basis.",
+        "img": "https://reliablelife.com.np/wp-content/uploads/2017/09/micro-endowment-life-insurance.png",
+        "button": {
+          "contents": [
+            {
+              "title": "View Details",
+              "id": "btn1",
+              "Back_icon": {
+                "title": "I am interested",
+                "payload": "purchase online"
+              },
+              "Details": {
+                "interest": "Reliable Endowment Life Insurance",
+                "title": "Reliable Endowment Life Insurance",
+                "paragraph": "",
+                "subtitle1": [
+                  {
+                    "title": "Features:",
+                    "listitem": [
+                      {
+                        "text": "Minimum Insured Amount : Nrs. 50,000"
+                      },
+                      {
+                        "text": "Maximum Insured Amount : Depends upon income of customer"
+                      },
+                      {
+                        "text": "Minimum Age at Entry : 16 years (Last Birthday)"
+                      },
+                      {
+                        "text": "Maximum Age at Entry : 65 years (Last Birthday)"
+                      },
+                      {
+                        "text": "Policy Term : 5 to 54 years"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Optional Benefits:",
+                    "listitem": [
+                      {
+                        "text": "<b>Accidental Death Benefit</b>: In case of death of the policy holder during the term of the policy due to accident the nominee gets insured amount plus accidental death benefit amount and accrued bonus."
+                      },
+                      {
+                        "text": "<b>Permanent Total Disability Benefit</b>: If a policy holder becomes permanently disable due to accident or sickness then the policy holder will receive a sum equal to the Insured amount and policy will remain continue till maturity by paying the premium by the policy holder. On maturity policy holder will again receive the insured amount plus bonus."
+                      },
+                      {
+                        "text": "<b>Premium Waiver Benefit</b>: If a policy holder becomes permanently disable due to accident or sickness then all the future premium will be waived. On maturity the policy holder will receive the insured amount plus accrued bonus without paying any installment from the date of disability."
+                      },
+                      {
+                        "text": "First Policy Issue Date : 2074-06-04"
+                      }
+                    ]
+                  }
+                ],
+                "InputForm": {
+                  "title": "User Input",
+                  "data": [
+                    {
+                      "id": "fullname",
+                      "type": "text",
+                      "label": "Name",
+                      "placeholdaer": "name",
+                      "required": true
+                    },
+                    {
+                      "id": "mobile_email",
+                      "type": "number",
+                      "label": "Phone Number",
+                      "placeholdaer": "phone",
+                      "required": true
+                    }
+                  ],
+                  "button": [
+                    {
+                      "type": "cancel",
+                      "value": "Cancel"
+                    },
+                    {
+                      "type": "submit",
+                      "value": "Submit"
+                    }
+                  ],
+                  "action": "rest/v1/user/userInterest"
+                },
+                "button": {
+                  "contents": [
+                    {
+                      "title": "I am interested",
+                      "payload": "purchase online"
+                    },
+                    {
+                      "title": "Premium Calculation",
+                      "link": "https://reliablelife.com.np/premium-calculator/"
+                    },
+                    {
+                      "title": "Read More",
+                      "link": "https://reliablelife.com.np/endowment-life-insurance/"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "RELIABLE ENDOWMENT AND WHOLE LIFE INSURANCE",
+        "subtitle": "Reliable Endowment and Whole Life Insurance policy is an insurance plan which returns twice the insured amount plus bonus. It can be purchased for a fixed period of time by paying the regular installment premium on yearly/half yearly/quarterly/monthly basis.",
+        "img": "https://reliablelife.com.np/wp-content/uploads/2021/12/Sulav-jiwan-1024x425.png",
+        "button": {
+          "contents": [
+            {
+              "title": "View Details",
+              "id": "btn1",
+              "Back_icon": {
+                "title": "I am interested",
+                "payload": "purchase online"
+              },
+              "Details": {
+                "interest": "Reliable Endowment and Whole Life Insurance",
+                "title": "RELIABLE ENDOWMENT AND WHOLE LIFE INSURANCE",
+                "paragraph": "",
+                "subtitle1": [
+                  {
+                    "title": "Features",
+                    "listitem": [
+                      {
+                        "text": "Minimum Insured Amount : Nrs. 100,000"
+                      },
+                      {
+                        "text": "Maximum Insured Amount : Depends upon income of customer"
+                      },
+                      {
+                        "text": "Minimum Age at Entry : 16 years (Nearest Birthday)"
+                      },
+                      {
+                        "text": "Maximum Age at Entry : 65 years (Nearest Birthday)"
+                      },
+                      {
+                        "text": "Policy Term : 5 to 54 years"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Benefits:",
+                    "listitem": [
+                      {
+                        "text": "<b>Death Benefit</b>: On death of policy holder during policy term Insured Amount plus accrued bonus will be paid to the nominee/beneficiary"
+                      },
+                      {
+                        "text": "<b>Maturity Benefit</b>: On maturity policy holder receives Insured Amount plus accrued bonus till maturity and again Insured amount will be paid to the nominee at the time of death. This policy will return the Insured Amount two times plus bonus."
+                      },
+                      {
+                        "text": "First Policy Issue Date : 2074-11-03"
+                      }
+                    ]
+                  }
+                ],
+                "InputForm": {
+                  "title": "User Input",
+                  "data": [
+                    {
+                      "id": "fullname",
+                      "type": "text",
+                      "label": "Name",
+                      "placeholdaer": "name",
+                      "required": true
+                    },
+                    {
+                      "id": "mobile_email",
+                      "type": "number",
+                      "label": "Phone Number",
+                      "placeholdaer": "phone",
+                      "required": true
+                    }
+                  ],
+                  "button": [
+                    {
+                      "type": "cancel",
+                      "value": "Cancel"
+                    },
+                    {
+                      "type": "submit",
+                      "value": "Submit"
+                    }
+                  ],
+                  "action": "rest/v1/user/userInterest"
+                },
+                "button": {
+                  "contents": [
+                    {
+                      "title": "I am interested",
+                      "payload": "purchase online"
+                    },
+                    {
+                      "title": "Premium Calculation",
+                      "link": "https://reliablelife.com.np/premium-calculator/"
+                    },
+                    {
+                      "title": "Read More",
+                      "link": "https://reliablelife.com.np/reliable-endowment-and-whole-life-insurance/"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "RELIABLE MICRO ENDOWMENT",
+        "subtitle": "Reliable Micro Endowment Plan is life insurance plan which is mainly targeted at the micro insurance segment which offers the policy holder a combination of protection as well as savings. This policy can be purchased for an adult. It can be purchased for a fixed period of time by paying the regular installment premium on yearly/half yearly/quarterly/monthly basis.",
+        "img": "https://reliablelife.com.np/wp-content/uploads/2021/11/micro-endowment-life-insurance-1024x425.png",
+        "button": {
+          "contents": [
+            {
+              "title": "View Details",
+              "id": "btn1",
+              "Back_icon": {
+                "title": "I am interested",
+                "payload": "purchase online"
+              },
+              "Details": {
+                "interest": "Reliable Micro Endowment",
+                "title": "RELIABLE MICRO ENDOWMENT",
+                "paragraph": "",
+                "subtitle1": [
+                  {
+                    "title": "Features",
+                    "listitem": [
+                      {
+                        "text": "Minimum Insured Amount : Nrs. 10,000"
+                      },
+                      {
+                        "text": "Maximum Insured Amount : Nrs. 100,000"
+                      },
+                      {
+                        "text": "Minimum Age at Entry : 16 year (Last Birthday)"
+                      },
+                      {
+                        "text": "Maximum Age at Entry : 65 years (Last Birthday)"
+                      },
+                      {
+                        "text": "Policy Term : 5 to 25 years"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Benefits:",
+                    "listitem": [
+                      {
+                        "text": "<b>Death Benefit</b>: On death of policy holder during policy term Insured Amount plus accrued bonus will be paid to the nominee/beneficiary"
+                      },
+                      {
+                        "text": "<b>Maturity Benefit</b>: On maturity policy holder receives Insured Amount plus accrued bonus on maturity."
+                      },
+                      {
+                        "text": "First Policy Issue Date : 2075-05-04"
+                      }
+                    ]
+                  }
+                ],
+                "InputForm": {
+                  "title": "User Input",
+                  "data": [
+                    {
+                      "id": "fullname",
+                      "type": "text",
+                      "label": "Name",
+                      "placeholdaer": "name",
+                      "required": true
+                    },
+                    {
+                      "id": "mobile_email",
+                      "type": "number",
+                      "label": "Phone Number",
+                      "placeholdaer": "phone",
+                      "required": true
+                    }
+                  ],
+                  "button": [
+                    {
+                      "type": "cancel",
+                      "value": "Cancel"
+                    },
+                    {
+                      "type": "submit",
+                      "value": "Submit"
+                    }
+                  ],
+                  "action": "rest/v1/user/userInterest"
+                },
+                "button": {
+                  "contents": [
+                    {
+                      "title": "I am interested",
+                      "payload": "purchase online"
+                    },
+                    {
+                      "title": "Premium Calculation",
+                      "link": "https://reliablelife.com.np/premium-calculator/"
+                    },
+                    {
+                      "title": "Read More",
+                      "link": "https://reliablelife.com.np/reliable-micro-endowment/"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+},
+"single premium_plan_rest":
+{
+       
+    "type": "detailDrawer",
+    "title": "We have the following Single Premium Plans. To purchase any of these plans please click on I am interested button below.",
+    "data": [
+      {
+        "title": "SAJILO JEEVAN BEEMA",
+        "subtitle": "Sajilo Jeevan Beema is an insurance plan provides ease and convience of premium payment. This policy can be purchased for a new born child as well as for an adult. It can be purchased with single payment or for a fixed period of time by paying the regular installment premium on yearly.",
+        "img": "https://reliablelife.com.np/wp-content/uploads/2021/12/Sajilo-Jiwan-bima-1024x425.png",
+        "button": {
+          "contents": [
+            {
+              "title": "View Details",
+              "id": "btn1",
+              "Back_icon": {
+                "title": "I am interested",
+                "payload": "purchase online"
+              },
+              "Details": {
+                "interest": "Sajilo Jeevan Beema",
+                "title": "SAJILO JEEVAN BEEMA",
+                "paragraph": "",
+                "subtitle1": [
+                  {
+                    "title": "Features:",
+                    "listitem": [
+                      {
+                        "text": "Minimum Insured Amount : Nrs. 50,000"
+                      },
+                      {
+                        "text": "Maximum Insured Amount : Depends upon income of customer"
+                      },
+                      {
+                        "text": "Minimum Age at Entry : 0 year (Last Birthday)"
+                      },
+                      {
+                        "text": "Maximum Age at Entry : 65 years (Last Birthday)"
+                      },
+                      {
+                        "text": "Minimum Age at Maturity : 18 year (Last Birthday)"
+                      },
+                      {
+                        "text": "Maximum Age at Entry : 70 years (Last Birthday)"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Policy Term :",
+                    "listitem": [
+                      {
+                        "text": "Single Premium – 5 to 25 years"
+                      },
+                      {
+                        "text": "Limited Premium Payment Term – 10/15/20/25 years"
+                      },
+                      {
+                        "text": "Premium Payment Term – 1/5/10/15/20 years"
+                      },
+                      {
+                        "text": "First Policy Issue Date : 2018-06-21"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Benefits:",
+                    "listitem": [
+                      {
+                        "text": "<b>Death Benefit</b> : On death of policy holder during policy term Insured Amount plus accrued bonus will be paid to the nominee/beneficiary"
+                      },
+                      {
+                        "text": "<b>Maturity Benefit</b>: On maturity policy holder receives Insured Amount plus accrued bonus on maturity."
+                      }
+                    ]
+                  }
+                ],
+                "InputForm": {
+                  "title": "User Input",
+                  "data": [
+                    {
+                      "id": "fullname",
+                      "type": "text",
+                      "label": "Name",
+                      "placeholdaer": "name",
+                      "required": true
+                    },
+                    {
+                      "id": "mobile_email",
+                      "type": "number",
+                      "label": "Phone Number",
+                      "placeholdaer": "phone",
+                      "required": true
+                    }
+                  ],
+                  "button": [
+                    {
+                      "type": "cancel",
+                      "value": "Cancel"
+                    },
+                    {
+                      "type": "submit",
+                      "value": "Submit"
+                    }
+                  ],
+                  "action": "rest/v1/user/userInterest"
+                },
+                "button": {
+                  "contents": [
+                    {
+                      "title": "I am interested",
+                      "payload": "purchase online"
+                    },
+                    {
+                      "title": "Premium Calculation",
+                      "link": "https://reliablelife.com.np/premium-calculator/"
+                    },
+                    {
+                      "title": "Read More",
+                      "link": "https://reliablelife.com.np/sajilo-jeevan-beema/"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "RELIABLE DHANAPATI LIFE INSURANCE",
+        "subtitle": "Reliable Dhanapati is a special product for customers. This is a guaranteed return plan, the maturity value is guaranteed on maturity as well as for death of policy holder. It covers savings as well as  protection for the customers. Customers can choose the maturity value and time duration on their own. Customers can become crore pati or multi crore pati on their own choice of time duration.",
+        "img": "https://reliablelife.com.np/wp-content/uploads/2017/10/Karodpati-1.png",
+        "button": {
+          "contents": [
+            {
+              "title": "View Details",
+              "id": "btn1",
+              "Back_icon": {
+                "title": "I am interested",
+                "payload": "purchase online"
+              },
+              "Details": {
+                "interest": "Reliable Dhanpati Life Insurance",
+                "title": "RELIABLE DHANAPATI LIFE INSURANCE",
+                "paragraph": "",
+                "subtitle1": [
+                  {
+                    "title": "Features",
+                    "listitem": [
+                      {
+                        "text": "Minimum Insured Amount : Nrs. 50,00,000"
+                      },
+                      {
+                        "text": "Maximum Insured Amount : Depends on income level of customers"
+                      },
+                      {
+                        "text": "Minimum Age at Entry  : 16 yrs (Last Birthday)"
+                      },
+                      {
+                        "text": "Maximum Age at Entry  : 55 yrs (Last Birthday)"
+                      },
+                      {
+                        "text": "Policy Term : 10 to 40 yrs"
+                      },
+                      {
+                        "text": "Mode of Payment : Yearly/Half Yearly/Quarterly/Monthly"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Benefits:",
+                    "listitem": [
+                      {
+                        "text": "<b>Death Benefit</b> : On death of the policy holder the Insured Amount will be paid to nominee/beneficiary. In case of accidental death additional amount equal to accidental rider amount (rider sum assured) purchased by the policy holder will be paid to the nominee/beneficiary."
+                      },
+                      {
+                        "text": "<b>Maturity Benefit</b>:  On survival of policy holder to the end of policy term Insured Amount will be paid to the policy holder."
+                      },
+                      {
+                        "text": "<b>Accidental Rider Benefit</b>: Accidental Rider Benefit will be available."
+                      },
+                      {
+                        "text": "First Policy Issue Date : 2074-06-31"
+                      }
+                    ]
+                  }
+                ],
+                "InputForm": {
+                  "title": "User Input",
+                  "data": [
+                    {
+                      "id": "fullname",
+                      "type": "text",
+                      "label": "Name",
+                      "placeholdaer": "name",
+                      "required": true
+                    },
+                    {
+                      "id": "mobile_email",
+                      "type": "number",
+                      "label": "Phone Number",
+                      "placeholdaer": "phone",
+                      "required": true
+                    }
+                  ],
+                  "button": [
+                    {
+                      "type": "cancel",
+                      "value": "Cancel"
+                    },
+                    {
+                      "type": "submit",
+                      "value": "Submit"
+                    }
+                  ],
+                  "action": "rest/v1/user/userInterest"
+                },
+                "button": {
+                  "contents": [
+                    {
+                      "title": "I am interested",
+                      "payload": "purchase online"
+                    },
+                    {
+                      "title": "Premium Calculation",
+                      "link": "https://reliablelife.com.np/premium-calculator/"
+                    },
+                    {
+                      "title": "Read More",
+                      "link": "https://reliablelife.com.np/reliable-dhanapati-life-insurance/"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+ 
+},
+"foreign employment_plan_rest":
+{
+    "type": "detailDrawer",
+    "title": "Details about Foreign Employment Term Life Insurance is as follows. To purchase this plan please click on I am interested button below.",
+    "data": [
+      {
+        "title": "FOREIGN EMPLOYMENT TERM LIFE INSURANCE",
+        "subtitle": "Foreign Employment Term Life Insurance Policy is compulsory for the people who are going out of country for Foreign Employment.",
+        "button": {
+          "contents": [
+            {
+              "title": "View Details",
+              "id": "btn1",
+              "Back_icon": {
+                "title": "I am interested",
+                "payload": "purchase online"
+              },
+              "Details": {
+                "interest": "Foreign Employment Term Life Insurance",
+                "title": "FOREIGN EMPLOYMENT TERM LIFE INSURANCE",
+                "paragraph": "",
+                "subtitle1": [
+                  {
+                    "title": "Premium rate is given below. Additional Nrs. 400 will be added to below rate for critical illness.",
+                    "listitem": [
+                      {
+                        "text": "Term/Age: 2 yrs,<br>18 yrs to 35 yrs: 2646,<br>36 yrs to 50 yrs: 3625,<br>51 yrs to 64 yrs: 7250"
+                      },
+                      {
+                        "text": "Term/Age: 3 yrs,<br>18 yrs to 35 yrs: 3524,<br>36 yrs to 50 yrs: 4930,<br>51 yrs to 64 yrs: 9570"
+                      },
+                      {
+                        "text": "Term/Age: 4 yrs,<br>18 yrs to 35 yrs: 4423,<br>36 yrs to 50 yrs: 6090,<br>51 yrs to 64 yrs: 12035"
+                      },
+                      {
+                        "text": "Term/Age: 5 yrs,<br>18 yrs to 35 yrs: 5148,<br>36 yrs to 50 yrs: 7105,<br>51 yrs to 64 yrs: 14500"
+                      },
+                      {
+                        "text": "Term/Age: 6 yrs,<br>18 yrs to 35 yrs: 5728,<br>36 yrs to 50 yrs: 8411,<br>51 yrs to 64 yrs: 16820"
+                      }
+                    ]
+                  }
+                ],
+                "InputForm": {
+                  "title": "User Input",
+                  "data": [
+                    {
+                      "id": "fullname",
+                      "type": "text",
+                      "label": "Name",
+                      "placeholdaer": "name",
+                      "required": true
+                    },
+                    {
+                      "id": "mobile_email",
+                      "type": "number",
+                      "label": "Phone Number",
+                      "placeholdaer": "phone",
+                      "required": true
+                    }
+                  ],
+                  "button": [
+                    {
+                      "type": "cancel",
+                      "value": "Cancel"
+                    },
+                    {
+                      "type": "submit",
+                      "value": "Submit"
+                    }
+                  ],
+                  "action": "rest/v1/user/userInterest"
+                },
+                "button": {
+                  "contents": [
+                    {
+                      "title": "I am interested",
+                      "payload": "purchase online"
+                    },
+                    {
+                      "title": "Premium Calculation",
+                      "link": "https://reliablelife.com.np/premium-calculator/"
+                    },
+                    {
+                      "title": "Read More",
+                      "link": "https://reliablelife.com.np/foreign-employment-term-life-insurance/"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+},
+"health_plan_rest":
+{ 
+                  "type": "detailDrawer",
+                  "title": "We have the following Health Insurance Rider Benefits. To purchase any of these health benefits please click on I am interested button below.",
+                  "data": [
+                    {
+                      "title": "Critical Illness Benefit:",
+                      "subtitle": "This benefit should be purchased along with another life insurance plan. This offers protection to policy holder in case of illness. If the policy holder is diagnosed with a specific critical illness during the policy term, a sum equal to the Insured Amount of this benefit will be paid to the policy holder. The amount will be paid only one time during the policy period.",
+                      "img": "https://reliablelife.com.np/wp-content/uploads/2021/12/Health-Insurance-Benefits-1024x425.jpg",
+                      "button": {
+                        "contents": [
+                          {
+                            "title": "View Details",
+                            "id": "btn1",
+                            "Back_icon": {
+                              "title": "I am interested",
+                              "payload": "purchase online"
+                            },
+                            "Details": {
+                              "interest": "Critical Illness Benefits",
+                              "title": "Critical Illness Benefit:",
+                              "paragraph": "",
+                              "subtitle1": [
+                                {
+                                  "title": "Features:",
+                                  "listitem": [
+                                    {
+                                      "text": "Minimum Insured Amount: Nrs. 50,000"
+                                    },
+                                    {
+                                      "text": "Maximum Insured Amount: Nrs. 50,00,000"
+                                    },
+                                    {
+                                      "text": "Minimum Age at Entry : 18 year (Last Birthday)"
+                                    },
+                                    {
+                                      "text": "Maximum Age at Entry : 60 years (Last Birthday)"
+                                    },
+                                    {
+                                      "text": "Maximum Age at Maturity : 65 years (Last Birthday)"
+                                    },
+                                    {
+                                      "text": "Policy Term : 5 to 20 years"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "title": "Waiting Period:",
+                                  "listitem": [
+                                    {
+                                      "text": "A waiting period of 90 days shall be applicable under this benefit from the date of inception or reinstatement. No claim shall be paid."
+                                    }
+                                  ]
+                                },
+                                {
+                                  "title": "Survival Period:",
+                                  "listitem": [
+                                    {
+                                      "text": "A survival period of 30 days is applicable from the diagnosis of Critical Illness."
+                                    }
+                                  ]
+                                },
+                                {
+                                  "title": "Payment Mode:",
+                                  "listitem": [
+                                    {
+                                      "text": "Yearly, Half Yearly, Quarterly and Monthly"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "title": "Underwriting Requirements:",
+                                  "listitem": [
+                                    {
+                                      "text": "General Medical Examination"
+                                    },
+                                    {
+                                      "text": "ECG with 12 leads"
+                                    },
+                                    {
+                                      "text": "6th PA view chest x ray"
+                                    },
+                                    {
+                                      "text": "Urine test"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "InputForm": {
+                                "title": "User Input",
+                                "data": [
+                                  {
+                                    "id": "fullname",
+                                    "type": "text",
+                                    "label": "Name",
+                                    "placeholdaer": "name",
+                                    "required": true
+                                  },
+                                  {
+                                    "id": "mobile_email",
+                                    "type": "number",
+                                    "label": "Phone Number",
+                                    "placeholdaer": "phone",
+                                    "required": true
+                                  }
+                                ],
+                                "button": [
+                                  {
+                                    "type": "cancel",
+                                    "value": "Cancel"
+                                  },
+                                  {
+                                    "type": "submit",
+                                    "value": "Submit"
+                                  }
+                                ],
+                                "action": "rest/v1/user/userInterest"
+                              },
+                              "button": {
+                                "contents": [
+                                  {
+                                    "title": "I am interested",
+                                    "payload": "purchase online"
+                                  },
+                                  {
+                                    "title": "Premium Calculation",
+                                    "link": "https://reliablelife.com.np/premium-calculator/"
+                                  },
+                                  {
+                                    "title": "Read More",
+                                    "link": "https://reliablelife.com.np/health-insurance-benefits/"
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Hospitalization Cash Benefit:",
+                      "subtitle": "This benefit should be purchased along with another life insurance plan. This provides the cash benefit to the policy holder to cover hospitalization expense due to accident during the policy term.",
+                      "img": "https://reliablelife.com.np/wp-content/uploads/2017/09/Reliable-Higher-Education-Life-Insurance.png",
+                      "button": {
+                        "contents": [
+                          {
+                            "title": "View Details",
+                            "id": "btn1",
+                            "Back_icon": {
+                              "title": "I am interested",
+                              "payload": "purchase online"
+                            },
+                            "Details": {
+                              "interest": "Reliable Anticipated Plan",
+                              "title": "Benefits:",
+                              "paragraph": "The benefit is payable to the policy holder in the event of being hospitalized for surgery or admitted to an Intensive Care Unit (ICU) due to accident. The length of stay should be minimum 72 hours and hospitalization should be within 24 hours of accident causing bodily injury. Cash benefit of 0.1% of Insured Amount per day of hospitalization will be provided to the policy holder subject to maximum of 365 days per accident.",
+                              "subtitle1": [
+                                {
+                                  "title": "Features",
+                                  "listitem": [
+                                    {
+                                      "text": "Minimum Insured Amount: Nrs. 50,000"
+                                    },
+                                    {
+                                      "text": "Maximum Insured Amount: Nrs. 50,00,000"
+                                    },
+                                    {
+                                      "text": "Minimum Age at Entry : 18 year (Last Birthday)"
+                                    },
+                                    {
+                                      "text": "Maximum Age at Entry : 55 years (Last Birthday)"
+                                    },
+                                    {
+                                      "text": "Maximum Age at Maturity : 60 years (Last Birthday)"
+                                    },
+                                    {
+                                      "text": "Policy Term : 5 to 20 years"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "title": "Payment Mode:",
+                                  "listitem": [
+                                    {
+                                      "text": "Yearly, Half Yearly, Quarterly and Monthly"
+                                    },
+                                    {
+                                      "text": "Location of Hospitalization: Nepal"
+                                    },
+                                    {
+                                      "text": "Premium:  Nrs. 6  for Insured Amount of Nrs. 100,000/-"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "InputForm": {
+                                "title": "User Input",
+                                "data": [
+                                  {
+                                    "id": "fullname",
+                                    "type": "text",
+                                    "label": "Name",
+                                    "placeholdaer": "name",
+                                    "required": true
+                                  },
+                                  {
+                                    "id": "mobile_email",
+                                    "type": "number",
+                                    "label": "Phone Number",
+                                    "placeholdaer": "phone",
+                                    "required": true
+                                  }
+                                ],
+                                "button": [
+                                  {
+                                    "type": "cancel",
+                                    "value": "Cancel"
+                                  },
+                                  {
+                                    "type": "submit",
+                                    "value": "Submit"
+                                  }
+                                ],
+                                "action": "rest/v1/user/userInterest"
+                              },
+                              "button": {
+                                "contents": [
+                                  {
+                                    "title": "I am interested",
+                                    "payload": "purchase online"
+                                  },
+                                  {
+                                    "title": "Premium Calculation",
+                                    "link": "https://reliablelife.com.np/premium-calculator/"
+                                  },
+                                  {
+                                    "title": "Read More",
+                                    "link": "https://reliablelife.com.np/health-insurance-benefits/"
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+               
+},
+"non-life_plan_rest":
+{
+    "type": "quick_reply",
+    "title": "Our focus lies solely on providing life insurance coverage, and we do not offer any non-life insurance options. For detail information about the products we offer, please click the buttons given below:",
+    "data": [
+    {
+        "title": "Child Plans",
+        "payload": "/product_info{\"product_type\":\"child\"}"
+    },
+    {
+        "title": "Money Back Plans",
+        "payload": "/product_info{\"product_type\":\"money back\"}"
+    },
+    {
+        "title": "Endowment Plans",
+        "payload": "/product_info{\"product_type\":\"endowment\"}"
+    },
+    {
+        "title": "Single Premium Plans",
+        "payload": "/product_info{\"product_type\":\"single premium\"}"
+    },
+    {
+        "title": "Foreign Employment Plans",
+        "payload": "/product_info{\"product_type\":\"foreign employment\"}"
+    },
+    {
+        "title": "Health Insurance Benefits",
+        "payload": "/product_info{\"product_type\":\"health\"}"
+    } 
+    ]
+} ,  
+"product_else_part":
+{
+    "type": "quick_reply",
+    "title": "We offer a wide range of insurance products. Please select the product type you are interested in.",
+    "data": [
+    {
+        "title": "Child Plans",
+        "payload": "/product_info{\"product_type\":\"child\"}"
+    },
+    {
+        "title": "Money Back Plans",
+        "payload": "/product_info{\"product_type\":\"money back\"}"
+    },
+    {
+        "title": "Endowment Plans",
+        "payload": "/product_info{\"product_type\":\"endowment\"}"
+    },
+    {
+        "title": "Single Premium Plans",
+        "payload": "/product_info{\"product_type\":\"single premium\"}"
+    },
+    {
+        "title": "Foreign Employment Plans",
+        "payload": "/product_info{\"product_type\":\"foreign employment\"}"
+    },
+    {
+        "title": "Health Insurance Benefits",
+        "payload": "/product_info{\"product_type\":\"health\"}"
+    } 
+    ]
+},
+
+
+
+"endowment_plan_facebook":
+    {
+      "text": "We have the following Endownment Plans. Reliable Endownment Life Insurance plan is the plan with maximum return.",
+      "elements": [
+        {
+          "title": "Reliable Endowment Life Insurance",
+          "image_url": "https://reliablelife.com.np/wp-content/uploads/2017/09/micro-endowment-life-insurance.png",
+          "subtitle": "",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://reliablelife.com.np/endowment-life-insurance/#",
+              "title": "View Details"
+            }
+          ]
+        },
+        {
+          "title": "SULAV JEEVAN BEEMA",
+          "image_url": "https://reliablelife.com.np/wp-content/uploads/2021/12/Sulav-jiwan-1024x425.png",
+          "subtitle": "",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://reliablelife.com.np/sulav-jeevan-beema/",
+              "title": "View Details"
+            }
+          ]
+        },
+        {
+          "title": "RELIABLE ENDOWMENT AND WHOLE LIFE INSURANCE",
+          "image_url": "https://reliablelife.com.np/wp-content/uploads/2021/12/Sulav-jiwan-1024x425.png",
+          "subtitle": "",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://reliablelife.com.np/reliable-endowment-and-whole-life-insurance/",
+              "title": "View Details"
+            }
+          ]
+        },
+        {
+          "title": "RELIABLE MICRO ENDOWMENT",
+          "image_url": "https://reliablelife.com.np/wp-content/uploads/2021/11/micro-endowment-life-insurance-1024x425.png",
+          "subtitle": "",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://reliablelife.com.np/reliable-micro-endowment/",
+              "title": "View Details"
+            }
+          ]
+        }
+      ]
+    },
+
+"child_plan_facebook":
+    {
+      "text": "We have following child plans.",
+      "elements": [
+        {
+          "title": "Reliable Higher Education Life Insurance",
+          "image_url": "https://reliablelife.com.np/wp-content/uploads/2017/09/micro-endowment-life-insurance.png",
+          "subtitle": "",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://reliablelife.com.np/reliable-higher-education-life-insurance/",
+              "title": "View Details"
+            }
+          ]
+        },
+        {
+          "title": "RELIABLE SULAV BAL JEEVAN BIMA PLUS PLAN",
+          "image_url": "https://reliablelife.com.np/wp-content/uploads/2017/09/Reliable-Higher-Education-Life-Insurance.png",
+          "subtitle": "",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://reliablelife.com.np/reliable-sulav-bal-jeevan-bima-plus-plan/",
+              "title": "View Details"
+            }
+          ]
+        }
+      ]
+    },
+
+"money back_plan_facebook":
+    {
+          "text": "We have the following Cash Back Plans.",
+          "elements": [
+            {
+              "title": "Reliable Samunnati Jeevan Beema",
+              "image_url": "https://reliablelife.com.np/wp-content/uploads/2017/09/Sammunati-Jiwan-1.png",
+              "subtitle": "",
+              "buttons": [
+                {
+                  "type": "web_url",
+                  "url": "https://reliablelife.com.np/a-flexible-solutions-secure-the-future-protects-whats-important/",
+                  "title": "View Details"
+                }
+              ]
+            },
+            {
+              "title": "Reliable Anticipated Plan",
+              "image_url": "https://reliablelife.com.np/wp-content/uploads/2017/09/Reliable-Anticipated-Life-Insurance-1.png",
+              "buttons": [
+                {
+                  "type": "web_url",
+                  "url": "https://reliablelife.com.np/reliable-anticipated-plan/#",
+                  "title": "View Details"
+                }
+              ]
+            }
+          ]        
+},
+"health_plan_facebook":
+    {
+      "text": "We have the following Health Insurance Rider Benefits.",
+      "elements": [
+        {
+          "title": "Critical Illness Benefit",
+          "image_url": "https://reliablelife.com.np/wp-content/uploads/2021/12/Health-Insurance-Benefits-1024x425.jpg",
+          "subtitle": "",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://reliablelife.com.np/health-insurance-benefits/",
+              "title": "View Details"
+            }
+          ]
+        },
+        {
+          "title": "Hospitalization Cash Benefit",
+          "image_url": "https://reliablelife.com.np/wp-content/uploads/2017/09/Reliable-Higher-Education-Life-Insurance.png",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://reliablelife.com.np/health-insurance-benefits/",
+              "title": "View Details"
+            }
+          ]
+        }
+      ]
+    },
+
+"single premium_plan_facebook":
+    {
+      "text": "We have the following Single Premium Plans.",
+      "elements": [
+        {
+          "title": "SAJILO JEEVAN BEEMA",
+          "image_url": "https://reliablelife.com.np/wp-content/uploads/2021/12/Sajilo-Jiwan-bima-1024x425.png",
+          "subtitle": "",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://reliablelife.com.np/sajilo-jeevan-beema/",
+              "title": "View Details"
+            }
+          ]
+        },
+        {
+          "title": "RELIABLE DHANAPATI LIFE INSURANCE",
+          "image_url": "https://reliablelife.com.np/wp-content/uploads/2017/10/Karodpati-1.png",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://reliablelife.com.np/reliable-dhanapati-life-insurance/",
+              "title": "View Details"
+            }
+          ]
+        }
+      ]
+    },
+
+"foreign employment_plan_facebook":
+    {
+      "text": "Details about Foreign Employment Term Life Insurance is as follows:",
+      "elements": [
+        {
+          "title": "FOREIGN EMPLOYMENT TERM LIFE INSURANCE",
+          "image_url": "https://reliablelife.com.np/wp-content/uploads/2021/11/Foreign-Employment-1024x425.png",
+          "subtitle": "",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://reliablelife.com.np/foreign-employment-term-life-insurance/",
+              "title": "View Details"
+            }
+          ]
+        }
+      ]
+    } ,
+"non-life_plan_facebook":
+    {
+        "type": "quick_reply",
+        "title": "Our focus lies solely on providing life insurance coverage, and we do not offer any non-life insurance options. For detail information about the products we offer, please click the buttons given below:",
+        "data": [
+        {
+            "title": "Child Plans",
+            "payload": "/product_info{\"product_type\":\"child\"}"
+        },
+        {
+            "title": "Money Back Plans",
+            "payload": "/product_info{\"product_type\":\"money back\"}"
+        },
+        {
+            "title": "Endowment Plans",
+            "payload": "/product_info{\"product_type\":\"endowment\"}"
+        },
+        {
+            "title": "Single Premium Plans",
+            "payload": "/product_info{\"product_type\":\"single premium\"}"
+        },
+        {
+            "title": "Foreign Employment Plans",
+            "payload": "/product_info{\"product_type\":\"foreign employment\"}"
+        },
+        {
+            "title": "Health Insurance Benefits",
+            "payload": "/product_info{\"product_type\":\"health\"}"
+        } 
+        ]
+    } 
+}
